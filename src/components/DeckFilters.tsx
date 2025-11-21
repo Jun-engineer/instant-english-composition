@@ -6,9 +6,15 @@ import { CEFR_LEVELS, CARD_TAGS } from '@/lib/constants';
 import { useDeckStore } from '@/state/useDeckStore';
 import type { CEFRLevel } from '@/lib/types';
 
-export function DeckFilters() {
+interface DeckFiltersProps {
+  onSubmit?: () => void;
+  loading?: boolean;
+}
+
+export function DeckFilters({ onSubmit, loading = false }: DeckFiltersProps) {
   const filters = useDeckStore((state) => state.filters);
   const setFilters = useDeckStore((state) => state.setFilters);
+  const hasLevelSelected = filters.levels.length > 0;
 
   const toggleLevel = useCallback(
     (level: CEFRLevel) => {
@@ -71,16 +77,29 @@ export function DeckFilters() {
   );
 
   return (
-    <section className="w-full max-w-3xl rounded-3xl border border-slate-800/60 bg-slate-900/60 p-6 backdrop-blur">
-      <h2 className="text-lg font-semibold text-slate-100">トレーニング設定</h2>
-      <div className="mt-4">
-        <p className="text-sm uppercase tracking-wide text-slate-400">CEFR レベル</p>
+    <section className="flex w-full flex-col gap-6 rounded-3xl border border-slate-800/60 bg-slate-900/60 p-6 backdrop-blur">
+      <div>
+        <h2 className="text-lg font-semibold text-slate-100">トレーニング設定</h2>
+        <p className="mt-2 text-sm text-slate-400">練習したいレベルとトピックを選んでください。</p>
+      </div>
+      <div>
+        <p className="text-xs uppercase tracking-wide text-slate-500">CEFR レベル</p>
         <div className="mt-3 flex flex-wrap gap-2">{levelChips}</div>
       </div>
-      <div className="mt-6">
-        <p className="text-sm uppercase tracking-wide text-slate-400">トピック</p>
+      <div>
+        <p className="text-xs uppercase tracking-wide text-slate-500">トピック</p>
         <div className="mt-3 flex flex-wrap gap-2">{tagChips}</div>
       </div>
+      {onSubmit ? (
+        <button
+          type="button"
+          className="mt-2 w-full rounded-2xl bg-blue-500 px-6 py-3 text-base font-semibold text-white transition hover:bg-blue-400 disabled:cursor-not-allowed disabled:opacity-60"
+          onClick={onSubmit}
+          disabled={loading || !hasLevelSelected}
+        >
+          {loading ? 'カードを準備中…' : 'カードを準備する'}
+        </button>
+      ) : null}
     </section>
   );
 }

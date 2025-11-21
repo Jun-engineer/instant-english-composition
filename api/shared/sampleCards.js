@@ -1,7 +1,7 @@
 export const sampleCards = [
   {
     id: 'sample-a1-1',
-    prompt: '私は毎朝コーヒーを飲みます。英語で言うと？',
+    prompt: '私は毎朝コーヒーを飲みます。',
     answer: 'I drink coffee every morning.',
     cefrLevel: 'A1',
     tags: ['daily-life'],
