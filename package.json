@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "build:static": "next build && next export",
+    "build:static": "next build",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {

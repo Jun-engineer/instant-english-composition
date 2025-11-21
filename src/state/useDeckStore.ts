@@ -1,5 +1,6 @@
 import { create } from 'zustand';
 import { persist, createJSONStorage } from 'zustand/middleware';
+import type { StateStorage } from 'zustand/middleware';
 import { STORAGE_KEY, CEFR_LEVELS } from '@/lib/constants';
 import type { DeckState, DeckCard, ReviewStatus, DeckFilters } from '@/lib/types';
 
@@ -34,21 +35,19 @@ function getNextIndex(state: DeckState) {
   return next;
 }
 
-const memoryStorage: Storage = {
+const memoryStorage: StateStorage = {
   getItem: () => null,
   setItem: () => undefined,
-  removeItem: () => undefined,
-  clear: () => undefined,
-  key: () => null,
-  length: 0
+  removeItem: () => undefined
 };
 
 type Store = DeckState & DeckActions;
 
 type SetState = (partial: Store | Partial<Store> | ((state: Store) => Store | Partial<Store>), replace?: boolean) => void;
+type PersistedStore = Pick<Store, 'filters' | 'history'>;
 
 export const useDeckStore = create<Store>()(
-  persist<Store>(
+  persist<Store, [], [], PersistedStore>(
     (set: SetState, get: () => Store) => ({
       ...initialState,
       setDeck: (cards: DeckCard[]) => {
@@ -98,8 +97,11 @@ export const useDeckStore = create<Store>()(
     }),
     {
       name: STORAGE_KEY,
-      storage: createJSONStorage(() => (typeof window !== 'undefined' ? window.localStorage : memoryStorage)),
-      partialize: (state: Store) => ({ filters: state.filters, history: state.history })
+      storage: createJSONStorage<PersistedStore>(() => (typeof window !== 'undefined' ? window.localStorage : memoryStorage)),
+      partialize: (state: Store) => ({
+        filters: state.filters,
+        history: state.history
+      })
     }
   )
 );
