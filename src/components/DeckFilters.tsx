@@ -1,27 +1,34 @@
 'use client';
 
-import { useMemo } from 'react';
+import { useCallback, useMemo } from 'react';
 import classNames from 'classnames';
 import { CEFR_LEVELS, CARD_TAGS } from '@/lib/constants';
 import { useDeckStore } from '@/state/useDeckStore';
+import type { CEFRLevel } from '@/lib/types';
 
 export function DeckFilters() {
   const filters = useDeckStore((state) => state.filters);
   const setFilters = useDeckStore((state) => state.setFilters);
 
-  const toggleLevel = (level: string) => {
-    const levels = filters.levels.includes(level as never)
-      ? filters.levels.filter((item) => item !== level)
-      : [...filters.levels, level as never];
-    setFilters({ ...filters, levels });
-  };
+  const toggleLevel = useCallback(
+    (level: CEFRLevel) => {
+      const levels = filters.levels.includes(level)
+        ? filters.levels.filter((item) => item !== level)
+        : [...filters.levels, level];
+      setFilters({ ...filters, levels });
+    },
+    [filters, setFilters]
+  );
 
-  const toggleTag = (tag: string) => {
-    const tags = filters.tags.includes(tag)
-      ? filters.tags.filter((item) => item !== tag)
-      : [...filters.tags, tag];
-    setFilters({ ...filters, tags });
-  };
+  const toggleTag = useCallback(
+    (tag: string) => {
+      const tags = filters.tags.includes(tag)
+        ? filters.tags.filter((item) => item !== tag)
+        : [...filters.tags, tag];
+      setFilters({ ...filters, tags });
+    },
+    [filters, setFilters]
+  );
 
   const levelChips = useMemo(
     () =>
@@ -40,7 +47,7 @@ export function DeckFilters() {
           {level}
         </button>
       )),
-    [filters.levels]
+    [filters.levels, toggleLevel]
   );
 
   const tagChips = useMemo(
@@ -60,7 +67,7 @@ export function DeckFilters() {
           {tag}
         </button>
       )),
-    [filters.tags]
+    [filters.tags, toggleTag]
   );
 
   return (
