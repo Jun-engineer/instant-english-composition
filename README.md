@@ -1,0 +1,84 @@
+# 瞬間英作文トレーニング Web アプリ
+
+CEFR レベルとトピックで練習カードを切り替えながら瞬間英作文をトレーニングする学習アプリです。Next.js をフロントエンドに、Azure Functions + Cosmos DB をバックエンドに採用しています。将来的には Azure OpenAI と連携し、文生成やフィードバックの自動化を行う計画です。
+
+## アーキテクチャ概要
+
+- **フロントエンド**: Next.js 14 (App Router) + Tailwind CSS。静的エクスポートして Azure Static Web Apps にホスト。
+- **状態管理 / データ取得**: Zustand によるローカル学習履歴の永続化、SWR による API フェッチ。
+- **バックエンド**: Azure Functions (Node.js 20)。カードの取得 (`GetCards`) とレビュー記録 (`MarkCard`) を提供。
+- **データストア**: Azure Cosmos DB Serverless。学習カードとレビュー履歴を保存。
+- **インフラ**: Bicep で Static Web App、Function App、Cosmos DB、Storage、Key Vault を一括デプロイ。
+- **CI/CD**: GitHub Actions でビルド・静的エクスポート・Functions パッケージを Static Web App にアップロード。
+
+## ディレクトリ構成
+
+```
+.
+├── src/
+│   ├── app/               # Next.js App Router ページとグローバルスタイル
+│   ├── components/        # FlashCard, DeckControls など UI コンポーネント
+│   ├── lib/               # 型定義・定数・API ヘルパー
+│   └── state/             # Zustand ストア
+├── api/                   # Azure Functions (GetCards, MarkCard)
+├── infra/                 # Bicep テンプレート
+├── .github/workflows/     # GitHub Actions 定義
+└── staticwebapp.config.json
+```
+
+## セットアップ
+
+### 1. 依存関係のインストール
+
+```bash
+npm install
+npm install --prefix api
+```
+
+### 2. 開発サーバーの起動
+
+```bash
+# フロントエンド (http://localhost:3000)
+npm run dev
+
+# Azure Functions (http://localhost:7071)
+cd api
+func start
+```
+
+`local.settings.json` に Cosmos DB のエンドポイント・キーを設定すると、本番と同じデータソースを利用できます。未設定の場合はサンプルカードが返ります。
+
+### 3. 静的エクスポート
+
+```bash
+npm run build:static
+```
+
+`out/` に生成されたファイルを Static Web Apps へアップロードします。
+
+## Azure へのデプロイ
+
+1. リソースグループを作成:
+   ```bash
+   az group create --name iec-rg --location japaneast
+   ```
+2. Bicep テンプレートをデプロイ:
+   ```bash
+   az deployment group create \
+     --resource-group iec-rg \
+     --template-file infra/main.bicep \
+     --parameters namePrefix=iec environment=dev
+   ```
+3. Static Web App のデプロイ トークンを取得し、GitHub Secrets `AZURE_STATIC_WEB_APPS_API_TOKEN` に設定。
+4. `main` ブランチへ push すると GitHub Actions (`ci`) がビルドとデプロイを実行。
+
+## 今後の拡張ポイント
+
+- Cosmos DB に実データを投入し、複数デッキや個別スケジュールを管理。
+- Azure OpenAI (gpt-4o mini 等) を使ったヒント生成・誤答フィードバック。
+- Key Vault + Managed Identity を用いたシークレット管理 (Static Web App を Standard 以上にアップグレード後)。
+- Application Insights / Log Analytics を組み込み学習状況を可視化。
+
+## ライセンス
+
+このリポジトリは個人学習用のサンプルとして提供されています。
