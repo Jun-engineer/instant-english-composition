@@ -3,8 +3,17 @@ import { sampleCards } from '../shared/sampleCards.js';
 import { jsonResponse, serverError } from '../shared/http.js';
 
 const DEFAULT_LIMIT = 12;
+const MAX_LIMIT = 100;
 
-async function fetchFromCosmos(filters) {
+function resolveLimit(rawLimit) {
+  if (typeof rawLimit !== 'number' || Number.isNaN(rawLimit)) {
+    return DEFAULT_LIMIT;
+  }
+  const clamped = Math.min(Math.max(Math.round(rawLimit), 0), MAX_LIMIT);
+  return clamped === 0 ? DEFAULT_LIMIT : clamped;
+}
+
+async function fetchFromCosmos(filters, limit) {
   const container = getCosmosContainer();
   if (!container) {
     return null;
@@ -12,7 +21,7 @@ async function fetchFromCosmos(filters) {
 
   const parameters = [];
   let query = 'SELECT TOP @limit c.id, c.prompt, c.answer, c.cefrLevel, c.tags, c.hint FROM c';
-  parameters.push({ name: '@limit', value: DEFAULT_LIMIT });
+  parameters.push({ name: '@limit', value: limit });
 
   const conditions = [];
   if (filters.levels.length) {
@@ -38,19 +47,22 @@ export default async function (context, req) {
   try {
     const levelsParam = req.query?.levels ?? '';
     const tagsParam = req.query?.tags ?? '';
+    const limitParam = req.query?.limit;
+    const parsedLimit = typeof limitParam === 'string' ? Number.parseInt(limitParam, 10) : Number.NaN;
+    const limit = resolveLimit(parsedLimit);
     const filters = {
       levels: levelsParam ? levelsParam.split(',').filter(Boolean) : [],
       tags: tagsParam ? tagsParam.split(',').filter(Boolean) : []
     };
 
-    const cosmosCards = await fetchFromCosmos(filters);
+    const cosmosCards = await fetchFromCosmos(filters, limit);
     const cards = cosmosCards && cosmosCards.length
       ? cosmosCards
       : sampleCards.filter((card) => {
           const levelMatch = !filters.levels.length || filters.levels.includes(card.cefrLevel);
           const tagMatch = !filters.tags.length || card.tags.some((tag) => filters.tags.includes(tag));
           return levelMatch && tagMatch;
-        });
+        }).slice(0, limit);
 
     jsonResponse(context, 200, { cards });
   } catch (error) {

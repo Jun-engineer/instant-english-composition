@@ -21,6 +21,7 @@ export interface ReviewRecord {
 export interface DeckFilters {
   levels: CEFRLevel[];
   tags: string[];
+  limit: number;
 }
 
 export interface SessionStats {

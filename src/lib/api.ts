@@ -14,6 +14,9 @@ export async function fetchCards(filters: DeckFilters): Promise<DeckCard[]> {
   if (filters.tags.length) {
     params.set('tags', filters.tags.join(','));
   }
+  if (Number.isFinite(filters.limit)) {
+    params.set('limit', String(filters.limit));
+  }
 
   const endpoint = params.toString()
     ? `${API_ENDPOINTS.getCards}?${params.toString()}`

@@ -1,12 +1,12 @@
 # 瞬間英作文トレーニング Web アプリ
 
-CEFR レベルとトピックで練習カードを切り替えながら瞬間英作文をトレーニングする学習アプリです。Next.js をフロントエンドに、Azure Functions + Cosmos DB をバックエンドに採用しています。将来的には Azure OpenAI と連携し、文生成やフィードバックの自動化を行う計画です。
+CEFR レベルとトピックで練習カードを切り替えながら瞬間英作文をトレーニングする学習アプリです。ホワイト基調のモバイルファースト UI に刷新し、Swipe 操作で軽快にカード学習が進むようにしました。Next.js をフロントエンドに、Azure Functions + Cosmos DB をバックエンドに採用しています。将来的には Azure OpenAI との連携も検討しています。
 
 ## アーキテクチャ概要
 
 - **フロントエンド**: Next.js 14 (App Router) + Tailwind CSS。静的エクスポートして Azure Static Web Apps にホスト。
 - **状態管理 / データ取得**: Zustand によるローカル学習履歴の永続化、SWR による API フェッチ。
-- **バックエンド**: Azure Functions (Node.js 20)。カードの取得 (`GetCards`) とレビュー記録 (`MarkCard`) を提供。
+- **バックエンド**: Azure Functions (Node.js 20)。カード取得 (`GetCards`) とレビュー記録 (`MarkCard`) を提供。
 - **データストア**: Azure Cosmos DB Serverless。学習カードとレビュー履歴を保存。
 - **インフラ**: Bicep で Static Web App、Function App、Cosmos DB、Storage、Key Vault を一括デプロイ。
 - **CI/CD**: GitHub Actions でビルド・静的エクスポート・Functions パッケージを Static Web App にアップロード。
@@ -17,7 +17,7 @@ CEFR レベルとトピックで練習カードを切り替えながら瞬間英
 .
 ├── src/
 │   ├── app/               # Next.js App Router ページとグローバルスタイル
-│   ├── components/        # FlashCard, DeckControls など UI コンポーネント
+│   ├── components/        # DeckExperience, FlashCard, DeckFilters など UI コンポーネント
 │   ├── lib/               # 型定義・定数・API ヘルパー
 │   └── state/             # Zustand ストア
 ├── api/                   # Azure Functions (GetCards, MarkCard)
@@ -75,7 +75,7 @@ npm run build:static
 ## 今後の拡張ポイント
 
 - Cosmos DB に実データを投入し、複数デッキや個別スケジュールを管理。
-- Azure OpenAI (gpt-4o mini 等) を使ったヒント生成・誤答フィードバック。
+- Azure OpenAI を活用した解答フィードバックやスピーキング評価の自動化。
 - Key Vault + Managed Identity を用いたシークレット管理 (Static Web App を Standard 以上にアップグレード後)。
 - Application Insights / Log Analytics を組み込み学習状況を可視化。
 

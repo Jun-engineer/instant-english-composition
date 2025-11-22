@@ -1,8 +1,26 @@
 import { create } from 'zustand';
 import { persist, createJSONStorage } from 'zustand/middleware';
 import type { StateStorage } from 'zustand/middleware';
-import { STORAGE_KEY, CEFR_LEVELS } from '@/lib/constants';
+import { STORAGE_KEY } from '@/lib/constants';
 import type { DeckState, DeckCard, ReviewStatus, DeckFilters } from '@/lib/types';
+
+const DEFAULT_CARD_LIMIT = 12;
+
+function unique<T>(values: T[]): T[] {
+  return Array.from(new Set(values));
+}
+
+function sanitizeFilters(filters: DeckFilters): DeckFilters {
+  const levels = unique(filters.levels);
+  const tags = unique(filters.tags);
+  const rawLimit = Number.isFinite(filters.limit) ? Math.round(filters.limit) : DEFAULT_CARD_LIMIT;
+  const limit = Math.min(Math.max(rawLimit, 0), 100);
+  return {
+    levels,
+    tags,
+    limit
+  };
+}
 
 interface DeckActions {
   setDeck: (cards: DeckCard[]) => void;
@@ -13,10 +31,7 @@ interface DeckActions {
 }
 
 const initialState: DeckState = {
-  filters: {
-    levels: [...CEFR_LEVELS],
-    tags: []
-  },
+  filters: sanitizeFilters({ levels: [], tags: [], limit: DEFAULT_CARD_LIMIT }),
   currentCardIndex: 0,
   history: [],
   deck: [],
@@ -87,7 +102,7 @@ export const useDeckStore = create<Store>()(
         });
       },
       toggleFlip: () => set((state: Store) => ({ isFlipped: !state.isFlipped })),
-      setFilters: (filters: DeckFilters) => set({ filters }),
+      setFilters: (filters: DeckFilters) => set({ filters: sanitizeFilters(filters) }),
       resetSession: () => set({
         session: initialState.session,
         history: initialState.history,
@@ -101,6 +116,13 @@ export const useDeckStore = create<Store>()(
       partialize: (state: Store) => ({
         filters: state.filters,
         history: state.history
+      }),
+      merge: (persistedState, currentState) => ({
+        ...currentState,
+        ...(persistedState as Store),
+        filters: sanitizeFilters(
+          (persistedState as Store | undefined)?.filters ?? currentState.filters
+        )
       })
     }
   )

@@ -111,6 +111,7 @@ export function DeckExperience() {
     resetSession();
     setDeck([]);
     setActiveCards([]);
+    setLoading(false);
     setStep('filters');
   }, [resetSession, setDeck]);
 
@@ -122,6 +123,7 @@ export function DeckExperience() {
     setDeck([]);
     setActiveCards([]);
     setErrorMessage(null);
+    setLoading(false);
     setStep('intro');
   }, [resetSession, setDeck]);
 
@@ -137,18 +139,18 @@ export function DeckExperience() {
   }, [handleBackHome, resetSession, retryCards, setDeck]);
 
   return (
-    <div className="flex min-h-[100svh] flex-col items-center justify-center gap-8 px-4 py-10 text-slate-50">
+    <div className="flex min-h-[100svh] flex-col items-center justify-center gap-8 bg-gradient-to-br from-indigo-50 via-white to-sky-50 px-4 py-12 text-slate-900 sm:py-16">
       {step === 'intro' ? (
-        <section className="flex w-full max-w-md flex-col items-center gap-6 text-center">
+        <section className="flex w-full max-w-md flex-col items-center gap-6 rounded-3xl bg-white/80 p-6 text-center shadow-lg backdrop-blur">
           <div className="space-y-3">
             <h1 className="text-3xl font-bold sm:text-4xl">瞬間英作文トレーニング</h1>
-            <p className="text-sm text-slate-300">
+            <p className="text-sm text-slate-600">
               レベルとトピックを選んで、スワイプ操作でテンポよく瞬間英作文を鍛えましょう。
             </p>
           </div>
           <button
             type="button"
-            className="w-full rounded-2xl bg-blue-500 px-6 py-3 text-base font-semibold text-white transition hover:bg-blue-400"
+            className="w-full rounded-2xl bg-blue-600 px-6 py-3 text-base font-semibold text-white transition hover:bg-blue-500"
             onClick={handleStart}
           >
             始める
@@ -158,11 +160,14 @@ export function DeckExperience() {
 
       {step === 'filters' ? (
         <section className="flex w-full max-w-lg flex-col items-stretch gap-4 text-center sm:text-left">
-          <DeckFilters onSubmit={handleFetchCards} loading={loading} />
-          {errorMessage ? <p className="text-sm text-rose-300">{errorMessage}</p> : null}
+          <DeckFilters
+            onSubmit={handleFetchCards}
+            loading={loading}
+          />
+          {errorMessage ? <p className="text-sm text-rose-600">{errorMessage}</p> : null}
           <button
             type="button"
-            className="text-sm font-medium text-slate-400 underline decoration-slate-600 hover:text-slate-200"
+            className="text-sm font-medium text-slate-500 underline decoration-slate-300 hover:text-slate-700"
             onClick={handleBackHome}
           >
             トップに戻る
@@ -171,8 +176,8 @@ export function DeckExperience() {
       ) : null}
 
       {step === 'training' ? (
-        <section className="flex w-full max-w-lg flex-col items-center gap-5 text-center">
-          <div className="text-sm text-slate-300">
+        <section className="flex w-full max-w-lg flex-col items-center gap-5 rounded-3xl bg-white/85 p-6 text-center shadow-lg backdrop-blur">
+          <div className="text-sm text-slate-600">
             {totalCards ? (
               <span>
                 {displayPosition} / {totalCards} 枚目
@@ -188,17 +193,17 @@ export function DeckExperience() {
             onSwipe={handleSwipe}
             interactive={!loading && !!currentCard}
           />
-          <div className="space-y-1 text-xs text-slate-400">
+          <div className="space-y-1 text-xs text-slate-500">
             <p>タップで解答表示 / 右にスワイプで正解 / 左にスワイプで復習</p>
             {swipeFeedback === 'success' ? (
-              <p className="text-emerald-300">正解として記録しました！</p>
+              <p className="text-emerald-600">正解として記録しました！</p>
             ) : null}
-            {swipeFeedback === 'retry' ? <p className="text-rose-300">復習に追加しました。</p> : null}
+            {swipeFeedback === 'retry' ? <p className="text-rose-600">復習に追加しました。</p> : null}
           </div>
-          <div className="flex w-full flex-col gap-3 text-sm text-slate-400 sm:flex-row sm:justify-between">
+          <div className="flex w-full flex-col gap-3 text-sm text-slate-500 sm:flex-row sm:justify-between">
             <button
               type="button"
-              className="underline decoration-slate-600 hover:text-slate-200"
+              className="underline decoration-slate-300 hover:text-slate-700"
               onClick={handleEditSelection}
             >
               条件を変更する
@@ -208,45 +213,45 @@ export function DeckExperience() {
       ) : null}
 
       {step === 'results' ? (
-        <section className="flex w-full max-w-md flex-col items-center gap-6 text-center">
+        <section className="flex w-full max-w-md flex-col items-center gap-6 rounded-3xl bg-white/85 p-6 text-center shadow-lg backdrop-blur">
           <div className="space-y-2">
             <h2 className="text-2xl font-bold">セッション結果</h2>
-            <p className="text-sm text-slate-300">お疲れさまでした！結果を確認して次のアクションを選びましょう。</p>
+            <p className="text-sm text-slate-600">お疲れさまでした！結果を確認して次のアクションを選びましょう。</p>
           </div>
-          <div className="w-full rounded-3xl border border-slate-800/60 bg-slate-900/70 p-6">
-            <div className="grid grid-cols-3 gap-4 text-sm">
+          <div className="w-full rounded-3xl border border-slate-200 bg-white/95 p-6 shadow-inner">
+            <div className="grid grid-cols-3 gap-4 text-sm text-slate-600">
               <div>
-                <p className="text-3xl font-bold text-slate-50">{session.successes}</p>
-                <p className="mt-1 text-xs uppercase tracking-wide text-slate-400">正解</p>
+                <p className="text-3xl font-bold text-slate-900">{session.successes}</p>
+                <p className="mt-1 text-xs uppercase tracking-wide">正解</p>
               </div>
               <div>
-                <p className="text-3xl font-bold text-amber-300">{session.retries}</p>
-                <p className="mt-1 text-xs uppercase tracking-wide text-slate-400">復習</p>
+                <p className="text-3xl font-bold text-amber-500">{session.retries}</p>
+                <p className="mt-1 text-xs uppercase tracking-wide">復習</p>
               </div>
               <div>
-                <p className="text-3xl font-bold text-slate-100">{totalCards}</p>
-                <p className="mt-1 text-xs uppercase tracking-wide text-slate-400">総カード</p>
+                <p className="text-3xl font-bold text-slate-900">{totalCards}</p>
+                <p className="mt-1 text-xs uppercase tracking-wide">総カード</p>
               </div>
             </div>
             {retryCards.length ? (
-              <p className="mt-4 text-sm text-amber-200">
+              <p className="mt-4 text-sm text-amber-600">
                 復習が必要なカード: {retryCards.length} 枚
               </p>
             ) : (
-              <p className="mt-4 text-sm text-emerald-200">素晴らしい！すべてのカードをクリアしました。</p>
+              <p className="mt-4 text-sm text-emerald-600">素晴らしい！すべてのカードをクリアしました。</p>
             )}
           </div>
           <div className="flex w-full flex-col gap-3">
             <button
               type="button"
-              className="w-full rounded-2xl bg-blue-500 px-6 py-3 text-base font-semibold text-white transition hover:bg-blue-400"
+              className="w-full rounded-2xl bg-blue-600 px-6 py-3 text-base font-semibold text-white transition hover:bg-blue-500"
               onClick={retryCards.length ? handleReview : handleBackHome}
             >
               {retryCards.length ? '復習する' : 'トップに戻る'}
             </button>
             <button
               type="button"
-              className="w-full rounded-2xl border border-slate-700 px-6 py-3 text-base font-semibold text-slate-100 transition hover:border-slate-500"
+              className="w-full rounded-2xl border border-slate-200 px-6 py-3 text-base font-semibold text-slate-600 transition hover:bg-slate-50 hover:text-slate-800"
               onClick={handleBackHome}
             >
               トップに戻る
