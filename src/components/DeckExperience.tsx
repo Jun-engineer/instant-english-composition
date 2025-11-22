@@ -249,13 +249,15 @@ export function DeckExperience() {
             >
               {retryCards.length ? '復習する' : 'トップに戻る'}
             </button>
-            <button
-              type="button"
-              className="w-full rounded-2xl border border-slate-200 px-6 py-3 text-base font-semibold text-slate-600 transition hover:bg-slate-50 hover:text-slate-800"
-              onClick={handleBackHome}
-            >
-              トップに戻る
-            </button>
+            {retryCards.length ? (
+              <button
+                type="button"
+                className="w-full rounded-2xl border border-slate-200 px-6 py-3 text-base font-semibold text-slate-600 transition hover:bg-slate-50 hover:text-slate-800"
+                onClick={handleBackHome}
+              >
+                トップに戻る
+              </button>
+            ) : null}
           </div>
         </section>
       ) : null}
