@@ -1,1790 +1,607 @@
 [
-  {
-    "id": "custom-a1-001",
-    "prompt": "私は毎朝リンゴを食べます。",
-    "answer": "I eat an apple every morning.",
-    "cefrLevel": "A1",
-    "tags": [
-      "daily-life"
-    ],
-    "hint": "eat / every morning"
-  },
-  {
-    "id": "custom-a1-002",
-    "prompt": "彼は東京に住んでいます。",
-    "answer": "He lives in Tokyo.",
-    "cefrLevel": "A1",
-    "tags": [
-      "basic"
-    ],
-    "hint": "lives / in"
-  },
-  {
-    "id": "custom-a1-003",
-    "prompt": "今日はとても暑いです。",
-    "answer": "It is very hot today.",
-    "cefrLevel": "A1",
-    "tags": [
-      "weather"
-    ],
-    "hint": "very hot"
-  },
-  {
-    "id": "custom-a1-004",
-    "prompt": "これは私の犬です。",
-    "answer": "This is my dog.",
-    "cefrLevel": "A1",
-    "tags": [
-      "basic"
-    ],
-    "hint": "This is"
-  },
-  {
-    "id": "custom-a1-005",
-    "prompt": "私は本を読むのが好きです。",
-    "answer": "I like reading books.",
-    "cefrLevel": "A1",
-    "tags": [
-      "hobby"
-    ],
-    "hint": "like reading"
-  },
-  {
-    "id": "custom-a1-006",
-    "prompt": "彼女は学生です。",
-    "answer": "She is a student.",
-    "cefrLevel": "A1",
-    "tags": [
-      "basic"
-    ],
-    "hint": "is a"
-  },
-  {
-    "id": "custom-a1-007",
-    "prompt": "私は水が必要です。",
-    "answer": "I need some water.",
-    "cefrLevel": "A1",
-    "tags": [
-      "daily-life"
-    ],
-    "hint": "need / water"
-  },
-  {
-    "id": "custom-a1-008",
-    "prompt": "彼らはサッカーをします。",
-    "answer": "They play soccer.",
-    "cefrLevel": "A1",
-    "tags": [
-      "sports"
-    ],
-    "hint": "play soccer"
-  },
-  {
-    "id": "custom-a1-009",
-    "prompt": "私は車を持っていません。",
-    "answer": "I don’t have a car.",
-    "cefrLevel": "A1",
-    "tags": [
-      "basic"
-    ],
-    "hint": "don’t have"
-  },
-  {
-    "id": "custom-a1-010",
-    "prompt": "あなたはどこから来ましたか？",
-    "answer": "Where are you from?",
-    "cefrLevel": "A1",
-    "tags": [
-      "basic"
-    ],
-    "hint": "Where"
-  },
-  {
-    "id": "custom-a1-011",
-    "prompt": "私は音楽を聞くのが好きです。",
-    "answer": "I like listening to music.",
-    "cefrLevel": "A1",
-    "tags": [
-      "hobby"
-    ],
-    "hint": "like listening"
-  },
-  {
-    "id": "custom-a1-012",
-    "prompt": "彼は毎日バスで学校へ行きます。",
-    "answer": "He goes to school by bus every day.",
-    "cefrLevel": "A1",
-    "tags": [
-      "school"
-    ],
-    "hint": "by bus"
-  },
-  {
-    "id": "custom-a1-013",
-    "prompt": "今日は私の誕生日です。",
-    "answer": "Today is my birthday.",
-    "cefrLevel": "A1",
-    "tags": [
-      "daily-life"
-    ],
-    "hint": "Today is"
-  },
-  {
-    "id": "custom-a1-014",
-    "prompt": "私は犬が怖いです。",
-    "answer": "I am afraid of dogs.",
-    "cefrLevel": "A1",
-    "tags": [
-      "feeling"
-    ],
-    "hint": "afraid of"
-  },
-  {
-    "id": "custom-a1-015",
-    "prompt": "私たちは学校の近くに住んでいます。",
-    "answer": "We live near the school.",
-    "cefrLevel": "A1",
-    "tags": [
-      "basic"
-    ],
-    "hint": "near"
-  },
-  {
-    "id": "custom-a1-016",
-    "prompt": "彼女はピアノを弾けます。",
-    "answer": "She can play the piano.",
-    "cefrLevel": "A1",
-    "tags": [
-      "ability"
-    ],
-    "hint": "can play"
-  },
-  {
-    "id": "custom-a1-017",
-    "prompt": "私は早く起きる必要があります。",
-    "answer": "I need to get up early.",
-    "cefrLevel": "A1",
-    "tags": [
-      "daily-life"
-    ],
-    "hint": "need to"
-  },
-  {
-    "id": "custom-a1-018",
-    "prompt": "あなたは何が好きですか？",
-    "answer": "What do you like?",
-    "cefrLevel": "A1",
-    "tags": [
-      "basic"
-    ],
-    "hint": "What do you"
-  },
-  {
-    "id": "custom-a1-019",
-    "prompt": "その店は9時に開きます。",
-    "answer": "The store opens at nine.",
-    "cefrLevel": "A1",
-    "tags": [
-      "daily-life"
-    ],
-    "hint": "opens at"
-  },
-  {
-    "id": "custom-a1-020",
-    "prompt": "私は友達と公園へ行きます。",
-    "answer": "I go to the park with my friend.",
-    "cefrLevel": "A1",
-    "tags": [
-      "daily-life"
-    ],
-    "hint": "with my friend"
-  },
-  {
-    "id": "custom-a1-021",
-    "prompt": "私は今日はとても忙しいです。",
-    "answer": "I am very busy today.",
-    "cefrLevel": "A1",
-    "tags": [
-      "daily-life"
-    ],
-    "hint": "busy / today"
-  },
-  {
-    "id": "custom-a1-042",
-    "prompt": "彼は青いシャツを着ています。",
-    "answer": "He is wearing a blue shirt.",
-    "cefrLevel": "A1",
-    "tags": [
-      "clothes"
-    ],
-    "hint": "blue shirt"
-  },
-  {
-    "id": "custom-a1-043",
-    "prompt": "私は朝ご飯にパンを食べました。",
-    "answer": "I ate bread for breakfast.",
-    "cefrLevel": "A1",
-    "tags": [
-      "food"
-    ],
-    "hint": "ate / breakfast"
-  },
-  {
-    "id": "custom-a1-044",
-    "prompt": "彼女は毎晩本を読みます。",
-    "answer": "She reads a book every night.",
-    "cefrLevel": "A1",
-    "tags": [
-      "daily-life"
-    ],
-    "hint": "reads / every night"
-  },
-  {
-    "id": "custom-a1-045",
-    "prompt": "私は猫と遊ぶのが好きです。",
-    "answer": "I like playing with my cat.",
-    "cefrLevel": "A1",
-    "tags": [
-      "hobby",
-      "animals"
-    ],
-    "hint": "like / playing"
-  },
-  {
-    "id": "custom-a1-046",
-    "prompt": "今日はとても暑いです。",
-    "answer": "It is very hot today.",
-    "cefrLevel": "A1",
-    "tags": [
-      "weather"
-    ],
-    "hint": "very hot"
-  },
-  {
-    "id": "custom-a1-047",
-    "prompt": "私は毎朝ジョギングをします。",
-    "answer": "I go jogging every morning.",
-    "cefrLevel": "A1",
-    "tags": [
-      "health",
-      "daily-life"
-    ],
-    "hint": "go jogging / every morning"
-  },
-  {
-    "id": "custom-a1-048",
-    "prompt": "彼は机の上に本を置きました。",
-    "answer": "He put the book on the desk.",
-    "cefrLevel": "A1",
-    "tags": [
-      "school",
-      "home"
-    ],
-    "hint": "put / on the desk"
-  },
-  {
-    "id": "custom-a1-049",
-    "prompt": "私は友達と公園で遊びました。",
-    "answer": "I played with my friends in the park.",
-    "cefrLevel": "A1",
-    "tags": [
-      "friends",
-      "hobby"
-    ],
-    "hint": "played / in the park"
-  },
-  {
-    "id": "custom-a1-050",
-    "prompt": "彼女は毎週土曜日に映画を見ます。",
-    "answer": "She watches a movie every Saturday.",
-    "cefrLevel": "A1",
-    "tags": [
-      "entertainment"
-    ],
-    "hint": "watches / every Saturday"
-  },
-  {
-    "id": "custom-a2-001",
-    "prompt": "私は週末に家族と映画を見ます。",
-    "answer": "I watch movies with my family on weekends.",
-    "cefrLevel": "A2",
-    "tags": [
-      "daily-life"
-    ],
-    "hint": "with my family / on weekends"
-  },
-  {
-    "id": "custom-a2-002",
-    "prompt": "彼は昨日、新しい靴を買いました。",
-    "answer": "He bought new shoes yesterday.",
-    "cefrLevel": "A2",
-    "tags": [
-      "shopping"
-    ],
-    "hint": "bought / yesterday"
-  },
-  {
-    "id": "custom-a2-003",
-    "prompt": "私はあなたにこの本を貸すことができます。",
-    "answer": "I can lend you this book.",
-    "cefrLevel": "A2",
-    "tags": [
-      "daily-life"
-    ],
-    "hint": "can lend"
-  },
-  {
-    "id": "custom-a2-004",
-    "prompt": "彼女は英語を勉強するために図書館に行きます。",
-    "answer": "She goes to the library to study English.",
-    "cefrLevel": "A2",
-    "tags": [
-      "study"
-    ],
-    "hint": "to study"
-  },
-  {
-    "id": "custom-a2-005",
-    "prompt": "私たちは来週パーティーを開く予定です。",
-    "answer": "We are going to have a party next week.",
-    "cefrLevel": "A2",
-    "tags": [
-      "future"
-    ],
-    "hint": "be going to"
-  },
-  {
-    "id": "custom-a2-006",
-    "prompt": "この店は安くて美味しいです。",
-    "answer": "This restaurant is cheap and delicious.",
-    "cefrLevel": "A2",
-    "tags": [
-      "food"
-    ],
-    "hint": "cheap and delicious"
-  },
-  {
-    "id": "custom-a2-007",
-    "prompt": "私は3年間英語を勉強しています。",
-    "answer": "I have studied English for three years.",
-    "cefrLevel": "A2",
-    "tags": [
-      "study"
-    ],
-    "hint": "have studied / for"
-  },
-  {
-    "id": "custom-a2-008",
-    "prompt": "彼は昨日の夜、宿題をしなければなりませんでした。",
-    "answer": "He had to do his homework last night.",
-    "cefrLevel": "A2",
-    "tags": [
-      "school"
-    ],
-    "hint": "had to"
-  },
-  {
-    "id": "custom-a2-009",
-    "prompt": "私は新しい仕事に慣れてきました。",
-    "answer": "I am getting used to my new job.",
-    "cefrLevel": "A2",
-    "tags": [
-      "work"
-    ],
-    "hint": "getting used to"
-  },
-  {
-    "id": "custom-a2-010",
-    "prompt": "あなたはその映画を見たことがありますか？",
-    "answer": "Have you seen that movie?",
-    "cefrLevel": "A2",
-    "tags": [
-      "movie"
-    ],
-    "hint": "Have you seen"
-  },
-  {
-    "id": "custom-a2-011",
-    "prompt": "私はその映画のストーリーがとても好きでした。",
-    "answer": "I really liked the story of the movie.",
-    "cefrLevel": "A2",
-    "tags": [
-      "movie"
-    ],
-    "hint": "liked the story"
-  },
-  {
-    "id": "custom-a2-012",
-    "prompt": "彼女は仕事の後に友達と夕食を食べました。",
-    "answer": "She had dinner with her friends after work.",
-    "cefrLevel": "A2",
-    "tags": [
-      "daily-life"
-    ],
-    "hint": "after work"
-  },
-  {
-    "id": "custom-a2-013",
-    "prompt": "私は今よりもっと英語を上達させたいです。",
-    "answer": "I want to improve my English more.",
-    "cefrLevel": "A2",
-    "tags": [
-      "study"
-    ],
-    "hint": "improve"
-  },
-  {
-    "id": "custom-a2-014",
-    "prompt": "彼は週末によくハイキングに行きます。",
-    "answer": "He often goes hiking on weekends.",
-    "cefrLevel": "A2",
-    "tags": [
-      "hobby"
-    ],
-    "hint": "goes hiking"
-  },
-  {
-    "id": "custom-a2-015",
-    "prompt": "この町は住むにはとても便利です。",
-    "answer": "This town is very convenient to live in.",
-    "cefrLevel": "A2",
-    "tags": [
-      "daily-life"
-    ],
-    "hint": "convenient to live in"
-  },
-  {
-    "id": "custom-a2-016",
-    "prompt": "私は彼に会議について知らせました。",
-    "answer": "I informed him about the meeting.",
-    "cefrLevel": "A2",
-    "tags": [
-      "work"
-    ],
-    "hint": "informed"
-  },
-  {
-    "id": "custom-a2-017",
-    "prompt": "彼らは旅行の計画を立てています。",
-    "answer": "They are planning a trip.",
-    "cefrLevel": "A2",
-    "tags": [
-      "travel"
-    ],
-    "hint": "planning"
-  },
-  {
-    "id": "custom-a2-018",
-    "prompt": "あなたはその本をもう読み終えましたか？",
-    "answer": "Have you finished reading the book?",
-    "cefrLevel": "A2",
-    "tags": [
-      "study"
-    ],
-    "hint": "finished reading"
-  },
-  {
-    "id": "custom-a2-019",
-    "prompt": "私は昼食を食べるために休憩を取りました。",
-    "answer": "I took a break to have lunch.",
-    "cefrLevel": "A2",
-    "tags": [
-      "daily-life"
-    ],
-    "hint": "took a break"
-  },
-  {
-    "id": "custom-a2-020",
-    "prompt": "彼は大きな箱を一人で運ぶことができませんでした。",
-    "answer": "He couldn’t carry the big box by himself.",
-    "cefrLevel": "A2",
-    "tags": [
-      "daily-life"
-    ],
-    "hint": "couldn’t carry"
-  },
-  {
-    "id": "custom-a2-021",
-    "prompt": "私はその問題を自分で解決しようとしました。",
-    "answer": "I tried to solve the problem by myself.",
-    "cefrLevel": "A2",
-    "tags": [
-      "action"
-    ],
-    "hint": "tried / solve / by myself"
-  },
-  {
-    "id": "custom-a2-042",
-    "prompt": "彼は私に手紙を書くと言いました。",
-    "answer": "He said he would write me a letter.",
-    "cefrLevel": "A2",
-    "tags": [
-      "communication"
-    ],
-    "hint": "said / would write"
-  },
-  {
-    "id": "custom-a2-043",
-    "prompt": "私は昨日、新しいレストランで昼食をとりました。",
-    "answer": "I had lunch at a new restaurant yesterday.",
-    "cefrLevel": "A2",
-    "tags": [
-      "food"
-    ],
-    "hint": "had lunch / yesterday"
-  },
-  {
-    "id": "custom-a2-044",
-    "prompt": "その道は夜になると静かになります。",
-    "answer": "The street becomes quiet at night.",
-    "cefrLevel": "A2",
-    "tags": [
-      "daily-life",
-      "location"
-    ],
-    "hint": "becomes / quiet"
-  },
-  {
-    "id": "custom-a2-045",
-    "prompt": "私は昨日、宿題を終えました。",
-    "answer": "I finished my homework yesterday.",
-    "cefrLevel": "A2",
-    "tags": [
-      "school"
-    ],
-    "hint": "finished / yesterday"
-  },
-  {
-    "id": "custom-a2-046",
-    "prompt": "彼女は毎日ジョギングをして健康を維持しています。",
-    "answer": "She jogs every day to stay healthy.",
-    "cefrLevel": "A2",
-    "tags": [
-      "health",
-      "exercise"
-    ],
-    "hint": "jogs / every day"
-  },
-  {
-    "id": "custom-a2-047",
-    "prompt": "私はその本を読むのに一時間かかりました。",
-    "answer": "It took me an hour to read the book.",
-    "cefrLevel": "A2",
-    "tags": [
-      "reading"
-    ],
-    "hint": "took / an hour"
-  },
-  {
-    "id": "custom-a2-048",
-    "prompt": "私たちは天気が良かったので外で昼食をとりました。",
-    "answer": "We had lunch outside because the weather was good.",
-    "cefrLevel": "A2",
-    "tags": [
-      "daily-life",
-      "weather"
-    ],
-    "hint": "because / weather"
-  },
-  {
-    "id": "custom-a2-049",
-    "prompt": "彼はどのバスに乗ればいいのかわかりませんでした。",
-    "answer": "He didn't know which bus to take.",
-    "cefrLevel": "A2",
-    "tags": [
-      "travel"
-    ],
-    "hint": "didn't know / which"
-  },
-  {
-    "id": "custom-a2-050",
-    "prompt": "私は将来、自分の店を開きたいです。",
-    "answer": "I want to open my own shop in the future.",
-    "cefrLevel": "A2",
-    "tags": [
-      "future",
-      "dreams"
-    ],
-    "hint": "want to / in the future"
-  },
-  {
-    "id": "custom-b1-001",
-    "prompt": "私は健康のために毎日運動するようにしています。",
-    "answer": "I try to exercise every day for my health.",
-    "cefrLevel": "B1",
-    "tags": [
-      "health"
-    ],
-    "hint": "try to"
-  },
-  {
-    "id": "custom-b1-002",
-    "prompt": "彼女は仕事とプライベートのバランスを取るのが難しいと言っています。",
-    "answer": "She says it is hard to balance work and private life.",
-    "cefrLevel": "B1",
-    "tags": [
-      "work"
-    ],
-    "hint": "hard to balance"
-  },
-  {
-    "id": "custom-b1-003",
-    "prompt": "私は彼に会議の時間を確認するよう頼みました。",
-    "answer": "I asked him to check the meeting time.",
-    "cefrLevel": "B1",
-    "tags": [
-      "work"
-    ],
-    "hint": "asked him to"
-  },
-  {
-    "id": "custom-b1-004",
-    "prompt": "雨が降ったにも関わらず、彼らは試合を続けました。",
-    "answer": "They continued the game despite the rain.",
-    "cefrLevel": "B1",
-    "tags": [
-      "sports"
-    ],
-    "hint": "despite"
-  },
-  {
-    "id": "custom-b1-005",
-    "prompt": "私は将来海外で働くことを考えています。",
-    "answer": "I am thinking about working abroad in the future.",
-    "cefrLevel": "B1",
-    "tags": [
-      "future"
-    ],
-    "hint": "thinking about"
-  },
-  {
-    "id": "custom-b1-006",
-    "prompt": "駅までの道を教えていただけますか？",
-    "answer": "Could you tell me the way to the station?",
-    "cefrLevel": "B1",
-    "tags": [
-      "travel"
-    ],
-    "hint": "Could you tell me"
-  },
-  {
-    "id": "custom-b1-007",
-    "prompt": "この問題は私が予想していたよりも複雑です。",
-    "answer": "This problem is more complicated than I expected.",
-    "cefrLevel": "B1",
-    "tags": [
-      "thinking"
-    ],
-    "hint": "more ... than"
-  },
-  {
-    "id": "custom-b1-008",
-    "prompt": "彼は時間通りに到着できなくて申し訳ないと言いました。",
-    "answer": "He said he was sorry for not arriving on time.",
-    "cefrLevel": "B1",
-    "tags": [
-      "apology"
-    ],
-    "hint": "sorry for ‾ing"
-  },
-  {
-    "id": "custom-b1-009",
-    "prompt": "私はそのニュースを聞いてとても驚きました。",
-    "answer": "I was very surprised to hear the news.",
-    "cefrLevel": "B1",
-    "tags": [
-      "feeling"
-    ],
-    "hint": "surprised to"
-  },
-  {
-    "id": "custom-b1-010",
-    "prompt": "もしお金に余裕があれば、新しいパソコンを買いたい。",
-    "answer": "If I had enough money, I would buy a new computer.",
-    "cefrLevel": "B1",
-    "tags": [
-      "conditional"
-    ],
-    "hint": "If I had"
-  },
-  {
-    "id": "custom-b1-011",
-    "prompt": "私はその問題について自分なりに考えてみました。",
-    "answer": "I thought about the issue in my own way.",
-    "cefrLevel": "B1",
-    "tags": [
-      "thinking"
-    ],
-    "hint": "in my own way"
-  },
-  {
-    "id": "custom-b1-012",
-    "prompt": "彼女は新しいプロジェクトに参加することを楽しみにしています。",
-    "answer": "She is looking forward to joining the new project.",
-    "cefrLevel": "B1",
-    "tags": [
-      "work"
-    ],
-    "hint": "looking forward to"
-  },
-  {
-    "id": "custom-b1-013",
-    "prompt": "私は彼にもっと丁寧に説明すべきでした。",
-    "answer": "I should have explained it to him more politely.",
-    "cefrLevel": "B1",
-    "tags": [
-      "reflection"
-    ],
-    "hint": "should have"
-  },
-  {
-    "id": "custom-b1-014",
-    "prompt": "このアプリは時間の管理に役立ちます。",
-    "answer": "This app helps you manage your time.",
-    "cefrLevel": "B1",
-    "tags": [
-      "tech"
-    ],
-    "hint": "helps you"
-  },
-  {
-    "id": "custom-b1-015",
-    "prompt": "彼は仕事で成功するために多くの努力をしています。",
-    "answer": "He is making a lot of effort to succeed at work.",
-    "cefrLevel": "B1",
-    "tags": [
-      "work"
-    ],
-    "hint": "making effort"
-  },
-  {
-    "id": "custom-b1-016",
-    "prompt": "あなたがそこに行くなら、私も一緒に行きたいです。",
-    "answer": "If you go there, I want to go with you.",
-    "cefrLevel": "B1",
-    "tags": [
-      "conditional"
-    ],
-    "hint": "If you go"
-  },
-  {
-    "id": "custom-b1-017",
-    "prompt": "その町は観光地として有名です。",
-    "answer": "The town is famous as a tourist spot.",
-    "cefrLevel": "B1",
-    "tags": [
-      "travel"
-    ],
-    "hint": "famous as"
-  },
-  {
-    "id": "custom-b1-018",
-    "prompt": "私は友達が困っているときに助けたいと思います。",
-    "answer": "I want to help my friends when they are in trouble.",
-    "cefrLevel": "B1",
-    "tags": [
-      "feeling"
-    ],
-    "hint": "in trouble"
-  },
-  {
-    "id": "custom-b1-019",
-    "prompt": "この計画にはいくつかの課題があります。",
-    "answer": "There are several challenges in this plan.",
-    "cefrLevel": "B1",
-    "tags": [
-      "work"
-    ],
-    "hint": "challenges"
-  },
-  {
-    "id": "custom-b1-020",
-    "prompt": "もし時間があれば、明日の準備を手伝ってください。",
-    "answer": "If you have time, please help me prepare for tomorrow.",
-    "cefrLevel": "B1",
-    "tags": [
-      "daily-life"
-    ],
-    "hint": "prepare for"
-  },
-  {
-    "id": "custom-b1-021",
-    "prompt": "私は初めて海外に行ったとき、とても緊張しました。",
-    "answer": "I was very nervous when I went abroad for the first time.",
-    "cefrLevel": "B1",
-    "tags": [
-      "experience"
-    ],
-    "hint": "nervous / for the first time"
-  },
-  {
-    "id": "custom-b1-042",
-    "prompt": "彼女は忙しかったにもかかわらず、私のために時間を作ってくれました。",
-    "answer": "She made time for me even though she was busy.",
-    "cefrLevel": "B1",
-    "tags": [
-      "relationships"
-    ],
-    "hint": "even though / busy"
-  },
-  {
-    "id": "custom-b1-043",
-    "prompt": "私は家を出る前に天気予報を確認するようにしています。",
-    "answer": "I try to check the weather forecast before leaving home.",
-    "cefrLevel": "B1",
-    "tags": [
-      "daily-life"
-    ],
-    "hint": "check / before leaving"
-  },
-  {
-    "id": "custom-b1-044",
-    "prompt": "この本は面白いだけでなく、とても役に立ちます。",
-    "answer": "This book is not only interesting but also very useful.",
-    "cefrLevel": "B1",
-    "tags": [
-      "reading"
-    ],
-    "hint": "not only / but also"
-  },
-  {
-    "id": "custom-b1-045",
-    "prompt": "彼は私にその問題をどう解決するか教えてくれました。",
-    "answer": "He told me how to solve the problem.",
-    "cefrLevel": "B1",
-    "tags": [
-      "communication"
-    ],
-    "hint": "told me / how to"
-  },
-  {
-    "id": "custom-b1-046",
-    "prompt": "私はその街を訪れるのが初めてでした。",
-    "answer": "It was my first time visiting the city.",
-    "cefrLevel": "B1",
-    "tags": [
-      "travel"
-    ],
-    "hint": "first time / visiting"
-  },
-  {
-    "id": "custom-b1-047",
-    "prompt": "その映画は予想よりも面白かったです。",
-    "answer": "The movie was more interesting than I expected.",
-    "cefrLevel": "B1",
-    "tags": [
-      "entertainment"
-    ],
-    "hint": "more interesting / than expected"
-  },
-  {
-    "id": "custom-b1-048",
-    "prompt": "私は彼女の提案に部分的に賛成です。",
-    "answer": "I partly agree with her proposal.",
-    "cefrLevel": "B1",
-    "tags": [
-      "opinion"
-    ],
-    "hint": "partly / agree"
-  },
-  {
-    "id": "custom-b1-049",
-    "prompt": "天候のせいで旅行の計画を変更しました。",
-    "answer": "We had to change our travel plans because of the weather.",
-    "cefrLevel": "B1",
-    "tags": [
-      "travel"
-    ],
-    "hint": "because of / weather"
-  },
-  {
-    "id": "custom-b1-050",
-    "prompt": "私はできるだけ早くあなたに連絡します。",
-    "answer": "I will contact you as soon as possible.",
-    "cefrLevel": "B1",
-    "tags": [
-      "communication"
-    ],
-    "hint": "as soon as possible"
-  },
-  {
-    "id": "custom-b2-001",
-    "prompt": "その問題を解決するために、新しいアプローチを試す必要があります。",
-    "answer": "We need to try a new approach to solve the problem.",
-    "cefrLevel": "B2",
-    "tags": [
-      "work"
-    ],
-    "hint": "approach to"
-  },
-  {
-    "id": "custom-b2-002",
-    "prompt": "私は環境保護にもっと関心を持つべきだと思います。",
-    "answer": "I think we should pay more attention to environmental protection.",
-    "cefrLevel": "B2",
-    "tags": [
-      "environment"
-    ],
-    "hint": "pay attention to"
-  },
-  {
-    "id": "custom-b2-003",
-    "prompt": "その会社は市場の変化に迅速に対応しました。",
-    "answer": "The company responded quickly to changes in the market.",
-    "cefrLevel": "B2",
-    "tags": [
-      "business"
-    ],
-    "hint": "responded to"
-  },
-  {
-    "id": "custom-b2-004",
-    "prompt": "私は時間管理のスキルを向上させる必要があります。",
-    "answer": "I need to improve my time management skills.",
-    "cefrLevel": "B2",
-    "tags": [
-      "work"
-    ],
-    "hint": "improve"
-  },
-  {
-    "id": "custom-b2-005",
-    "prompt": "その本は、文化の違いを理解するのに役立ちました。",
-    "answer": "The book helped me understand cultural differences.",
-    "cefrLevel": "B2",
-    "tags": [
-      "culture"
-    ],
-    "hint": "helped me"
-  },
-  {
-    "id": "custom-b2-006",
-    "prompt": "彼の説明は分かりやすく、非常に参考になりました。",
-    "answer": "His explanation was easy to understand and very informative.",
-    "cefrLevel": "B2",
-    "tags": [
-      "work"
-    ],
-    "hint": "easy to understand"
-  },
-  {
-    "id": "custom-b2-007",
-    "prompt": "彼女は締切に間に合わせるために一生懸命働きました。",
-    "answer": "She worked hard to meet the deadline.",
-    "cefrLevel": "B2",
-    "tags": [
-      "work"
-    ],
-    "hint": "meet the deadline"
-  },
-  {
-    "id": "custom-b2-008",
-    "prompt": "私はその提案に賛成する十分な理由があります。",
-    "answer": "I have enough reasons to agree with the proposal.",
-    "cefrLevel": "B2",
-    "tags": [
-      "opinion"
-    ],
-    "hint": "agree with"
-  },
-  {
-    "id": "custom-b2-009",
-    "prompt": "その都市は急速に発展し、多くの企業を引き付けています。",
-    "answer": "The city has grown rapidly and is attracting many companies.",
-    "cefrLevel": "B2",
-    "tags": [
-      "business"
-    ],
-    "hint": "has grown rapidly"
-  },
-  {
-    "id": "custom-b2-010",
-    "prompt": "私はその議論が非常に興味深く、有益だと感じました。",
-    "answer": "I found the discussion very interesting and informative.",
-    "cefrLevel": "B2",
-    "tags": [
-      "discussion"
-    ],
-    "hint": "found ‾"
-  },
-  {
-    "id": "custom-b2-011",
-    "prompt": "私たちは予算内でこのプロジェクトを完了する必要があります。",
-    "answer": "We need to complete this project within the budget.",
-    "cefrLevel": "B2",
-    "tags": [
-      "work"
-    ],
-    "hint": "within the budget"
-  },
-  {
-    "id": "custom-b2-012",
-    "prompt": "その記事は人々の意識を変える可能性があります。",
-    "answer": "The article has the potential to change public awareness.",
-    "cefrLevel": "B2",
-    "tags": [
-      "media"
-    ],
-    "hint": "potential to"
-  },
-  {
-    "id": "custom-b2-013",
-    "prompt": "彼女の提案は現実的で実行可能です。",
-    "answer": "Her proposal is realistic and feasible.",
-    "cefrLevel": "B2",
-    "tags": [
-      "work"
-    ],
-    "hint": "realistic / feasible"
-  },
-  {
-    "id": "custom-b2-014",
-    "prompt": "私はその問題について深く考える必要があります。",
-    "answer": "I need to think deeply about the issue.",
-    "cefrLevel": "B2",
-    "tags": [
-      "thinking"
-    ],
-    "hint": "think deeply"
-  },
-  {
-    "id": "custom-b2-015",
-    "prompt": "彼は困難な状況でも冷静さを保ちました。",
-    "answer": "He remained calm even in difficult situations.",
-    "cefrLevel": "B2",
-    "tags": [
-      "feeling"
-    ],
-    "hint": "remained calm"
-  },
-  {
-    "id": "custom-b2-016",
-    "prompt": "このデータは市場の動向を理解するのに役立ちます。",
-    "answer": "This data helps us understand market trends.",
-    "cefrLevel": "B2",
-    "tags": [
-      "business"
-    ],
-    "hint": "market trends"
-  },
-  {
-    "id": "custom-b2-017",
-    "prompt": "彼らは新しいアイデアを取り入れることに積極的です。",
-    "answer": "They are positive about adopting new ideas.",
-    "cefrLevel": "B2",
-    "tags": [
-      "work"
-    ],
-    "hint": "adopting"
-  },
-  {
-    "id": "custom-b2-018",
-    "prompt": "その問題に対処するためには柔軟な発想が必要です。",
-    "answer": "A flexible mindset is required to deal with the issue.",
-    "cefrLevel": "B2",
-    "tags": [
-      "thinking"
-    ],
-    "hint": "flexible mindset"
-  },
-  {
-    "id": "custom-b2-019",
-    "prompt": "私はその決定が最善だとは思いません。",
-    "answer": "I don't think that decision is the best one.",
-    "cefrLevel": "B2",
-    "tags": [
-      "opinion"
-    ],
-    "hint": "I don't think"
-  },
-  {
-    "id": "custom-b2-020",
-    "prompt": "私たちはより効果的な方法を見つける必要があります。",
-    "answer": "We need to find a more effective method.",
-    "cefrLevel": "B2",
-    "tags": [
-      "work"
-    ],
-    "hint": "more effective"
-  },
-  {
-    "id": "custom-b2-021",
-    "prompt": "その会社は市場の変化に対応するため、新しい戦略を導入しました。",
-    "answer": "The company introduced a new strategy to respond to changes in the market.",
-    "cefrLevel": "B2",
-    "tags": [
-      "business"
-    ],
-    "hint": "introduced / respond to"
-  },
-  {
-    "id": "custom-b2-042",
-    "prompt": "彼はプレゼンの準備に多くの時間を費やしました。",
-    "answer": "He spent a lot of time preparing for the presentation.",
-    "cefrLevel": "B2",
-    "tags": [
-      "work"
-    ],
-    "hint": "spent / preparing"
-  },
-  {
-    "id": "custom-b2-043",
-    "prompt": "この地域の経済は観光業に大きく依存しています。",
-    "answer": "The economy of this region heavily depends on tourism.",
-    "cefrLevel": "B2",
-    "tags": [
-      "economy"
-    ],
-    "hint": "depends on / tourism"
-  },
-  {
-    "id": "custom-b2-044",
-    "prompt": "私はその計画に潜むリスクを十分に理解しています。",
-    "answer": "I fully understand the risks involved in the plan.",
-    "cefrLevel": "B2",
-    "tags": [
-      "analysis"
-    ],
-    "hint": "fully / risks involved"
-  },
-  {
-    "id": "custom-b2-045",
-    "prompt": "彼らは市場の変化に応じて戦略を調整しました。",
-    "answer": "They adjusted their strategy according to market changes.",
-    "cefrLevel": "B2",
-    "tags": [
-      "business"
-    ],
-    "hint": "adjusted / according to"
-  },
-  {
-    "id": "custom-b2-046",
-    "prompt": "新しい技術は業界に革命をもたらす可能性があります。",
-    "answer": "The new technology has the potential to revolutionize the industry.",
-    "cefrLevel": "B2",
-    "tags": [
-      "technology"
-    ],
-    "hint": "potential / revolutionize"
-  },
-  {
-    "id": "custom-b2-047",
-    "prompt": "彼は重要な決定を下す前に慎重に考えます。",
-    "answer": "He thinks carefully before making important decisions.",
-    "cefrLevel": "B2",
-    "tags": [
-      "decision"
-    ],
-    "hint": "carefully / decisions"
-  },
-  {
-    "id": "custom-b2-048",
-    "prompt": "その結果は私たちの期待を大きく上回りました。",
-    "answer": "The results far exceeded our expectations.",
-    "cefrLevel": "B2",
-    "tags": [
-      "business"
-    ],
-    "hint": "far exceeded / expectations"
-  },
-  {
-    "id": "custom-b2-049",
-    "prompt": "私はその提案を実行に移すかどうかまだ迷っています。",
-    "answer": "I am still unsure whether to put the proposal into action.",
-    "cefrLevel": "B2",
-    "tags": [
-      "decision"
-    ],
-    "hint": "unsure / put into action"
-  },
-  {
-    "id": "custom-b2-050",
-    "prompt": "その都市は多様な文化を受け入れることで知られています。",
-    "answer": "The city is known for embracing diverse cultures.",
-    "cefrLevel": "B2",
-    "tags": [
-      "culture"
-    ],
-    "hint": "embracing / diverse cultures"
-  },
-  {
-    "id": "custom-c1-001",
-    "prompt": "彼はプロジェクトの成功に大きく貢献したと評価されています。",
-    "answer": "He is recognized for making a significant contribution to the project's success.",
-    "cefrLevel": "C1",
-    "tags": [
-      "work"
-    ],
-    "hint": "recognized for"
-  },
-  {
-    "id": "custom-c1-002",
-    "prompt": "その映画は、社会問題への深い洞察を提供しています。",
-    "answer": "The movie provides deep insight into social issues.",
-    "cefrLevel": "C1",
-    "tags": [
-      "social"
-    ],
-    "hint": "insight into"
-  },
-  {
-    "id": "custom-c1-003",
-    "prompt": "私はその計画が長期的には持続可能ではないと懸念しています。",
-    "answer": "I am concerned that the plan is not sustainable in the long term.",
-    "cefrLevel": "C1",
-    "tags": [
-      "opinion"
-    ],
-    "hint": "concerned that"
-  },
-  {
-    "id": "custom-c1-004",
-    "prompt": "彼らは問題の根本原因を特定しようと試みました。",
-    "answer": "They attempted to identify the root cause of the problem.",
-    "cefrLevel": "C1",
-    "tags": [
-      "analysis"
-    ],
-    "hint": "root cause"
-  },
-  {
-    "id": "custom-c1-005",
-    "prompt": "その研究は、将来の政策決定に重要な影響を与える可能性があります。",
-    "answer": "The study may significantly influence future policy decisions.",
-    "cefrLevel": "C1",
-    "tags": [
-      "research"
-    ],
-    "hint": "influence"
-  },
-  {
-    "id": "custom-c1-006",
-    "prompt": "私はその提案に対していくつかの懸念を表明したいです。",
-    "answer": "I would like to express several concerns about the proposal.",
-    "cefrLevel": "C1",
-    "tags": [
-      "opinion"
-    ],
-    "hint": "express concerns"
-  },
-  {
-    "id": "custom-c1-007",
-    "prompt": "私たちは新しい戦略を導入して効率を高める必要があります。",
-    "answer": "We need to implement a new strategy to increase efficiency.",
-    "cefrLevel": "C1",
-    "tags": [
-      "work"
-    ],
-    "hint": "implement"
-  },
-  {
-    "id": "custom-c1-008",
-    "prompt": "その講演は、参加者の視野を広げる素晴らしい機会でした。",
-    "answer": "The lecture was a great opportunity to broaden the participants' perspectives.",
-    "cefrLevel": "C1",
-    "tags": [
-      "education"
-    ],
-    "hint": "broaden perspectives"
-  },
-  {
-    "id": "custom-c1-009",
-    "prompt": "私はその結論が十分な証拠に基づいているか疑問に思います。",
-    "answer": "I wonder whether the conclusion is based on sufficient evidence.",
-    "cefrLevel": "C1",
-    "tags": [
-      "analysis"
-    ],
-    "hint": "based on"
-  },
-  {
-    "id": "custom-c1-010",
-    "prompt": "彼らのチームワークは、複雑な問題を解決する上で大きな役割を果たしました。",
-    "answer": "Their teamwork played a major role in solving the complex issue.",
-    "cefrLevel": "C1",
-    "tags": [
-      "work"
-    ],
-    "hint": "played a major role"
-  },
-  {
-    "id": "custom-c1-011",
-    "prompt": "その調査は、従来の仮説を見直す必要性を示しています。",
-    "answer": "The research indicates the need to reconsider the traditional hypothesis.",
-    "cefrLevel": "C1",
-    "tags": [
-      "research"
-    ],
-    "hint": "reconsider"
-  },
-  {
-    "id": "custom-c1-012",
-    "prompt": "彼の意見は説得力があるが、さらなる議論が必要です。",
-    "answer": "His opinion is convincing, but further discussion is necessary.",
-    "cefrLevel": "C1",
-    "tags": [
-      "discussion"
-    ],
-    "hint": "further discussion"
-  },
-  {
-    "id": "custom-c1-013",
-    "prompt": "この問題には複数の要因が関係している可能性があります。",
-    "answer": "Multiple factors may be involved in this issue.",
-    "cefrLevel": "C1",
-    "tags": [
-      "analysis"
-    ],
-    "hint": "multiple factors"
-  },
-  {
-    "id": "custom-c1-014",
-    "prompt": "彼らは新しいアイデアを取り入れることに前向きでした。",
-    "answer": "They were open to incorporating new ideas.",
-    "cefrLevel": "C1",
-    "tags": [
-      "work"
-    ],
-    "hint": "incorporating"
-  },
-  {
-    "id": "custom-c1-015",
-    "prompt": "その結果は、私たちの予想を大きく上回りました。",
-    "answer": "The results far exceeded our expectations.",
-    "cefrLevel": "C1",
-    "tags": [
-      "analysis"
-    ],
-    "hint": "exceeded expectations"
-  },
-  {
-    "id": "custom-c1-016",
-    "prompt": "私はその計画の実現可能性に疑問を持っています。",
-    "answer": "I have doubts about the feasibility of the plan.",
-    "cefrLevel": "C1",
-    "tags": [
-      "opinion"
-    ],
-    "hint": "feasibility"
-  },
-  {
-    "id": "custom-c1-017",
-    "prompt": "彼の説明は理論的には正しいが、実際的ではありません。",
-    "answer": "His explanation is theoretically correct but not practical.",
-    "cefrLevel": "C1",
-    "tags": [
-      "analysis"
-    ],
-    "hint": "theoretically"
-  },
-  {
-    "id": "custom-c1-018",
-    "prompt": "より長期的な視点から状況を評価するべきです。",
-    "answer": "We should evaluate the situation from a longer-term perspective.",
-    "cefrLevel": "C1",
-    "tags": [
-      "analysis"
-    ],
-    "hint": "longer-term perspective"
-  },
-  {
-    "id": "custom-c1-019",
-    "prompt": "その講義は新たな視点を提供してくれました。",
-    "answer": "The lecture provided a fresh perspective.",
-    "cefrLevel": "C1",
-    "tags": [
-      "education"
-    ],
-    "hint": "fresh perspective"
-  },
-  {
-    "id": "custom-c1-020",
-    "prompt": "このプロジェクトには慎重な計画が必要です。",
-    "answer": "This project requires careful planning.",
-    "cefrLevel": "C1",
-    "tags": [
-      "work"
-    ],
-    "hint": "careful planning"
-  },
-  {
-    "id": "custom-c1-021",
-    "prompt": "この問題を解決するには、長期的な視点が不可欠です。",
-    "answer": "A long-term perspective is essential to solving this issue.",
-    "cefrLevel": "C1",
-    "tags": [
-      "analysis"
-    ],
-    "hint": "long-term / essential"
-  },
-  {
-    "id": "custom-c1-042",
-    "prompt": "彼の説明は非常に説得力がありました。",
-    "answer": "His explanation was highly persuasive.",
-    "cefrLevel": "C1",
-    "tags": [
-      "communication"
-    ],
-    "hint": "highly / persuasive"
-  },
-  {
-    "id": "custom-c1-043",
-    "prompt": "その政策は社会全体に長期的な影響を及ぼす可能性があります。",
-    "answer": "The policy could have long-term effects on society as a whole.",
-    "cefrLevel": "C1",
-    "tags": [
-      "policy"
-    ],
-    "hint": "long-term / effects"
-  },
-  {
-    "id": "custom-c1-044",
-    "prompt": "私はその提案の背景にある意図を理解しようとしました。",
-    "answer": "I tried to understand the intention behind the proposal.",
-    "cefrLevel": "C1",
-    "tags": [
-      "analysis"
-    ],
-    "hint": "intention / behind"
-  },
-  {
-    "id": "custom-c1-045",
-    "prompt": "この問題は慎重に扱わなければ誤解を招く恐れがあります。",
-    "answer": "This issue must be handled carefully to avoid misunderstandings.",
-    "cefrLevel": "C1",
-    "tags": [
-      "analysis"
-    ],
-    "hint": "handled / misunderstandings"
-  },
-  {
-    "id": "custom-c1-046",
-    "prompt": "その地域の文化は歴史的影響を強く受けています。",
-    "answer": "The culture of the region is strongly influenced by its history.",
-    "cefrLevel": "C1",
-    "tags": [
-      "culture"
-    ],
-    "hint": "strongly influenced / history"
-  },
-  {
-    "id": "custom-c1-047",
-    "prompt": "彼女の研究は分野の発展に大きく貢献しました。",
-    "answer": "Her research has greatly contributed to the development of the field.",
-    "cefrLevel": "C1",
-    "tags": [
-      "research"
-    ],
-    "hint": "contributed / development"
-  },
-  {
-    "id": "custom-c1-048",
-    "prompt": "その結果は私たちの予測とは大きく異なっていました。",
-    "answer": "The results differed significantly from our predictions.",
-    "cefrLevel": "C1",
-    "tags": [
-      "analysis"
-    ],
-    "hint": "differed / predictions"
-  },
-  {
-    "id": "custom-c1-049",
-    "prompt": "私はその議論が十分に深められていないと感じました。",
-    "answer": "I felt that the discussion had not been explored deeply enough.",
-    "cefrLevel": "C1",
-    "tags": [
-      "opinion"
-    ],
-    "hint": "explored / deeply enough"
-  },
-  {
-    "id": "custom-c1-050",
-    "prompt": "その提案は改善の余地があると考えられます。",
-    "answer": "The proposal can be considered to have room for improvement.",
-    "cefrLevel": "C1",
-    "tags": [
-      "evaluation"
-    ],
-    "hint": "room for improvement"
-  },
-  {
-    "id": "custom-c2-001",
-    "prompt": "この議論は、現代社会における倫理観の微妙な違いを浮き彫りにしています。",
-    "answer": "This discussion highlights the subtle differences in ethical perspectives in modern society.",
-    "cefrLevel": "C2",
-    "tags": [
-      "ethics"
-    ],
-    "hint": "subtle differences"
-  },
-  {
-    "id": "custom-c2-002",
-    "prompt": "新しい技術の急速な発展が、既存の産業構造を根本的に変える可能性があります。",
-    "answer": "The rapid development of new technologies may fundamentally transform existing industrial structures.",
-    "cefrLevel": "C2",
-    "tags": [
-      "technology"
-    ],
-    "hint": "fundamentally transform"
-  },
-  {
-    "id": "custom-c2-003",
-    "prompt": "その報告書は、一見矛盾しているように思える複数のデータを巧みに統合しています。",
-    "answer": "The report skillfully integrates multiple sets of data that may seem contradictory at first glance.",
-    "cefrLevel": "C2",
-    "tags": [
-      "analysis"
-    ],
-    "hint": "at first glance"
-  },
-  {
-    "id": "custom-c2-004",
-    "prompt": "私は、その政策が社会全体に長期的な影響を及ぼす可能性を慎重に評価する必要があると思います。",
-    "answer": "I believe we need to carefully evaluate the potential long-term impact of the policy on society as a whole.",
-    "cefrLevel": "C2",
-    "tags": [
-      "policy"
-    ],
-    "hint": "evaluate / long-term impact"
-  },
-  {
-    "id": "custom-c2-005",
-    "prompt": "彼の主張は説得力があるように見えますが、詳細を精査すると問題点が浮かび上がります。",
-    "answer": "His argument appears convincing, but upon closer examination, several issues emerge.",
-    "cefrLevel": "C2",
-    "tags": [
-      "critical"
-    ],
-    "hint": "upon closer examination"
-  },
-  {
-    "id": "custom-c2-006",
-    "prompt": "この問題は、複数の観点から分析することで初めてその複雑さが理解できます。",
-    "answer": "The complexity of this issue can only be understood by analyzing it from multiple perspectives.",
-    "cefrLevel": "C2",
-    "tags": [
-      "analysis"
-    ],
-    "hint": "multiple perspectives"
-  },
-  {
-    "id": "custom-c2-007",
-    "prompt": "彼らは協力することで、個々では達成できなかった成果を生み出しました。",
-    "answer": "By collaborating, they achieved results that would have been unattainable individually.",
-    "cefrLevel": "C2",
-    "tags": [
-      "work"
-    ],
-    "hint": "unattainable individually"
-  },
-  {
-    "id": "custom-c2-008",
-    "prompt": "その小説は、読者に人間の本質について深く考えさせる構造になっています。",
-    "answer": "The novel is structured to make readers reflect deeply on the nature of humanity.",
-    "cefrLevel": "C2",
-    "tags": [
-      "literature"
-    ],
-    "hint": "reflect deeply"
-  },
-  {
-    "id": "custom-c2-009",
-    "prompt": "気候変動の影響は地域によって大きく異なるため、包括的な対策が求められています。",
-    "answer": "Comprehensive measures are required because the effects of climate change vary significantly across regions.",
-    "cefrLevel": "C2",
-    "tags": [
-      "environment"
-    ],
-    "hint": "comprehensive measures"
-  },
-  {
-    "id": "custom-c2-010",
-    "prompt": "そのプロジェクトの成功は、複雑な要因が相互に作用した結果です。",
-    "answer": "The success of the project is the result of complex factors interacting with one another.",
-    "cefrLevel": "C2",
-    "tags": [
-      "analysis"
-    ],
-    "hint": "interacting with one another"
-  },
-  {
-    "id": "custom-c2-012",
-    "prompt": "この結果は、従来の理解を根本から覆す可能性があります。",
-    "answer": "These findings have the potential to fundamentally overturn conventional understanding.",
-    "cefrLevel": "C2",
-    "tags": [
-      "analysis"
-    ],
-    "hint": "fundamentally overturn"
-  },
-  {
-    "id": "custom-c2-013",
-    "prompt": "彼の議論は一見納得できるが、いくつかの前提が不十分です。",
-    "answer": "His argument appears plausible at first, but several assumptions are insufficient.",
-    "cefrLevel": "C2",
-    "tags": [
-      "critical"
-    ],
-    "hint": "assumptions"
-  },
-  {
-    "id": "custom-c2-014",
-    "prompt": "そのデータは慎重に解釈しなければ誤解を招く可能性があります。",
-    "answer": "The data must be interpreted carefully, or it may lead to misunderstandings.",
-    "cefrLevel": "C2",
-    "tags": [
-      "analysis"
-    ],
-    "hint": "interpreted carefully"
-  },
-  {
-    "id": "custom-c2-015",
-    "prompt": "私はその提案が長期的な価値をもたらすと確信しています。",
-    "answer": "I am convinced that the proposal will bring long-term value.",
-    "cefrLevel": "C2",
-    "tags": [
-      "opinion"
-    ],
-    "hint": "convinced"
-  },
-  {
-    "id": "custom-c2-016",
-    "prompt": "彼らの結論は多くの複雑な要素を精密に統合した結果です。",
-    "answer": "Their conclusion is the result of precisely integrating many complex elements.",
-    "cefrLevel": "C2",
-    "tags": [
-      "analysis"
-    ],
-    "hint": "precisely integrating"
-  },
-  {
-    "id": "custom-c2-017",
-    "prompt": "その問題は、単純な議論では片付けられないほど多面的です。",
-    "answer": "The issue is too multifaceted to be settled with a simple argument.",
-    "cefrLevel": "C2",
-    "tags": [
-      "critical"
-    ],
-    "hint": "multifaceted"
-  },
-  {
-    "id": "custom-c2-018",
-    "prompt": "その概念は直感的ではないが、深く理解すると非常に有用です。",
-    "answer": "The concept is not intuitive, but once understood deeply, it is highly useful.",
-    "cefrLevel": "C2",
-    "tags": [
-      "theory"
-    ],
-    "hint": "not intuitive"
-  },
-  {
-    "id": "custom-c2-019",
-    "prompt": "研究者たちは、より包括的な視点から問題に取り組む必要があります。",
-    "answer": "Researchers need to approach the issue from a more comprehensive perspective.",
-    "cefrLevel": "C2",
-    "tags": [
-      "research"
-    ],
-    "hint": "comprehensive perspective"
-  },
-  {
-    "id": "custom-c2-020",
-    "prompt": "これらの結果は、将来の研究にとって重要な示唆を含んでいます。",
-    "answer": "These results contain important implications for future research.",
-    "cefrLevel": "C2",
-    "tags": [
-      "research"
-    ],
-    "hint": "implications"
-  },
-  {
-    "id": "custom-c2-042",
-    "prompt": "彼の分析は問題の核心を極めて的確に捉えていました。",
-    "answer": "His analysis captured the core of the issue with remarkable accuracy.",
-    "cefrLevel": "C2",
-    "tags": [
-      "analysis"
-    ],
-    "hint": "captured / accuracy"
-  },
-  {
-    "id": "custom-c2-043",
-    "prompt": "この議論は多くの学者によって長年論じられてきました。",
-    "answer": "The debate has been discussed for many years by numerous scholars.",
-    "cefrLevel": "C2",
-    "tags": [
-      "research"
-    ],
-    "hint": "debate / scholars"
-  },
-  {
-    "id": "custom-c2-044",
-    "prompt": "その結果は理論的枠組みを再評価する必要性を示唆しています。",
-    "answer": "The results suggest the need to reassess the theoretical framework.",
-    "cefrLevel": "C2",
-    "tags": [
-      "theory"
-    ],
-    "hint": "reassess / framework"
-  },
-  {
-    "id": "custom-c2-045",
-    "prompt": "その作品は文化的背景を理解していないと正しく解釈できません。",
-    "answer": "The work cannot be properly interpreted without a deep understanding of its cultural background.",
-    "cefrLevel": "C2",
-    "tags": [
-      "culture"
-    ],
-    "hint": "interpreted / cultural background"
-  },
-  {
-    "id": "custom-c2-046",
-    "prompt": "彼女の主張は高度な論理構造に基づいています。",
-    "answer": "Her argument is based on a highly sophisticated logical structure.",
-    "cefrLevel": "C2",
-    "tags": [
-      "analysis"
-    ],
-    "hint": "sophisticated / logical structure"
-  },
-  {
-    "id": "custom-c2-047",
-    "prompt": "この問題は表面的な理解では不十分で、より深い洞察が必要です。",
-    "answer": "A superficial understanding of this issue is insufficient; deeper insight is required.",
-    "cefrLevel": "C2",
-    "tags": [
-      "analysis"
-    ],
-    "hint": "superficial / deeper insight"
-  },
-  {
-    "id": "custom-c2-048",
-    "prompt": "その報告書は複雑なデータを精緻にまとめています。",
-    "answer": "The report synthesizes complex data with great precision.",
-    "cefrLevel": "C2",
-    "tags": [
-      "research"
-    ],
-    "hint": "precision / synthesizes"
-  },
-  {
-    "id": "custom-c2-049",
-    "prompt": "その判断は状況全体を包括的に捉えた上で行われました。",
-    "answer": "The decision was made based on a comprehensive understanding of the entire situation.",
-    "cefrLevel": "C2",
-    "tags": [
-      "analysis"
-    ],
-    "hint": "comprehensive / entire situation"
-  },
-  {
-    "id": "custom-c2-050",
-    "prompt": "この研究は従来の仮説を根本的に見直す必要性を示しています。",
-    "answer": "This study indicates the need to fundamentally reconsider traditional hypotheses.",
-    "cefrLevel": "C2",
-    "tags": [
-      "research"
-    ],
-    "hint": "fundamentally / hypotheses"
-  }
+  { "id": "custom-a1-001", "prompt": "私は毎朝リンゴを食べます。", "answer": "I eat an apple every morning.", "cefrLevel": "A1", "tags": ["daily-life"], "hint": "eat / every morning" },
+  { "id": "custom-a1-002", "prompt": "彼は東京に住んでいます。", "answer": "He lives in Tokyo.", "cefrLevel": "A1", "tags": ["basic"], "hint": "lives / in" },
+  { "id": "custom-a1-003", "prompt": "今日はとても暑いです。", "answer": "It is very hot today.", "cefrLevel": "A1", "tags": ["weather"], "hint": "very hot" },
+  { "id": "custom-a1-004", "prompt": "これは私の犬です。", "answer": "This is my dog.", "cefrLevel": "A1", "tags": ["basic"], "hint": "This is" },
+  { "id": "custom-a1-005", "prompt": "私は本を読むのが好きです。", "answer": "I like reading books.", "cefrLevel": "A1", "tags": ["hobby"], "hint": "like reading" },
+  { "id": "custom-a1-006", "prompt": "彼女は学生です。", "answer": "She is a student.", "cefrLevel": "A1", "tags": ["basic"], "hint": "is a" },
+  { "id": "custom-a1-007", "prompt": "私は水が必要です。", "answer": "I need some water.", "cefrLevel": "A1", "tags": ["daily-life"], "hint": "need / water" },
+  { "id": "custom-a1-008", "prompt": "彼らはサッカーをします。", "answer": "They play soccer.", "cefrLevel": "A1", "tags": ["sports"], "hint": "play soccer" },
+  { "id": "custom-a1-009", "prompt": "私は車を持っていません。", "answer": "I don’t have a car.", "cefrLevel": "A1", "tags": ["basic"], "hint": "don’t have" },
+  { "id": "custom-a1-010", "prompt": "あなたはどこから来ましたか？", "answer": "Where are you from?", "cefrLevel": "A1", "tags": ["basic"], "hint": "Where" },
+  { "id": "custom-a1-011", "prompt": "私は音楽を聞くのが好きです。", "answer": "I like listening to music.", "cefrLevel": "A1", "tags": ["hobby"], "hint": "like listening" },
+  { "id": "custom-a1-012", "prompt": "彼は毎日バスで学校へ行きます。", "answer": "He goes to school by bus every day.", "cefrLevel": "A1", "tags": ["school"], "hint": "by bus" },
+  { "id": "custom-a1-013", "prompt": "今日は私の誕生日です。", "answer": "Today is my birthday.", "cefrLevel": "A1", "tags": ["daily-life"], "hint": "Today is" },
+  { "id": "custom-a1-014", "prompt": "私は犬が怖いです。", "answer": "I am afraid of dogs.", "cefrLevel": "A1", "tags": ["feeling"], "hint": "afraid of" },
+  { "id": "custom-a1-015", "prompt": "私たちは学校の近くに住んでいます。", "answer": "We live near the school.", "cefrLevel": "A1", "tags": ["basic"], "hint": "near" },
+  { "id": "custom-a1-016", "prompt": "彼女はピアノを弾けます。", "answer": "She can play the piano.", "cefrLevel": "A1", "tags": ["ability"], "hint": "can play" },
+  { "id": "custom-a1-017", "prompt": "私は早く起きる必要があります。", "answer": "I need to get up early.", "cefrLevel": "A1", "tags": ["daily-life"], "hint": "need to" },
+  { "id": "custom-a1-018", "prompt": "あなたは何が好きですか？", "answer": "What do you like?", "cefrLevel": "A1", "tags": ["basic"], "hint": "What do you" },
+  { "id": "custom-a1-019", "prompt": "その店は9時に開きます。", "answer": "The store opens at nine.", "cefrLevel": "A1", "tags": ["daily-life"], "hint": "opens at" },
+  { "id": "custom-a1-020", "prompt": "私は友達と公園へ行きます。", "answer": "I go to the park with my friend.", "cefrLevel": "A1", "tags": ["daily-life"], "hint": "with my friend" },
+  { "id": "custom-a1-021", "prompt": "私は今日はとても忙しいです。", "answer": "I am very busy today.", "cefrLevel": "A1", "tags": ["daily-life"], "hint": "busy / today" },
+  { "id": "custom-a1-022", "prompt": "彼は犬が好きです。", "answer": "He likes dogs.", "cefrLevel": "A1", "tags": ["preference"], "hint": "likes / dogs" },
+  { "id": "custom-a1-023", "prompt": "これは私のペンです。", "answer": "This is my pen.", "cefrLevel": "A1", "tags": ["basic"], "hint": "this / my pen" },
+  { "id": "custom-a1-024", "prompt": "私たちは学校に歩いて行きます。", "answer": "We walk to school.", "cefrLevel": "A1", "tags": ["daily-life"], "hint": "walk / to school" },
+  { "id": "custom-a1-025", "prompt": "あなたはどこに住んでいますか？", "answer": "Where do you live?", "cefrLevel": "A1", "tags": ["question"], "hint": "where / live" },
+  { "id": "custom-a1-026", "prompt": "私は音楽を聞くのが好きです。", "answer": "I like listening to music.", "cefrLevel": "A1", "tags": ["hobby"], "hint": "like / listening to music" },
+  { "id": "custom-a1-027", "prompt": "私の兄は学生です。", "answer": "My brother is a student.", "cefrLevel": "A1", "tags": ["family"], "hint": "brother / student" },
+  { "id": "custom-a1-028", "prompt": "その店は駅の近くにあります。", "answer": "The shop is near the station.", "cefrLevel": "A1", "tags": ["location"], "hint": "near / station" },
+  { "id": "custom-a1-029", "prompt": "私は毎日7時に起きます。", "answer": "I get up at seven every day.", "cefrLevel": "A1", "tags": ["daily-life"], "hint": "get up / at seven" },
+  { "id": "custom-a1-030", "prompt": "これはいくらですか？", "answer": "How much is this?", "cefrLevel": "A1", "tags": ["shopping"], "hint": "how much / this" },
+  { "id": "custom-a1-031", "prompt": "私は毎日水をたくさん飲みます。", "answer": "I drink a lot of water every day.", "cefrLevel": "A1", "tags": ["daily-life"], "hint": "drink / water" },
+  { "id": "custom-a1-032", "prompt": "彼女は赤い帽子を持っています。", "answer": "She has a red hat.", "cefrLevel": "A1", "tags": ["basic"], "hint": "has / red hat" },
+  { "id": "custom-a1-033", "prompt": "今日はとても寒いです。", "answer": "It is very cold today.", "cefrLevel": "A1", "tags": ["weather"], "hint": "cold / today" },
+  { "id": "custom-a1-034", "prompt": "私は小さな部屋に住んでいます。", "answer": "I live in a small room.", "cefrLevel": "A1", "tags": ["daily-life"], "hint": "live / small room" },
+  { "id": "custom-a1-035", "prompt": "彼は毎週土曜日に友達に会います。", "answer": "He meets his friends every Saturday.", "cefrLevel": "A1", "tags": ["daily-life"], "hint": "meets / every Saturday" },
+  { "id": "custom-a1-036", "prompt": "私は週末に買い物に行きます。", "answer": "I go shopping on weekends.", "cefrLevel": "A1", "tags": ["shopping"], "hint": "go shopping / weekends" },
+  { "id": "custom-a1-037", "prompt": "これは私のお気に入りの本です。", "answer": "This is my favorite book.", "cefrLevel": "A1", "tags": ["basic"], "hint": "favorite / book" },
+  { "id": "custom-a1-038", "prompt": "私の母は毎朝早く起きます。", "answer": "My mother gets up early every morning.", "cefrLevel": "A1", "tags": ["family"], "hint": "gets up / early" },
+  { "id": "custom-a1-039", "prompt": "私は犬と遊ぶのが好きです。", "answer": "I like playing with my dog.", "cefrLevel": "A1", "tags": ["hobby"], "hint": "like / playing" },
+  { "id": "custom-a1-040", "prompt": "駅はこの近くにありますか？", "answer": "Is the station near here?", "cefrLevel": "A1", "tags": ["location"], "hint": "near / here" },
+  { "id": "custom-a1-041", "prompt": "私は毎週日曜日に散歩します。", "answer": "I take a walk every Sunday.", "cefrLevel": "A1", "tags": ["daily-life"], "hint": "take a walk / every Sunday" },
+  { "id": "custom-a1-042", "prompt": "彼は青いシャツを着ています。", "answer": "He is wearing a blue shirt.", "cefrLevel": "A1", "tags": ["clothes"], "hint": "blue shirt" },
+  { "id": "custom-a1-043", "prompt": "私は朝ご飯にパンを食べました。", "answer": "I ate bread for breakfast.", "cefrLevel": "A1", "tags": ["food"], "hint": "ate / breakfast" },
+  { "id": "custom-a1-044", "prompt": "彼女は毎晩本を読みます。", "answer": "She reads a book every night.", "cefrLevel": "A1", "tags": ["daily-life"], "hint": "reads / every night" },
+  { "id": "custom-a1-045", "prompt": "私は猫と遊ぶのが好きです。", "answer": "I like playing with my cat.", "cefrLevel": "A1", "tags": ["hobby","animals"], "hint": "like / playing" },
+  { "id": "custom-a1-046", "prompt": "今日はとても暑いです。", "answer": "It is very hot today.", "cefrLevel": "A1", "tags": ["weather"], "hint": "very hot" },
+  { "id": "custom-a1-047", "prompt": "私は毎朝ジョギングをします。", "answer": "I go jogging every morning.", "cefrLevel": "A1", "tags": ["health","daily-life"], "hint": "go jogging / every morning" },
+  { "id": "custom-a1-048", "prompt": "彼は机の上に本を置きました。", "answer": "He put the book on the desk.", "cefrLevel": "A1", "tags": ["school","home"], "hint": "put / on the desk" },
+  { "id": "custom-a1-049", "prompt": "私は友達と公園で遊びました。", "answer": "I played with my friends in the park.", "cefrLevel": "A1", "tags": ["friends","hobby"], "hint": "played / in the park" },
+  { "id": "custom-a1-050", "prompt": "彼女は毎週土曜日に映画を見ます。", "answer": "She watches a movie every Saturday.", "cefrLevel": "A1", "tags": ["entertainment"], "hint": "watches / every Saturday" },
+  { "id": "custom-a1-051", "prompt": "こちらでお召し上がりですか？", "answer": "Is it for here?", "cefrLevel": "A1", "tags": ["cafe"], "hint": "for here" },
+  { "id": "custom-a1-052", "prompt": "お水はいかがですか？", "answer": "Would you like some water?", "cefrLevel": "A1", "tags": ["restaurant"], "hint": "would you like" },
+  { "id": "custom-a1-053", "prompt": "注文をお伺いしてもよろしいですか？", "answer": "Can I take your order?", "cefrLevel": "A1", "tags": ["restaurant"], "hint": "take your order" },
+  { "id": "custom-a1-054", "prompt": "少々お待ちいただけますか？", "answer": "Could you wait a moment?", "cefrLevel": "A1", "tags": ["service"], "hint": "wait a moment" },
+  { "id": "custom-a1-055", "prompt": "お皿を下げても良いですか？", "answer": "Can I clear your plate?", "cefrLevel": "A1", "tags": ["restaurant"], "hint": "clear your plate" },
+  { "id": "custom-a1-056", "prompt": "ナプキンをお持ちしましょうか？", "answer": "Would you like a napkin?", "cefrLevel": "A1", "tags": ["restaurant"], "hint": "would you like" },
+  { "id": "custom-a1-057", "prompt": "砂糖は必要ですか？", "answer": "Do you need sugar?", "cefrLevel": "A1", "tags": ["cafe"], "hint": "need" },
+  { "id": "custom-a1-058", "prompt": "これは無料です。", "answer": "This is free.", "cefrLevel": "A1", "tags": ["service"], "hint": "free" },
+  { "id": "custom-a1-059", "prompt": "ここに座っても良いですか？", "answer": "Can I sit here?", "cefrLevel": "A1", "tags": ["life"], "hint": "sit here" },
+  { "id": "custom-a1-060", "prompt": "写真を撮ってもらえますか？", "answer": "Can you take a photo for me?", "cefrLevel": "A1", "tags": ["life"], "hint": "take a photo" },
+  { "id": "custom-a1-061", "prompt": "こちらにお名前を書いてください。", "answer": "Please write your name here.", "cefrLevel": "A1", "tags": ["hotel"], "hint": "write your name" },
+  { "id": "custom-a1-062", "prompt": "この部屋はあなたのものです。", "answer": "This room is for you.", "cefrLevel": "A1", "tags": ["hotel"], "hint": "room for you" },
+  { "id": "custom-a1-063", "prompt": "助けが必要ですか？", "answer": "Do you need help?", "cefrLevel": "A1", "tags": ["life"], "hint": "need help" },
+  { "id": "custom-a1-064", "prompt": "これはあなたのベッドです。", "answer": "This is your bed.", "cefrLevel": "A1", "tags": ["share-house"], "hint": "your bed" },
+  { "id": "custom-a1-065", "prompt": "具合は大丈夫ですか？", "answer": "Are you okay?", "cefrLevel": "A1", "tags": ["medical"], "hint": "okay?" },
+  { "id": "custom-a1-066", "prompt": "ちょっと待ってください。", "answer": "Please wait a moment.", "cefrLevel": "A1", "tags": ["service"], "hint": "wait a moment" },
+  { "id": "custom-a1-067", "prompt": "Wi-Fiのパスワードはここです。", "answer": "The Wi-Fi password is here.", "cefrLevel": "A1", "tags": ["hotel"], "hint": "Wi-Fi password" },
+  { "id": "custom-a1-068", "prompt": "これを持ってきてもらえますか？", "answer": "Can you bring this to me?", "cefrLevel": "A1", "tags": ["life"], "hint": "bring this" },
+  { "id": "custom-a1-069", "prompt": "あなたの部屋は2階にあります。", "answer": "Your room is on the second floor.", "cefrLevel": "A1", "tags": ["hotel"], "hint": "second floor" },
+  { "id": "custom-a1-070", "prompt": "これはどこに置けばいいですか？", "answer": "Where should I put this?", "cefrLevel": "A1", "tags": ["life"], "hint": "put this" },
+  { "id": "custom-a1-071", "prompt": "これはあなたの鍵です。", "answer": "This is your key.", "cefrLevel": "A1", "tags": ["hotel"], "hint": "your key" },
+  { "id": "custom-a1-072", "prompt": "チェックインは何時ですか？", "answer": "What time is check-in?", "cefrLevel": "A1", "tags": ["hotel"], "hint": "check-in" },
+  { "id": "custom-a1-073", "prompt": "これはあなたの飲み物です。", "answer": "This is your drink.", "cefrLevel": "A1", "tags": ["cafe"], "hint": "your drink" },
+  { "id": "custom-a1-074", "prompt": "どこに行けばいいですか？", "answer": "Where should I go?", "cefrLevel": "A1", "tags": ["life"], "hint": "where go" },
+  { "id": "custom-a1-075", "prompt": "ここで待っていてください。", "answer": "Please wait here.", "cefrLevel": "A1", "tags": ["service"], "hint": "wait here" },
+  { "id": "custom-a1-076", "prompt": "これはあなたの部屋番号です。", "answer": "This is your room number.", "cefrLevel": "A1", "tags": ["hotel"], "hint": "room number" },
+  { "id": "custom-a1-077", "prompt": "レジはあちらです。", "answer": "The register is over there.", "cefrLevel": "A1", "tags": ["restaurant"], "hint": "over there" },
+  { "id": "custom-a1-078", "prompt": "ここに荷物を置いても大丈夫です。", "answer": "You can leave your luggage here.", "cefrLevel": "A1", "tags": ["hotel"], "hint": "leave luggage" },
+  { "id": "custom-a1-079", "prompt": "あなたの順番です。", "answer": "It’s your turn.", "cefrLevel": "A1", "tags": ["service"], "hint": "your turn" },
+  { "id": "custom-a1-080", "prompt": "道に迷いました。", "answer": "I am lost.", "cefrLevel": "A1", "tags": ["life"], "hint": "lost" },
+  { "id": "custom-a1-081", "prompt": "こちらで注文できます。", "answer": "You can order here.", "cefrLevel": "A1", "tags": ["cafe"], "hint": "order here" },
+  { "id": "custom-a1-082", "prompt": "これは無料です。", "answer": "This is free.", "cefrLevel": "A1", "tags": ["service"], "hint": "free" },
+  { "id": "custom-a1-083", "prompt": "席はこちらです。", "answer": "Your seat is here.", "cefrLevel": "A1", "tags": ["restaurant"], "hint": "seat here" },
+  { "id": "custom-a1-084", "prompt": "体調は大丈夫ですか？", "answer": "Are you feeling okay?", "cefrLevel": "A1", "tags": ["medical"], "hint": "feeling okay" },
+  { "id": "custom-a1-085", "prompt": "もう少し時間が必要ですか？", "answer": "Do you need more time?", "cefrLevel": "A1", "tags": ["restaurant"], "hint": "more time" },
+  { "id": "custom-a1-086", "prompt": "こちらがレシートです。", "answer": "Here is your receipt.", "cefrLevel": "A1", "tags": ["service"], "hint": "receipt" },
+  { "id": "custom-a1-087", "prompt": "出口はあちらです。", "answer": "The exit is over there.", "cefrLevel": "A1", "tags": ["life"], "hint": "exit" },
+  { "id": "custom-a1-088", "prompt": "ここを押してください。", "answer": "Please press here.", "cefrLevel": "A1", "tags": ["life"], "hint": "press" },
+  { "id": "custom-a1-089", "prompt": "今日は忙しいです。", "answer": "I am busy today.", "cefrLevel": "A1", "tags": ["work"], "hint": "busy today" },
+  { "id": "custom-a1-090", "prompt": "あなたの順番がきました。", "answer": "It's your turn now.", "cefrLevel": "A1", "tags": ["service"], "hint": "your turn" },
+  { "id": "custom-a1-091", "prompt": "こちらが今日のおすすめです。", "answer": "Here is today’s special.", "cefrLevel": "A1", "tags": ["restaurant"], "hint": "today’s special" },
+  { "id": "custom-a1-092", "prompt": "少し待ってください。", "answer": "Please wait a little.", "cefrLevel": "A1", "tags": ["service"], "hint": "wait a little" },
+  { "id": "custom-a1-093", "prompt": "ここに名前を書いてください。", "answer": "Please write your name here.", "cefrLevel": "A1", "tags": ["service"], "hint": "write your name" },
+  { "id": "custom-a1-094", "prompt": "この席は空いています。", "answer": "This seat is available.", "cefrLevel": "A1", "tags": ["restaurant"], "hint": "seat available" },
+  { "id": "custom-a1-095", "prompt": "お手洗いはあちらです。", "answer": "The restroom is over there.", "cefrLevel": "A1", "tags": ["life"], "hint": "restroom" },
+  { "id": "custom-a1-096", "prompt": "具合が悪いです。", "answer": "I feel sick.", "cefrLevel": "A1", "tags": ["medical"], "hint": "feel sick" },
+  { "id": "custom-a1-097", "prompt": "ここに置いてもいいですか？", "answer": "Can I put this here?", "cefrLevel": "A1", "tags": ["life"], "hint": "put this" },
+  { "id": "custom-a1-098", "prompt": "私はここに泊まります。", "answer": "I am staying here.", "cefrLevel": "A1", "tags": ["hotel"], "hint": "staying here" },
+  { "id": "custom-a1-099", "prompt": "これは私の荷物です。", "answer": "This is my luggage.", "cefrLevel": "A1", "tags": ["travel"], "hint": "my luggage" },
+  { "id": "custom-a1-100", "prompt": "助けてくれてありがとう。", "answer": "Thank you for helping me.", "cefrLevel": "A1", "tags": ["life"], "hint": "thank you" },
+
+  { "id": "custom-a2-001", "prompt": "私は週末に家族と映画を見ます。", "answer": "I watch movies with my family on weekends.", "cefrLevel": "A2", "tags": ["daily-life"], "hint": "with my family / on weekends" },
+  { "id": "custom-a2-002", "prompt": "彼は昨日、新しい靴を買いました。", "answer": "He bought new shoes yesterday.", "cefrLevel": "A2", "tags": ["shopping"], "hint": "bought / yesterday" },
+  { "id": "custom-a2-003", "prompt": "私はあなたにこの本を貸すことができます。", "answer": "I can lend you this book.", "cefrLevel": "A2", "tags": ["daily-life"], "hint": "can lend" },
+  { "id": "custom-a2-004", "prompt": "彼女は英語を勉強するために図書館に行きます。", "answer": "She goes to the library to study English.", "cefrLevel": "A2", "tags": ["study"], "hint": "to study" },
+  { "id": "custom-a2-005", "prompt": "私たちは来週パーティーを開く予定です。", "answer": "We are going to have a party next week.", "cefrLevel": "A2", "tags": ["future"], "hint": "be going to" },
+  { "id": "custom-a2-006", "prompt": "この店は安くて美味しいです。", "answer": "This restaurant is cheap and delicious.", "cefrLevel": "A2", "tags": ["food"], "hint": "cheap and delicious" },
+  { "id": "custom-a2-007", "prompt": "私は3年間英語を勉強しています。", "answer": "I have studied English for three years.", "cefrLevel": "A2", "tags": ["study"], "hint": "have studied / for" },
+  { "id": "custom-a2-008", "prompt": "彼は昨日の夜、宿題をしなければなりませんでした。", "answer": "He had to do his homework last night.", "cefrLevel": "A2", "tags": ["school"], "hint": "had to" },
+  { "id": "custom-a2-009", "prompt": "私は新しい仕事に慣れてきました。", "answer": "I am getting used to my new job.", "cefrLevel": "A2", "tags": ["work"], "hint": "getting used to" },
+  { "id": "custom-a2-010", "prompt": "あなたはその映画を見たことがありますか？", "answer": "Have you seen that movie?", "cefrLevel": "A2", "tags": ["movie"], "hint": "Have you seen" },
+  { "id": "custom-a2-011", "prompt": "私はその映画のストーリーがとても好きでした。", "answer": "I really liked the story of the movie.", "cefrLevel": "A2", "tags": ["movie"], "hint": "liked the story" },
+  { "id": "custom-a2-012", "prompt": "彼女は仕事の後に友達と夕食を食べました。", "answer": "She had dinner with her friends after work.", "cefrLevel": "A2", "tags": ["daily-life"], "hint": "after work" },
+  { "id": "custom-a2-013", "prompt": "私は今よりもっと英語を上達させたいです。", "answer": "I want to improve my English more.", "cefrLevel": "A2", "tags": ["study"], "hint": "improve" },
+  { "id": "custom-a2-014", "prompt": "彼は週末によくハイキングに行きます。", "answer": "He often goes hiking on weekends.", "cefrLevel": "A2", "tags": ["hobby"], "hint": "goes hiking" },
+  { "id": "custom-a2-015", "prompt": "この町は住むにはとても便利です。", "answer": "This town is very convenient to live in.", "cefrLevel": "A2", "tags": ["daily-life"], "hint": "convenient to live in" },
+  { "id": "custom-a2-016", "prompt": "私は彼に会議について知らせました。", "answer": "I informed him about the meeting.", "cefrLevel": "A2", "tags": ["work"], "hint": "informed" },
+  { "id": "custom-a2-017", "prompt": "彼らは旅行の計画を立てています。", "answer": "They are planning a trip.", "cefrLevel": "A2", "tags": ["travel"], "hint": "planning" },
+  { "id": "custom-a2-018", "prompt": "あなたはその本をもう読み終えましたか？", "answer": "Have you finished reading the book?", "cefrLevel": "A2", "tags": ["study"], "hint": "finished reading" },
+  { "id": "custom-a2-019", "prompt": "私は昼食を食べるために休憩を取りました。", "answer": "I took a break to have lunch.", "cefrLevel": "A2", "tags": ["daily-life"], "hint": "took a break" },
+  { "id": "custom-a2-020", "prompt": "彼は大きな箱を一人で運ぶことができませんでした。", "answer": "He couldn’t carry the big box by himself.", "cefrLevel": "A2", "tags": ["daily-life"], "hint": "couldn’t carry" },
+  { "id": "custom-a2-021", "prompt": "私はその問題を自分で解決しようとしました。", "answer": "I tried to solve the problem by myself.", "cefrLevel": "A2", "tags": ["action"], "hint": "tried / solve / by myself" },
+  { "id": "custom-a2-022", "prompt": "彼女は新しい料理を作るのが得意です。", "answer": "She is good at making new dishes.", "cefrLevel": "A2", "tags": ["ability"], "hint": "good at / making" },
+  { "id": "custom-a2-023", "prompt": "私は昨日、友達と映画を見ました。", "answer": "I watched a movie with my friend yesterday.", "cefrLevel": "A2", "tags": ["past"], "hint": "watched / yesterday" },
+  { "id": "custom-a2-024", "prompt": "明日は雨が降るかもしれません。", "answer": "It may rain tomorrow.", "cefrLevel": "A2", "tags": ["weather"], "hint": "may / rain" },
+  { "id": "custom-a2-025", "prompt": "その本は私には少し難しいです。", "answer": "The book is a little difficult for me.", "cefrLevel": "A2", "tags": ["feeling"], "hint": "a little / difficult" },
+  { "id": "custom-a2-026", "prompt": "私は週に一度テニスをします。", "answer": "I play tennis once a week.", "cefrLevel": "A2", "tags": ["hobby"], "hint": "once a week" },
+  { "id": "custom-a2-027", "prompt": "彼らは来月旅行に行く予定です。", "answer": "They are going on a trip next month.", "cefrLevel": "A2", "tags": ["future"], "hint": "going on / next month" },
+  { "id": "custom-a2-028", "prompt": "そのレストランは安くておいしいです。", "answer": "The restaurant is cheap and delicious.", "cefrLevel": "A2", "tags": ["food"], "hint": "cheap / delicious" },
+  { "id": "custom-a2-029", "prompt": "私は駅まで歩くつもりです。", "answer": "I am going to walk to the station.", "cefrLevel": "A2", "tags": ["future-intent"], "hint": "going to / walk" },
+  { "id": "custom-a2-030", "prompt": "彼は私に親切にしてくれました。", "answer": "He was kind to me.", "cefrLevel": "A2", "tags": ["emotion"], "hint": "kind to" },
+  { "id": "custom-a2-031", "prompt": "私はそのイベントに参加するつもりです。", "answer": "I am going to join the event.", "cefrLevel": "A2", "tags": ["future"], "hint": "going to / join" },
+  { "id": "custom-a2-032", "prompt": "彼は手伝ってくれると言っていました。", "answer": "He said he would help me.", "cefrLevel": "A2", "tags": ["reported-speech"], "hint": "said / would help" },
+  { "id": "custom-a2-033", "prompt": "私は夕食にパスタを作りました。", "answer": "I made pasta for dinner.", "cefrLevel": "A2", "tags": ["food"], "hint": "made / dinner" },
+  { "id": "custom-a2-034", "prompt": "その道は夜になるととても静かです。", "answer": "The street becomes very quiet at night.", "cefrLevel": "A2", "tags": ["daily-life"], "hint": "becomes / quiet" },
+  { "id": "custom-a2-035", "prompt": "私は疲れていたので早く寝ました。", "answer": "I went to bed early because I was tired.", "cefrLevel": "A2", "tags": ["past"], "hint": "went to bed / because" },
+  { "id": "custom-a2-036", "prompt": "彼女は新しい言語を学ぶことに興味があります。", "answer": "She is interested in learning new languages.", "cefrLevel": "A2", "tags": ["interest"], "hint": "interested in / learning" },
+  { "id": "custom-a2-037", "prompt": "私は部屋をもっときれいにしないといけません。", "answer": "I have to make my room cleaner.", "cefrLevel": "A2", "tags": ["obligation"], "hint": "have to / cleaner" },
+  { "id": "custom-a2-038", "prompt": "その映画は思ったより短かったです。", "answer": "The movie was shorter than I expected.", "cefrLevel": "A2", "tags": ["comparison"], "hint": "shorter / than I expected" },
+  { "id": "custom-a2-039", "prompt": "私はクラシック音楽を聴くのが好きになりました。", "answer": "I have come to like listening to classical music.", "cefrLevel": "A2", "tags": ["habit"], "hint": "have come to / like" },
+  { "id": "custom-a2-040", "prompt": "彼らは来週の会議について話し合っています。", "answer": "They are discussing the meeting next week.", "cefrLevel": "A2", "tags": ["work"], "hint": "discussing / next week" },
+  { "id": "custom-a2-041", "prompt": "私は来週、新しいカフェに行く予定です。", "answer": "I am going to visit a new cafe next week.", "cefrLevel": "A2", "tags": ["future","food"], "hint": "going to / next week" },
+  { "id": "custom-a2-042", "prompt": "彼は私に手紙を書くと言いました。", "answer": "He said he would write me a letter.", "cefrLevel": "A2", "tags": ["communication"], "hint": "said / would write" },
+  { "id": "custom-a2-043", "prompt": "私は昨日、新しいレストランで昼食をとりました。", "answer": "I had lunch at a new restaurant yesterday.", "cefrLevel": "A2", "tags": ["food"], "hint": "had lunch / yesterday" },
+  { "id": "custom-a2-044", "prompt": "その道は夜になると静かになります。", "answer": "The street becomes quiet at night.", "cefrLevel": "A2", "tags": ["daily-life","location"], "hint": "becomes / quiet" },
+  { "id": "custom-a2-045", "prompt": "私は昨日、宿題を終えました。", "answer": "I finished my homework yesterday.", "cefrLevel": "A2", "tags": ["school"], "hint": "finished / yesterday" },
+  { "id": "custom-a2-046", "prompt": "彼女は毎日ジョギングをして健康を維持しています。", "answer": "She jogs every day to stay healthy.", "cefrLevel": "A2", "tags": ["health","exercise"], "hint": "jogs / every day" },
+  { "id": "custom-a2-047", "prompt": "私はその本を読むのに一時間かかりました。", "answer": "It took me an hour to read the book.", "cefrLevel": "A2", "tags": ["reading"], "hint": "took / an hour" },
+  { "id": "custom-a2-048", "prompt": "私たちは天気が良かったので外で昼食をとりました。", "answer": "We had lunch outside because the weather was good.", "cefrLevel": "A2", "tags": ["daily-life","weather"], "hint": "because / weather" },
+  { "id": "custom-a2-049", "prompt": "彼はどのバスに乗ればいいのかわかりませんでした。", "answer": "He didn't know which bus to take.", "cefrLevel": "A2", "tags": ["travel"], "hint": "didn't know / which" },
+  { "id": "custom-a2-050", "prompt": "私は将来、自分の店を開きたいです。", "answer": "I want to open my own shop in the future.", "cefrLevel": "A2", "tags": ["future","dreams"], "hint": "want to / in the future" },
+  { "id": "custom-a2-051", "prompt": "お水のおかわりはいかがですか？", "answer": "Would you like a refill of water?", "cefrLevel": "A2", "tags": ["restaurant"], "hint": "refill" },
+  { "id": "custom-a2-052", "prompt": "飲み物をもう一杯いかがですか？", "answer": "Would you like another drink?", "cefrLevel": "A2", "tags": ["restaurant"], "hint": "another drink" },
+  { "id": "custom-a2-053", "prompt": "料理の準備にもう少し時間がかかります。", "answer": "Your food will take a little more time.", "cefrLevel": "A2", "tags": ["restaurant"], "hint": "more time" },
+  { "id": "custom-a2-054", "prompt": "確認しますので少々お待ちください。", "answer": "Please wait a moment while I check.", "cefrLevel": "A2", "tags": ["service"], "hint": "while I check" },
+  { "id": "custom-a2-055", "prompt": "こちらのお席にご案内します。", "answer": "I will show you to your seat.", "cefrLevel": "A2", "tags": ["restaurant"], "hint": "show you" },
+  { "id": "custom-a2-056", "prompt": "今日のシフトを確認しましたか？", "answer": "Did you check today's shift?", "cefrLevel": "A2", "tags": ["work"], "hint": "check shift" },
+  { "id": "custom-a2-057", "prompt": "ゴミを捨ててもらえますか？", "answer": "Can you take out the trash?", "cefrLevel": "A2", "tags": ["work"], "hint": "take out" },
+  { "id": "custom-a2-058", "prompt": "これは人気のメニューです。", "answer": "This is a popular menu item.", "cefrLevel": "A2", "tags": ["restaurant"], "hint": "popular" },
+  { "id": "custom-a2-059", "prompt": "レジでお会計をお願いします。", "answer": "Please pay at the counter.", "cefrLevel": "A2", "tags": ["restaurant"], "hint": "counter" },
+  { "id": "custom-a2-060", "prompt": "私は新しい仕事に慣れてきました。", "answer": "I am getting used to my new job.", "cefrLevel": "A2", "tags": ["work"], "hint": "getting used to" },
+  { "id": "custom-a2-061", "prompt": "チェックインの時間を教えていただけますか？", "answer": "Could you tell me the check-in time?", "cefrLevel": "A2", "tags": ["hotel"], "hint": "check-in time" },
+  { "id": "custom-a2-062", "prompt": "部屋の鍵を失くしてしまいました。", "answer": "I lost my room key.", "cefrLevel": "A2", "tags": ["hotel"], "hint": "lost key" },
+  { "id": "custom-a2-063", "prompt": "洗濯機の使い方を教えてください。", "answer": "Please tell me how to use the washing machine.", "cefrLevel": "A2", "tags": ["share-house"], "hint": "washing machine" },
+  { "id": "custom-a2-064", "prompt": "ここにゴミを捨てても大丈夫ですか？", "answer": "Is it okay to throw the trash here?", "cefrLevel": "A2", "tags": ["share-house"], "hint": "throw trash" },
+  { "id": "custom-a2-065", "prompt": "近くに薬局はありますか？", "answer": "Is there a pharmacy nearby?", "cefrLevel": "A2", "tags": ["medical"], "hint": "pharmacy" },
+  { "id": "custom-a2-066", "prompt": "シャワーのお湯が出ません。", "answer": "The shower doesn't have hot water.", "cefrLevel": "A2", "tags": ["share-house"], "hint": "hot water" },
+  { "id": "custom-a2-067", "prompt": "おすすめの観光地はありますか？", "answer": "Do you have any recommended places to visit?", "cefrLevel": "A2", "tags": ["hotel"], "hint": "places to visit" },
+  { "id": "custom-a2-068", "prompt": "荷物をここに置いておいても良いですか？", "answer": "Can I leave my luggage here?", "cefrLevel": "A2", "tags": ["hotel"], "hint": "leave baggage" },
+  { "id": "custom-a2-069", "prompt": "もう少し静かにしてもらえますか？", "answer": "Could you be a little quieter?", "cefrLevel": "A2", "tags": ["share-house"], "hint": "quieter" },
+  { "id": "custom-a2-070", "prompt": "近くのバス停はどこですか？", "answer": "Where is the nearest bus stop?", "cefrLevel": "A2", "tags": ["travel"], "hint": "bus stop" },
+  { "id": "custom-a2-071", "prompt": "クレジットカードは使えますか？", "answer": "Can I use a credit card?", "cefrLevel": "A2", "tags": ["service"], "hint": "credit card" },
+  { "id": "custom-a2-072", "prompt": "朝食は何時から始まりますか？", "answer": "What time does breakfast start?", "cefrLevel": "A2", "tags": ["hotel"], "hint": "breakfast start" },
+  { "id": "custom-a2-073", "prompt": "部屋がとても寒いです。", "answer": "My room is very cold.", "cefrLevel": "A2", "tags": ["hotel"], "hint": "cold room" },
+  { "id": "custom-a2-074", "prompt": "鍵が開きません。", "answer": "The key doesn't work.", "cefrLevel": "A2", "tags": ["hotel"], "hint": "key doesn't work" },
+  { "id": "custom-a2-075", "prompt": "もう一度説明していただけますか？", "answer": "Could you explain that again?", "cefrLevel": "A2", "tags": ["work"], "hint": "explain again" },
+  { "id": "custom-a2-076", "prompt": "静かな部屋はありますか？", "answer": "Do you have a quiet room?", "cefrLevel": "A2", "tags": ["hotel"], "hint": "quiet room" },
+  { "id": "custom-a2-077", "prompt": "おすすめのレストランを教えてください。", "answer": "Please tell me a good restaurant nearby.", "cefrLevel": "A2", "tags": ["travel"], "hint": "good restaurant" },
+  { "id": "custom-a2-078", "prompt": "体調がよくありません。", "answer": "I don't feel well.", "cefrLevel": "A2", "tags": ["medical"], "hint": "feel well" },
+  { "id": "custom-a2-079", "prompt": "今日はどのくらい忙しいですか？", "answer": "How busy is it today?", "cefrLevel": "A2", "tags": ["work"], "hint": "busy" },
+  { "id": "custom-a2-080", "prompt": "何か手伝えることはありますか？", "answer": "Is there anything I can help with?", "cefrLevel": "A2", "tags": ["work"], "hint": "help with" },
+  { "id": "custom-a2-081", "prompt": "このテーブルは空いていますか？", "answer": "Is this table available?", "cefrLevel": "A2", "tags": ["restaurant"], "hint": "table available" },
+  { "id": "custom-a2-082", "prompt": "お会計を別々にできますか？", "answer": "Can we split the bill?", "cefrLevel": "A2", "tags": ["restaurant"], "hint": "split bill" },
+  { "id": "custom-a2-083", "prompt": "この部屋の温度を上げてもらえますか？", "answer": "Could you raise the room temperature?", "cefrLevel": "A2", "tags": ["hotel"], "hint": "raise temperature" },
+  { "id": "custom-a2-084", "prompt": "この席は予約されていますか？", "answer": "Is this seat reserved?", "cefrLevel": "A2", "tags": ["restaurant"], "hint": "reserved" },
+  { "id": "custom-a2-085", "prompt": "すぐに戻りますので少しお待ちください。", "answer": "I’ll be right back, so please wait a moment.", "cefrLevel": "A2", "tags": ["service"], "hint": "right back" },
+  { "id": "custom-a2-086", "prompt": "メールで送っていただけますか？", "answer": "Could you send it by email?", "cefrLevel": "A2", "tags": ["business"], "hint": "send email" },
+  { "id": "custom-a2-087", "prompt": "この注文はどのくらいかかりますか？", "answer": "How long will this order take?", "cefrLevel": "A2", "tags": ["cafe"], "hint": "how long" },
+  { "id": "custom-a2-088", "prompt": "シャワーが止まりません。", "answer": "The shower won’t stop running.", "cefrLevel": "A2", "tags": ["share-house"], "hint": "won’t stop" },
+  { "id": "custom-a2-089", "prompt": "近くにスーパーはありますか？", "answer": "Is there a supermarket nearby?", "cefrLevel": "A2", "tags": ["travel"], "hint": "supermarket" },
+  { "id": "custom-a2-090", "prompt": "仕事が終わったら連絡します。", "answer": "I'll contact you when I finish work.", "cefrLevel": "A2", "tags": ["work"], "hint": "finish work" },
+  { "id": "custom-a2-091", "prompt": "何か飲み物はいかがですか？", "answer": "Would you like something to drink?", "cefrLevel": "A2", "tags": ["restaurant"], "hint": "something to drink" },
+  { "id": "custom-a2-092", "prompt": "この部屋は静かですか？", "answer": "Is this room quiet?", "cefrLevel": "A2", "tags": ["hotel"], "hint": "quiet room" },
+  { "id": "custom-a2-093", "prompt": "料理に時間がかかっています。", "answer": "The food is taking a while.", "cefrLevel": "A2", "tags": ["restaurant"], "hint": "taking a while" },
+  { "id": "custom-a2-094", "prompt": "あとで連絡してもいいですか？", "answer": "Can I contact you later?", "cefrLevel": "A2", "tags": ["work"], "hint": "contact later" },
+  { "id": "custom-a2-095", "prompt": "この荷物を預けてもいいですか？", "answer": "Can I leave this luggage here?", "cefrLevel": "A2", "tags": ["hotel"], "hint": "leave luggage" },
+  { "id": "custom-a2-096", "prompt": "部屋がとても暑いです。", "answer": "My room is very hot.", "cefrLevel": "A2", "tags": ["hotel"], "hint": "very hot" },
+  { "id": "custom-a2-097", "prompt": "この書類にサインをお願いします。", "answer": "Please sign this document.", "cefrLevel": "A2", "tags": ["work"], "hint": "sign document" },
+  { "id": "custom-a2-098", "prompt": "今日の予定を教えてください。", "answer": "Tell me today’s schedule, please.", "cefrLevel": "A2", "tags": ["work"], "hint": "schedule" },
+  { "id": "custom-a2-099", "prompt": "カードの支払いはできますか？", "answer": "Can I pay by card?", "cefrLevel": "A2", "tags": ["service"], "hint": "pay by card" },
+  { "id": "custom-a2-100", "prompt": "近くの医者を知っていますか？", "answer": "Do you know a doctor nearby?", "cefrLevel": "A2", "tags": ["medical"], "hint": "doctor nearby" },
+
+  { "id": "custom-b1-001", "prompt": "私は健康のために毎日運動するようにしています。", "answer": "I try to exercise every day for my health.", "cefrLevel": "B1", "tags": ["health"], "hint": "try to" },
+  { "id": "custom-b1-002", "prompt": "彼女は仕事とプライベートのバランスを取るのが難しいと言っています。", "answer": "She says it is hard to balance work and private life.", "cefrLevel": "B1", "tags": ["work"], "hint": "hard to balance" },
+  { "id": "custom-b1-003", "prompt": "私は彼に会議の時間を確認するよう頼みました。", "answer": "I asked him to check the meeting time.", "cefrLevel": "B1", "tags": ["work"], "hint": "asked him to" },
+  { "id": "custom-b1-004", "prompt": "雨が降ったにも関わらず、彼らは試合を続けました。", "answer": "They continued the game despite the rain.", "cefrLevel": "B1", "tags": ["sports"], "hint": "despite" },
+  { "id": "custom-b1-005", "prompt": "私は将来海外で働くことを考えています。", "answer": "I am thinking about working abroad in the future.", "cefrLevel": "B1", "tags": ["future"], "hint": "thinking about" },
+  { "id": "custom-b1-006", "prompt": "駅までの道を教えていただけますか？", "answer": "Could you tell me the way to the station?", "cefrLevel": "B1", "tags": ["travel"], "hint": "Could you tell me" },
+  { "id": "custom-b1-007", "prompt": "この問題は私が予想していたよりも複雑です。", "answer": "This problem is more complicated than I expected.", "cefrLevel": "B1", "tags": ["thinking"], "hint": "more ... than" },
+  { "id": "custom-b1-008", "prompt": "彼は時間通りに到着できなくて申し訳ないと言いました。", "answer": "He said he was sorry for not arriving on time.", "cefrLevel": "B1", "tags": ["apology"], "hint": "sorry for ~ing" },
+  { "id": "custom-b1-009", "prompt": "私はそのニュースを聞いてとても驚きました。", "answer": "I was very surprised to hear the news.", "cefrLevel": "B1", "tags": ["feeling"], "hint": "surprised to" },
+  { "id": "custom-b1-010", "prompt": "もしお金に余裕があれば、新しいパソコンを買いたい。", "answer": "If I had enough money, I would buy a new computer.", "cefrLevel": "B1", "tags": ["conditional"], "hint": "If I had" },
+  { "id": "custom-b1-011", "prompt": "私はその問題について自分なりに考えてみました。", "answer": "I thought about the issue in my own way.", "cefrLevel": "B1", "tags": ["thinking"], "hint": "in my own way" },
+  { "id": "custom-b1-012", "prompt": "彼女は新しいプロジェクトに参加することを楽しみにしています。", "answer": "She is looking forward to joining the new project.", "cefrLevel": "B1", "tags": ["work"], "hint": "looking forward to" },
+  { "id": "custom-b1-013", "prompt": "私は彼にもっと丁寧に説明すべきでした。", "answer": "I should have explained it to him more politely.", "cefrLevel": "B1", "tags": ["reflection"], "hint": "should have" },
+  { "id": "custom-b1-014", "prompt": "このアプリは時間の管理に役立ちます。", "answer": "This app helps you manage your time.", "cefrLevel": "B1", "tags": ["tech"], "hint": "helps you" },
+  { "id": "custom-b1-015", "prompt": "彼は仕事で成功するために多くの努力をしています。", "answer": "He is making a lot of effort to succeed at work.", "cefrLevel": "B1", "tags": ["work"], "hint": "making effort" },
+  { "id": "custom-b1-016", "prompt": "あなたがそこに行くなら、私も一緒に行きたいです。", "answer": "If you go there, I want to go with you.", "cefrLevel": "B1", "tags": ["conditional"], "hint": "If you go" },
+  { "id": "custom-b1-017", "prompt": "その町は観光地として有名です。", "answer": "The town is famous as a tourist spot.", "cefrLevel": "B1", "tags": ["travel"], "hint": "famous as" },
+  { "id": "custom-b1-018", "prompt": "私は友達が困っているときに助けたいと思います。", "answer": "I want to help my friends when they are in trouble.", "cefrLevel": "B1", "tags": ["feeling"], "hint": "in trouble" },
+  { "id": "custom-b1-019", "prompt": "この計画にはいくつかの課題があります。", "answer": "There are several challenges in this plan.", "cefrLevel": "B1", "tags": ["work"], "hint": "challenges" },
+  { "id": "custom-b1-020", "prompt": "もし時間があれば、明日の準備を手伝ってください。", "answer": "If you have time, please help me prepare for tomorrow.", "cefrLevel": "B1", "tags": ["daily-life"], "hint": "prepare for" },
+  { "id": "custom-b1-021", "prompt": "私は初めて海外に行ったとき、とても緊張しました。", "answer": "I was very nervous when I went abroad for the first time.", "cefrLevel": "B1", "tags": ["experience"], "hint": "nervous / for the first time" },
+  { "id": "custom-b1-022", "prompt": "その映画は思っていたよりもずっと面白かったです。", "answer": "The movie was much more interesting than I expected.", "cefrLevel": "B1", "tags": ["opinion"], "hint": "more interesting / than I expected" },
+  { "id": "custom-b1-023", "prompt": "私は健康のために毎日30分歩くようにしています。", "answer": "I try to walk for 30 minutes every day for my health.", "cefrLevel": "B1", "tags": ["habit"], "hint": "try to / for my health" },
+  { "id": "custom-b1-024", "prompt": "彼女はその計画に反対しているように見えます。", "answer": "She seems to be against the plan.", "cefrLevel": "B1", "tags": ["opinion"], "hint": "seems to / against" },
+  { "id": "custom-b1-025", "prompt": "私は天気が良ければ明日ピクニックに行くつもりです。", "answer": "I will go on a picnic tomorrow if the weather is good.", "cefrLevel": "B1", "tags": ["conditional"], "hint": "if the weather is good" },
+  { "id": "custom-b1-026", "prompt": "その店は種類が豊富で、選ぶのに迷いました。", "answer": "The shop had many options, and it was hard to choose.", "cefrLevel": "B1", "tags": ["shopping"], "hint": "many options / hard to choose" },
+  { "id": "custom-b1-027", "prompt": "彼は仕事のストレスで疲れているようでした。", "answer": "He seemed tired because of the stress at work.", "cefrLevel": "B1", "tags": ["emotion"], "hint": "seemed / because of" },
+  { "id": "custom-b1-028", "prompt": "私はできるだけ早くこのタスクを終わらせたいです。", "answer": "I want to finish this task as soon as possible.", "cefrLevel": "B1", "tags": ["task"], "hint": "as soon as possible" },
+  { "id": "custom-b1-029", "prompt": "そのニュースは予想外で、私は驚きました。", "answer": "The news was unexpected, and I was surprised.", "cefrLevel": "B1", "tags": ["emotion"], "hint": "unexpected / surprised" },
+  { "id": "custom-b1-030", "prompt": "私は彼がその問題を解決できると信じています。", "answer": "I believe that he can solve the problem.", "cefrLevel": "B1", "tags": ["belief"], "hint": "believe / solve" },
+  { "id": "custom-b1-031", "prompt": "私は時間を有効に使うため、スケジュールを見直しました。", "answer": "I reviewed my schedule to use my time more effectively.", "cefrLevel": "B1", "tags": ["planning"], "hint": "reviewed / effectively" },
+  { "id": "custom-b1-032", "prompt": "そのイベントは予想以上に多くの人が参加しました。", "answer": "More people than expected attended the event.", "cefrLevel": "B1", "tags": ["event"], "hint": "more people / than expected" },
+  { "id": "custom-b1-033", "prompt": "私は英語を上達させるために毎日練習しています。", "answer": "I practice every day to improve my English.", "cefrLevel": "B1", "tags": ["study"], "hint": "practice / improve" },
+  { "id": "custom-b1-034", "prompt": "彼はその問題について詳しく説明してくれました。", "answer": "He explained the problem in detail.", "cefrLevel": "B1", "tags": ["communication"], "hint": "explained / in detail" },
+  { "id": "custom-b1-035", "prompt": "私はできるだけ早くあなたに連絡します。", "answer": "I will contact you as soon as possible.", "cefrLevel": "B1", "tags": ["communication"], "hint": "as soon as possible" },
+  { "id": "custom-b1-036", "prompt": "その町は観光客にとても人気があります。", "answer": "The town is very popular among tourists.", "cefrLevel": "B1", "tags": ["travel"], "hint": "popular / among" },
+  { "id": "custom-b1-037", "prompt": "私は彼の提案が合理的だと思います。", "answer": "I think his proposal is reasonable.", "cefrLevel": "B1", "tags": ["opinion"], "hint": "proposal / reasonable" },
+  { "id": "custom-b1-038", "prompt": "その問題を解決するには時間がかかりそうです。", "answer": "It seems that solving the problem will take time.", "cefrLevel": "B1", "tags": ["problem-solving"], "hint": "seems / take time" },
+  { "id": "custom-b1-039", "prompt": "私は彼女の意見に部分的には賛成です。", "answer": "I partly agree with her opinion.", "cefrLevel": "B1", "tags": ["opinion"], "hint": "partly / agree" },
+  { "id": "custom-b1-040", "prompt": "天候のせいで旅行の計画を変更しなければなりませんでした。", "answer": "We had to change our travel plans because of the weather.", "cefrLevel": "B1", "tags": ["travel"], "hint": "had to / because of" },
+  { "id": "custom-b1-041", "prompt": "私はそのプロジェクトを期限までに終わらせるため、一生懸命働いています。", "answer": "I am working hard to finish the project by the deadline.", "cefrLevel": "B1", "tags": ["work"], "hint": "working hard / by the deadline" },
+  { "id": "custom-b1-042", "prompt": "彼女は忙しかったにもかかわらず、私のために時間を作ってくれました。", "answer": "She made time for me even though she was busy.", "cefrLevel": "B1", "tags": ["relationships"], "hint": "even though / busy" },
+  { "id": "custom-b1-043", "prompt": "私は家を出る前に天気予報を確認するようにしています。", "answer": "I try to check the weather forecast before leaving home.", "cefrLevel": "B1", "tags": ["daily-life"], "hint": "check / before leaving" },
+  { "id": "custom-b1-044", "prompt": "この本は面白いだけでなく、とても役に立ちます。", "answer": "This book is not only interesting but also very useful.", "cefrLevel": "B1", "tags": ["reading"], "hint": "not only / but also" },
+  { "id": "custom-b1-045", "prompt": "彼は私にその問題をどう解決するか教えてくれました。", "answer": "He told me how to solve the problem.", "cefrLevel": "B1", "tags": ["communication"], "hint": "told me / how to" },
+  { "id": "custom-b1-046", "prompt": "私はその街を訪れるのが初めてでした。", "answer": "It was my first time visiting the city.", "cefrLevel": "B1", "tags": ["travel"], "hint": "first time / visiting" },
+  { "id": "custom-b1-047", "prompt": "その映画は予想よりも面白かったです。", "answer": "The movie was more interesting than I expected.", "cefrLevel": "B1", "tags": ["entertainment"], "hint": "more interesting / than expected" },
+  { "id": "custom-b1-048", "prompt": "私は彼女の提案に部分的に賛成です。", "answer": "I partly agree with her proposal.", "cefrLevel": "B1", "tags": ["opinion"], "hint": "partly / agree" },
+  { "id": "custom-b1-049", "prompt": "天候のせいで旅行の計画を変更しました。", "answer": "We had to change our travel plans because of the weather.", "cefrLevel": "B1", "tags": ["travel"], "hint": "because of / weather" },
+  { "id": "custom-b1-050", "prompt": "私はできるだけ早くあなたに連絡します。", "answer": "I will contact you as soon as possible.", "cefrLevel": "B1", "tags": ["communication"], "hint": "as soon as possible" },
+  { "id": "custom-b1-051", "prompt": "アレルギーはありますか？", "answer": "Do you have any allergies?", "cefrLevel": "B1", "tags": ["restaurant"], "hint": "allergies" },
+  { "id": "custom-b1-052", "prompt": "料理の説明をしましょうか？", "answer": "Would you like me to explain the dishes?", "cefrLevel": "B1", "tags": ["restaurant"], "hint": "explain" },
+  { "id": "custom-b1-053", "prompt": "ただいま大変混み合っております。", "answer": "We are very busy at the moment.", "cefrLevel": "B1", "tags": ["restaurant"], "hint": "busy" },
+  { "id": "custom-b1-054", "prompt": "ご要望を確認させていただきます。", "answer": "Let me confirm your request.", "cefrLevel": "B1", "tags": ["customer-service"], "hint": "confirm" },
+  { "id": "custom-b1-055", "prompt": "何か他にお手伝いできることはありますか？", "answer": "Is there anything else I can help you with?", "cefrLevel": "B1", "tags": ["service"], "hint": "anything else" },
+  { "id": "custom-b1-056", "prompt": "この件についてあなたの意見を聞かせてください。", "answer": "Please tell me your opinion on this matter.", "cefrLevel": "B1", "tags": ["business"], "hint": "opinion" },
+  { "id": "custom-b1-057", "prompt": "資料を後で共有します。", "answer": "I will share the document later.", "cefrLevel": "B1", "tags": ["business"], "hint": "share" },
+  { "id": "custom-b1-058", "prompt": "ミスがあればすぐに知らせてください。", "answer": "Please let me know immediately if there is a mistake.", "cefrLevel": "B1", "tags": ["work"], "hint": "let me know" },
+  { "id": "custom-b1-059", "prompt": "少し席を外しますが、すぐ戻ります。", "answer": "I will step away for a moment, but I’ll be right back.", "cefrLevel": "B1", "tags": ["work"], "hint": "step away" },
+  { "id": "custom-b1-060", "prompt": "この問題についてチームで話し合いましょう。", "answer": "Let's discuss this issue as a team.", "cefrLevel": "B1", "tags": ["business"], "hint": "discuss" },
+  { "id": "custom-b1-061", "prompt": "チェックアウトの手続きをお願いします。", "answer": "I'd like to check out, please.", "cefrLevel": "B1", "tags": ["hotel"], "hint": "check out" },
+  { "id": "custom-b1-062", "prompt": "この設備の使い方を説明していただけますか？", "answer": "Could you explain how to use this equipment?", "cefrLevel": "B1", "tags": ["life"], "hint": "explain how" },
+  { "id": "custom-b1-063", "prompt": "隣の部屋が少しうるさいです。", "answer": "The room next to mine is a bit noisy.", "cefrLevel": "B1", "tags": ["hotel"], "hint": "noisy" },
+  { "id": "custom-b1-064", "prompt": "シェアハウスのルールを確認したいです。", "answer": "I'd like to check the house rules.", "cefrLevel": "B1", "tags": ["share-house"], "hint": "house rules" },
+  { "id": "custom-b1-065", "prompt": "薬を飲んだほうが良いと思います。", "answer": "I think you should take some medicine.", "cefrLevel": "B1", "tags": ["medical"], "hint": "medicine" },
+  { "id": "custom-b1-066", "prompt": "何か問題があれば知らせてください。", "answer": "Please let me know if there are any issues.", "cefrLevel": "B1", "tags": ["work"], "hint": "let me know" },
+  { "id": "custom-b1-067", "prompt": "鍵を受け取ったことを確認します。", "answer": "I confirm that I received the key.", "cefrLevel": "B1", "tags": ["hotel"], "hint": "received" },
+  { "id": "custom-b1-068", "prompt": "場所が分からないので案内していただけますか？", "answer": "I'm not sure of the location. Could you guide me?", "cefrLevel": "B1", "tags": ["life"], "hint": "guide me" },
+  { "id": "custom-b1-069", "prompt": "予約内容を変更したいです。", "answer": "I’d like to change my reservation.", "cefrLevel": "B1", "tags": ["hotel"], "hint": "change reservation" },
+  { "id": "custom-b1-070", "prompt": "この件について、あとで連絡します。", "answer": "I will contact you about this later.", "cefrLevel": "B1", "tags": ["business"], "hint": "contact you" },
+  { "id": "custom-b1-071", "prompt": "予約内容を再確認させていただけますか？", "answer": "May I double-check your reservation details?", "cefrLevel": "B1", "tags": ["hotel"], "hint": "double-check" },
+  { "id": "custom-b1-072", "prompt": "この問題について担当者に連絡します。", "answer": "I will contact the person in charge about this issue.", "cefrLevel": "B1", "tags": ["work"], "hint": "person in charge" },
+  { "id": "custom-b1-073", "prompt": "配送が遅れているようです。", "answer": "It seems the delivery is delayed.", "cefrLevel": "B1", "tags": ["business"], "hint": "delivery delayed" },
+  { "id": "custom-b1-074", "prompt": "空いているベッドはありますか？", "answer": "Do you have any available beds?", "cefrLevel": "B1", "tags": ["share-house"], "hint": "available beds" },
+  { "id": "custom-b1-075", "prompt": "設備が故障しているようです。", "answer": "It seems the equipment is not working.", "cefrLevel": "B1", "tags": ["maintenance"], "hint": "not working" },
+  { "id": "custom-b1-076", "prompt": "確認が必要な点がいくつかあります。", "answer": "There are a few points we need to confirm.", "cefrLevel": "B1", "tags": ["business"], "hint": "confirm" },
+  { "id": "custom-b1-077", "prompt": "こちらが変更後のスケジュールです。", "answer": "Here is the updated schedule.", "cefrLevel": "B1", "tags": ["work"], "hint": "updated schedule" },
+  { "id": "custom-b1-078", "prompt": "これは一般的な手続きです。", "answer": "This is a standard procedure.", "cefrLevel": "B1", "tags": ["business"], "hint": "standard procedure" },
+  { "id": "custom-b1-079", "prompt": "問題が解決したか確認してください。", "answer": "Please check if the problem is resolved.", "cefrLevel": "B1", "tags": ["work"], "hint": "resolved" },
+  { "id": "custom-b1-080", "prompt": "必要であれば電話で説明します。", "answer": "I can explain it over the phone if needed.", "cefrLevel": "B1", "tags": ["business"], "hint": "over the phone" },
+  { "id": "custom-b1-081", "prompt": "別の選択肢を確認できますか？", "answer": "Could you check another option?", "cefrLevel": "B1", "tags": ["service"], "hint": "another option" },
+  { "id": "custom-b1-082", "prompt": "この問題について上司に相談します。", "answer": "I will consult my supervisor about this issue.", "cefrLevel": "B1", "tags": ["work"], "hint": "consult" },
+  { "id": "custom-b1-083", "prompt": "すぐに部屋を掃除します。", "answer": "We will clean your room right away.", "cefrLevel": "B1", "tags": ["hotel"], "hint": "right away" },
+  { "id": "custom-b1-084", "prompt": "商品の在庫を確認しています。", "answer": "We are checking the stock of the product.", "cefrLevel": "B1", "tags": ["work"], "hint": "checking stock" },
+  { "id": "custom-b1-085", "prompt": "必要であれば、担当者を呼びます。", "answer": "If needed, I can call the person in charge.", "cefrLevel": "B1", "tags": ["customer-service"], "hint": "person in charge" },
+  { "id": "custom-b1-086", "prompt": "予約時間を少し変更できますか？", "answer": "Can we adjust the reservation time a bit?", "cefrLevel": "B1", "tags": ["hotel"], "hint": "adjust" },
+  { "id": "custom-b1-087", "prompt": "状況を確認した後、連絡します。", "answer": "I will contact you after checking the situation.", "cefrLevel": "B1", "tags": ["work"], "hint": "after checking" },
+  { "id": "custom-b1-088", "prompt": "このトラブルの原因を調べています。", "answer": "We are investigating the cause of this issue.", "cefrLevel": "B1", "tags": ["work"], "hint": "investigating" },
+  { "id": "custom-b1-089", "prompt": "今の手続きに間違いはありませんか？", "answer": "Is there any mistake in the current procedure?", "cefrLevel": "B1", "tags": ["business"], "hint": "procedure" },
+  { "id": "custom-b1-090", "prompt": "ご希望に合わせて提案を作成します。", "answer": "I'll prepare a proposal based on your request.", "cefrLevel": "B1", "tags": ["business"], "hint": "proposal" },
+  { "id": "custom-b1-091", "prompt": "ご注文を確認させていただきます。", "answer": "Let me confirm your order.", "cefrLevel": "B1", "tags": ["restaurant"], "hint": "confirm order" },
+  { "id": "custom-b1-092", "prompt": "設備に問題があるようです。", "answer": "It seems there is an issue with the equipment.", "cefrLevel": "B1", "tags": ["maintenance"], "hint": "issue" },
+  { "id": "custom-b1-093", "prompt": "上司に確認して折り返し連絡します。", "answer": "I’ll check with my supervisor and get back to you.", "cefrLevel": "B1", "tags": ["work"], "hint": "get back to you" },
+  { "id": "custom-b1-094", "prompt": "部屋の変更は可能ですか？", "answer": "Is it possible to change rooms?", "cefrLevel": "B1", "tags": ["hotel"], "hint": "change rooms" },
+  { "id": "custom-b1-095", "prompt": "返金が必要かどうか確認します。", "answer": "I will check if a refund is necessary.", "cefrLevel": "B1", "tags": ["service"], "hint": "refund" },
+  { "id": "custom-b1-096", "prompt": "進捗状況を教えてください。", "answer": "Please update me on the progress.", "cefrLevel": "B1", "tags": ["business"], "hint": "progress" },
+  { "id": "custom-b1-097", "prompt": "料理をすぐにお持ちします。", "answer": "I will bring your food right away.", "cefrLevel": "B1", "tags": ["restaurant"], "hint": "right away" },
+  { "id": "custom-b1-098", "prompt": "追加のご要望はありますか？", "answer": "Do you have any additional requests?", "cefrLevel": "B1", "tags": ["customer-service"], "hint": "additional requests" },
+  { "id": "custom-b1-099", "prompt": "状況を詳しく教えていただけますか？", "answer": "Could you tell me the situation in detail?", "cefrLevel": "B1", "tags": ["work"], "hint": "in detail" },
+  { "id": "custom-b1-100", "prompt": "必要な情報をまとめて共有します。", "answer": "I will compile the necessary information and share it.", "cefrLevel": "B1", "tags": ["business"], "hint": "compile info" },
+
+  { "id": "custom-b2-001", "prompt": "その問題を解決するために、新しいアプローチを試す必要があります。", "answer": "We need to try a new approach to solve the problem.", "cefrLevel": "B2", "tags": ["work"], "hint": "approach to" },
+  { "id": "custom-b2-002", "prompt": "私は環境保護にもっと関心を持つべきだと思います。", "answer": "I think we should pay more attention to environmental protection.", "cefrLevel": "B2", "tags": ["environment"], "hint": "pay attention to" },
+  { "id": "custom-b2-003", "prompt": "その会社は市場の変化に迅速に対応しました。", "answer": "The company responded quickly to changes in the market.", "cefrLevel": "B2", "tags": ["business"], "hint": "responded to" },
+  { "id": "custom-b2-004", "prompt": "私は時間管理のスキルを向上させる必要があります。", "answer": "I need to improve my time management skills.", "cefrLevel": "B2", "tags": ["work"], "hint": "improve" },
+  { "id": "custom-b2-005", "prompt": "その本は、文化の違いを理解するのに役立ちました。", "answer": "The book helped me understand cultural differences.", "cefrLevel": "B2", "tags": ["culture"], "hint": "helped me" },
+  { "id": "custom-b2-006", "prompt": "彼の説明は分かりやすく、非常に参考になりました。", "answer": "His explanation was easy to understand and very informative.", "cefrLevel": "B2", "tags": ["work"], "hint": "easy to understand" },
+  { "id": "custom-b2-007", "prompt": "彼女は締切に間に合わせるために一生懸命働きました。", "answer": "She worked hard to meet the deadline.", "cefrLevel": "B2", "tags": ["work"], "hint": "meet the deadline" },
+  { "id": "custom-b2-008", "prompt": "私はその提案に賛成する十分な理由があります。", "answer": "I have enough reasons to agree with the proposal.", "cefrLevel": "B2", "tags": ["opinion"], "hint": "agree with" },
+  { "id": "custom-b2-009", "prompt": "その都市は急速に発展し、多くの企業を引き付けています。", "answer": "The city has grown rapidly and is attracting many companies.", "cefrLevel": "B2", "tags": ["business"], "hint": "has grown rapidly" },
+  { "id": "custom-b2-010", "prompt": "私はその議論が非常に興味深く、有益だと感じました。", "answer": "I found the discussion very interesting and informative.", "cefrLevel": "B2", "tags": ["discussion"], "hint": "found ~" },
+  { "id": "custom-b2-011", "prompt": "私たちは予算内でこのプロジェクトを完了する必要があります。", "answer": "We need to complete this project within the budget.", "cefrLevel": "B2", "tags": ["work"], "hint": "within the budget" },
+  { "id": "custom-b2-012", "prompt": "その記事は人々の意識を変える可能性があります。", "answer": "The article has the potential to change public awareness.", "cefrLevel": "B2", "tags": ["media"], "hint": "potential to" },
+  { "id": "custom-b2-013", "prompt": "彼女の提案は現実的で実行可能です。", "answer": "Her proposal is realistic and feasible.", "cefrLevel": "B2", "tags": ["work"], "hint": "realistic / feasible" },
+  { "id": "custom-b2-014", "prompt": "私はその問題について深く考える必要があります。", "answer": "I need to think deeply about the issue.", "cefrLevel": "B2", "tags": ["thinking"], "hint": "think deeply" },
+  { "id": "custom-b2-015", "prompt": "彼は困難な状況でも冷静さを保ちました。", "answer": "He remained calm even in difficult situations.", "cefrLevel": "B2", "tags": ["feeling"], "hint": "remained calm" },
+  { "id": "custom-b2-016", "prompt": "このデータは市場の動向を理解するのに役立ちます。", "answer": "This data helps us understand market trends.", "cefrLevel": "B2", "tags": ["business"], "hint": "market trends" },
+  { "id": "custom-b2-017", "prompt": "彼らは新しいアイデアを取り入れることに積極的です。", "answer": "They are positive about adopting new ideas.", "cefrLevel": "B2", "tags": ["work"], "hint": "adopting" },
+  { "id": "custom-b2-018", "prompt": "その問題に対処するためには柔軟な発想が必要です。", "answer": "A flexible mindset is required to deal with the issue.", "cefrLevel": "B2", "tags": ["thinking"], "hint": "flexible mindset" },
+  { "id": "custom-b2-019", "prompt": "私はその決定が最善だとは思いません。", "answer": "I don't think that decision is the best one.", "cefrLevel": "B2", "tags": ["opinion"], "hint": "I don't think" },
+  { "id": "custom-b2-020", "prompt": "私たちはより効果的な方法を見つける必要があります。", "answer": "We need to find a more effective method.", "cefrLevel": "B2", "tags": ["work"], "hint": "more effective" },
+  { "id": "custom-b2-021", "prompt": "その会社は市場の変化に対応するため、新しい戦略を導入しました。", "answer": "The company introduced a new strategy to respond to changes in the market.", "cefrLevel": "B2", "tags": ["business"], "hint": "introduced / respond to" },
+  { "id": "custom-b2-022", "prompt": "彼女は締め切りに間に合わせるために、一生懸命働かざるを得ませんでした。", "answer": "She had no choice but to work hard to meet the deadline.", "cefrLevel": "B2", "tags": ["work"], "hint": "had no choice but to" },
+  { "id": "custom-b2-023", "prompt": "その問題を解決するには、柔軟な考え方が必要です。", "answer": "A flexible way of thinking is necessary to solve the problem.", "cefrLevel": "B2", "tags": ["problem-solving"], "hint": "flexible / necessary" },
+  { "id": "custom-b2-024", "prompt": "技術の進歩によって、人々の生活は大きく変わりました。", "answer": "People's lives have changed significantly due to advances in technology.", "cefrLevel": "B2", "tags": ["technology"], "hint": "significantly / advances" },
+  { "id": "custom-b2-025", "prompt": "彼は自分の意見を明確に伝えることができました。", "answer": "He was able to express his opinion clearly.", "cefrLevel": "B2", "tags": ["communication"], "hint": "express / clearly" },
+  { "id": "custom-b2-026", "prompt": "私はこのプロジェクトを成功させるために最善を尽くします。", "answer": "I will do my best to make this project successful.", "cefrLevel": "B2", "tags": ["work"], "hint": "do my best" },
+  { "id": "custom-b2-027", "prompt": "その都市は多文化的な雰囲気で知られています。", "answer": "The city is known for its multicultural atmosphere.", "cefrLevel": "B2", "tags": ["culture"], "hint": "known for / multicultural" },
+  { "id": "custom-b2-028", "prompt": "もし状況が悪化すれば、別の方法を検討すべきです。", "answer": "If the situation gets worse, we should consider another approach.", "cefrLevel": "B2", "tags": ["conditional"], "hint": "gets worse / consider" },
+  { "id": "custom-b2-029", "prompt": "彼らは新しいシステムの導入に慎重です。", "answer": "They are cautious about introducing the new system.", "cefrLevel": "B2", "tags": ["business"], "hint": "cautious / introducing" },
+  { "id": "custom-b2-030", "prompt": "その結果から重要な教訓を学ぶことができます。", "answer": "We can learn an important lesson from the result.", "cefrLevel": "B2", "tags": ["learning"], "hint": "learn / lesson" },
+  { "id": "custom-b2-031", "prompt": "そのプロジェクトは想定よりも多くの資源を必要としました。", "answer": "The project required more resources than expected.", "cefrLevel": "B2", "tags": ["work"], "hint": "required / resources" },
+  { "id": "custom-b2-032", "prompt": "彼はプレゼンの準備にかなりの時間を費やしました。", "answer": "He spent a considerable amount of time preparing for the presentation.", "cefrLevel": "B2", "tags": ["work"], "hint": "considerable / preparing" },
+  { "id": "custom-b2-033", "prompt": "この地域の経済は観光業に大きく依存しています。", "answer": "The economy of this region heavily depends on tourism.", "cefrLevel": "B2", "tags": ["economy"], "hint": "depends on / tourism" },
+  { "id": "custom-b2-034", "prompt": "私はその計画に潜むリスクを十分に理解しています。", "answer": "I fully understand the risks involved in the plan.", "cefrLevel": "B2", "tags": ["analysis"], "hint": "fully / risks involved" },
+  { "id": "custom-b2-035", "prompt": "彼らは市場の変化に合わせて戦略を調整しました。", "answer": "They adjusted their strategy according to market changes.", "cefrLevel": "B2", "tags": ["business"], "hint": "adjusted / according to" },
+  { "id": "custom-b2-036", "prompt": "その新技術は業界に革命をもたらす可能性があります。", "answer": "The new technology has the potential to revolutionize the industry.", "cefrLevel": "B2", "tags": ["technology"], "hint": "revolutionize / potential" },
+  { "id": "custom-b2-037", "prompt": "彼は重要な決定を下す前に慎重に考えます。", "answer": "He thinks carefully before making important decisions.", "cefrLevel": "B2", "tags": ["decision"], "hint": "carefully / decisions" },
+  { "id": "custom-b2-038", "prompt": "その結果は私たちの期待を大きく上回りました。", "answer": "The results far exceeded our expectations.", "cefrLevel": "B2", "tags": ["business"], "hint": "far exceeded / expectations" },
+  { "id": "custom-b2-039", "prompt": "私はその提案を実行に移すかどうかまだ迷っています。", "answer": "I am still unsure whether to put the proposal into action.", "cefrLevel": "B2", "tags": ["decision"], "hint": "unsure / put into action" },
+  { "id": "custom-b2-040", "prompt": "その都市は多様な文化を受け入れることで知られています。", "answer": "The city is known for embracing diverse cultures.", "cefrLevel": "B2", "tags": ["culture"], "hint": "embracing / diverse cultures" },
+  { "id": "custom-b2-041", "prompt": "そのプロジェクトには予想以上の時間と資源が必要でした。", "answer": "The project required more time and resources than expected.", "cefrLevel": "B2", "tags": ["work"], "hint": "required / than expected" },
+  { "id": "custom-b2-042", "prompt": "彼はプレゼンの準備に多くの時間を費やしました。", "answer": "He spent a lot of time preparing for the presentation.", "cefrLevel": "B2", "tags": ["work"], "hint": "spent / preparing" },
+  { "id": "custom-b2-043", "prompt": "この地域の経済は観光業に大きく依存しています。", "answer": "The economy of this region heavily depends on tourism.", "cefrLevel": "B2", "tags": ["economy"], "hint": "depends on / tourism" },
+  { "id": "custom-b2-044", "prompt": "私はその計画に潜むリスクを十分に理解しています。", "answer": "I fully understand the risks involved in the plan.", "cefrLevel": "B2", "tags": ["analysis"], "hint": "fully / risks involved" },
+  { "id": "custom-b2-045", "prompt": "彼らは市場の変化に応じて戦略を調整しました。", "answer": "They adjusted their strategy according to market changes.", "cefrLevel": "B2", "tags": ["business"], "hint": "adjusted / according to" },
+  { "id": "custom-b2-046", "prompt": "新しい技術は業界に革命をもたらす可能性があります。", "answer": "The new technology has the potential to revolutionize the industry.", "cefrLevel": "B2", "tags": ["technology"], "hint": "potential / revolutionize" },
+  { "id": "custom-b2-047", "prompt": "彼は重要な決定を下す前に慎重に考えます。", "answer": "He thinks carefully before making important decisions.", "cefrLevel": "B2", "tags": ["decision"], "hint": "carefully / decisions" },
+  { "id": "custom-b2-048", "prompt": "その結果は私たちの期待を大きく上回りました。", "answer": "The results far exceeded our expectations.", "cefrLevel": "B2", "tags": ["business"], "hint": "far exceeded / expectations" },
+  { "id": "custom-b2-049", "prompt": "私はその提案を実行に移すかどうかまだ迷っています。", "answer": "I am still unsure whether to put the proposal into action.", "cefrLevel": "B2", "tags": ["decision"], "hint": "unsure / put into action" },
+  { "id": "custom-b2-050", "prompt": "その都市は多様な文化を受け入れることで知られています。", "answer": "The city is known for embracing diverse cultures.", "cefrLevel": "B2", "tags": ["culture"], "hint": "embracing / diverse cultures" },
+  { "id": "custom-b2-051", "prompt": "ご不便をおかけして申し訳ありません。確認いたします。", "answer": "I'm sorry for the inconvenience. Let me check for you.", "cefrLevel": "B2", "tags": ["customer-service"], "hint": "inconvenience" },
+  { "id": "custom-b2-052", "prompt": "必要であれば料理を作り直します。", "answer": "We can remake the dish if needed.", "cefrLevel": "B2", "tags": ["restaurant"], "hint": "remake" },
+  { "id": "custom-b2-053", "prompt": "私はこの意見には賛成できません。", "answer": "I cannot agree with this opinion.", "cefrLevel": "B2", "tags": ["business"], "hint": "cannot agree" },
+  { "id": "custom-b2-054", "prompt": "この問題の原因を確認する必要があります。", "answer": "We need to identify the cause of this issue.", "cefrLevel": "B2", "tags": ["analysis"], "hint": "identify" },
+  { "id": "custom-b2-055", "prompt": "締め切りが近づいています。", "answer": "The deadline is approaching.", "cefrLevel": "B2", "tags": ["business"], "hint": "deadline" },
+  { "id": "custom-b2-056", "prompt": "この件についての考えを詳しく教えてください。", "answer": "Could you explain your thoughts on this in more detail?", "cefrLevel": "B2", "tags": ["business"], "hint": "in detail" },
+  { "id": "custom-b2-057", "prompt": "状況を改善するために調整が必要です。", "answer": "We need some adjustments to improve the situation.", "cefrLevel": "B2", "tags": ["work"], "hint": "adjustments" },
+  { "id": "custom-b2-058", "prompt": "注文を再度確認させていただきます。", "answer": "Let me confirm your order once again.", "cefrLevel": "B2", "tags": ["restaurant"], "hint": "once again" },
+  { "id": "custom-b2-059", "prompt": "担当者にこの問題を引き継ぎます。", "answer": "I will hand this issue over to the person in charge.", "cefrLevel": "B2", "tags": ["work"], "hint": "hand over" },
+  { "id": "custom-b2-060", "prompt": "遅れを取り戻すために作業を早める必要があります。", "answer": "We need to speed up the work to catch up.", "cefrLevel": "B2", "tags": ["work"], "hint": "speed up" },
+  { "id": "custom-b2-061", "prompt": "予約が重複していたため、別の部屋をご用意しました。", "answer": "Your reservation overlapped with another, so we prepared a different room for you.", "cefrLevel": "B2", "tags": ["hotel"], "hint": "overlapped" },
+  { "id": "custom-b2-062", "prompt": "こちらの問題について、早急に対応いたします。", "answer": "We will address this issue as soon as possible.", "cefrLevel": "B2", "tags": ["customer-service"], "hint": "address the issue" },
+  { "id": "custom-b2-063", "prompt": "水漏れの原因を確認し、修理を手配します。", "answer": "We will check the cause of the leak and arrange repairs.", "cefrLevel": "B2", "tags": ["maintenance"], "hint": "leak / arrange repairs" },
+  { "id": "custom-b2-064", "prompt": "追加料金が発生する可能性があります。", "answer": "Additional charges may apply.", "cefrLevel": "B2", "tags": ["hotel"], "hint": "charges apply" },
+  { "id": "custom-b2-065", "prompt": "この問題について、具体的な状況を教えてください。", "answer": "Please tell me the specific situation regarding this issue.", "cefrLevel": "B2", "tags": ["service"], "hint": "specific situation" },
+  { "id": "custom-b2-066", "prompt": "スケジュールの調整が必要です。", "answer": "We need to adjust the schedule.", "cefrLevel": "B2", "tags": ["business"], "hint": "adjust" },
+  { "id": "custom-b2-067", "prompt": "他のお客様にご迷惑をおかけしないようお願いします。", "answer": "Please avoid disturbing other guests.", "cefrLevel": "B2", "tags": ["hotel"], "hint": "avoid disturbing" },
+  { "id": "custom-b2-068", "prompt": "これは緊急の問題として扱う必要があります。", "answer": "We need to treat this as an urgent issue.", "cefrLevel": "B2", "tags": ["work"], "hint": "urgent" },
+  { "id": "custom-b2-069", "prompt": "説明を明確にしていただけますか？", "answer": "Could you clarify your explanation?", "cefrLevel": "B2", "tags": ["business"], "hint": "clarify" },
+  { "id": "custom-b2-070", "prompt": "可能な限り早く対応いたします。", "answer": "We will handle it as quickly as possible.", "cefrLevel": "B2", "tags": ["service"], "hint": "as quickly as possible" },
+  { "id": "custom-b2-071", "prompt": "チェックイン手続きに予想以上の時間がかかっています。", "answer": "The check-in process is taking longer than expected.", "cefrLevel": "B2", "tags": ["hotel"], "hint": "longer than expected" },
+  { "id": "custom-b2-072", "prompt": "ご希望に沿える部屋を確認いたします。", "answer": "Let me check if we have a room that meets your request.", "cefrLevel": "B2", "tags": ["hotel"], "hint": "meets your request" },
+  { "id": "custom-b2-073", "prompt": "いただいた情報を基に対応策を検討しています。", "answer": "We are considering possible actions based on the information provided.", "cefrLevel": "B2", "tags": ["analysis"], "hint": "based on" },
+  { "id": "custom-b2-074", "prompt": "他のお客様への影響を最小限に抑えたいと考えています。", "answer": "We aim to minimize the impact on other guests.", "cefrLevel": "B2", "tags": ["customer-service"], "hint": "minimize impact" },
+  { "id": "custom-b2-075", "prompt": "追加の確認が必要になります。", "answer": "Further verification will be required.", "cefrLevel": "B2", "tags": ["business"], "hint": "verification" },
+  { "id": "custom-b2-076", "prompt": "トラブル発生時に迅速に対応できるよう準備しています。", "answer": "We are preparing to respond quickly in case of any issues.", "cefrLevel": "B2", "tags": ["work"], "hint": "respond quickly" },
+  { "id": "custom-b2-077", "prompt": "状況を正確にお伝えいただけますか？", "answer": "Could you describe the situation accurately?", "cefrLevel": "B2", "tags": ["customer-service"], "hint": "accurately" },
+  { "id": "custom-b2-078", "prompt": "この変更は全体のスケジュールに影響します。", "answer": "This change will affect the overall schedule.", "cefrLevel": "B2", "tags": ["business"], "hint": "overall schedule" },
+  { "id": "custom-b2-079", "prompt": "手続きに時間がかかる可能性があります。", "answer": "The process may take some time.", "cefrLevel": "B2", "tags": ["service"], "hint": "take time" },
+  { "id": "custom-b2-080", "prompt": "必要に応じて担当部署と連携します。", "answer": "We will coordinate with the relevant department if necessary.", "cefrLevel": "B2", "tags": ["business"], "hint": "coordinate" },
+  { "id": "custom-b2-081", "prompt": "ご不便をおかけして申し訳ありませんが、確認に少し時間が必要です。", "answer": "We apologize for the inconvenience, but we need some time to verify the details.", "cefrLevel": "B2", "tags": ["customer-service"], "hint": "verify details" },
+  { "id": "custom-b2-082", "prompt": "予約内容を再度確認いたしますので、少々お待ちください。", "answer": "Please wait a moment while we recheck your reservation details.", "cefrLevel": "B2", "tags": ["hotel"], "hint": "recheck" },
+  { "id": "custom-b2-083", "prompt": "問題の原因を特定し、対応策を検討しています。", "answer": "We are identifying the cause of the issue and considering solutions.", "cefrLevel": "B2", "tags": ["analysis"], "hint": "identifying cause" },
+  { "id": "custom-b2-084", "prompt": "必要に応じて、担当部署に引き継ぎます。", "answer": "We will hand this over to the relevant department if needed.", "cefrLevel": "B2", "tags": ["business"], "hint": "hand over" },
+  { "id": "custom-b2-085", "prompt": "変更が全体のスケジュールにどのように影響するか確認します。", "answer": "We will check how the change affects the overall schedule.", "cefrLevel": "B2", "tags": ["work"], "hint": "affects schedule" },
+  { "id": "custom-b2-086", "prompt": "状況を整理し、正確な情報を提供します。", "answer": "We will organize the situation and provide accurate information.", "cefrLevel": "B2", "tags": ["analysis"], "hint": "accurate information" },
+  { "id": "custom-b2-087", "prompt": "対応に時間がかかる可能性を事前にお伝えします。", "answer": "Please be aware that the process may take some time.", "cefrLevel": "B2", "tags": ["service"], "hint": "take some time" },
+  { "id": "custom-b2-088", "prompt": "追加の確認事項があれば教えてください。", "answer": "Please let us know if there are any additional points to confirm.", "cefrLevel": "B2", "tags": ["business"], "hint": "additional points" },
+  { "id": "custom-b2-089", "prompt": "問題が再発しないよう対策を検討しています。", "answer": "We are considering measures to prevent recurrence.", "cefrLevel": "B2", "tags": ["work"], "hint": "prevent recurrence" },
+  { "id": "custom-b2-090", "prompt": "必要であれば他のスタッフが対応します。", "answer": "Another staff member will assist you if necessary.", "cefrLevel": "B2", "tags": ["customer-service"], "hint": "assist" },
+  { "id": "custom-b2-091", "prompt": "ご不便をおかけしましたので、代わりの部屋をご用意しました。", "answer": "We prepared an alternative room due to the inconvenience caused.", "cefrLevel": "B2", "tags": ["hotel"], "hint": "alternative room" },
+  { "id": "custom-b2-092", "prompt": "詳細な状況を確認し、すぐに対応します。", "answer": "We will review the details and respond promptly.", "cefrLevel": "B2", "tags": ["service"], "hint": "respond promptly" },
+  { "id": "custom-b2-093", "prompt": "問題を今後防ぐために、手順を見直します。", "answer": "We will review the procedures to prevent future issues.", "cefrLevel": "B2", "tags": ["work"], "hint": "review procedures" },
+  { "id": "custom-b2-094", "prompt": "関係部署と連携し、解決に向けて進めます。", "answer": "We will coordinate with the relevant departments to work toward a solution.", "cefrLevel": "B2", "tags": ["business"], "hint": "coordinate" },
+  { "id": "custom-b2-095", "prompt": "この変更には追加の確認が必要です。", "answer": "This change requires additional verification.", "cefrLevel": "B2", "tags": ["work"], "hint": "additional verification" },
+  { "id": "custom-b2-096", "prompt": "ご質問の点について詳しく説明します。", "answer": "Let me explain your question in more detail.", "cefrLevel": "B2", "tags": ["customer-service"], "hint": "more detail" },
+  { "id": "custom-b2-097", "prompt": "作業の進行に影響が出る可能性があります。", "answer": "This may affect the progress of our work.", "cefrLevel": "B2", "tags": ["business"], "hint": "affect progress" },
+  { "id": "custom-b2-098", "prompt": "こちらの情報が正しいかどうかご確認ください。", "answer": "Please check whether this information is correct.", "cefrLevel": "B2", "tags": ["work"], "hint": "correct information" },
+  { "id": "custom-b2-099", "prompt": "今後の対応について、後ほどご連絡します。", "answer": "We will contact you later regarding the next steps.", "cefrLevel": "B2", "tags": ["service"], "hint": "next steps" },
+  { "id": "custom-b2-100", "prompt": "ご意見を踏まえて、改善策を検討しています。", "answer": "We are considering improvements based on your feedback.", "cefrLevel": "B2", "tags": ["customer-service"], "hint": "feedback" },
+
+  { "id": "custom-c1-001", "prompt": "彼はプロジェクトの成功に大きく貢献したと評価されています。", "answer": "He is recognized for making a significant contribution to the project's success.", "cefrLevel": "C1", "tags": ["work"], "hint": "recognized for" },
+  { "id": "custom-c1-002", "prompt": "その映画は、社会問題への深い洞察を提供しています。", "answer": "The movie provides deep insight into social issues.", "cefrLevel": "C1", "tags": ["social"], "hint": "insight into" },
+  { "id": "custom-c1-003", "prompt": "私はその計画が長期的には持続可能ではないと懸念しています。", "answer": "I am concerned that the plan is not sustainable in the long term.", "cefrLevel": "C1", "tags": ["opinion"], "hint": "concerned that" },
+  { "id": "custom-c1-004", "prompt": "彼らは問題の根本原因を特定しようと試みました。", "answer": "They attempted to identify the root cause of the problem.", "cefrLevel": "C1", "tags": ["analysis"], "hint": "root cause" },
+  { "id": "custom-c1-005", "prompt": "その研究は、将来の政策決定に重要な影響を与える可能性があります。", "answer": "The study may significantly influence future policy decisions.", "cefrLevel": "C1", "tags": ["research"], "hint": "influence" },
+  { "id": "custom-c1-006", "prompt": "私はその提案に対していくつかの懸念を表明したいです。", "answer": "I would like to express several concerns about the proposal.", "cefrLevel": "C1", "tags": ["opinion"], "hint": "express concerns" },
+  { "id": "custom-c1-007", "prompt": "私たちは新しい戦略を導入して効率を高める必要があります。", "answer": "We need to implement a new strategy to increase efficiency.", "cefrLevel": "C1", "tags": ["work"], "hint": "implement" },
+  { "id": "custom-c1-008", "prompt": "その講演は、参加者の視野を広げる素晴らしい機会でした。", "answer": "The lecture was a great opportunity to broaden the participants' perspectives.", "cefrLevel": "C1", "tags": ["education"], "hint": "broaden perspectives" },
+  { "id": "custom-c1-009", "prompt": "私はその結論が十分な証拠に基づいているか疑問に思います。", "answer": "I wonder whether the conclusion is based on sufficient evidence.", "cefrLevel": "C1", "tags": ["analysis"], "hint": "based on" },
+  { "id": "custom-c1-010", "prompt": "彼らのチームワークは、複雑な問題を解決する上で大きな役割を果たしました。", "answer": "Their teamwork played a major role in solving the complex issue.", "cefrLevel": "C1", "tags": ["work"], "hint": "played a major role" },
+  { "id": "custom-c1-011", "prompt": "その調査は、従来の仮説を見直す必要性を示しています。", "answer": "The research indicates the need to reconsider the traditional hypothesis.", "cefrLevel": "C1", "tags": ["research"], "hint": "reconsider" },
+  { "id": "custom-c1-012", "prompt": "彼の意見は説得力があるが、さらなる議論が必要です。", "answer": "His opinion is convincing, but further discussion is necessary.", "cefrLevel": "C1", "tags": ["discussion"], "hint": "further discussion" },
+  { "id": "custom-c1-013", "prompt": "この問題には複数の要因が関係している可能性があります。", "answer": "Multiple factors may be involved in this issue.", "cefrLevel": "C1", "tags": ["analysis"], "hint": "multiple factors" },
+  { "id": "custom-c1-014", "prompt": "彼らは新しいアイデアを取り入れることに前向きでした。", "answer": "They were open to incorporating new ideas.", "cefrLevel": "C1", "tags": ["work"], "hint": "incorporating" },
+  { "id": "custom-c1-015", "prompt": "その結果は、私たちの予想を大きく上回りました。", "answer": "The results far exceeded our expectations.", "cefrLevel": "C1", "tags": ["analysis"], "hint": "exceeded expectations" },
+  { "id": "custom-c1-016", "prompt": "私はその計画の実現可能性に疑問を持っています。", "answer": "I have doubts about the feasibility of the plan.", "cefrLevel": "C1", "tags": ["opinion"], "hint": "feasibility" },
+  { "id": "custom-c1-017", "prompt": "彼の説明は理論的には正しいが、実際的ではありません。", "answer": "His explanation is theoretically correct but not practical.", "cefrLevel": "C1", "tags": ["analysis"], "hint": "theoretically" },
+  { "id": "custom-c1-018", "prompt": "より長期的な視点から状況を評価するべきです。", "answer": "We should evaluate the situation from a longer-term perspective.", "cefrLevel": "C1", "tags": ["analysis"], "hint": "longer-term perspective" },
+  { "id": "custom-c1-019", "prompt": "その講義は新たな視点を提供してくれました。", "answer": "The lecture provided a fresh perspective.", "cefrLevel": "C1", "tags": ["education"], "hint": "fresh perspective" },
+  { "id": "custom-c1-020", "prompt": "このプロジェクトには慎重な計画が必要です。", "answer": "This project requires careful planning.", "cefrLevel": "C1", "tags": ["work"], "hint": "careful planning" },
+  { "id": "custom-c1-021", "prompt": "この問題を解決するには、長期的な視点が不可欠です。", "answer": "A long-term perspective is essential to solving this issue.", "cefrLevel": "C1", "tags": ["analysis"], "hint": "long-term / essential" },
+  { "id": "custom-c1-022", "prompt": "彼は複雑な状況を冷静に対処する能力があります。", "answer": "He has the ability to handle complex situations calmly.", "cefrLevel": "C1", "tags": ["ability"], "hint": "handle / complex" },
+  { "id": "custom-c1-023", "prompt": "その結果は、私たちの予想を大きく上回りました。", "answer": "The results greatly exceeded our expectations.", "cefrLevel": "C1", "tags": ["business"], "hint": "exceeded / expectations" },
+  { "id": "custom-c1-024", "prompt": "新しい方針は業界全体に大きな影響を与える可能性があります。", "answer": "The new policy could have a significant impact on the entire industry.", "cefrLevel": "C1", "tags": ["policy"], "hint": "significant impact / entire" },
+  { "id": "custom-c1-025", "prompt": "彼の説明は詳細で、非常にわかりやすかったです。", "answer": "His explanation was detailed and very easy to understand.", "cefrLevel": "C1", "tags": ["communication"], "hint": "detailed / easy to understand" },
+  { "id": "custom-c1-026", "prompt": "私たちは慎重に検討したうえで、その提案を採用することに決めました。", "answer": "After careful consideration, we decided to adopt the proposal.", "cefrLevel": "C1", "tags": ["decision"], "hint": "careful consideration / adopt" },
+  { "id": "custom-c1-027", "prompt": "その問題に対処するためには、包括的なアプローチが必要です。", "answer": "A comprehensive approach is needed to address the issue.", "cefrLevel": "C1", "tags": ["analysis"], "hint": "comprehensive / address" },
+  { "id": "custom-c1-028", "prompt": "彼女の研究は、重要な示唆を与えるものとして高く評価されています。", "answer": "Her research is highly regarded for providing important insights.", "cefrLevel": "C1", "tags": ["research"], "hint": "highly regarded / insights" },
+  { "id": "custom-c1-029", "prompt": "その状況を正確に理解するためには、背景知識が不可欠です。", "answer": "Background knowledge is essential to accurately understand the situation.", "cefrLevel": "C1", "tags": ["analysis"], "hint": "background knowledge / accurately" },
+  { "id": "custom-c1-030", "prompt": "私はその提案の実現可能性について疑問を抱いています。", "answer": "I have doubts about the feasibility of the proposal.", "cefrLevel": "C1", "tags": ["opinion"], "hint": "doubts / feasibility" },
+  { "id": "custom-c1-031", "prompt": "その問題を解決するには多角的な視点が求められます。", "answer": "A multifaceted perspective is required to solve the issue.", "cefrLevel": "C1", "tags": ["analysis"], "hint": "multifaceted / required" },
+  { "id": "custom-c1-032", "prompt": "彼の説明は非常に説得力がありました。", "answer": "His explanation was highly persuasive.", "cefrLevel": "C1", "tags": ["communication"], "hint": "highly / persuasive" },
+  { "id": "custom-c1-033", "prompt": "その政策は社会全体に長期的な影響を及ぼす可能性があります。", "answer": "The policy could have long-term effects on society as a whole.", "cefrLevel": "C1", "tags": ["policy"], "hint": "long-term / effects" },
+  { "id": "custom-c1-034", "prompt": "私はその提案の背景にある意図を理解しようと努めました。", "answer": "I tried to understand the intention behind the proposal.", "cefrLevel": "C1", "tags": ["analysis"], "hint": "intention / behind" },
+  { "id": "custom-c1-035", "prompt": "この問題は慎重に扱わなければ誤解を招く恐れがあります。", "answer": "This issue must be handled carefully to avoid misunderstandings.", "cefrLevel": "C1", "tags": ["analysis"], "hint": "handled / misunderstandings" },
+  { "id": "custom-c1-036", "prompt": "その地域の文化は歴史的な影響を強く受けています。", "answer": "The culture of the region is strongly influenced by its history.", "cefrLevel": "C1", "tags": ["culture"], "hint": "strongly influenced / history" },
+  { "id": "custom-c1-037", "prompt": "彼女の研究は分野の発展に大きく貢献しました。", "answer": "Her research has greatly contributed to the development of the field.", "cefrLevel": "C1", "tags": ["research"], "hint": "contributed / development" },
+  { "id": "custom-c1-038", "prompt": "その結果は私たちの予測とは大きく異なっていました。", "answer": "The results differed significantly from our predictions.", "cefrLevel": "C1", "tags": ["analysis"], "hint": "differed / predictions" },
+  { "id": "custom-c1-039", "prompt": "私はその議論が十分に深められていないと感じました。", "answer": "I felt that the discussion had not been explored deeply enough.", "cefrLevel": "C1", "tags": ["opinion"], "hint": "explored / deeply enough" },
+  { "id": "custom-c1-040", "prompt": "その提案は改善の余地があると考えられます。", "answer": "The proposal can be considered to have room for improvement.", "cefrLevel": "C1", "tags": ["evaluation"], "hint": "room for improvement" },
+  { "id": "custom-c1-041", "prompt": "その問題を解決するには多角的な視点が必要です。", "answer": "A multifaceted perspective is required to solve the issue.", "cefrLevel": "C1", "tags": ["analysis"], "hint": "multifaceted / required" },
+  { "id": "custom-c1-042", "prompt": "彼の説明は非常に説得力がありました。", "answer": "His explanation was highly persuasive.", "cefrLevel": "C1", "tags": ["communication"], "hint": "highly / persuasive" },
+  { "id": "custom-c1-043", "prompt": "その政策は社会全体に長期的な影響を及ぼす可能性があります。", "answer": "The policy could have long-term effects on society as a whole.", "cefrLevel": "C1", "tags": ["policy"], "hint": "long-term / effects" },
+  { "id": "custom-c1-044", "prompt": "私はその提案の背景にある意図を理解しようとしました。", "answer": "I tried to understand the intention behind the proposal.", "cefrLevel": "C1", "tags": ["analysis"], "hint": "intention / behind" },
+  { "id": "custom-c1-045", "prompt": "この問題は慎重に扱わなければ誤解を招く恐れがあります。", "answer": "This issue must be handled carefully to avoid misunderstandings.", "cefrLevel": "C1", "tags": ["analysis"], "hint": "handled / misunderstandings" },
+  { "id": "custom-c1-046", "prompt": "その地域の文化は歴史的影響を強く受けています。", "answer": "The culture of the region is strongly influenced by its history.", "cefrLevel": "C1", "tags": ["culture"], "hint": "strongly influenced / history" },
+  { "id": "custom-c1-047", "prompt": "彼女の研究は分野の発展に大きく貢献しました。", "answer": "Her research has greatly contributed to the development of the field.", "cefrLevel": "C1", "tags": ["research"], "hint": "contributed / development" },
+  { "id": "custom-c1-048", "prompt": "その結果は私たちの予測とは大きく異なっていました。", "answer": "The results differed significantly from our predictions.", "cefrLevel": "C1", "tags": ["analysis"], "hint": "differed / predictions" },
+  { "id": "custom-c1-049", "prompt": "私はその議論が十分に深められていないと感じました。", "answer": "I felt that the discussion had not been explored deeply enough.", "cefrLevel": "C1", "tags": ["opinion"], "hint": "explored / deeply enough" },
+  { "id": "custom-c1-050", "prompt": "その提案は改善の余地があると考えられます。", "answer": "The proposal can be considered to have room for improvement.", "cefrLevel": "C1", "tags": ["evaluation"], "hint": "room for improvement" },
+  { "id": "custom-c1-051", "prompt": "お客様の要望に応じて柔軟に対応いたします。", "answer": "We will respond flexibly according to your needs.", "cefrLevel": "C1", "tags": ["customer-service"], "hint": "respond flexibly" },
+  { "id": "custom-c1-052", "prompt": "この問題を効果的に解決する提案があります。", "answer": "I have a suggestion to solve this issue effectively.", "cefrLevel": "C1", "tags": ["business"], "hint": "suggestion" },
+  { "id": "custom-c1-053", "prompt": "重要な点を簡潔にまとめて説明します。", "answer": "Let me summarize the key points briefly.", "cefrLevel": "C1", "tags": ["business"], "hint": "summarize" },
+  { "id": "custom-c1-054", "prompt": "必要であれば代替案をご提案できます。", "answer": "If you like, I can offer an alternative option.", "cefrLevel": "C1", "tags": ["business"], "hint": "alternative" },
+  { "id": "custom-c1-055", "prompt": "効率を上げるための新しい方法を検討しています。", "answer": "We are considering new methods to improve efficiency.", "cefrLevel": "C1", "tags": ["work"], "hint": "efficiency" },
+  { "id": "custom-c1-056", "prompt": "この件についてあなたの専門的な意見を聞きたいです。", "answer": "I’d like to hear your professional opinion on this matter.", "cefrLevel": "C1", "tags": ["business"], "hint": "professional opinion" },
+  { "id": "custom-c1-057", "prompt": "状況を慎重に分析した結果、この結論に至りました。", "answer": "After carefully analyzing the situation, we reached this conclusion.", "cefrLevel": "C1", "tags": ["analysis"], "hint": "analyzing" },
+  { "id": "custom-c1-058", "prompt": "この変更は長期的に大きな影響を与える可能性があります。", "answer": "This change may have a significant long-term impact.", "cefrLevel": "C1", "tags": ["business"], "hint": "long-term" },
+  { "id": "custom-c1-059", "prompt": "この問題を優先度の高い課題として扱う必要があります。", "answer": "We need to treat this issue as a high-priority task.", "cefrLevel": "C1", "tags": ["business"], "hint": "priority" },
+  { "id": "custom-c1-060", "prompt": "改善のために建設的な意見交換を行いたいです。", "answer": "I would like to have a constructive discussion for improvement.", "cefrLevel": "C1", "tags": ["business"], "hint": "constructive discussion" },
+  { "id": "custom-c1-061", "prompt": "ご不便をおかけした理由を詳しく説明いたします。", "answer": "Let me explain in detail the reason for the inconvenience.", "cefrLevel": "C1", "tags": ["customer-service"], "hint": "explain in detail" },
+  { "id": "custom-c1-062", "prompt": "長期的な視点で考える必要があります。", "answer": "We need to consider this from a long-term perspective.", "cefrLevel": "C1", "tags": ["business"], "hint": "long-term perspective" },
+  { "id": "custom-c1-063", "prompt": "大きな影響を避けるために、早めの対処が必要です。", "answer": "We need to take early action to avoid major consequences.", "cefrLevel": "C1", "tags": ["work"], "hint": "early action" },
+  { "id": "custom-c1-064", "prompt": "頂いた情報を基に、最適な対応を検討します。", "answer": "Based on the information you provided, we will consider the best response.", "cefrLevel": "C1", "tags": ["analysis"], "hint": "based on" },
+  { "id": "custom-c1-065", "prompt": "状況を整理し、次のステップを提案いたします。", "answer": "I will organize the situation and propose the next steps.", "cefrLevel": "C1", "tags": ["analysis"], "hint": "organize / next steps" },
+  { "id": "custom-c1-066", "prompt": "この問題に対する代替案をご提示します。", "answer": "Let me present an alternative solution to this issue.", "cefrLevel": "C1", "tags": ["business"], "hint": "alternative solution" },
+  { "id": "custom-c1-067", "prompt": "必要であればさらなる情報を提供できます。", "answer": "I can provide additional information if needed.", "cefrLevel": "C1", "tags": ["business"], "hint": "additional information" },
+  { "id": "custom-c1-068", "prompt": "問題の発生を防ぐために、改善策を導入しました。", "answer": "We introduced improvements to prevent future issues.", "cefrLevel": "C1", "tags": ["work"], "hint": "prevent" },
+  { "id": "custom-c1-069", "prompt": "複雑な状況でも冷静に対応するよう努めています。", "answer": "I strive to stay calm even in complex situations.", "cefrLevel": "C1", "tags": ["work"], "hint": "stay calm" },
+  { "id": "custom-c1-070", "prompt": "ご期待に応えるために最善を尽くします。", "answer": "We will do our best to meet your expectations.", "cefrLevel": "C1", "tags": ["customer-service"], "hint": "meet expectations" },
+  { "id": "custom-c1-071", "prompt": "予期せぬ問題により、ご不便をおかけして申し訳ありません。", "answer": "We apologize for the inconvenience caused by the unexpected issue.", "cefrLevel": "C1", "tags": ["customer-service"], "hint": "unexpected issue" },
+  { "id": "custom-c1-072", "prompt": "より良い解決策を見つけるために調整中です。", "answer": "We are working on adjustments to find a better solution.", "cefrLevel": "C1", "tags": ["analysis"], "hint": "better solution" },
+  { "id": "custom-c1-073", "prompt": "必要に応じて柔軟に対応できるよう体制を整えています。", "answer": "We are building a system that allows flexible responses when needed.", "cefrLevel": "C1", "tags": ["business"], "hint": "flexible responses" },
+  { "id": "custom-c1-074", "prompt": "今後の影響を最小限に抑えるために計画を再構築しました。", "answer": "We restructured the plan to minimize future impacts.", "cefrLevel": "C1", "tags": ["analysis"], "hint": "restructured" },
+  { "id": "custom-c1-075", "prompt": "この問題に優先的に取り組む必要があります。", "answer": "We must address this issue as a priority.", "cefrLevel": "C1", "tags": ["business"], "hint": "priority" },
+  { "id": "custom-c1-076", "prompt": "共有いただいた情報を踏まえ、対応方針を決定しました。", "answer": "Based on the information shared, we decided on a response policy.", "cefrLevel": "C1", "tags": ["business"], "hint": "response policy" },
+  { "id": "custom-c1-077", "prompt": "さらなる改善に向けた具体的な案をまとめています。", "answer": "We are compiling concrete ideas for further improvement.", "cefrLevel": "C1", "tags": ["analysis"], "hint": "concrete ideas" },
+  { "id": "custom-c1-078", "prompt": "全体を俯瞰しながら問題点を整理しています。", "answer": "We are organizing the issues while looking at the big picture.", "cefrLevel": "C1", "tags": ["analysis"], "hint": "big picture" },
+  { "id": "custom-c1-079", "prompt": "不明点があれば、遠慮なくお知らせください。", "answer": "If anything is unclear, please feel free to let us know.", "cefrLevel": "C1", "tags": ["customer-service"], "hint": "unclear" },
+  { "id": "custom-c1-080", "prompt": "双方にとって最適な解決策を見つけることを目指します。", "answer": "We aim to find the best solution for both parties.", "cefrLevel": "C1", "tags": ["business"], "hint": "both parties" },
+  { "id": "custom-c1-081", "prompt": "問題の全体像を踏まえたうえで、優先すべき点を整理します。", "answer": "We will clarify the priorities based on the overall picture of the issue.", "cefrLevel": "C1", "tags": ["analysis"], "hint": "overall picture" },
+  { "id": "custom-c1-082", "prompt": "いただいたご意見を考慮し、改善案を検討しています。", "answer": "We are reviewing your feedback and considering improvement ideas.", "cefrLevel": "C1", "tags": ["business"], "hint": "feedback" },
+  { "id": "custom-c1-083", "prompt": "影響範囲を分析し、適切な対応策を提案します。", "answer": "We will analyze the impact and propose appropriate countermeasures.", "cefrLevel": "C1", "tags": ["analysis"], "hint": "impact" },
+  { "id": "custom-c1-084", "prompt": "複数の選択肢を比較し、最適なものを選びました。", "answer": "We compared several options and chose the best one.", "cefrLevel": "C1", "tags": ["business"], "hint": "options" },
+  { "id": "custom-c1-085", "prompt": "複雑な状況にも落ち着いて対応できるよう努めています。", "answer": "We strive to respond calmly even in complex situations.", "cefrLevel": "C1", "tags": ["work"], "hint": "complex situations" },
+  { "id": "custom-c1-086", "prompt": "お伝えいただいた内容をもとに、次のステップを決定します。", "answer": "Based on what you told us, we will determine the next steps.", "cefrLevel": "C1", "tags": ["analysis"], "hint": "next steps" },
+  { "id": "custom-c1-087", "prompt": "問題の再発を防ぐためにプロセスを改善しました。", "answer": "We improved our process to prevent similar issues in the future.", "cefrLevel": "C1", "tags": ["work"], "hint": "improved process" },
+  { "id": "custom-c1-088", "prompt": "状況に応じて最適な対応を柔軟に選択しています。", "answer": "We flexibly choose the best response depending on the situation.", "cefrLevel": "C1", "tags": ["business"], "hint": "flexibly choose" },
+  { "id": "custom-c1-089", "prompt": "必要な情報を整理し、わかりやすく共有します。", "answer": "We organize the necessary information and share it clearly.", "cefrLevel": "C1", "tags": ["business"], "hint": "share clearly" },
+  { "id": "custom-c1-090", "prompt": "よりよい顧客体験を提供するために改善を続けています。", "answer": "We continue improving to provide a better customer experience.", "cefrLevel": "C1", "tags": ["customer-service"], "hint": "customer experience" },
+  { "id": "custom-c1-091", "prompt": "影響を最小限に抑えるため、迅速な対応を進めています。", "answer": "We are taking quick action to minimize the impact.", "cefrLevel": "C1", "tags": ["analysis"], "hint": "minimize impact" },
+  { "id": "custom-c1-092", "prompt": "重要な点を整理して、わかりやすく説明します。", "answer": "I will organize the key points and explain them clearly.", "cefrLevel": "C1", "tags": ["business"], "hint": "key points" },
+  { "id": "custom-c1-093", "prompt": "この決定は長期的なメリットをもたらします。", "answer": "This decision will bring long-term benefits.", "cefrLevel": "C1", "tags": ["business"], "hint": "long-term benefits" },
+  { "id": "custom-c1-094", "prompt": "今後の方向性について提案をまとめました。", "answer": "We prepared a proposal regarding our future direction.", "cefrLevel": "C1", "tags": ["business"], "hint": "future direction" },
+  { "id": "custom-c1-095", "prompt": "追加で必要な情報があればお知らせください。", "answer": "Please let us know if any additional information is needed.", "cefrLevel": "C1", "tags": ["customer-service"], "hint": "additional information" },
+  { "id": "custom-c1-096", "prompt": "問題の構造を理解するために詳細を分析しました。", "answer": "We analyzed the details to understand the structure of the problem.", "cefrLevel": "C1", "tags": ["analysis"], "hint": "structure of the problem" },
+  { "id": "custom-c1-097", "prompt": "重要な変更点を共有し、チームで確認しました。", "answer": "We shared the important changes and reviewed them as a team.", "cefrLevel": "C1", "tags": ["work"], "hint": "important changes" },
+  { "id": "custom-c1-098", "prompt": "状況を踏まえ、柔軟な対応を引き続き行います。", "answer": "We will continue to respond flexibly based on the situation.", "cefrLevel": "C1", "tags": ["business"], "hint": "respond flexibly" },
+  { "id": "custom-c1-099", "prompt": "課題を一つずつ解決できるよう計画を立てました。", "answer": "We created a plan to solve each issue step by step.", "cefrLevel": "C1", "tags": ["analysis"], "hint": "step by step" },
+  { "id": "custom-c1-100", "prompt": "総合的な分析に基づき、最適な方針を提案します。", "answer": "We will propose the best policy based on a comprehensive analysis.", "cefrLevel": "C1", "tags": ["analysis"], "hint": "comprehensive analysis" },
+
+  { "id": "custom-c2-001", "prompt": "この議論は、現代社会における倫理観の微妙な違いを浮き彫りにしています。", "answer": "This discussion highlights the subtle differences in ethical perspectives in modern society.", "cefrLevel": "C2", "tags": ["ethics"], "hint": "subtle differences" },
+  { "id": "custom-c2-002", "prompt": "新しい技術の急速な発展が、既存の産業構造を根本的に変える可能性があります。", "answer": "The rapid development of new technologies may fundamentally transform existing industrial structures.", "cefrLevel": "C2", "tags": ["technology"], "hint": "fundamentally transform" },
+  { "id": "custom-c2-003", "prompt": "その報告書は、一見矛盾しているように思える複数のデータを巧みに統合しています。", "answer": "The report skillfully integrates multiple sets of data that may seem contradictory at first glance.", "cefrLevel": "C2", "tags": ["analysis"], "hint": "at first glance" },
+  { "id": "custom-c2-004", "prompt": "私は、その政策が社会全体に長期的な影響を及ぼす可能性を慎重に評価する必要があると思います。", "answer": "I believe we need to carefully evaluate the potential long-term impact of the policy on society as a whole.", "cefrLevel": "C2", "tags": ["policy"], "hint": "evaluate / long-term impact" },
+  { "id": "custom-c2-005", "prompt": "彼の主張は説得力があるように見えますが、詳細を精査すると問題点が浮かび上がります。", "answer": "His argument appears convincing, but upon closer examination, several issues emerge.", "cefrLevel": "C2", "tags": ["critical"], "hint": "upon closer examination" },
+  { "id": "custom-c2-006", "prompt": "この問題は、複数の観点から分析することで初めてその複雑さが理解できます。", "answer": "The complexity of this issue can only be understood by analyzing it from multiple perspectives.", "cefrLevel": "C2", "tags": ["analysis"], "hint": "multiple perspectives" },
+  { "id": "custom-c2-007", "prompt": "彼らは協力することで、個々では達成できなかった成果を生み出しました。", "answer": "By collaborating, they achieved results that would have been unattainable individually.", "cefrLevel": "C2", "tags": ["work"], "hint": "unattainable individually" },
+  { "id": "custom-c2-008", "prompt": "その小説は、読者に人間の本質について深く考えさせる構造になっています。", "answer": "The novel is structured to make readers reflect deeply on the nature of humanity.", "cefrLevel": "C2", "tags": ["literature"], "hint": "reflect deeply" },
+  { "id": "custom-c2-009", "prompt": "気候変動の影響は地域によって大きく異なるため、包括的な対策が求められています。", "answer": "Comprehensive measures are required because the effects of climate change vary significantly across regions.", "cefrLevel": "C2", "tags": ["environment"], "hint": "comprehensive measures" },
+  { "id": "custom-c2-010", "prompt": "そのプロジェクトの成功は、複雑な要因が相互に作用した結果です。", "answer": "The success of the project is the result of complex factors interacting with one another.", "cefrLevel": "C2", "tags": ["analysis"], "hint": "interacting with one another" },
+  { "id": "custom-c2-011", "prompt": "その理論は、複雑な社会現象を多角的に説明する枠組みを提供しています。", "answer": "The theory provides a framework for explaining complex social phenomena from multiple angles.", "cefrLevel": "C2", "tags": ["theory"], "hint": "framework" },
+  { "id": "custom-c2-012", "prompt": "この結果は、従来の理解を根本から覆す可能性があります。", "answer": "These findings have the potential to fundamentally overturn conventional understanding.", "cefrLevel": "C2", "tags": ["analysis"], "hint": "fundamentally overturn" },
+  { "id": "custom-c2-013", "prompt": "彼の議論は一見納得できるが、いくつかの前提が不十分です。", "answer": "His argument appears plausible at first, but several assumptions are insufficient.", "cefrLevel": "C2", "tags": ["critical"], "hint": "assumptions" },
+  { "id": "custom-c2-014", "prompt": "そのデータは慎重に解釈しなければ誤解を招く可能性があります。", "answer": "The data must be interpreted carefully, or it may lead to misunderstandings.", "cefrLevel": "C2", "tags": ["analysis"], "hint": "interpreted carefully" },
+  { "id": "custom-c2-015", "prompt": "私はその提案が長期的な価値をもたらすと確信しています。", "answer": "I am convinced that the proposal will bring long-term value.", "cefrLevel": "C2", "tags": ["opinion"], "hint": "convinced" },
+  { "id": "custom-c2-016", "prompt": "彼らの結論は多くの複雑な要素を精密に統合した結果です。", "answer": "Their conclusion is the result of precisely integrating many complex elements.", "cefrLevel": "C2", "tags": ["analysis"], "hint": "precisely integrating" },
+  { "id": "custom-c2-017", "prompt": "その問題は、単純な議論では片付けられないほど多面的です。", "answer": "The issue is too multifaceted to be settled with a simple argument.", "cefrLevel": "C2", "tags": ["critical"], "hint": "multifaceted" },
+  { "id": "custom-c2-018", "prompt": "その概念は直感的ではないが、深く理解すると非常に有用です。", "answer": "The concept is not intuitive, but once understood deeply, it is highly useful.", "cefrLevel": "C2", "tags": ["theory"], "hint": "not intuitive" },
+  { "id": "custom-c2-019", "prompt": "研究者たちは、より包括的な視点から問題に取り組む必要があります。", "answer": "Researchers need to approach the issue from a more comprehensive perspective.", "cefrLevel": "C2", "tags": ["research"], "hint": "comprehensive perspective" },
+  { "id": "custom-c2-020", "prompt": "これらの結果は、将来の研究にとって重要な示唆を含んでいます。", "answer": "These results contain important implications for future research.", "cefrLevel": "C2", "tags": ["research"], "hint": "implications" },
+  { "id": "custom-c2-021", "prompt": "この理論は、従来の考え方を根本から覆す可能性を秘めています。", "answer": "This theory has the potential to fundamentally overturn traditional ways of thinking.", "cefrLevel": "C2", "tags": ["theory"], "hint": "fundamentally / overturn" },
+  { "id": "custom-c2-022", "prompt": "彼の発言は状況の本質を鋭く突いていました。", "answer": "His remarks sharply captured the essence of the situation.", "cefrLevel": "C2", "tags": ["analysis"], "hint": "sharply / essence" },
+  { "id": "custom-c2-023", "prompt": "その問題は一見単純に見えますが、実際には多くの要因が絡み合っています。", "answer": "The issue appears simple at first glance, but in reality, many factors are intertwined.", "cefrLevel": "C2", "tags": ["complexity"], "hint": "at first glance / intertwined" },
+  { "id": "custom-c2-024", "prompt": "その研究結果は、これまでの常識に疑問を投げかけています。", "answer": "The research results cast doubt on what has long been considered common knowledge.", "cefrLevel": "C2", "tags": ["research"], "hint": "cast doubt / common knowledge" },
+  { "id": "custom-c2-025", "prompt": "彼は議論の中で高度な専門知識を示しました。", "answer": "He demonstrated advanced expertise during the discussion.", "cefrLevel": "C2", "tags": ["expertise"], "hint": "demonstrated / expertise" },
+  { "id": "custom-c2-026", "prompt": "この問題を理解するには、歴史的背景を深く掘り下げる必要があります。", "answer": "To understand this issue, it is necessary to delve deeply into its historical background.", "cefrLevel": "C2", "tags": ["analysis"], "hint": "delve deeply / historical background" },
+  { "id": "custom-c2-027", "prompt": "その判断は長期的な視点から見ると妥当だと言えます。", "answer": "The decision can be considered reasonable from a long-term perspective.", "cefrLevel": "C2", "tags": ["analysis"], "hint": "reasonable / long-term perspective" },
+  { "id": "custom-c2-028", "prompt": "彼女の論文は複雑な概念を巧みにまとめています。", "answer": "Her paper skillfully synthesizes complex concepts.", "cefrLevel": "C2", "tags": ["research"], "hint": "skillfully / synthesizes" },
+  { "id": "custom-c2-029", "prompt": "この状況は、表面的に見える以上の意味を持っています。", "answer": "This situation carries more meaning than what appears on the surface.", "cefrLevel": "C2", "tags": ["analysis"], "hint": "more meaning / surface" },
+  { "id": "custom-c2-030", "prompt": "その提案は実行可能ではあるものの、慎重な検討を要します。", "answer": "The proposal is feasible, but it requires careful consideration.", "cefrLevel": "C2", "tags": ["evaluation"], "hint": "feasible / careful consideration" },
+  { "id": "custom-c2-031", "prompt": "その理論は従来の枠組みを超える新たな視点を提示しています。", "answer": "The theory presents a new perspective that goes beyond conventional frameworks.", "cefrLevel": "C2", "tags": ["theory"], "hint": "beyond / frameworks" },
+  { "id": "custom-c2-032", "prompt": "彼の分析は問題の核心を極めて的確に捉えていました。", "answer": "His analysis captured the core of the issue with remarkable accuracy.", "cefrLevel": "C2", "tags": ["analysis"], "hint": "captured / accuracy" },
+  { "id": "custom-c2-033", "prompt": "この議論は多くの学者によって長年にわたり論じられてきました。", "answer": "The debate has been discussed for many years by numerous scholars.", "cefrLevel": "C2", "tags": ["research"], "hint": "debate / scholars" },
+  { "id": "custom-c2-034", "prompt": "その結果は理論的枠組みを再評価する必要性を示唆しています。", "answer": "The results suggest the need to reassess the theoretical framework.", "cefrLevel": "C2", "tags": ["theory"], "hint": "reassess / framework" },
+  { "id": "custom-c2-035", "prompt": "その作品は文化的背景を深く理解していないと正しく解釈できません。", "answer": "The work cannot be properly interpreted without a deep understanding of its cultural background.", "cefrLevel": "C2", "tags": ["culture"], "hint": "interpreted / cultural background" },
+  { "id": "custom-c2-036", "prompt": "彼女の主張は高度な論理的構造に基づいています。", "answer": "Her argument is based on a highly sophisticated logical structure.", "cefrLevel": "C2", "tags": ["analysis"], "hint": "sophisticated / logical structure" },
+  { "id": "custom-c2-037", "prompt": "この問題は表面的な理解では不十分で、より深い洞察が必要です。", "answer": "A superficial understanding of this issue is insufficient; deeper insight is required.", "cefrLevel": "C2", "tags": ["analysis"], "hint": "superficial / deeper insight" },
+  { "id": "custom-c2-038", "prompt": "その報告書は複雑なデータを精緻にまとめています。", "answer": "The report synthesizes complex data with great precision.", "cefrLevel": "C2", "tags": ["research"], "hint": "precision / synthesizes" },
+  { "id": "custom-c2-039", "prompt": "その判断は状況全体を包括的に捉えた上で行われました。", "answer": "The decision was made based on a comprehensive understanding of the entire situation.", "cefrLevel": "C2", "tags": ["analysis"], "hint": "comprehensive / entire situation" },
+  { "id": "custom-c2-040", "prompt": "この研究は従来の仮説を根本的に見直す必要性を示しています。", "answer": "This study indicates the need to fundamentally reconsider traditional hypotheses.", "cefrLevel": "C2", "tags": ["research"], "hint": "fundamentally / hypotheses" },
+  { "id": "custom-c2-041", "prompt": "その理論は従来の枠組みを超える新しい視点を提示しています。", "answer": "The theory presents a new perspective that goes beyond conventional frameworks.", "cefrLevel": "C2", "tags": ["theory"], "hint": "beyond / frameworks" },
+  { "id": "custom-c2-042", "prompt": "彼の分析は問題の核心を極めて的確に捉えていました。", "answer": "His analysis captured the core of the issue with remarkable accuracy.", "cefrLevel": "C2", "tags": ["analysis"], "hint": "captured / accuracy" },
+  { "id": "custom-c2-043", "prompt": "この議論は多くの学者によって長年論じられてきました。", "answer": "The debate has been discussed for many years by numerous scholars.", "cefrLevel": "C2", "tags": ["research"], "hint": "debate / scholars" },
+  { "id": "custom-c2-044", "prompt": "その結果は理論的枠組みを再評価する必要性を示唆しています。", "answer": "The results suggest the need to reassess the theoretical framework.", "cefrLevel": "C2", "tags": ["theory"], "hint": "reassess / framework" },
+  { "id": "custom-c2-045", "prompt": "その作品は文化的背景を理解していないと正しく解釈できません。", "answer": "The work cannot be properly interpreted without a deep understanding of its cultural background.", "cefrLevel": "C2", "tags": ["culture"], "hint": "interpreted / cultural background" },
+  { "id": "custom-c2-046", "prompt": "彼女の主張は高度な論理構造に基づいています。", "answer": "Her argument is based on a highly sophisticated logical structure.", "cefrLevel": "C2", "tags": ["analysis"], "hint": "sophisticated / logical structure" },
+  { "id": "custom-c2-047", "prompt": "この問題は表面的な理解では不十分で、より深い洞察が必要です。", "answer": "A superficial understanding of this issue is insufficient; deeper insight is required.", "cefrLevel": "C2", "tags": ["analysis"], "hint": "superficial / deeper insight" },
+  { "id": "custom-c2-048", "prompt": "その報告書は複雑なデータを精緻にまとめています。", "answer": "The report synthesizes complex data with great precision.", "cefrLevel": "C2", "tags": ["research"], "hint": "precision / synthesizes" },
+  { "id": "custom-c2-049", "prompt": "その判断は状況全体を包括的に捉えた上で行われました。", "answer": "The decision was made based on a comprehensive understanding of the entire situation.", "cefrLevel": "C2", "tags": ["analysis"], "hint": "comprehensive / entire situation" },
+  { "id": "custom-c2-050", "prompt": "この研究は従来の仮説を根本的に見直す必要性を示しています。", "answer": "This study indicates the need to fundamentally reconsider traditional hypotheses.", "cefrLevel": "C2", "tags": ["research"], "hint": "fundamentally / hypotheses" },
+  { "id": "custom-c2-051", "prompt": "お客様の期待を上回るサービスを提供できるよう努めています。", "answer": "We strive to provide service that exceeds customer expectations.", "cefrLevel": "C2", "tags": ["customer-service"], "hint": "exceeds expectations" },
+  { "id": "custom-c2-052", "prompt": "問題の根本原因を特定し、それに基づいた改善策を提案します。", "answer": "We identify the root cause of the problem and propose improvements based on it.", "cefrLevel": "C2", "tags": ["analysis"], "hint": "root cause" },
+  { "id": "custom-c2-053", "prompt": "この決定が事業全体に与える影響を慎重に評価する必要があります。", "answer": "We must carefully evaluate how this decision impacts the entire business.", "cefrLevel": "C2", "tags": ["business"], "hint": "evaluate" },
+  { "id":"custom-c2-054", "prompt": "リスクを最小限に抑えるため、複数の選択肢を比較検討しました。", "answer": "We reviewed several options to minimize the risks.", "cefrLevel": "C2", "tags": ["business"], "hint": "minimize risks" },
+  { "id": "custom-c2-055", "prompt": "この戦略が長期的に持続可能かどうか検証する必要があります。", "answer": "We need to assess whether this strategy is sustainable in the long term.", "cefrLevel": "C2", "tags": ["business"], "hint": "sustainable" },
+  { "id": "custom-c2-056", "prompt": "利害関係者との合意形成は非常に重要です。", "answer": "Building consensus among stakeholders is essential.", "cefrLevel": "C2", "tags": ["business"], "hint": "consensus" },
+  { "id": "custom-c2-057", "prompt": "複雑な問題でも説得力のある説明を心がけています。", "answer": "Even with complex issues, I aim to provide clear and persuasive explanations.", "cefrLevel": "C2", "tags": ["business"], "hint": "persuasive" },
+  { "id": "custom-c2-058", "prompt": "この提案は状況の変化に柔軟に対応できます。", "answer": "This proposal can adapt flexibly to changing conditions.", "cefrLevel": "C2", "tags": ["business"], "hint": "adapt flexibly" },
+  { "id": "custom-c2-059", "prompt": "今後の展開を見据えて、包括的なアプローチが必要です。", "answer": "A comprehensive approach is necessary, considering future developments.", "cefrLevel": "C2", "tags": ["business"], "hint": "comprehensive" },
+  { "id": "custom-c2-060", "prompt": "課題を整理し、優先度に応じて戦略的に対応する必要があります。", "answer": "We must organize the issues and address them strategically based on priority.", "cefrLevel": "C2", "tags": ["business"], "hint": "strategically" },
+  { "id": "custom-c2-061", "prompt": "問題の背景を詳しく分析し、改善計画を立案しました。", "answer": "We analyzed the background of the issue in detail and created an improvement plan.", "cefrLevel": "C2", "tags": ["analysis"], "hint": "background / improvement plan" },
+  { "id": "custom-c2-062", "prompt": "すべての関係者の意見を踏まえたうえで決定を行う必要があります。", "answer": "We need to make decisions based on the opinions of all stakeholders.", "cefrLevel": "C2", "tags": ["business"], "hint": "stakeholders" },
+  { "id": "custom-c2-063", "prompt": "長期的な影響を考慮した包括的な対応が必要です。", "answer": "A comprehensive response considering long-term effects is required.", "cefrLevel": "C2", "tags": ["analysis"], "hint": "comprehensive" },
+  { "id": "custom-c2-064", "prompt": "この課題の優先順位を再評価する必要があります。", "answer": "We need to reassess the priority of this issue.", "cefrLevel": "C2", "tags": ["business"], "hint": "reassess priority" },
+  { "id": "custom-c2-065", "prompt": "複雑な問題にも柔軟に対処できる体制を整えています。", "answer": "We are establishing a system that can flexibly handle complex issues.", "cefrLevel": "C2", "tags": ["business"], "hint": "flexibly handle" },
+  { "id": "custom-c2-066", "prompt": "説明責任を果たすために、詳細な報告書を作成しました。", "answer": "We prepared a detailed report to ensure accountability.", "cefrLevel": "C2", "tags": ["business"], "hint": "accountability" },
+  { "id": "custom-c2-067", "prompt": "予測されるリスクに対して事前に対策を講じました。", "answer": "We took precautionary measures for the anticipated risks.", "cefrLevel": "C2", "tags": ["analysis"], "hint": "precautionary measures" },
+  { "id": "custom-c2-068", "prompt": "この問題の影響範囲を慎重に評価する必要があります。", "answer": "We must carefully assess the scope of the impact of this issue.", "cefrLevel": "C2", "tags": ["analysis"], "hint": "scope of impact" },
+  { "id": "custom-c2-069", "prompt": "最適な結果を得るために複数のシナリオを検討しました。", "answer": "We examined multiple scenarios to achieve the best outcome.", "cefrLevel": "C2", "tags": ["business"], "hint": "scenarios" },
+  { "id": "custom-c2-070", "prompt": "組織全体の改善に向け、戦略的な変更を提案します。", "answer": "I propose strategic changes for the improvement of the entire organization.", "cefrLevel": "C2", "tags": ["business"], "hint": "strategic changes" },
+  { "id": "custom-c2-071", "prompt": "根本的な原因分析に基づいた改善策を提示します。", "answer": "We will present improvements based on a fundamental root cause analysis.", "cefrLevel": "C2", "tags": ["analysis"], "hint": "root cause analysis" },
+  { "id": "custom-c2-072", "prompt": "長期的な成長を見据えた戦略的な意思決定が求められます。", "answer": "Strategic decisions aimed at long-term growth are required.", "cefrLevel": "C2", "tags": ["business"], "hint": "strategic decisions" },
+  { "id": "custom-c2-073", "prompt": "複数の要因を総合的に評価する必要があります。", "answer": "We need to evaluate multiple factors comprehensively.", "cefrLevel": "C2", "tags": ["analysis"], "hint": "comprehensively" },
+  { "id": "custom-c2-074", "prompt": "重要な利害関係者の意見を調整し、最終案をまとめます。", "answer": "We will coordinate stakeholder opinions and finalize the proposal.", "cefrLevel": "C2", "tags": ["business"], "hint": "stakeholder opinions" },
+  { "id": "custom-c2-075", "prompt": "潜在的なリスクを洗い出し、優先度を設定しています。", "answer": "We are identifying potential risks and setting priorities.", "cefrLevel": "C2", "tags": ["analysis"], "hint": "potential risks" },
+  { "id": "custom-c2-076", "prompt": "大きな影響を避けるために代替計画を準備しています。", "answer": "We are preparing contingency plans to avoid significant impact.", "cefrLevel": "C2", "tags": ["analysis"], "hint": "contingency plans" },
+  { "id": "custom-c2-077", "prompt": "異なる意見を統合し、建設的な議論を促進します。", "answer": "We will integrate different opinions and facilitate constructive discussions.", "cefrLevel": "C2", "tags": ["business"], "hint": "facilitate discussions" },
+  { "id": "custom-c2-078", "prompt": "将来の不確実性に備えた柔軟な戦略が必要です。", "answer": "A flexible strategy is required to prepare for future uncertainties.", "cefrLevel": "C2", "tags": ["business"], "hint": "uncertainties" },
+  { "id": "custom-c2-079", "prompt": "各選択肢の長所と短所を慎重に比較しました。", "answer": "We carefully compared the strengths and weaknesses of each option.", "cefrLevel": "C2", "tags": ["analysis"], "hint": "strengths and weaknesses" },
+  { "id": "custom-c2-080", "prompt": "組織全体にとって最も効果的な方向性を提示します。", "answer": "We will present the most effective direction for the entire organization.", "cefrLevel": "C2", "tags": ["business"], "hint": "effective direction" },
+  { "id": "custom-c2-081", "prompt": "状況の変化を踏まえて、戦略を再定義する必要があります。", "answer": "We need to redefine our strategy based on the changing circumstances.", "cefrLevel": "C2", "tags": ["business"], "hint": "redefine strategy" },
+  { "id": "custom-c2-082", "prompt": "複数のリスクを総合的に評価し、優先順位を設定しました。", "answer": "We evaluated multiple risks comprehensively and set priorities.", "cefrLevel": "C2", "tags": ["analysis"], "hint": "evaluate risks" },
+  { "id": "custom-c2-083", "prompt": "データに基づいた判断が重要となります。", "answer": "Data-driven decision making is essential.", "cefrLevel": "C2", "tags": ["business"], "hint": "data-driven" },
+  { "id": "custom-c2-084", "prompt": "長期的な成果を最大化するために計画を再調整しました。", "answer": "We readjusted the plan to maximize long-term outcomes.", "cefrLevel": "C2", "tags": ["analysis"], "hint": "readjust" },
+  { "id": "custom-c2-085", "prompt": "関係者間で情報を統合し、一貫した方針を策定しました。", "answer": "We integrated information among stakeholders and developed a unified policy.", "cefrLevel": "C2", "tags": ["business"], "hint": "unified policy" },
+  { "id": "custom-c2-086", "prompt": "複雑な課題にも耐えうる体制を整備しています。", "answer": "We are establishing a system capable of handling complex challenges.", "cefrLevel": "C2", "tags": ["analysis"], "hint": "complex challenges" },
+  { "id": "custom-c2-087", "prompt": "影響分析に基づき、リスクを最小化する戦略を選択しました。", "answer": "We selected a strategy that minimizes risk based on impact analysis.", "cefrLevel": "C2", "tags": ["analysis"], "hint": "impact analysis" },
+  { "id": "custom-c2-088", "prompt": "将来の不確実性に備えた複数のシナリオを構築しました。", "answer": "We built multiple scenarios to prepare for future uncertainties.", "cefrLevel": "C2", "tags": ["business"], "hint": "scenarios" },
+  { "id": "custom-c2-089", "prompt": "潜在的な問題を早期に発見し、改善策を講じています。", "answer": "We detect potential issues early and implement improvements.", "cefrLevel": "C2", "tags": ["analysis"], "hint": "potential issues" },
+  { "id": "custom-c2-090", "prompt": "組織の方向性を明確にするため、戦略的な提言を行います。", "answer": "We provide strategic recommendations to clarify the organization's direction.", "cefrLevel": "C2", "tags": ["business"], "hint": "strategic recommendations" },
+  { "id": "custom-c2-091", "prompt": "複雑な利害を踏まえて、全体最適となる戦略を設計しました。", "answer": "We designed a strategy that optimizes the whole while considering complex interests.", "cefrLevel": "C2", "tags": ["business"], "hint": "optimize the whole" },
+  { "id": "custom-c2-092", "prompt": "長期的な成功を見据え、複数のシナリオで計画を評価しました。", "answer": "We evaluated the plan through multiple scenarios with long-term success in mind.", "cefrLevel": "C2", "tags": ["analysis"], "hint": "multiple scenarios" },
+  { "id": "custom-c2-093", "prompt": "組織全体の効率を高めるためにプロセスを再構築しました。", "answer": "We restructured the process to enhance the overall efficiency of the organization.", "cefrLevel": "C2", "tags": ["analysis"], "hint": "enhance efficiency" },
+  { "id": "custom-c2-094", "prompt": "高い不確実性を想定したリスク管理モデルを導入しました。", "answer": "We introduced a risk management model designed for high uncertainty.", "cefrLevel": "C2", "tags": ["analysis"], "hint": "risk management" },
+  { "id": "custom-c2-095", "prompt": "状況の変化に柔軟に対応できる組織体制を構築しました。", "answer": "We built an organizational structure capable of adapting flexibly to changing conditions.", "cefrLevel": "C2", "tags": ["business"], "hint": "organizational structure" },
+  { "id": "custom-c2-096", "prompt": "全体戦略を見直し、重要な優先順位を再定義しました。", "answer": "We reviewed the overall strategy and redefined the key priorities.", "cefrLevel": "C2", "tags": ["analysis"], "hint": "redefined priorities" },
+  { "id": "custom-c2-097", "prompt": "複数のデータソースを統合し、信頼性の高い分析を行いました。", "answer": "We integrated multiple data sources to conduct a highly reliable analysis.", "cefrLevel": "C2", "tags": ["analysis"], "hint": "multiple data sources" },
+  { "id": "custom-c2-098", "prompt": "最適な意思決定を可能にするための評価基準を策定しました。", "answer": "We established evaluation criteria to support optimal decision-making.", "cefrLevel": "C2", "tags": ["business"], "hint": "evaluation criteria" },
+  { "id": "custom-c2-099", "prompt": "チーム全体が共通認識を持てるよう情報を統合しました。", "answer": "We consolidated the information so the whole team could share a common understanding.", "cefrLevel": "C2", "tags": ["business"], "hint": "common understanding" },
+  { "id": "custom-c2-100", "prompt": "企業価値向上に向けた最も効果的な戦略を提案します。", "answer": "We propose the most effective strategy to enhance corporate value.", "cefrLevel": "C2", "tags": ["business"], "hint": "enhance corporate value" }
 ]

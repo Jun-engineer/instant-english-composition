@@ -58,6 +58,8 @@ export const CARD_TAGS = [
   'work'
 ];
 
+export const COMMON_CARD_TAGS = ['business', 'analysis', 'work', 'hotel', 'restaurant', 'daily-life'];
+
 export const STORAGE_KEY = 'iec-learning-history-v1';
 
 export const API_ENDPOINTS = {

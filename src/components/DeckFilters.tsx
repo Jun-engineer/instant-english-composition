@@ -1,9 +1,9 @@
 'use client';
 
-import { useCallback, useMemo } from 'react';
+import { useCallback, useMemo, useState } from 'react';
 import type { ChangeEvent } from 'react';
 import classNames from 'classnames';
-import { CEFR_LEVELS, CARD_TAGS } from '@/lib/constants';
+import { CEFR_LEVELS, CARD_TAGS, COMMON_CARD_TAGS } from '@/lib/constants';
 import { useDeckStore } from '@/state/useDeckStore';
 import type { CEFRLevel } from '@/lib/types';
 
@@ -17,6 +17,7 @@ export function DeckFilters({ onSubmit, loading = false }: DeckFiltersProps) {
   const setFilters = useDeckStore((state) => state.setFilters);
   const hasLevelSelected = filters.levels.length > 0;
   const limitValue = Number.isFinite(filters.limit) ? filters.limit : 12;
+  const [showAllTags, setShowAllTags] = useState(false);
 
   const toggleLevel = useCallback(
     (level: CEFRLevel) => {
@@ -67,24 +68,50 @@ export function DeckFilters({ onSubmit, loading = false }: DeckFiltersProps) {
     [filters.levels, toggleLevel]
   );
 
-  const tagChips = useMemo(
+  const tagChipClass = useCallback(
+    (isActive: boolean) =>
+      classNames(
+        'rounded-full border px-3 py-2 text-xs uppercase tracking-wide transition',
+        isActive
+          ? 'border-amber-300 bg-amber-100 text-amber-700 shadow-sm'
+          : 'border-slate-200 text-slate-500 hover:border-amber-300 hover:text-amber-600'
+      ),
+    []
+  );
+
+  const commonTagChips = useMemo(
     () =>
-      CARD_TAGS.map((tag) => (
+      COMMON_CARD_TAGS.map((tag) => (
         <button
-          key={tag}
+          key={`common-${tag}`}
           type="button"
-          className={classNames(
-            'rounded-full border px-3 py-2 text-xs uppercase tracking-wide transition',
-            filters.tags.includes(tag)
-              ? 'border-amber-300 bg-amber-100 text-amber-700 shadow-sm'
-              : 'border-slate-200 text-slate-500 hover:border-amber-300 hover:text-amber-600'
-          )}
+          className={tagChipClass(filters.tags.includes(tag))}
           onClick={() => toggleTag(tag)}
         >
           {tag}
         </button>
       )),
-    [filters.tags, toggleTag]
+    [filters.tags, tagChipClass, toggleTag]
+  );
+
+  const otherTags = useMemo(
+    () => CARD_TAGS.filter((tag) => !COMMON_CARD_TAGS.includes(tag)),
+    []
+  );
+
+  const otherTagChips = useMemo(
+    () =>
+      otherTags.map((tag) => (
+        <button
+          key={`other-${tag}`}
+          type="button"
+          className={tagChipClass(filters.tags.includes(tag))}
+          onClick={() => toggleTag(tag)}
+        >
+          {tag}
+        </button>
+      )),
+    [filters.tags, otherTags, tagChipClass, toggleTag]
   );
 
   return (
@@ -99,7 +126,27 @@ export function DeckFilters({ onSubmit, loading = false }: DeckFiltersProps) {
       </div>
       <div>
         <p className="text-xs uppercase tracking-wide text-slate-500">トピック</p>
-        <div className="mt-3 flex flex-wrap gap-2">{tagChips}</div>
+        <div className="mt-3 flex flex-col gap-3">
+          <div className="flex flex-wrap gap-2">
+            {commonTagChips}
+          </div>
+          {otherTags.length ? (
+            <div className="flex flex-col gap-3">
+              <button
+                type="button"
+                className="self-start text-xs font-semibold text-blue-600 underline decoration-dotted"
+                onClick={() => setShowAllTags((prev) => !prev)}
+              >
+                {showAllTags ? 'その他のトピックを隠す' : 'その他のトピックを見る'}
+              </button>
+              {showAllTags ? (
+                <div className="max-h-48 overflow-y-auto rounded-2xl border border-slate-200 bg-white/70 p-3">
+                  <div className="flex flex-wrap gap-2">{otherTagChips}</div>
+                </div>
+              ) : null}
+            </div>
+          ) : null}
+        </div>
       </div>
       <div>
         <p className="text-xs uppercase tracking-wide text-slate-500">カード枚数 (0〜100)</p>
