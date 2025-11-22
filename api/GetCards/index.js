@@ -19,28 +19,33 @@ async function fetchFromCosmos(filters, limit) {
     return null;
   }
 
-  const parameters = [];
-  let query = 'SELECT TOP @limit c.id, c.prompt, c.answer, c.cefrLevel, c.tags, c.hint FROM c';
-  parameters.push({ name: '@limit', value: limit });
+  try {
+    const parameters = [];
+    let query = 'SELECT TOP @limit c.id, c.prompt, c.answer, c.cefrLevel, c.tags, c.hint FROM c';
+    parameters.push({ name: '@limit', value: limit });
 
-  const conditions = [];
-  if (filters.levels.length) {
-    parameters.push({ name: '@levels', value: filters.levels });
-    conditions.push('ARRAY_CONTAINS(@levels, c.cefrLevel)');
-  }
-  if (filters.tags.length) {
-    parameters.push({ name: '@tags', value: filters.tags });
-    conditions.push('ARRAY_LENGTH(ARRAY_INTERSECT(c.tags, @tags)) > 0');
-  }
+    const conditions = [];
+    if (filters.levels.length) {
+      parameters.push({ name: '@levels', value: filters.levels });
+      conditions.push('ARRAY_CONTAINS(@levels, c.cefrLevel)');
+    }
+    if (filters.tags.length) {
+      parameters.push({ name: '@tags', value: filters.tags });
+      conditions.push('ARRAY_LENGTH(ARRAY_INTERSECT(c.tags, @tags)) > 0');
+    }
 
-  if (conditions.length) {
-    query += ` WHERE ${conditions.join(' AND ')}`;
-  }
-  query += ' ORDER BY c._ts DESC';
+    if (conditions.length) {
+      query += ` WHERE ${conditions.join(' AND ')}`;
+    }
+    query += ' ORDER BY c._ts DESC';
 
-  const iterator = container.items.query({ query, parameters });
-  const { resources } = await iterator.fetchAll();
-  return resources;
+    const iterator = container.items.query({ query, parameters });
+    const { resources } = await iterator.fetchAll();
+    return resources;
+  } catch (error) {
+    console.error('Cosmos query failed; falling back to sample data.', error);
+    return null;
+  }
 }
 
 export default async function (context, req) {

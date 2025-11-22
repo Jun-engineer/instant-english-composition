@@ -5,6 +5,7 @@ import { STORAGE_KEY } from '@/lib/constants';
 import type { DeckState, DeckCard, ReviewStatus, DeckFilters } from '@/lib/types';
 
 const DEFAULT_CARD_LIMIT = 12;
+const STORE_VERSION = 2;
 
 function unique<T>(values: T[]): T[] {
   return Array.from(new Set(values));
@@ -112,11 +113,25 @@ export const useDeckStore = create<Store>()(
     }),
     {
       name: STORAGE_KEY,
+      version: STORE_VERSION,
       storage: createJSONStorage<PersistedStore>(() => (typeof window !== 'undefined' ? window.localStorage : memoryStorage)),
       partialize: (state: Store) => ({
         filters: state.filters,
         history: state.history
       }),
+      migrate: (persistedState, version) => {
+        const state = (persistedState as PersistedStore | undefined) ?? {
+          filters: initialState.filters,
+          history: initialState.history
+        };
+        if (version < STORE_VERSION) {
+          return {
+            ...state,
+            filters: initialState.filters
+          } satisfies PersistedStore;
+        }
+        return state;
+      },
       merge: (persistedState, currentState) => ({
         ...currentState,
         ...(persistedState as Store),
