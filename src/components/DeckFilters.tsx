@@ -1,6 +1,6 @@
 'use client';
 
-import { useCallback, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import type { ChangeEvent } from 'react';
 import classNames from 'classnames';
 import { CEFR_LEVELS, CARD_TAGS, COMMON_CARD_TAGS } from '@/lib/constants';
@@ -16,8 +16,15 @@ export function DeckFilters({ onSubmit, loading = false }: DeckFiltersProps) {
   const filters = useDeckStore((state) => state.filters);
   const setFilters = useDeckStore((state) => state.setFilters);
   const hasLevelSelected = filters.levels.length > 0;
-  const limitValue = Number.isFinite(filters.limit) ? filters.limit : 12;
+  const [limitInput, setLimitInput] = useState<string>(() => (
+    Number.isFinite(filters.limit) && filters.limit > 0 ? String(filters.limit) : ''
+  ));
   const [showAllTags, setShowAllTags] = useState(false);
+
+  useEffect(() => {
+    const nextValue = Number.isFinite(filters.limit) && filters.limit > 0 ? String(filters.limit) : '';
+    setLimitInput(nextValue);
+  }, [filters.limit]);
 
   const toggleLevel = useCallback(
     (level: CEFRLevel) => {
@@ -41,8 +48,20 @@ export function DeckFilters({ onSubmit, loading = false }: DeckFiltersProps) {
 
   const handleLimitChange = useCallback(
     (event: ChangeEvent<HTMLInputElement>) => {
-      const raw = Number.parseInt(event.target.value, 10);
-      const next = Number.isFinite(raw) ? Math.min(Math.max(raw, 0), 100) : 0;
+      const { value } = event.target;
+      if (value === '') {
+        setLimitInput('');
+        setFilters({ ...filters, limit: 0 });
+        return;
+      }
+
+      const raw = Number.parseInt(value, 10);
+      if (Number.isNaN(raw)) {
+        return;
+      }
+
+      const next = Math.min(Math.max(raw, 0), 100);
+      setLimitInput(String(next));
       setFilters({ ...filters, limit: next });
     },
     [filters, setFilters]
@@ -158,7 +177,7 @@ export function DeckFilters({ onSubmit, loading = false }: DeckFiltersProps) {
             max={100}
             step={1}
             className="w-32 rounded-xl border border-slate-200 bg-white px-4 py-2 text-sm text-slate-700 shadow-sm focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-200"
-            value={limitValue}
+            value={limitInput}
             onChange={handleLimitChange}
           />
           <span className="text-xs text-slate-500">0 のままにすると標準枚数（12枚）になります。</span>

@@ -14,6 +14,7 @@ export interface DeckCard {
 export interface VocabularyDefinition {
   definition: string;
   example?: string;
+  translation?: string;
 }
 
 export interface VocabularyMeaning {
