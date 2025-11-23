@@ -63,15 +63,18 @@ export function VocabularyModal({ word, onClose }: VocabularyModalProps) {
 
   return (
     <div className="fixed inset-0 z-40 flex items-center justify-center bg-slate-900/40 px-4 py-8 backdrop-blur-sm">
-      <div className="relative w-full max-w-lg rounded-3xl bg-white p-6 shadow-2xl">
-        <button
-          type="button"
-          className="absolute right-4 top-4 rounded-full border border-slate-200 bg-white px-2 py-1 text-xs font-semibold text-slate-500 transition hover:border-slate-300 hover:text-slate-700"
-          onClick={onClose}
-        >
-          閉じる
-        </button>
-        <div className="space-y-4">
+      <div className="relative max-h-[90vh] w-full max-w-lg overflow-hidden rounded-3xl bg-white shadow-2xl">
+        <div className="sticky top-0 z-10 flex items-center justify-between border-b border-slate-200 bg-white/95 px-6 py-4 backdrop-blur">
+          <p className="text-xs uppercase tracking-wide text-slate-400">Vocabulary Detail</p>
+          <button
+            type="button"
+            className="rounded-full border border-slate-200 bg-white px-3 py-1 text-xs font-semibold text-slate-500 transition hover:border-slate-300 hover:text-slate-700"
+            onClick={onClose}
+          >
+            閉じる
+          </button>
+        </div>
+        <div className="max-h-[calc(90vh-4rem)] overflow-y-auto px-6 py-6">
           <header className="space-y-2 text-center">
             <p className="text-xs uppercase tracking-wide text-slate-400">Vocabulary Detail</p>
             <h2 className="text-3xl font-bold text-slate-900">
