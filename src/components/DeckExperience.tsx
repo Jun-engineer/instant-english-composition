@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { FlashCard } from './FlashCard';
 import { DeckFilters } from './DeckFilters';
@@ -175,6 +176,12 @@ export function DeckExperience() {
           >
             始める
           </button>
+          <Link
+            href={{ pathname: '/cefr' }}
+            className="text-sm font-medium text-blue-600 underline decoration-dotted underline-offset-4"
+          >
+            CEFR レベルの目安を見る
+          </Link>
         </section>
       ) : null}
 
