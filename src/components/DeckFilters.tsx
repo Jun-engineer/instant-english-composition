@@ -1,11 +1,13 @@
 'use client';
 
+import Link from 'next/link';
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import type { ChangeEvent } from 'react';
 import classNames from 'classnames';
 import { CEFR_LEVELS, CARD_TAGS, COMMON_CARD_TAGS } from '@/lib/constants';
 import { useDeckStore } from '@/state/useDeckStore';
 import type { CEFRLevel } from '@/lib/types';
+import { CEFR_LEVEL_SUMMARIES } from '@/lib/cefr';
 
 interface DeckFiltersProps {
   onSubmit?: () => void;
@@ -20,6 +22,7 @@ export function DeckFilters({ onSubmit, loading = false }: DeckFiltersProps) {
     Number.isFinite(filters.limit) && filters.limit > 0 ? String(filters.limit) : ''
   ));
   const [showAllTags, setShowAllTags] = useState(false);
+  const [showCefrGuide, setShowCefrGuide] = useState(false);
 
   useEffect(() => {
     const nextValue = Number.isFinite(filters.limit) && filters.limit > 0 ? String(filters.limit) : '';
@@ -142,6 +145,34 @@ export function DeckFilters({ onSubmit, loading = false }: DeckFiltersProps) {
       <div>
         <p className="text-xs uppercase tracking-wide text-slate-500">CEFR レベル</p>
         <div className="mt-3 flex flex-wrap gap-2">{levelChips}</div>
+        <div className="mt-4">
+          <button
+            type="button"
+            className="text-xs font-semibold text-blue-600 underline decoration-dotted underline-offset-4"
+            onClick={() => setShowCefrGuide((prev) => !prev)}
+          >
+            CEFR レベルの目安を{showCefrGuide ? '隠す' : '見る'}
+          </button>
+          {showCefrGuide ? (
+            <div className="mt-3 space-y-3 rounded-2xl border border-slate-200 bg-white/80 p-4 text-sm text-slate-600 shadow-inner">
+              {CEFR_LEVEL_SUMMARIES.map((summary) => (
+                <div key={summary.level} className="rounded-2xl bg-slate-50/70 p-3">
+                  <div className="flex items-baseline justify-between gap-3">
+                    <span className="text-base font-bold text-slate-900">{summary.level}</span>
+                    <span className="text-xs font-semibold uppercase tracking-wide text-blue-500">{summary.label}</span>
+                  </div>
+                  <p className="mt-2 text-xs leading-relaxed text-slate-600">{summary.headline}</p>
+                </div>
+              ))}
+              <Link
+                href={{ pathname: '/cefr' }}
+                className="block text-xs font-semibold text-blue-600 underline decoration-dotted underline-offset-4"
+              >
+                詳しい解説を見る
+              </Link>
+            </div>
+          ) : null}
+        </div>
       </div>
       <div>
         <p className="text-xs uppercase tracking-wide text-slate-500">トピック</p>
