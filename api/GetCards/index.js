@@ -61,13 +61,20 @@ export default async function (context, req) {
     };
 
     const cosmosCards = await fetchFromCosmos(filters, limit);
-    const cards = cosmosCards && cosmosCards.length
-      ? cosmosCards
-      : sampleCards.filter((card) => {
-          const levelMatch = !filters.levels.length || filters.levels.includes(card.cefrLevel);
-          const tagMatch = !filters.tags.length || card.tags.some((tag) => filters.tags.includes(tag));
-          return levelMatch && tagMatch;
-        }).slice(0, limit);
+    const fallbackPool = sampleCards.filter((card) => {
+      const levelMatch = !filters.levels.length || filters.levels.includes(card.cefrLevel);
+      const tagMatch = !filters.tags.length || card.tags.some((tag) => filters.tags.includes(tag));
+      return levelMatch && tagMatch;
+    });
+
+    let cards;
+    if (cosmosCards && cosmosCards.length) {
+      const seenIds = new Set(cosmosCards.map((card) => card.id));
+      const supplemental = fallbackPool.filter((card) => !seenIds.has(card.id));
+      cards = [...cosmosCards, ...supplemental].slice(0, limit);
+    } else {
+      cards = fallbackPool.slice(0, limit);
+    }
 
     jsonResponse(context, 200, { cards });
   } catch (error) {

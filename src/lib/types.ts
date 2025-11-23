@@ -11,6 +11,27 @@ export interface DeckCard {
   hint?: string;
 }
 
+export interface VocabularyDefinition {
+  definition: string;
+  example?: string;
+}
+
+export interface VocabularyMeaning {
+  partOfSpeech: string;
+  definitions: VocabularyDefinition[];
+}
+
+export interface VocabularyEntry {
+  word: string;
+  phonetic?: string;
+  audioUrl?: string;
+  meanings: VocabularyMeaning[];
+}
+
+export interface VocabularyFavorite extends VocabularyEntry {
+  savedAt: number;
+}
+
 export interface ReviewRecord {
   cardId: string;
   status: ReviewStatus;
@@ -38,4 +59,5 @@ export interface DeckState {
   deck: DeckCard[];
   isFlipped: boolean;
   session: SessionStats;
+  vocabularyFavorites: VocabularyFavorite[];
 }

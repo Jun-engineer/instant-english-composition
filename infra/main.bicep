@@ -11,6 +11,8 @@ param repositoryUrl string = ''
 param repositoryBranch string = 'main'
 param namePrefix string = 'iec'
 param environment string = 'dev'
+@description('Optional custom domain to bind to the Static Web App (e.g., speedspeak.jp). Leave empty to skip binding.')
+param customDomainName string = ''
 
 var uniqueSuffix = toLower(uniqueString(resourceGroup().id, namePrefix, environment))
 var staticSiteName = toLower('${namePrefix}${environment}${uniqueSuffix}')
@@ -33,6 +35,8 @@ var staticSiteRepoProperties = empty(repositoryUrl) ? {} : {
   repositoryUrl: repositoryUrl
   branch: repositoryBranch
 }
+
+var enableCustomDomain = !empty(customDomainName)
 
 resource storageAccount 'Microsoft.Storage/storageAccounts@2023-01-01' = {
   name: storageAccountName
@@ -100,6 +104,14 @@ resource staticSite 'Microsoft.Web/staticSites@2022-09-01' = {
     tier: 'Free'
   }
   properties: union(staticSiteBaseProperties, staticSiteRepoProperties)
+}
+
+resource staticSiteCustomDomain 'Microsoft.Web/staticSites/customDomains@2022-09-01' = if (enableCustomDomain) {
+  name: customDomainName
+  parent: staticSite
+  properties: {
+    validationMethod: 'dns-txt-token'
+  }
 }
 
 resource cosmosAccount 'Microsoft.DocumentDB/databaseAccounts@2023-11-15' = {

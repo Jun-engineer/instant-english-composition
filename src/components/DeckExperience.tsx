@@ -3,11 +3,22 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { FlashCard } from './FlashCard';
 import { DeckFilters } from './DeckFilters';
+import { FavoritesPanel } from './FavoritesPanel';
+import { VocabularyModal } from './VocabularyModal';
 import { useDeckStore } from '@/state/useDeckStore';
 import { fetchCards } from '@/lib/api';
 import type { DeckCard, ReviewStatus } from '@/lib/types';
 
 type Step = 'intro' | 'filters' | 'training' | 'results';
+
+function shuffleDeck(cards: DeckCard[]) {
+  const copy = [...cards];
+  for (let i = copy.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [copy[i], copy[j]] = [copy[j], copy[i]];
+  }
+  return copy;
+}
 
 export function DeckExperience() {
   const filters = useDeckStore((state) => state.filters);
@@ -20,12 +31,15 @@ export function DeckExperience() {
   const isFlipped = useDeckStore((state) => state.isFlipped);
   const session = useDeckStore((state) => state.session);
   const history = useDeckStore((state) => state.history);
+  const favorites = useDeckStore((state) => state.vocabularyFavorites);
 
   const [step, setStep] = useState<Step>('intro');
   const [activeCards, setActiveCards] = useState<DeckCard[]>([]);
   const [loading, setLoading] = useState(false);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
   const [swipeFeedback, setSwipeFeedback] = useState<ReviewStatus | null>(null);
+  const [selectedWord, setSelectedWord] = useState<string | null>(null);
+  const [showFavorites, setShowFavorites] = useState(false);
   const feedbackTimeout = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const currentCard = deck[currentIndex] ?? null;
@@ -77,8 +91,9 @@ export function DeckExperience() {
         return;
       }
       resetSession();
-      setDeck(cards);
-      setActiveCards(cards);
+      const randomized = shuffleDeck(cards);
+      setDeck(randomized);
+      setActiveCards(randomized);
       setStep('training');
     } catch (fetchError) {
       console.error(fetchError);
@@ -133,10 +148,15 @@ export function DeckExperience() {
       return;
     }
     resetSession();
-    setDeck(retryCards);
-    setActiveCards(retryCards);
+    const randomized = shuffleDeck(retryCards);
+    setDeck(randomized);
+    setActiveCards(randomized);
     setStep('training');
   }, [handleBackHome, resetSession, retryCards, setDeck]);
+
+  const handleWordSelect = useCallback((word: string) => {
+    setSelectedWord(word);
+  }, []);
 
   return (
     <div className="flex min-h-[100svh] flex-col items-center justify-center gap-8 bg-gradient-to-br from-indigo-50 via-white to-sky-50 px-4 py-12 text-slate-900 sm:py-16">
@@ -192,6 +212,7 @@ export function DeckExperience() {
             onToggle={toggleFlip}
             onSwipe={handleSwipe}
             interactive={!loading && !!currentCard}
+            onWordSelect={handleWordSelect}
           />
           <div className="space-y-1 text-xs text-slate-500">
             <p>タップで解答表示 / 右にスワイプで正解 / 左にスワイプで復習</p>
@@ -200,13 +221,20 @@ export function DeckExperience() {
             ) : null}
             {swipeFeedback === 'retry' ? <p className="text-rose-600">復習に追加しました。</p> : null}
           </div>
-          <div className="flex w-full flex-col gap-3 text-sm text-slate-500 sm:flex-row sm:justify-between">
+          <div className="flex w-full flex-col gap-3 text-sm text-slate-500 sm:flex-row sm:items-center sm:justify-between">
             <button
               type="button"
               className="underline decoration-slate-300 hover:text-slate-700"
               onClick={handleEditSelection}
             >
               条件を変更する
+            </button>
+            <button
+              type="button"
+              className="rounded-full border border-emerald-200 bg-emerald-50 px-4 py-2 text-xs font-semibold text-emerald-700 transition hover:bg-emerald-100"
+              onClick={() => setShowFavorites(true)}
+            >
+              お気に入りを見る ({favorites.length})
             </button>
           </div>
         </section>
@@ -258,9 +286,22 @@ export function DeckExperience() {
                 トップに戻る
               </button>
             ) : null}
+            <button
+              type="button"
+              className="w-full rounded-2xl border border-emerald-200 px-6 py-3 text-base font-semibold text-emerald-600 transition hover:bg-emerald-50"
+              onClick={() => setShowFavorites(true)}
+            >
+              お気に入りを見る ({favorites.length})
+            </button>
           </div>
         </section>
       ) : null}
+
+      {selectedWord ? (
+        <VocabularyModal word={selectedWord} onClose={() => setSelectedWord(null)} />
+      ) : null}
+
+      {showFavorites ? <FavoritesPanel onClose={() => setShowFavorites(false)} /> : null}
     </div>
   );
 }

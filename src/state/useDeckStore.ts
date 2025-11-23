@@ -2,10 +2,17 @@ import { create } from 'zustand';
 import { persist, createJSONStorage } from 'zustand/middleware';
 import type { StateStorage } from 'zustand/middleware';
 import { STORAGE_KEY } from '@/lib/constants';
-import type { DeckState, DeckCard, ReviewStatus, DeckFilters } from '@/lib/types';
+import type {
+  DeckState,
+  DeckCard,
+  ReviewStatus,
+  DeckFilters,
+  VocabularyEntry,
+  VocabularyFavorite
+} from '@/lib/types';
 
 const DEFAULT_CARD_LIMIT = 12;
-const STORE_VERSION = 2;
+const STORE_VERSION = 3;
 
 function unique<T>(values: T[]): T[] {
   return Array.from(new Set(values));
@@ -29,6 +36,8 @@ interface DeckActions {
   toggleFlip: () => void;
   setFilters: (filters: DeckFilters) => void;
   resetSession: () => void;
+  addFavorite: (entry: VocabularyEntry) => void;
+  removeFavorite: (word: string) => void;
 }
 
 const initialState: DeckState = {
@@ -42,7 +51,8 @@ const initialState: DeckState = {
     successes: 0,
     retries: 0,
     streak: 0
-  }
+  },
+  vocabularyFavorites: []
 };
 
 function getNextIndex(state: DeckState) {
@@ -60,7 +70,7 @@ const memoryStorage: StateStorage = {
 type Store = DeckState & DeckActions;
 
 type SetState = (partial: Store | Partial<Store> | ((state: Store) => Store | Partial<Store>), replace?: boolean) => void;
-type PersistedStore = Pick<Store, 'filters' | 'history'>;
+type PersistedStore = Pick<Store, 'filters' | 'history' | 'vocabularyFavorites'>;
 
 export const useDeckStore = create<Store>()(
   persist<Store, [], [], PersistedStore>(
@@ -109,6 +119,33 @@ export const useDeckStore = create<Store>()(
         history: initialState.history,
         currentCardIndex: initialState.currentCardIndex,
         isFlipped: false
+      }),
+      addFavorite: (entry: VocabularyEntry) => set((state: Store) => {
+        const normalized = entry.word.trim().toLowerCase();
+        if (!normalized) {
+          return {};
+        }
+        const alreadySaved = state.vocabularyFavorites.some((favorite) => favorite.word.toLowerCase() === normalized);
+        if (alreadySaved) {
+          return {};
+        }
+        const favorite: VocabularyFavorite = {
+          ...entry,
+          word: entry.word.trim(),
+          savedAt: Date.now()
+        };
+        return {
+          vocabularyFavorites: [favorite, ...state.vocabularyFavorites].slice(0, 300)
+        } satisfies Partial<Store>;
+      }),
+      removeFavorite: (word: string) => set((state: Store) => {
+        const normalized = word.trim().toLowerCase();
+        if (!normalized) {
+          return {};
+        }
+        return {
+          vocabularyFavorites: state.vocabularyFavorites.filter((favorite) => favorite.word.toLowerCase() !== normalized)
+        } satisfies Partial<Store>;
       })
     }),
     {
@@ -117,28 +154,33 @@ export const useDeckStore = create<Store>()(
       storage: createJSONStorage<PersistedStore>(() => (typeof window !== 'undefined' ? window.localStorage : memoryStorage)),
       partialize: (state: Store) => ({
         filters: state.filters,
-        history: state.history
+        history: state.history,
+        vocabularyFavorites: state.vocabularyFavorites
       }),
       migrate: (persistedState, version) => {
         const state = (persistedState as PersistedStore | undefined) ?? {
           filters: initialState.filters,
-          history: initialState.history
+          history: initialState.history,
+          vocabularyFavorites: initialState.vocabularyFavorites
         };
         if (version < STORE_VERSION) {
           return {
             ...state,
-            filters: initialState.filters
+            filters: initialState.filters,
+            vocabularyFavorites: state.vocabularyFavorites ?? initialState.vocabularyFavorites
           } satisfies PersistedStore;
         }
         return state;
       },
-      merge: (persistedState, currentState) => ({
-        ...currentState,
-        ...(persistedState as Store),
-        filters: sanitizeFilters(
-          (persistedState as Store | undefined)?.filters ?? currentState.filters
-        )
-      })
+      merge: (persistedState, currentState) => {
+        const persisted = persistedState as PersistedStore | undefined;
+        return {
+          ...currentState,
+          filters: sanitizeFilters(persisted?.filters ?? currentState.filters),
+          history: persisted?.history ?? currentState.history,
+          vocabularyFavorites: persisted?.vocabularyFavorites ?? currentState.vocabularyFavorites
+        };
+      }
     }
   )
 );

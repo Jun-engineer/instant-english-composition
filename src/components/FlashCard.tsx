@@ -13,11 +13,12 @@ interface FlashCardProps {
   onToggle: () => void;
   onSwipe?: (direction: SwipeDirection) => void;
   interactive?: boolean;
+  onWordSelect?: (word: string) => void;
 }
 
 const SWIPE_THRESHOLD = 80;
 
-export function FlashCard({ card, isFlipped, onToggle, onSwipe, interactive = true }: FlashCardProps) {
+export function FlashCard({ card, isFlipped, onToggle, onSwipe, interactive = true, onWordSelect }: FlashCardProps) {
   const [dragOffset, setDragOffset] = useState(0);
   const dragStart = useRef<number | null>(null);
   const pointerId = useRef<number | null>(null);
@@ -82,6 +83,20 @@ export function FlashCard({ card, isFlipped, onToggle, onSwipe, interactive = tr
       transition: isDragging ? 'none' : 'transform 0.25s ease-out'
     } satisfies CSSProperties;
   }, [dragOffset, isDragging]);
+
+  const answerTokens = useMemo(() => {
+    if (!card?.answer) {
+      return [];
+    }
+    return card.answer.split(/(\s+)/);
+  }, [card?.answer]);
+
+  const handleWordSelect = useCallback((raw: string) => {
+    if (!onWordSelect || !interactive) return;
+    const cleaned = raw.replace(/[^A-Za-z'-]/g, '').trim();
+    if (!cleaned) return;
+    onWordSelect(cleaned);
+  }, [interactive, onWordSelect]);
 
   const handleHintToggle = useCallback((event: ReactMouseEvent<HTMLButtonElement>) => {
     event.preventDefault();
@@ -171,7 +186,32 @@ export function FlashCard({ card, isFlipped, onToggle, onSwipe, interactive = tr
                 ))}
               </div>
               <div className="flex flex-1 flex-col items-center justify-center px-2">
-                <p className="text-2xl font-semibold leading-relaxed text-emerald-700">{card.answer}</p>
+                <p className="flex flex-wrap justify-center gap-y-1 text-2xl font-semibold leading-relaxed text-emerald-700">
+                  {answerTokens.map((token, index) => {
+                    if (!token.trim()) {
+                      return <span key={`space-${index}`} className="whitespace-pre">{token}</span>;
+                    }
+                    const isWord = /[A-Za-z]/.test(token);
+                    if (!isWord) {
+                      return <span key={`token-${index}`}>{token}</span>;
+                    }
+                    return (
+                      <button
+                        key={`word-${index}`}
+                        type="button"
+                        className="rounded-md px-1 text-emerald-700 underline decoration-dotted underline-offset-4 transition hover:bg-emerald-50 hover:text-emerald-900 focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-400"
+                        onClick={(event) => {
+                          event.preventDefault();
+                          event.stopPropagation();
+                          handleWordSelect(token);
+                        }}
+                        onPointerDown={(event) => event.stopPropagation()}
+                      >
+                        {token}
+                      </button>
+                    );
+                  })}
+                </p>
               </div>
             </div>
           </div>
