@@ -89,13 +89,6 @@ npm run build:static
 3. Static Web App のデプロイ トークンを取得し、GitHub Secrets `AZURE_STATIC_WEB_APPS_API_TOKEN` に設定。
 4. `main` ブランチへ push すると GitHub Actions (`ci`) がビルドとデプロイを実行。
 
-## 今後の拡張ポイント
-
-- Cosmos DB に実データを投入し、複数デッキや個別スケジュールを管理。
-- Azure OpenAI を活用した解答フィードバックやスピーキング評価の自動化。
-- Key Vault + Managed Identity を用いたシークレット管理 (Static Web App を Standard 以上にアップグレード後)。
-- Application Insights / Log Analytics を組み込み学習状況を可視化。
-
 ## ライセンス
 
-このリポジトリは個人学習用のサンプルとして提供されています。
+© 2025 Jun Nammoku. All rights reserved.

@@ -15,6 +15,7 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
+  const currentYear = new Date().getFullYear();
   return (
     <html lang="ja">
       <head />
@@ -25,6 +26,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           crossOrigin="anonymous"
         />
         <main>{children}</main>
+        <footer className="app-footer">
+          <small>© {currentYear} Jun Nammoku. All rights reserved.</small>
+        </footer>
       </body>
     </html>
   );
