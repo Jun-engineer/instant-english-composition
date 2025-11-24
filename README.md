@@ -11,6 +11,23 @@ CEFR レベルとトピックで練習カードを切り替えながら瞬間英
 - **インフラ**: Bicep で Static Web App、Function App、Cosmos DB、Storage、Key Vault を一括デプロイ。
 - **CI/CD**: GitHub Actions でビルド・静的エクスポート・Functions パッケージを Static Web App にアップロード。
 
+## アーキテクチャ構成図
+
+```mermaid
+graph TD
+   UserBrowser["ユーザーのブラウザ"] -->|HTTPS| StaticWebApp["Azure Static Web Apps\n(Next.js 静的ホスティング)"]
+   StaticWebApp -->|API プロキシ| FunctionApp["Azure Functions\n(Node.js 20)"]
+   FunctionApp -->|SDK/HTTP| CosmosDB["Azure Cosmos DB\n(Serverless, NoSQL)"]
+   FunctionApp -->|シークレット参照| KeyVault["Azure Key Vault\n(資格情報管理)"]
+   GitHubActions["GitHub Actions\n(ci ワークフロー)"] -->|ビルド成果物| StaticWebApp
+   GitHubActions -->|Zip デプロイ| FunctionApp
+   BicepTemplates["Bicep テンプレート"] -->|az deployment| AzureResources["Azure Resource Group"]
+   AzureResources --> StaticWebApp
+   AzureResources --> FunctionApp
+   AzureResources --> CosmosDB
+   AzureResources --> KeyVault
+```
+
 ## ディレクトリ構成
 
 ```
