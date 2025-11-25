@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "prebuild": "npm run prepare:jmdict",
     "build:static": "next build",
+    "prebuild:static": "npm run prepare:jmdict",
     "typecheck": "tsc --noEmit",
     "prepare:jmdict": "node ./scripts/prepare-jmdict.mjs"
   },
