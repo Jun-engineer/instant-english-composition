@@ -91,7 +91,9 @@ function collectExamples(rawMeanings: any[], lookupWords: string[]): VocabularyU
   );
   const patterns = normalizedTargets.map((word) => new RegExp(`\b${escapeRegExp(word)}\b`, 'i'));
   rawMeanings.forEach((meaning) => {
-    const definitions = Array.isArray(meaning?.definitions) ? meaning.definitions : [];
+    const definitions = Array.isArray(meaning?.definitions)
+      ? (meaning.definitions as Array<{ example?: string }>)
+      : [];
     definitions.forEach((definition) => {
       if (typeof definition?.example === 'string' && definition.example.trim().length) {
         const english = definition.example.trim();
