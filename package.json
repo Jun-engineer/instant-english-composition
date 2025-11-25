@@ -8,15 +8,17 @@
     "start": "next start",
     "lint": "next lint",
     "build:static": "next build",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "prepare:jmdict": "node ./scripts/prepare-jmdict.mjs"
   },
   "dependencies": {
+    "classnames": "2.5.1",
+    "fast-xml-parser": "^4.3.6",
     "next": "14.2.33",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "swr": "2.2.5",
-    "zustand": "4.5.2",
-    "classnames": "2.5.1"
+    "zustand": "4.5.2"
   },
   "devDependencies": {
     "@types/node": "20.11.30",

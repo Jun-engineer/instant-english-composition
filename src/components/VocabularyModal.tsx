@@ -61,6 +61,22 @@ export function VocabularyModal({ word, onClose }: VocabularyModalProps) {
     }
   }, [addFavorite, entry, isFavorite, removeFavorite, word]);
 
+  const canUseSpeech = typeof window !== 'undefined' && 'speechSynthesis' in window;
+
+  const handleSpeakWord = useCallback(() => {
+    if (!canUseSpeech) {
+      return;
+    }
+    const target = (entry?.word ?? word).trim();
+    if (!target) {
+      return;
+    }
+    window.speechSynthesis.cancel();
+    const utterance = new SpeechSynthesisUtterance(target);
+    utterance.lang = 'en-US';
+    window.speechSynthesis.speak(utterance);
+  }, [canUseSpeech, entry?.word, word]);
+
   return (
     <div className="fixed inset-0 z-40 flex items-center justify-center bg-slate-900/40 px-4 py-8 backdrop-blur-sm">
       <div className="relative max-h-[90vh] w-full max-w-lg overflow-hidden rounded-3xl bg-white shadow-2xl">
@@ -86,6 +102,15 @@ export function VocabularyModal({ word, onClose }: VocabularyModalProps) {
                 Your browser does not support the audio element.
               </audio>
             ) : null}
+            {!entry?.audioUrl && canUseSpeech ? (
+              <button
+                type="button"
+                className="mt-3 rounded-full border border-blue-200 bg-blue-50 px-4 py-2 text-xs font-semibold text-blue-700 transition hover:bg-blue-100"
+                onClick={handleSpeakWord}
+              >
+                単語を再生する
+              </button>
+            ) : null}
             <button
               type="button"
               className="mt-3 rounded-full border border-amber-300 bg-amber-50 px-4 py-2 text-xs font-semibold text-amber-700 transition hover:bg-amber-100 disabled:opacity-60"
@@ -101,6 +126,21 @@ export function VocabularyModal({ word, onClose }: VocabularyModalProps) {
 
           {!loading && !error && entry ? (
             <div className="space-y-4">
+              {entry.usageExamples?.length ? (
+                <section className="rounded-2xl border border-blue-100 bg-blue-50/60 p-4 text-left">
+                  <p className="text-xs font-semibold uppercase tracking-wide text-blue-600">Usage Examples</p>
+                  <ul className="mt-2 space-y-2 text-sm text-slate-700">
+                    {entry.usageExamples.map((example, index) => (
+                      <li key={`usage-${index}`} className="space-y-1">
+                        <p>{example.english}</p>
+                        {example.japanese ? (
+                          <p className="text-xs text-slate-500">{example.japanese}</p>
+                        ) : null}
+                      </li>
+                    ))}
+                  </ul>
+                </section>
+              ) : null}
               {entry.meanings.map((meaning, meaningIndex) => (
                 <section key={`${meaning.partOfSpeech}-${meaningIndex}`} className="rounded-2xl border border-slate-200 bg-slate-50/60 p-4 text-left">
                   <p className="text-sm font-semibold uppercase tracking-wide text-slate-500">
@@ -110,6 +150,9 @@ export function VocabularyModal({ word, onClose }: VocabularyModalProps) {
                     {meaning.definitions.map((definition, definitionIndex) => (
                       <li key={definitionIndex}>
                         <p className="font-medium text-slate-800">{definition.definition}</p>
+                        {definition.translation ? (
+                          <p className="mt-1 text-xs text-slate-500">英: {definition.translation}</p>
+                        ) : null}
                         {definition.example ? (
                           <p className="mt-1 text-xs italic text-slate-500">例: {definition.example}</p>
                         ) : null}

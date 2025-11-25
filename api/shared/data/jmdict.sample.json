@@ -1,0 +1,46 @@
+{
+  "generatedAt": "2025-01-01T00:00:00.000Z",
+  "entryCount": 3,
+  "entries": [
+    {
+      "id": "1206830",
+      "kanji": ["学習者"],
+      "kana": ["がくしゅうしゃ"],
+      "senses": [
+        {
+          "glosses": ["learner", "student"],
+          "partsOfSpeech": ["noun (common) (futsuumeishi)"]
+        }
+      ]
+    },
+    {
+      "id": "1379380",
+      "kanji": ["生徒"],
+      "kana": ["せいと"],
+      "senses": [
+        {
+          "glosses": ["pupil", "student"],
+          "partsOfSpeech": ["noun (common) (futsuumeishi)"]
+        }
+      ]
+    },
+    {
+      "id": "1522190",
+      "kanji": ["教師"],
+      "kana": ["きょうし"],
+      "senses": [
+        {
+          "glosses": ["teacher", "instructor"],
+          "partsOfSpeech": ["noun (common) (futsuumeishi)"]
+        }
+      ]
+    }
+  ],
+  "englishIndex": {
+    "learner": [0],
+    "student": [0, 1],
+    "pupil": [1],
+    "teacher": [2],
+    "instructor": [2]
+  }
+}

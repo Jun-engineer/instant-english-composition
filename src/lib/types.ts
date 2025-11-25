@@ -22,14 +22,29 @@ export interface VocabularyMeaning {
   definitions: VocabularyDefinition[];
 }
 
+export interface VocabularyUsageExample {
+  english: string;
+  japanese?: string;
+}
+
 export interface VocabularyEntry {
   word: string;
   phonetic?: string;
   audioUrl?: string;
   meanings: VocabularyMeaning[];
+  usageExamples?: VocabularyUsageExample[];
 }
 
 export interface VocabularyFavorite extends VocabularyEntry {
+  savedAt: number;
+}
+
+export interface SentenceFavorite {
+  cardId: string;
+  prompt: string;
+  answer: string;
+  cefrLevel: CEFRLevel;
+  tags: string[];
   savedAt: number;
 }
 
@@ -61,4 +76,5 @@ export interface DeckState {
   isFlipped: boolean;
   session: SessionStats;
   vocabularyFavorites: VocabularyFavorite[];
+  sentenceFavorites: SentenceFavorite[];
 }

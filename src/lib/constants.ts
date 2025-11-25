@@ -62,7 +62,17 @@ export const COMMON_CARD_TAGS = ['business', 'analysis', 'work', 'hotel', 'resta
 
 export const STORAGE_KEY = 'iec-learning-history-v1';
 
+function withApiBase(path: string) {
+  const rawBase = process.env.NEXT_PUBLIC_API_BASE_URL ?? '';
+  const normalizedBase = rawBase.replace(/\/$/, '');
+  if (!normalizedBase) {
+    return path;
+  }
+  return `${normalizedBase}${path}`;
+}
+
 export const API_ENDPOINTS = {
-  getCards: '/api/GetCards',
-  markCard: '/api/MarkCard'
+  getCards: withApiBase('/api/GetCards'),
+  markCard: withApiBase('/api/MarkCard'),
+  lookupVocabulary: withApiBase('/api/LookupVocabulary')
 } as const;

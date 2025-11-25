@@ -8,11 +8,13 @@ import type {
   ReviewStatus,
   DeckFilters,
   VocabularyEntry,
-  VocabularyFavorite
+  VocabularyFavorite,
+  SentenceFavorite,
+  VocabularyUsageExample
 } from '@/lib/types';
 
 const DEFAULT_CARD_LIMIT = 12;
-const STORE_VERSION = 3;
+const STORE_VERSION = 5;
 
 function unique<T>(values: T[]): T[] {
   return Array.from(new Set(values));
@@ -38,6 +40,8 @@ interface DeckActions {
   resetSession: () => void;
   addFavorite: (entry: VocabularyEntry) => void;
   removeFavorite: (word: string) => void;
+  addSentenceFavorite: (card: DeckCard) => void;
+  removeSentenceFavorite: (cardId: string) => void;
 }
 
 const initialState: DeckState = {
@@ -52,7 +56,8 @@ const initialState: DeckState = {
     retries: 0,
     streak: 0
   },
-  vocabularyFavorites: []
+  vocabularyFavorites: [],
+  sentenceFavorites: []
 };
 
 function getNextIndex(state: DeckState) {
@@ -70,7 +75,43 @@ const memoryStorage: StateStorage = {
 type Store = DeckState & DeckActions;
 
 type SetState = (partial: Store | Partial<Store> | ((state: Store) => Store | Partial<Store>), replace?: boolean) => void;
-type PersistedStore = Pick<Store, 'filters' | 'history' | 'vocabularyFavorites'>;
+type PersistedStore = Pick<Store, 'filters' | 'history' | 'vocabularyFavorites' | 'sentenceFavorites'>;
+
+function upgradeUsageExamples(examples: unknown): VocabularyUsageExample[] | undefined {
+  if (!Array.isArray(examples)) {
+    return undefined;
+  }
+  const upgraded = examples
+    .map((example) => {
+      if (typeof example === 'string') {
+        return example.trim().length ? { english: example.trim() } : null;
+      }
+      if (example && typeof example === 'object') {
+        const english = typeof (example as { english?: string }).english === 'string'
+          ? (example as { english?: string }).english?.trim()
+          : undefined;
+        const japanese = typeof (example as { japanese?: string }).japanese === 'string'
+          ? (example as { japanese?: string }).japanese?.trim()
+          : undefined;
+        if (english) {
+          return { english, japanese: japanese || undefined } satisfies VocabularyUsageExample;
+        }
+      }
+      return null;
+    })
+    .filter((item): item is VocabularyUsageExample => Boolean(item));
+  return upgraded.length ? upgraded : undefined;
+}
+
+function upgradeFavorites(favorites: VocabularyFavorite[] | undefined): VocabularyFavorite[] {
+  if (!Array.isArray(favorites)) {
+    return [];
+  }
+  return favorites.map((favorite) => ({
+    ...favorite,
+    usageExamples: upgradeUsageExamples(favorite.usageExamples) ?? undefined
+  }));
+}
 
 export const useDeckStore = create<Store>()(
   persist<Store, [], [], PersistedStore>(
@@ -146,6 +187,34 @@ export const useDeckStore = create<Store>()(
         return {
           vocabularyFavorites: state.vocabularyFavorites.filter((favorite) => favorite.word.toLowerCase() !== normalized)
         } satisfies Partial<Store>;
+      }),
+      addSentenceFavorite: (card: DeckCard) => set((state: Store) => {
+        if (!card?.id) {
+          return {};
+        }
+        const alreadySaved = state.sentenceFavorites.some((favorite) => favorite.cardId === card.id);
+        if (alreadySaved) {
+          return {};
+        }
+        const favorite: SentenceFavorite = {
+          cardId: card.id,
+          prompt: card.prompt,
+          answer: card.answer,
+          cefrLevel: card.cefrLevel,
+          tags: [...card.tags],
+          savedAt: Date.now()
+        };
+        return {
+          sentenceFavorites: [favorite, ...state.sentenceFavorites].slice(0, 300)
+        } satisfies Partial<Store>;
+      }),
+      removeSentenceFavorite: (cardId: string) => set((state: Store) => {
+        if (!cardId) {
+          return {};
+        }
+        return {
+          sentenceFavorites: state.sentenceFavorites.filter((favorite) => favorite.cardId !== cardId)
+        } satisfies Partial<Store>;
       })
     }),
     {
@@ -155,22 +224,28 @@ export const useDeckStore = create<Store>()(
       partialize: (state: Store) => ({
         filters: state.filters,
         history: state.history,
-        vocabularyFavorites: state.vocabularyFavorites
+        vocabularyFavorites: state.vocabularyFavorites,
+        sentenceFavorites: state.sentenceFavorites
       }),
       migrate: (persistedState, version) => {
         const state = (persistedState as PersistedStore | undefined) ?? {
           filters: initialState.filters,
           history: initialState.history,
-          vocabularyFavorites: initialState.vocabularyFavorites
+          vocabularyFavorites: initialState.vocabularyFavorites,
+          sentenceFavorites: initialState.sentenceFavorites
         };
         if (version < STORE_VERSION) {
           return {
             ...state,
             filters: initialState.filters,
-            vocabularyFavorites: state.vocabularyFavorites ?? initialState.vocabularyFavorites
+            vocabularyFavorites: upgradeFavorites(state.vocabularyFavorites) ?? initialState.vocabularyFavorites,
+            sentenceFavorites: state.sentenceFavorites ?? initialState.sentenceFavorites
           } satisfies PersistedStore;
         }
-        return state;
+        return {
+          ...state,
+          vocabularyFavorites: upgradeFavorites(state.vocabularyFavorites)
+        } satisfies PersistedStore;
       },
       merge: (persistedState, currentState) => {
         const persisted = persistedState as PersistedStore | undefined;
@@ -178,7 +253,8 @@ export const useDeckStore = create<Store>()(
           ...currentState,
           filters: sanitizeFilters(persisted?.filters ?? currentState.filters),
           history: persisted?.history ?? currentState.history,
-          vocabularyFavorites: persisted?.vocabularyFavorites ?? currentState.vocabularyFavorites
+          vocabularyFavorites: upgradeFavorites(persisted?.vocabularyFavorites) ?? currentState.vocabularyFavorites,
+          sentenceFavorites: persisted?.sentenceFavorites ?? currentState.sentenceFavorites
         };
       }
     }

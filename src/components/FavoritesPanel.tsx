@@ -66,6 +66,9 @@ export function FavoritesPanel({ onClose }: FavoritesPanelProps) {
                           {meaning.definitions.slice(0, 2).map((definition, definitionIndex) => (
                             <li key={`${favorite.word}-def-${meaningIndex}-${definitionIndex}`}>
                               <p className="font-medium text-slate-800">{definition.definition}</p>
+                              {definition.translation ? (
+                                <p className="text-xs text-slate-500">英: {definition.translation}</p>
+                              ) : null}
                               {definition.example ? (
                                 <p className="text-xs italic text-slate-500">例: {definition.example}</p>
                               ) : null}
@@ -74,6 +77,19 @@ export function FavoritesPanel({ onClose }: FavoritesPanelProps) {
                         </ul>
                       </div>
                     ))}
+                    {favorite.usageExamples?.length ? (
+                      <div>
+                        <p className="text-xs font-semibold uppercase tracking-wide text-slate-500">Usage</p>
+                        <ul className="mt-1 space-y-1 text-xs text-slate-600">
+                          {favorite.usageExamples.slice(0, 2).map((example, index) => (
+                            <li key={`${favorite.word}-usage-${index}`} className="space-y-1">
+                              <p>{example.english}</p>
+                              {example.japanese ? <p className="text-slate-500">{example.japanese}</p> : null}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    ) : null}
                   </div>
                 </li>
               ))}

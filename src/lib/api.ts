@@ -24,7 +24,7 @@ export async function fetchCards(filters: DeckFilters): Promise<DeckCard[]> {
 
   const res = await fetch(endpoint, { cache: 'no-store' });
   if (!res.ok) {
-    throw new Error(`Failed to fetch cards (${res.status})`);
+    throw new Error(`Failed to fetch cards (${res.status}) via ${endpoint}`);
   }
 
   const data = (await res.json()) as { cards: DeckCard[] };

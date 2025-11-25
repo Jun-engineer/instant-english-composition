@@ -24,6 +24,8 @@ export function FlashCard({ card, isFlipped, onToggle, onSwipe, interactive = tr
   const pointerId = useRef<number | null>(null);
   const [isDragging, setIsDragging] = useState(false);
   const [showHint, setShowHint] = useState(false);
+  const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([]);
+  const [isSpeaking, setIsSpeaking] = useState(false);
 
   useEffect(() => {
     setShowHint(false);
@@ -34,6 +36,29 @@ export function FlashCard({ card, isFlipped, onToggle, onSwipe, interactive = tr
       setShowHint(false);
     }
   }, [isFlipped]);
+
+  useEffect(() => {
+    if (typeof window === 'undefined' || !('speechSynthesis' in window)) {
+      return undefined;
+    }
+    const synth = window.speechSynthesis;
+    const updateVoices = () => {
+      setVoices(synth.getVoices());
+    };
+    updateVoices();
+    synth.addEventListener('voiceschanged', updateVoices);
+    return () => {
+      synth.removeEventListener('voiceschanged', updateVoices);
+    };
+  }, []);
+
+  useEffect(() => {
+    return () => {
+      if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+        window.speechSynthesis.cancel();
+      }
+    };
+  }, []);
 
   const resetDrag = useCallback(() => {
     setDragOffset(0);
@@ -103,6 +128,42 @@ export function FlashCard({ card, isFlipped, onToggle, onSwipe, interactive = tr
     event.stopPropagation();
     setShowHint((prev) => !prev);
   }, []);
+
+  const englishVoice = useMemo(() => {
+    return voices.find((voice) => voice.lang && voice.lang.toLowerCase().startsWith('en')) ?? null;
+  }, [voices]);
+
+  const handleReadAnswer = useCallback((event: ReactMouseEvent<HTMLButtonElement>) => {
+    event.preventDefault();
+    event.stopPropagation();
+    if (!card?.answer) return;
+    if (typeof window === 'undefined' || !('speechSynthesis' in window)) {
+      console.warn('Speech synthesis is not supported in this environment.');
+      return;
+    }
+    const synth = window.speechSynthesis;
+    if (isSpeaking) {
+      synth.cancel();
+      setIsSpeaking(false);
+      return;
+    }
+    synth.cancel();
+    const utterance = new SpeechSynthesisUtterance(card.answer);
+    utterance.lang = 'en-US';
+    if (englishVoice) {
+      utterance.voice = englishVoice;
+    }
+    utterance.rate = 1;
+    utterance.pitch = 1;
+    utterance.onend = () => {
+      setIsSpeaking(false);
+    };
+    utterance.onerror = () => {
+      setIsSpeaking(false);
+    };
+    setIsSpeaking(true);
+    synth.speak(utterance);
+  }, [card?.answer, englishVoice, isSpeaking]);
 
   return (
     <div
@@ -212,6 +273,17 @@ export function FlashCard({ card, isFlipped, onToggle, onSwipe, interactive = tr
                     );
                   })}
                 </p>
+              </div>
+              <div className="mt-4 flex justify-center">
+                <button
+                  type="button"
+                  className="rounded-full border border-blue-200 bg-blue-50 px-4 py-2 text-xs font-semibold text-blue-700 transition hover:bg-blue-100"
+                  onClick={handleReadAnswer}
+                  onPointerDown={(event) => event.stopPropagation()}
+                  disabled={!card?.answer}
+                >
+                  {isSpeaking ? '再生を停止' : '英文を音声で再生'}
+                </button>
               </div>
             </div>
           </div>

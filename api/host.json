@@ -3,5 +3,15 @@
   "extensionBundle": {
     "id": "Microsoft.Azure.Functions.ExtensionBundle",
     "version": "[4.*, 5.0.0)"
+  },
+  "extensions": {
+    "http": {
+      "cors": {
+        "allowedOrigins": ["http://localhost:3000"],
+        "allowedMethods": ["GET", "POST", "OPTIONS"],
+        "allowedHeaders": ["*"],
+        "exposedHeaders": []
+      }
+    }
   }
 }
