@@ -89,7 +89,7 @@ function collectExamples(rawMeanings: any[], lookupWords: string[]): VocabularyU
         .filter(Boolean)
     )
   );
-  const patterns = normalizedTargets.map((word) => new RegExp(`\b${escapeRegExp(word)}\b`, 'i'));
+  const patterns = normalizedTargets.map((word) => new RegExp(`\\b${escapeRegExp(word)}\\b`, 'i'));
   rawMeanings.forEach((meaning) => {
     const definitions = Array.isArray(meaning?.definitions)
       ? (meaning.definitions as Array<{ example?: string }>)
@@ -168,17 +168,31 @@ export async function fetchVocabularyEntry(word: string): Promise<VocabularyEntr
     throw new Error('Word is required');
   }
 
-  const response = await fetch(`${DICTIONARY_API_BASE}${encodeURIComponent(normalized)}`);
-  if (!response.ok) {
-    throw new Error(`Failed to load definition (${response.status})`);
+  let entries: any[] = [];
+  let englishError: Error | null = null;
+  try {
+    const response = await fetch(`${DICTIONARY_API_BASE}${encodeURIComponent(normalized)}`);
+    if (response.ok) {
+      const payload = await response.json();
+      if (Array.isArray(payload) && payload.length) {
+        entries = payload as any[];
+      } else {
+        englishError = new Error('No definition available');
+      }
+    } else if (response.status !== 404) {
+      englishError = new Error(`Failed to load definition (${response.status})`);
+    } else {
+      englishError = new Error('No definition available');
+    }
+  } catch (error) {
+    englishError = error instanceof Error ? error : new Error('Failed to load definition');
   }
 
-  const payload = await response.json();
-  if (!Array.isArray(payload) || !payload.length) {
-    throw new Error('No definition available');
+  if (englishError && !entries.length) {
+    console.warn(`Dictionary API fallback for "${normalized}": ${englishError.message}`);
   }
 
-  const primary = payload[0];
+  const primary = entries.length ? entries[0] : null;
   const rawMeanings = Array.isArray(primary?.meanings) ? primary.meanings : [];
   const resolvedWord = typeof primary?.word === 'string' && primary.word.trim().length ? primary.word.trim() : normalized;
 
@@ -193,7 +207,7 @@ export async function fetchVocabularyEntry(word: string): Promise<VocabularyEntr
     : mapMeanings(rawMeanings);
 
   if (!combinedMeanings.length) {
-    throw new Error('No definition available');
+    throw englishError ?? new Error('No definition available');
   }
 
   const usageExamples = collectExamples(rawMeanings, [normalized, normalizedResolved]);
