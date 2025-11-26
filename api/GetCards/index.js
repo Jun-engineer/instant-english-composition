@@ -5,6 +5,15 @@ import { jsonResponse, serverError } from '../shared/http.js';
 const DEFAULT_LIMIT = 12;
 const MAX_LIMIT = 100;
 
+function shuffle(cards) {
+  const copy = [...cards];
+  for (let i = copy.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [copy[i], copy[j]] = [copy[j], copy[i]];
+  }
+  return copy;
+}
+
 function resolveLimit(rawLimit) {
   if (typeof rawLimit !== 'number' || Number.isNaN(rawLimit)) {
     return DEFAULT_LIMIT;
@@ -71,9 +80,10 @@ export default async function (context, req) {
     if (cosmosCards && cosmosCards.length) {
       const seenIds = new Set(cosmosCards.map((card) => card.id));
       const supplemental = fallbackPool.filter((card) => !seenIds.has(card.id));
-      cards = [...cosmosCards, ...supplemental].slice(0, limit);
+      const combined = [...shuffle(cosmosCards), ...shuffle(supplemental)];
+      cards = combined.slice(0, limit);
     } else {
-      cards = fallbackPool.slice(0, limit);
+      cards = shuffle(fallbackPool).slice(0, limit);
     }
 
     jsonResponse(context, 200, { cards });

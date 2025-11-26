@@ -3,7 +3,7 @@
 import classNames from 'classnames';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import type { CSSProperties, PointerEvent as ReactPointerEvent, MouseEvent as ReactMouseEvent } from 'react';
-import type { DeckCard } from '@/lib/types';
+import type { DeckCard, ReviewStatus } from '@/lib/types';
 
 type SwipeDirection = 'left' | 'right';
 
@@ -14,11 +14,12 @@ interface FlashCardProps {
   onSwipe?: (direction: SwipeDirection) => void;
   interactive?: boolean;
   onWordSelect?: (word: string) => void;
+  swipeFeedback?: ReviewStatus | null;
 }
 
 const SWIPE_THRESHOLD = 80;
 
-export function FlashCard({ card, isFlipped, onToggle, onSwipe, interactive = true, onWordSelect }: FlashCardProps) {
+export function FlashCard({ card, isFlipped, onToggle, onSwipe, interactive = true, onWordSelect, swipeFeedback = null }: FlashCardProps) {
   const [dragOffset, setDragOffset] = useState(0);
   const dragStart = useRef<number | null>(null);
   const pointerId = useRef<number | null>(null);
@@ -109,6 +110,32 @@ export function FlashCard({ card, isFlipped, onToggle, onSwipe, interactive = tr
     } satisfies CSSProperties;
   }, [dragOffset, isDragging]);
 
+  const feedbackState = useMemo(() => {
+    if (isDragging && dragOffset !== 0) {
+      const intensity = Math.min(Math.abs(dragOffset) / SWIPE_THRESHOLD, 1);
+      const type: ReviewStatus = dragOffset > 0 ? 'success' : 'retry';
+      return { type, intensity };
+    }
+    if (swipeFeedback) {
+      return { type: swipeFeedback, intensity: 1 };
+    }
+    return null;
+  }, [dragOffset, isDragging, swipeFeedback]);
+
+  const feedbackOverlayStyle = useMemo(() => {
+    if (!feedbackState) {
+      return { opacity: 0, backgroundColor: 'transparent' } satisfies CSSProperties;
+    }
+    const alpha = 0.2 + 0.5 * Math.min(Math.max(feedbackState.intensity, 0), 1);
+    const color = feedbackState.type === 'success'
+      ? `rgba(16, 185, 129, ${alpha})`
+      : `rgba(239, 68, 68, ${alpha})`;
+    return {
+      opacity: 1,
+      backgroundColor: color
+    } satisfies CSSProperties;
+  }, [feedbackState]);
+
   const answerTokens = useMemo(() => {
     if (!card?.answer) {
       return [];
@@ -196,6 +223,10 @@ export function FlashCard({ card, isFlipped, onToggle, onSwipe, interactive = tr
     >
       {card ? (
         <>
+          <div
+            className="pointer-events-none absolute inset-0 z-20 rounded-3xl transition-opacity duration-150"
+            style={feedbackOverlayStyle}
+          />
           <div
             className={classNames(
               'absolute inset-0 transition-transform duration-500 [transform-style:preserve-3d]',

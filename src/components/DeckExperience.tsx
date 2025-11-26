@@ -52,6 +52,8 @@ export function DeckExperience() {
   const currentCard = deck[currentIndex] ?? null;
   const totalCards = activeCards.length;
   const displayPosition = totalCards ? Math.min(session.total + 1, totalCards) : 0;
+  const requestedLimit = filters.limit > 0 ? filters.limit : null;
+  const limitedByAvailability = requestedLimit !== null && totalCards > 0 && totalCards < requestedLimit;
 
   const isCurrentSentenceFavorite = useMemo(() => {
     if (!currentCard) {
@@ -79,6 +81,14 @@ export function DeckExperience() {
       setSwipeFeedback(null);
     }
   }, [step, swipeFeedback]);
+
+  useEffect(() => {
+    if (feedbackTimeout.current) {
+      clearTimeout(feedbackTimeout.current);
+      feedbackTimeout.current = null;
+    }
+    setSwipeFeedback(null);
+  }, [currentCard?.id]);
 
   useEffect(() => {
     if (!isMenuOpen) {
@@ -293,6 +303,11 @@ export function DeckExperience() {
               <span>カードを読み込み中…</span>
             )}
           </div>
+          {limitedByAvailability ? (
+            <p className="text-xs text-amber-600">
+              選択した条件に合うカードが {totalCards} 枚のため、指定枚数より少なく表示されています。
+            </p>
+          ) : null}
           <FlashCard
             card={currentCard}
             isFlipped={isFlipped}
@@ -300,6 +315,7 @@ export function DeckExperience() {
             onSwipe={handleSwipe}
             interactive={!loading && !!currentCard}
             onWordSelect={handleWordSelect}
+            swipeFeedback={swipeFeedback}
           />
           <div className="space-y-1 text-xs text-slate-500">
             <p>タップで解答表示 / 右にスワイプで正解 / 左にスワイプで復習</p>
