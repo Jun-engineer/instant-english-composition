@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Script from 'next/script';
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -18,7 +19,21 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   const currentYear = new Date().getFullYear();
   return (
     <html lang="ja">
-      <head />
+      <head>
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-6KBG29MQ91"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-6KBG29MQ91');
+          `}
+        </Script>
+      </head>
       <body>
         <script
           async
