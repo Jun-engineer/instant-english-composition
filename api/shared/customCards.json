@@ -5841,7 +5841,7 @@
       "food",
       "family"
     ],
-    "hint": "My brother / likes / pizza"
+    "hint": "My brother / likes"
   },
   {
     "id": "ai-a1-mnjqfvbq-008",
@@ -5885,7 +5885,7 @@
       "food",
       "family"
     ],
-    "hint": "My family / eats / together"
+    "hint": "My family / eats"
   },
   {
     "id": "ai-a1-mnjqfvbq-012",
@@ -5896,7 +5896,7 @@
       "food",
       "family"
     ],
-    "hint": "What / do you / eat"
+    "hint": "do you / eat"
   },
   {
     "id": "ai-a1-mnjqfvbq-013",
@@ -5918,7 +5918,7 @@
       "food",
       "family"
     ],
-    "hint": "My sister / likes / salad"
+    "hint": "My sister / likes"
   },
   {
     "id": "ai-a1-mnjqfvbq-015",
@@ -5973,7 +5973,7 @@
       "food",
       "family"
     ],
-    "hint": "My father / makes / sandwich"
+    "hint": "My father / makes"
   },
   {
     "id": "ai-a1-mnjqgsna-000",
@@ -6003,7 +6003,7 @@
     "tags": [
       "entertainment"
     ],
-    "hint": "She / listens / music"
+    "hint": "listens / music"
   },
   {
     "id": "ai-a1-mnjqgsna-003",
@@ -6013,7 +6013,7 @@
     "tags": [
       "sports"
     ],
-    "hint": "I / swim / every day"
+    "hint": "swim / every day"
   },
   {
     "id": "ai-a1-mnjqgsna-004",
@@ -6073,7 +6073,7 @@
     "tags": [
       "entertainment"
     ],
-    "hint": "She / dances / every week"
+    "hint": "dances / every week"
   },
   {
     "id": "ai-a1-mnjqgsna-010",
@@ -6103,7 +6103,7 @@
     "tags": [
       "sports"
     ],
-    "hint": "He / jogs / every day"
+    "hint": "jogs / every day"
   },
   {
     "id": "ai-a1-mnjqgsna-013",
@@ -6143,7 +6143,7 @@
     "tags": [
       "entertainment"
     ],
-    "hint": "They / play / band"
+    "hint": "play / band"
   },
   {
     "id": "ai-a1-mnjqgsna-017",
@@ -6184,7 +6184,7 @@
       "sports",
       "entertainment"
     ],
-    "hint": "play / tennis / every week"
+    "hint": "play / every week"
   },
   {
     "id": "ai-a1-mnjqh0np-003",
@@ -6225,7 +6225,7 @@
     "tags": [
       "entertainment"
     ],
-    "hint": "play / with / friends"
+    "hint": "play / friends"
   },
   {
     "id": "ai-a1-mnjqh0np-007",
@@ -6265,7 +6265,7 @@
     "tags": [
       "sports"
     ],
-    "hint": "exercise / every day / I"
+    "hint": "exercise / every day"
   },
   {
     "id": "ai-a1-mnjqh0np-012",
@@ -6376,7 +6376,7 @@
     "tags": [
       "shopping"
     ],
-    "hint": "likes / shopping / she"
+    "hint": "likes / shopping"
   },
   {
     "id": "ai-a1-mnjqh816-003",
@@ -6386,7 +6386,7 @@
     "tags": [
       "school"
     ],
-    "hint": "read / book / every day"
+    "hint": "read / every day"
   },
   {
     "id": "ai-a1-mnjqh816-004",
@@ -6476,7 +6476,7 @@
     "tags": [
       "shopping"
     ],
-    "hint": "bought / shoes / new"
+    "hint": "bought / shoes"
   },
   {
     "id": "ai-a1-mnjqh816-014",
@@ -6486,7 +6486,7 @@
     "tags": [
       "school"
     ],
-    "hint": "have / homework / today"
+    "hint": "have / homework"
   },
   {
     "id": "ai-a1-mnjqh816-015",
@@ -6506,7 +6506,7 @@
     "tags": [
       "shopping"
     ],
-    "hint": "buys / clothes / she"
+    "hint": "buys / clothes"
   },
   {
     "id": "ai-a1-mnjqh816-017",
@@ -6536,7 +6536,7 @@
     "tags": [
       "sports"
     ],
-    "hint": "jogs / every / day"
+    "hint": "jogs / every"
   },
   {
     "id": "ai-a1-mnjqhl9l-002",
@@ -6556,7 +6556,7 @@
     "tags": [
       "sports"
     ],
-    "hint": "play / basketball / weekends"
+    "hint": "play / basketball"
   },
   {
     "id": "ai-a1-mnjqhl9l-004",
@@ -6626,7 +6626,7 @@
     "tags": [
       "entertainment"
     ],
-    "hint": "draws / pictures / she"
+    "hint": "draws / pictures"
   },
   {
     "id": "ai-a1-mnjqhl9l-011",
@@ -6656,7 +6656,7 @@
     "tags": [
       "entertainment"
     ],
-    "hint": "meet / friends / weekends"
+    "hint": "meet / friends"
   },
   {
     "id": "ai-a1-mnjqhl9l-014",
@@ -6757,7 +6757,7 @@
       "sports",
       "entertainment"
     ],
-    "hint": "jog / every / day"
+    "hint": "jog / every"
   },
   {
     "id": "ai-a1-mnjqhtnx-009",
@@ -6789,7 +6789,7 @@
       "sports",
       "entertainment"
     ],
-    "hint": "likes / cycling / she"
+    "hint": "likes / cycling"
   },
   {
     "id": "ai-a1-mnjqhtnx-013",
@@ -6799,7 +6799,7 @@
     "tags": [
       "entertainment"
     ],
-    "hint": "play / friends / with"
+    "hint": "play / friends"
   },
   {
     "id": "ai-a1-mnjqhtnx-014",
@@ -6809,7 +6809,7 @@
     "tags": [
       "sports"
     ],
-    "hint": "runs / every / morning"
+    "hint": "runs / every"
   },
   {
     "id": "ai-a1-mnjqhtnx-015",
@@ -6860,7 +6860,7 @@
     "tags": [
       "shopping"
     ],
-    "hint": "bought / book / new"
+    "hint": "bought / book"
   },
   {
     "id": "ai-a1-mnjqi14g-003",
@@ -6910,7 +6910,7 @@
     "tags": [
       "shopping"
     ],
-    "hint": "buy / snacks / they"
+    "hint": "buy / snacks"
   },
   {
     "id": "ai-a1-mnjqi14g-010",
@@ -6920,7 +6920,7 @@
     "tags": [
       "shopping"
     ],
-    "hint": "have / shoes / new"
+    "hint": "have / shoes"
   },
   {
     "id": "ai-a1-mnjqi14g-011",
@@ -6930,7 +6930,7 @@
     "tags": [
       "school"
     ],
-    "hint": "goes / school / every day"
+    "hint": "goes / every day"
   },
   {
     "id": "ai-a1-mnjqi14g-012",
@@ -7011,7 +7011,7 @@
       "sports",
       "entertainment"
     ],
-    "hint": "swims / every day / she"
+    "hint": "swims / every day"
   },
   {
     "id": "ai-a1-mnjqi32g-003",
@@ -7031,7 +7031,7 @@
     "tags": [
       "entertainment"
     ],
-    "hint": "read / books / you"
+    "hint": "read / books"
   },
   {
     "id": "ai-a1-mnjqi32g-005",
@@ -7041,7 +7041,7 @@
     "tags": [
       "sports"
     ],
-    "hint": "play / basketball / they"
+    "hint": "play / basketball"
   },
   {
     "id": "ai-a1-mnjqi32g-006",
@@ -7062,7 +7062,7 @@
       "sports",
       "entertainment"
     ],
-    "hint": "jogs / every morning / he"
+    "hint": "jogs / every morning"
   },
   {
     "id": "ai-a1-mnjqi32g-008",
@@ -7072,7 +7072,7 @@
     "tags": [
       "entertainment"
     ],
-    "hint": "will / watch / movie"
+    "hint": "watch / movie"
   },
   {
     "id": "ai-a1-mnjqi32g-011",
@@ -7082,7 +7082,7 @@
     "tags": [
       "entertainment"
     ],
-    "hint": "practice / guitar / every day"
+    "hint": "practice / every day"
   },
   {
     "id": "ai-a1-mnjqi32g-012",
@@ -7102,7 +7102,7 @@
     "tags": [
       "entertainment"
     ],
-    "hint": "watches / TV / every night"
+    "hint": "watches / every night"
   },
   {
     "id": "ai-a1-mnjqi32g-015",
@@ -7455,7 +7455,7 @@
     "tags": [
       "shopping"
     ],
-    "hint": "She / buys / book"
+    "hint": "buys / book"
   },
   {
     "id": "ai-a1-mnjqiabm-015",
@@ -7635,7 +7635,7 @@
     "tags": [
       "health"
     ],
-    "hint": "Are / you / happy"
+    "hint": "Are / happy"
   },
   {
     "id": "ai-a1-mnjqif5f-015",
@@ -7645,7 +7645,7 @@
     "tags": [
       "daily-life"
     ],
-    "hint": "His / house / small"
+    "hint": "house / small"
   },
   {
     "id": "ai-a1-mnjqif5f-016",
@@ -7685,7 +7685,7 @@
     "tags": [
       "health"
     ],
-    "hint": "Are / you / fine"
+    "hint": "Are / fine"
   },
   {
     "id": "ai-a1-mnjqihtu-003",
@@ -7725,7 +7725,7 @@
     "tags": [
       "family"
     ],
-    "hint": "friend / likes / soccer"
+    "hint": "friend / likes"
   },
   {
     "id": "ai-a1-mnjqihtu-007",
@@ -7825,7 +7825,7 @@
     "tags": [
       "daily-life"
     ],
-    "hint": "walk / dog / every day"
+    "hint": "walk / every day"
   },
   {
     "id": "ai-a1-mnjqihtu-017",
@@ -7866,7 +7866,7 @@
       "shopping",
       "daily-life"
     ],
-    "hint": "wearing / red / shirt"
+    "hint": "wearing / red"
   },
   {
     "id": "ai-a1-mnjqinc3-001",
@@ -7888,7 +7888,7 @@
       "shopping",
       "daily-life"
     ],
-    "hint": "always / wears / jeans"
+    "hint": "always / wears"
   },
   {
     "id": "ai-a1-mnjqinc3-003",
@@ -7910,7 +7910,7 @@
       "shopping",
       "daily-life"
     ],
-    "hint": "buy / shoes / will"
+    "hint": "buy / shoes"
   },
   {
     "id": "ai-a1-mnjqinc3-005",
@@ -7932,7 +7932,7 @@
       "shopping",
       "daily-life"
     ],
-    "hint": "wears / skirt / every day"
+    "hint": "wears / every day"
   },
   {
     "id": "ai-a1-mnjqinc3-007",
@@ -7954,7 +7954,7 @@
       "shopping",
       "daily-life"
     ],
-    "hint": "has / new / shoes"
+    "hint": "has / new"
   },
   {
     "id": "ai-a1-mnjqinc3-009",
@@ -7987,7 +7987,7 @@
       "shopping",
       "daily-life"
     ],
-    "hint": "wearing / hat / she"
+    "hint": "wearing / hat"
   },
   {
     "id": "ai-a1-mnjqinc3-012",
@@ -7998,7 +7998,7 @@
       "shopping",
       "daily-life"
     ],
-    "hint": "bought / white / shoes"
+    "hint": "bought / white"
   },
   {
     "id": "ai-a1-mnjqinc3-013",
@@ -8009,7 +8009,7 @@
       "shopping",
       "daily-life"
     ],
-    "hint": "always / wears / sneakers"
+    "hint": "always / wears"
   },
   {
     "id": "ai-a1-mnjqinc3-014",
@@ -8020,7 +8020,7 @@
       "shopping",
       "daily-life"
     ],
-    "hint": "clothes / are / new"
+    "hint": "clothes / new"
   },
   {
     "id": "ai-a1-mnjqinc3-015",
@@ -8042,7 +8042,7 @@
       "shopping",
       "daily-life"
     ],
-    "hint": "wearing / skirt / today"
+    "hint": "wearing / skirt"
   },
   {
     "id": "ai-a1-mnjqinc3-017",
@@ -8053,7 +8053,7 @@
       "shopping",
       "daily-life"
     ],
-    "hint": "has / blue / T-shirt"
+    "hint": "has / blue"
   },
   {
     "id": "ai-a1-mnjqinc3-018",
@@ -8094,7 +8094,7 @@
     "tags": [
       "health"
     ],
-    "hint": "Are / you / tired"
+    "hint": "Are / tired"
   },
   {
     "id": "ai-a1-mnjqioq8-004",
@@ -8114,7 +8114,7 @@
     "tags": [
       "health"
     ],
-    "hint": "Are / you / well"
+    "hint": "Are / well"
   },
   {
     "id": "ai-a1-mnjqioq8-007",
@@ -8144,7 +8144,7 @@
     "tags": [
       "health"
     ],
-    "hint": "They / look / happy"
+    "hint": "look / happy"
   },
   {
     "id": "ai-a1-mnjqioq8-010",
@@ -8164,7 +8164,7 @@
     "tags": [
       "health"
     ],
-    "hint": "Are / you / happy"
+    "hint": "Are / happy"
   },
   {
     "id": "ai-a1-mnjqioq8-013",
@@ -8214,7 +8214,7 @@
     "tags": [
       "daily-life"
     ],
-    "hint": "wake up / every / morning"
+    "hint": "wake up / every"
   },
   {
     "id": "ai-a1-mnjqivn5-001",
@@ -8264,7 +8264,7 @@
     "tags": [
       "daily-life"
     ],
-    "hint": "read / book / night"
+    "hint": "read / book"
   },
   {
     "id": "ai-a1-mnjqivn5-006",
@@ -8405,7 +8405,7 @@
       "shopping",
       "daily-life"
     ],
-    "hint": "wearing / blue / shirt"
+    "hint": "wearing / blue"
   },
   {
     "id": "ai-a1-mnjqiwh6-001",
@@ -8416,7 +8416,7 @@
       "shopping",
       "daily-life"
     ],
-    "hint": "has / red / shoes"
+    "hint": "has / red"
   },
   {
     "id": "ai-a1-mnjqiwh6-002",
@@ -8482,7 +8482,7 @@
       "shopping",
       "daily-life"
     ],
-    "hint": "wearing / old / shoes"
+    "hint": "wearing / old"
   },
   {
     "id": "ai-a1-mnjqiwh6-008",
@@ -8504,7 +8504,7 @@
       "shopping",
       "daily-life"
     ],
-    "hint": "have / blue / socks"
+    "hint": "have / blue"
   },
   {
     "id": "ai-a1-mnjqiwh6-010",
@@ -8515,7 +8515,7 @@
       "shopping",
       "daily-life"
     ],
-    "hint": "wearing / jacket / today"
+    "hint": "wearing / jacket"
   },
   {
     "id": "ai-a1-mnjqiwh6-011",
@@ -8526,7 +8526,7 @@
       "shopping",
       "daily-life"
     ],
-    "hint": "wearing / white / shirt"
+    "hint": "wearing / white"
   },
   {
     "id": "ai-a1-mnjqiwh6-012",
@@ -8537,7 +8537,7 @@
       "shopping",
       "daily-life"
     ],
-    "hint": "always / wear / pants"
+    "hint": "always / wear"
   },
   {
     "id": "ai-a1-mnjqiwh6-013",
@@ -8570,7 +8570,7 @@
       "shopping",
       "daily-life"
     ],
-    "hint": "has / blue / scarf"
+    "hint": "has / blue"
   },
   {
     "id": "ai-a1-mnjqiwh6-016",
@@ -8581,7 +8581,7 @@
       "shopping",
       "daily-life"
     ],
-    "hint": "hot / wearing / short sleeves"
+    "hint": "hot / short sleeves"
   },
   {
     "id": "ai-a1-mnjqiwh6-017",
@@ -8592,7 +8592,7 @@
       "shopping",
       "daily-life"
     ],
-    "hint": "always / chooses / bright colors"
+    "hint": "always / bright colors"
   },
   {
     "id": "ai-a1-mnjqj308-000",
@@ -8612,7 +8612,7 @@
     "tags": [
       "greetings"
     ],
-    "hint": "How / you / are"
+    "hint": "How / you"
   },
   {
     "id": "ai-a1-mnjqj308-002",
@@ -8682,7 +8682,7 @@
     "tags": [
       "greetings"
     ],
-    "hint": "Nice / to meet / you"
+    "hint": "Nice / to meet"
   },
   {
     "id": "ai-a1-mnjqj308-011",
@@ -8692,7 +8692,7 @@
     "tags": [
       "greetings"
     ],
-    "hint": "favorite / food / sushi"
+    "hint": "favorite / food"
   },
   {
     "id": "ai-a1-mnjqj308-012",
@@ -8732,7 +8732,7 @@
     "tags": [
       "greetings"
     ],
-    "hint": "What / day / today"
+    "hint": "day / today"
   },
   {
     "id": "ai-a1-mnjqj308-017",
@@ -8812,7 +8812,7 @@
     "tags": [
       "daily-life"
     ],
-    "hint": "go to bed / 8 o'clock / night"
+    "hint": "go to bed / 8 o'clock"
   },
   {
     "id": "ai-a1-mnjqj41n-008",
@@ -8922,7 +8922,7 @@
     "tags": [
       "greetings"
     ],
-    "hint": "What / are your / hobbies"
+    "hint": "are your / hobbies"
   },
   {
     "id": "ai-a1-mnjqjchz-010",
@@ -8942,7 +8942,7 @@
     "tags": [
       "greetings"
     ],
-    "hint": "What kind / of music / do you like"
+    "hint": "What kind / of music"
   },
   {
     "id": "ai-a1-mnjqjchz-013",
@@ -8992,7 +8992,7 @@
     "tags": [
       "greetings"
     ],
-    "hint": "I have / many / friends"
+    "hint": "I have / many"
   },
   {
     "id": "ai-a2-mnjqjclj-000",
@@ -9067,7 +9067,7 @@
       "food",
       "family"
     ],
-    "hint": "have / barbecue / friend's house"
+    "hint": "have / friend's house"
   },
   {
     "id": "ai-a2-mnjqjclk-007",
@@ -9259,7 +9259,7 @@
       "sports",
       "entertainment"
     ],
-    "hint": "watched / soccer / game"
+    "hint": "watched / soccer"
   },
   {
     "id": "ai-a2-mnjqjk00-005",
@@ -9269,7 +9269,7 @@
     "tags": [
       "entertainment"
     ],
-    "hint": "like / listening / music"
+    "hint": "like / listening"
   },
   {
     "id": "ai-a2-mnjqjk00-007",
@@ -9300,7 +9300,7 @@
       "sports",
       "entertainment"
     ],
-    "hint": "like / skiing / winter"
+    "hint": "like / skiing"
   },
   {
     "id": "ai-a2-mnjqjk00-011",
@@ -9576,7 +9576,7 @@
     "tags": [
       "school"
     ],
-    "hint": "go / to school / every morning"
+    "hint": "to school / every morning"
   },
   {
     "id": "ai-a2-mnjqjsfz-001",
@@ -9586,7 +9586,7 @@
     "tags": [
       "shopping"
     ],
-    "hint": "bought / a book / yesterday"
+    "hint": "bought / a book"
   },
   {
     "id": "ai-a2-mnjqjsfz-002",
@@ -9616,7 +9616,7 @@
     "tags": [
       "shopping"
     ],
-    "hint": "going to / buy / new clothes"
+    "hint": "going to / new clothes"
   },
   {
     "id": "ai-a2-mnjqjsfz-005",
@@ -9626,7 +9626,7 @@
     "tags": [
       "health"
     ],
-    "hint": "take care / our health / health"
+    "hint": "take care / our health"
   },
   {
     "id": "ai-a2-mnjqjsfz-006",
@@ -9666,7 +9666,7 @@
     "tags": [
       "school"
     ],
-    "hint": "studying / for the exam / school"
+    "hint": "studying / for the exam"
   },
   {
     "id": "ai-a2-mnjqjsfz-010",
@@ -9706,7 +9706,7 @@
     "tags": [
       "shopping"
     ],
-    "hint": "goes / shopping / every week"
+    "hint": "goes / every week"
   },
   {
     "id": "ai-a2-mnjqjsfz-015",
@@ -9726,7 +9726,7 @@
     "tags": [
       "shopping"
     ],
-    "hint": "bought / clothes / on sale"
+    "hint": "bought / on sale"
   },
   {
     "id": "ai-a2-mnjqjsfz-017",
@@ -9756,7 +9756,7 @@
     "tags": [
       "shopping"
     ],
-    "hint": "wants / new / game"
+    "hint": "wants / new"
   },
   {
     "id": "ai-a2-mnjqjsfz-020",
@@ -9766,7 +9766,7 @@
     "tags": [
       "health"
     ],
-    "hint": "go to bed / early / every night"
+    "hint": "go to bed / every night"
   },
   {
     "id": "ai-a2-mnjqjtia-001",
@@ -9828,7 +9828,7 @@
     "tags": [
       "entertainment"
     ],
-    "hint": "good at / singing / she"
+    "hint": "good at / singing"
   },
   {
     "id": "ai-a2-mnjqjtia-008",
@@ -9848,7 +9848,7 @@
     "tags": [
       "sports"
     ],
-    "hint": "plays / basketball / every week"
+    "hint": "plays / every week"
   },
   {
     "id": "ai-a2-mnjqjtia-011",
@@ -9868,7 +9868,7 @@
     "tags": [
       "entertainment"
     ],
-    "hint": "good at / cooking / friend"
+    "hint": "good at / cooking"
   },
   {
     "id": "ai-a2-mnjqjtia-013",
@@ -9909,7 +9909,7 @@
     "tags": [
       "sports"
     ],
-    "hint": "likes / volleyball / she"
+    "hint": "likes / volleyball"
   },
   {
     "id": "ai-a2-mnjqjtia-017",
@@ -9989,7 +9989,7 @@
     "tags": [
       "weather"
     ],
-    "hint": "hot / today / very"
+    "hint": "hot / today"
   },
   {
     "id": "ai-a2-mnjqk0bw-005",
@@ -10199,7 +10199,7 @@
     "tags": [
       "school"
     ],
-    "hint": "play / games / school"
+    "hint": "play / games"
   },
   {
     "id": "ai-a2-mnjqk1wj-007",
@@ -10219,7 +10219,7 @@
     "tags": [
       "health"
     ],
-    "hint": "exercise / every / day"
+    "hint": "exercise / every"
   },
   {
     "id": "ai-a2-mnjqk1wj-009",
@@ -10279,7 +10279,7 @@
     "tags": [
       "school"
     ],
-    "hint": "play / soccer / school"
+    "hint": "play / soccer"
   },
   {
     "id": "ai-a2-mnjqk1wj-016",
@@ -10339,7 +10339,7 @@
     "tags": [
       "health"
     ],
-    "hint": "always / looks / cheerful"
+    "hint": "always / looks"
   },
   {
     "id": "ai-a2-mnjqk9pk-003",
@@ -10359,7 +10359,7 @@
     "tags": [
       "health"
     ],
-    "hint": "looks / happy / she"
+    "hint": "looks / happy"
   },
   {
     "id": "ai-a2-mnjqk9pk-006",
@@ -10451,7 +10451,7 @@
     "tags": [
       "health"
     ],
-    "hint": "seems / delighted / she"
+    "hint": "seems / delighted"
   },
   {
     "id": "ai-a2-mnjqk9pk-015",
@@ -10461,7 +10461,7 @@
     "tags": [
       "travel"
     ],
-    "hint": "intend / travel / next month"
+    "hint": "intend / next month"
   },
   {
     "id": "ai-a2-mnjqk9pk-017",
@@ -10471,7 +10471,7 @@
     "tags": [
       "health"
     ],
-    "hint": "always / looks / sad"
+    "hint": "always / looks"
   },
   {
     "id": "ai-a2-mnjqk9pk-018",
@@ -10481,7 +10481,7 @@
     "tags": [
       "travel"
     ],
-    "hint": "want / try / new food"
+    "hint": "want / new food"
   },
   {
     "id": "ai-a2-mnjqka6j-001",
@@ -10531,7 +10531,7 @@
     "tags": [
       "daily-life"
     ],
-    "hint": "room / very / clean"
+    "hint": "room / clean"
   },
   {
     "id": "ai-a2-mnjqka6j-006",
@@ -10551,7 +10551,7 @@
     "tags": [
       "daily-life"
     ],
-    "hint": "this / room / bright"
+    "hint": "room / bright"
   },
   {
     "id": "ai-a2-mnjqka6j-008",
@@ -10561,7 +10561,7 @@
     "tags": [
       "daily-life"
     ],
-    "hint": "growing / flowers / she"
+    "hint": "growing / flowers"
   },
   {
     "id": "ai-a2-mnjqka6j-009",
@@ -10591,7 +10591,7 @@
     "tags": [
       "daily-life"
     ],
-    "hint": "where / house / your"
+    "hint": "where / house"
   },
   {
     "id": "ai-a2-mnjqka6j-013",
@@ -10621,7 +10621,7 @@
     "tags": [
       "daily-life"
     ],
-    "hint": "exercises / every / morning"
+    "hint": "exercises / every"
   },
   {
     "id": "ai-a2-mnjqka6j-017",
@@ -10671,7 +10671,7 @@
     "tags": [
       "daily-life"
     ],
-    "hint": "cook / dinner / likes"
+    "hint": "cook / dinner"
   },
   {
     "id": "ai-a2-mnjqkjlk-003",
@@ -10761,7 +10761,7 @@
     "tags": [
       "daily-life"
     ],
-    "hint": "often / order / pizza"
+    "hint": "often / order"
   },
   {
     "id": "ai-a2-mnjqkjlk-013",
@@ -10781,7 +10781,7 @@
     "tags": [
       "daily-life"
     ],
-    "hint": "desk / room / there is"
+    "hint": "desk / room"
   },
   {
     "id": "ai-a2-mnjqkjlk-015",
@@ -10801,7 +10801,7 @@
     "tags": [
       "daily-life"
     ],
-    "hint": "bought / furniture / new"
+    "hint": "bought / furniture"
   },
   {
     "id": "ai-a2-mnjqkjlk-017",
@@ -10811,7 +10811,7 @@
     "tags": [
       "daily-life"
     ],
-    "hint": "forgot / eat / breakfast"
+    "hint": "forgot / eat"
   },
   {
     "id": "ai-a2-mnjqkjlk-018",
@@ -10964,7 +10964,7 @@
       "service",
       "food"
     ],
-    "hint": "reserve / table / did"
+    "hint": "reserve / table"
   },
   {
     "id": "ai-a2-mnjqkkp3-013",
@@ -10975,7 +10975,7 @@
       "service",
       "food"
     ],
-    "hint": "ordered / two / desserts"
+    "hint": "ordered / two"
   },
   {
     "id": "ai-a2-mnjqkkp3-014",
@@ -10986,7 +10986,7 @@
       "service",
       "food"
     ],
-    "hint": "love / this / cafe"
+    "hint": "love / cafe"
   },
   {
     "id": "ai-a2-mnjqkkp3-015",
@@ -10997,7 +10997,7 @@
       "service",
       "food"
     ],
-    "hint": "enjoyed / delicious / dinner"
+    "hint": "enjoyed / delicious"
   },
   {
     "id": "ai-a2-mnjqkkp3-016",
@@ -11030,7 +11030,7 @@
       "service",
       "food"
     ],
-    "hint": "love / ice cream / I"
+    "hint": "love / ice cream"
   },
   {
     "id": "ai-a2-mnjqkrzm-000",
@@ -11107,7 +11107,7 @@
       "service",
       "food"
     ],
-    "hint": "drinks / coffee / every day"
+    "hint": "drinks / every day"
   },
   {
     "id": "ai-a2-mnjqkrzm-007",
@@ -11140,7 +11140,7 @@
       "service",
       "food"
     ],
-    "hint": "drink / beer / you"
+    "hint": "drink / beer"
   },
   {
     "id": "ai-a2-mnjqkrzm-010",
@@ -11228,7 +11228,7 @@
       "service",
       "food"
     ],
-    "hint": "not like / dish / that"
+    "hint": "not like / dish"
   },
   {
     "id": "ai-a2-mnjqkrzm-018",
@@ -11352,7 +11352,7 @@
     "tags": [
       "travel"
     ],
-    "hint": "can / rent / bicycle"
+    "hint": "rent / bicycle"
   },
   {
     "id": "ai-a2-mnjqktag-010",
@@ -11423,7 +11423,7 @@
     "tags": [
       "travel"
     ],
-    "hint": "commute / by car / every day"
+    "hint": "by car / every day"
   },
   {
     "id": "ai-a2-mnjqktag-017",
@@ -11533,7 +11533,7 @@
     "tags": [
       "travel"
     ],
-    "hint": "rent / bicycle / okay"
+    "hint": "rent / bicycle"
   },
   {
     "id": "ai-a2-mnjql2d7-012",
@@ -11543,7 +11543,7 @@
     "tags": [
       "travel"
     ],
-    "hint": "how far / walk / do"
+    "hint": "how far / walk"
   },
   {
     "id": "ai-a2-mnjql2d7-013",
@@ -11553,7 +11553,7 @@
     "tags": [
       "travel"
     ],
-    "hint": "bus stop / near / here"
+    "hint": "bus stop / near"
   },
   {
     "id": "ai-a2-mnjql2d7-014",
@@ -11603,7 +11603,7 @@
     "tags": [
       "travel"
     ],
-    "hint": "bus / fare / how much"
+    "hint": "bus / how much"
   },
   {
     "id": "ai-b1-mnjql40w-000",
@@ -11695,7 +11695,7 @@
       "health",
       "daily-life"
     ],
-    "hint": "take care / health / important"
+    "hint": "take care / health"
   },
   {
     "id": "ai-b1-mnjql40w-008",
@@ -11705,7 +11705,7 @@
     "tags": [
       "food"
     ],
-    "hint": "favorite / food / sushi"
+    "hint": "favorite / food"
   },
   {
     "id": "ai-b1-mnjql40w-009",
@@ -11728,7 +11728,7 @@
       "health",
       "daily-life"
     ],
-    "hint": "take a walk / after / meals"
+    "hint": "take a walk / after"
   },
   {
     "id": "ai-b1-mnjql40w-011",
@@ -11817,7 +11817,7 @@
       "sports",
       "entertainment"
     ],
-    "hint": "playing / soccer / enjoyable"
+    "hint": "playing / soccer"
   },
   {
     "id": "ai-b1-mnjqlcfw-001",
@@ -11828,7 +11828,7 @@
       "sports",
       "entertainment"
     ],
-    "hint": "watches / movie / every week"
+    "hint": "watches / every week"
   },
   {
     "id": "ai-b1-mnjqlcfw-002",
@@ -11880,7 +11880,7 @@
     "tags": [
       "entertainment"
     ],
-    "hint": "go / music concert / every month"
+    "hint": "music concert / every month"
   },
   {
     "id": "ai-b1-mnjqlcfw-007",
@@ -11891,7 +11891,7 @@
       "sports",
       "entertainment"
     ],
-    "hint": "brother / good at / surfing"
+    "hint": "brother / good at"
   },
   {
     "id": "ai-b1-mnjqlcfw-008",
@@ -11901,7 +11901,7 @@
     "tags": [
       "entertainment"
     ],
-    "hint": "Does / watch / every night"
+    "hint": "watch / every night"
   },
   {
     "id": "ai-b1-mnjqlcfw-009",
@@ -11912,7 +11912,7 @@
       "sports",
       "entertainment"
     ],
-    "hint": "doesn't like / playing / volleyball"
+    "hint": "doesn't like / playing"
   },
   {
     "id": "ai-b1-mnjqlcfw-010",
@@ -11922,7 +11922,7 @@
     "tags": [
       "sports"
     ],
-    "hint": "will enjoy / watching / next game"
+    "hint": "will enjoy / next game"
   },
   {
     "id": "ai-b1-mnjqlcfw-011",
@@ -11943,7 +11943,7 @@
       "sports",
       "entertainment"
     ],
-    "hint": "jogs / every / morning"
+    "hint": "jogs / every"
   },
   {
     "id": "ai-b1-mnjqlcfw-013",
@@ -11974,7 +11974,7 @@
       "sports",
       "entertainment"
     ],
-    "hint": "sometimes / play / tennis"
+    "hint": "sometimes / play"
   },
   {
     "id": "ai-b1-mnjqlcfw-016",
@@ -11984,7 +11984,7 @@
     "tags": [
       "entertainment"
     ],
-    "hint": "talked about / new / movie"
+    "hint": "talked about / new"
   },
   {
     "id": "ai-b1-mnjqlcfw-017",
@@ -11995,7 +11995,7 @@
       "sports",
       "entertainment"
     ],
-    "hint": "plan / play / next weekend"
+    "hint": "plan / next weekend"
   },
   {
     "id": "ai-b1-mnjqlcfw-018",
@@ -12039,7 +12039,7 @@
       "family",
       "health"
     ],
-    "hint": "exercise / every day / health"
+    "hint": "exercise / every day"
   },
   {
     "id": "ai-b1-mnjqlf8y-002",
@@ -12168,7 +12168,7 @@
       "food",
       "family"
     ],
-    "hint": "not like / eat out / family"
+    "hint": "not like / eat out"
   },
   {
     "id": "ai-b1-mnjqlf8y-014",
@@ -12211,7 +12211,7 @@
       "food",
       "health"
     ],
-    "hint": "drinks / fresh juice / morning"
+    "hint": "drinks / fresh juice"
   },
   {
     "id": "ai-b1-mnjqlf8y-018",
@@ -12254,7 +12254,7 @@
       "school",
       "travel"
     ],
-    "hint": "studying / university / abroad"
+    "hint": "studying / university"
   },
   {
     "id": "ai-b1-mnjqlke8-003",
@@ -12337,7 +12337,7 @@
     "tags": [
       "environment"
     ],
-    "hint": "bought / book / environmental protection"
+    "hint": "bought / environmental protection"
   },
   {
     "id": "ai-b1-mnjqlke8-011",
@@ -12348,7 +12348,7 @@
       "school",
       "travel"
     ],
-    "hint": "participating / cultural exchange / program"
+    "hint": "participating / cultural exchange"
   },
   {
     "id": "ai-b1-mnjqlke8-012",
@@ -12401,7 +12401,7 @@
       "school",
       "environment"
     ],
-    "hint": "taking / course / environmental issues"
+    "hint": "taking / environmental issues"
   },
   {
     "id": "ai-b1-mnjqlke8-017",
@@ -12411,7 +12411,7 @@
     "tags": [
       "travel"
     ],
-    "hint": "not easy / plan / trip"
+    "hint": "not easy / plan"
   },
   {
     "id": "ai-b1-mnjqlowa-000",
@@ -12422,7 +12422,7 @@
       "sports",
       "entertainment"
     ],
-    "hint": "play / soccer / every week"
+    "hint": "play / every week"
   },
   {
     "id": "ai-b1-mnjqlowa-001",
@@ -12452,7 +12452,7 @@
     "tags": [
       "entertainment"
     ],
-    "hint": "going / concert / next week"
+    "hint": "going / next week"
   },
   {
     "id": "ai-b1-mnjqlowa-004",
@@ -12462,7 +12462,7 @@
     "tags": [
       "sports"
     ],
-    "hint": "like / basketball / does not"
+    "hint": "like / basketball"
   },
   {
     "id": "ai-b1-mnjqlowa-005",
@@ -12574,7 +12574,7 @@
     "tags": [
       "sports"
     ],
-    "hint": "know / his / favorite sport"
+    "hint": "know / favorite sport"
   },
   {
     "id": "ai-b1-mnjqlowa-016",
@@ -12799,7 +12799,7 @@
     "tags": [
       "travel"
     ],
-    "hint": "looks forward to / traveling / every year"
+    "hint": "looks forward to / every year"
   },
   {
     "id": "ai-b1-mnjqlwx3-001",
@@ -12820,7 +12820,7 @@
     "tags": [
       "travel"
     ],
-    "hint": "if / had time / travel more"
+    "hint": "had time / travel more"
   },
   {
     "id": "ai-b1-mnjqlwx3-003",
@@ -12831,7 +12831,7 @@
       "school",
       "environment"
     ],
-    "hint": "studying / environmental science / university"
+    "hint": "studying / environmental science"
   },
   {
     "id": "ai-b1-mnjqlwx3-004",
@@ -12841,7 +12841,7 @@
     "tags": [
       "travel"
     ],
-    "hint": "need / make plans / soon"
+    "hint": "need / make plans"
   },
   {
     "id": "ai-b1-mnjqlwx3-005",
@@ -12871,7 +12871,7 @@
     "tags": [
       "environment"
     ],
-    "hint": "awareness / environmental issues / increasing"
+    "hint": "awareness / environmental issues"
   },
   {
     "id": "ai-b1-mnjqlwx3-008",
@@ -12892,7 +12892,7 @@
     "tags": [
       "school"
     ],
-    "hint": "plans / participate / international project"
+    "hint": "plans / international project"
   },
   {
     "id": "ai-b1-mnjqlwx3-010",
@@ -12933,7 +12933,7 @@
     "tags": [
       "school"
     ],
-    "hint": "helping / many students / program"
+    "hint": "helping / many students"
   },
   {
     "id": "ai-b1-mnjqlwx3-014",
@@ -12953,7 +12953,7 @@
     "tags": [
       "travel"
     ],
-    "hint": "bought / special bag / for traveling"
+    "hint": "special bag / for traveling"
   },
   {
     "id": "ai-b1-mnjqlwx3-016",
@@ -12963,7 +12963,7 @@
     "tags": [
       "school"
     ],
-    "hint": "planning / visit / new school"
+    "hint": "planning / new school"
   },
   {
     "id": "ai-b1-mnjqlwx3-017",
@@ -13451,7 +13451,7 @@
     "tags": [
       "social"
     ],
-    "hint": "supports / brother / always"
+    "hint": "supports / brother"
   },
   {
     "id": "ai-b1-mnjqmc7s-007",
@@ -13491,7 +13491,7 @@
     "tags": [
       "social"
     ],
-    "hint": "don't agree / sometimes / opinions"
+    "hint": "don't agree / sometimes"
   },
   {
     "id": "ai-b1-mnjqmc7s-011",
@@ -13541,7 +13541,7 @@
     "tags": [
       "social"
     ],
-    "hint": "like / hang out / together"
+    "hint": "like / hang out"
   },
   {
     "id": "ai-b1-mnjqmc7s-016",
@@ -13571,7 +13571,7 @@
     "tags": [
       "social"
     ],
-    "hint": "wrote / letter / friend"
+    "hint": "wrote / letter"
   },
   {
     "id": "ai-b1-mnjqmg7x-000",
@@ -13923,7 +13923,7 @@
       "social",
       "opinion"
     ],
-    "hint": "social media / means / spreading"
+    "hint": "social media / means"
   },
   {
     "id": "ai-b1-mnjqmn81-013",
@@ -14019,7 +14019,7 @@
     "tags": [
       "social"
     ],
-    "hint": "practice / conversation / every weekend"
+    "hint": "practice / every weekend"
   },
   {
     "id": "ai-b1-mnjqmqty-003",
@@ -14059,7 +14059,7 @@
     "tags": [
       "social"
     ],
-    "hint": "friend / helps / often"
+    "hint": "friend / helps"
   },
   {
     "id": "ai-b1-mnjqmqty-007",
@@ -14069,7 +14069,7 @@
     "tags": [
       "social"
     ],
-    "hint": "respect / each other's / opinions"
+    "hint": "respect / each other's"
   },
   {
     "id": "ai-b1-mnjqmqty-008",
@@ -14099,7 +14099,7 @@
     "tags": [
       "social"
     ],
-    "hint": "true friend / always / supports"
+    "hint": "true friend / always"
   },
   {
     "id": "ai-b1-mnjqmqty-011",
@@ -14119,7 +14119,7 @@
     "tags": [
       "social"
     ],
-    "hint": "understand / each other's / feelings"
+    "hint": "understand / each other's"
   },
   {
     "id": "ai-b1-mnjqmqty-013",
@@ -15441,7 +15441,7 @@
       "social",
       "ethics"
     ],
-    "hint": "respect / each other / should"
+    "hint": "respect / each other"
   },
   {
     "id": "ai-b2-mnjqnta4-007",
@@ -15496,7 +15496,7 @@
       "social",
       "ethics"
     ],
-    "hint": "supporting / each other / important"
+    "hint": "supporting / each other"
   },
   {
     "id": "ai-b2-mnjqnta5-012",
@@ -16797,7 +16797,7 @@
     "tags": [
       "sports"
     ],
-    "hint": "habit / jogging / every week"
+    "hint": "habit / every week"
   },
   {
     "id": "ai-b2-mnjqouvt-006",
@@ -17170,7 +17170,7 @@
     "tags": [
       "entertainment"
     ],
-    "hint": "directing / new / movie"
+    "hint": "directing / new"
   },
   {
     "id": "ai-b2-mnjqpg0s-005",
@@ -17992,7 +17992,7 @@
       "politics",
       "social"
     ],
-    "hint": "citizen participation / policy-making / democracy"
+    "hint": "citizen participation / policy-making"
   },
   {
     "id": "ai-c1-mnjqpu63-007",
@@ -18040,7 +18040,7 @@
       "politics",
       "social"
     ],
-    "hint": "social inequality / hinder / sustainable development"
+    "hint": "social inequality / sustainable development"
   },
   {
     "id": "ai-c1-mnjqpu63-011",
@@ -18136,7 +18136,7 @@
       "politics",
       "social"
     ],
-    "hint": "robust framework / address / ethical issues"
+    "hint": "robust framework / ethical issues"
   },
   {
     "id": "ai-c1-mnjqq08n-000",
@@ -18698,7 +18698,7 @@
       "politics",
       "social"
     ],
-    "hint": "respecting / human rights / ethically"
+    "hint": "respecting / human rights"
   },
   {
     "id": "ai-c1-mnjqq9dg-015",
@@ -19977,7 +19977,7 @@
     "tags": [
       "politics"
     ],
-    "hint": "effective governance / essential / economic growth"
+    "hint": "effective governance / economic growth"
   },
   {
     "id": "ai-c1-mnjqr7x0-018",
@@ -20190,7 +20190,7 @@
       "work",
       "opinion"
     ],
-    "hint": "strategic / thinking / essential skill"
+    "hint": "strategic / essential skill"
   },
   {
     "id": "ai-c1-mnjqr9wz-018",
@@ -21678,7 +21678,7 @@
       "culture",
       "social"
     ],
-    "hint": "reflects / social impact / literature"
+    "hint": "reflects / social impact"
   },
   {
     "id": "ai-c2-mnjqsg8v-017",
