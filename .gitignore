@@ -32,6 +32,7 @@
 
 # generated datasets
 api/shared/data/jmdict.min.json
+scripts/output/
 
 # debug
 npm-debug.log*

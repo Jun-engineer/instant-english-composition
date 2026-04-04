@@ -1,6 +1,11 @@
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import Script from 'next/script';
+import Link from 'next/link';
 import './globals.css';
+
+export const viewport: Viewport = {
+  themeColor: '#f59e0b',
+};
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://speedspeak.jp'),
@@ -12,7 +17,6 @@ export const metadata: Metadata = {
     shortcut: '/icon.png'
   },
   manifest: '/manifest.webmanifest',
-  themeColor: '#f59e0b'
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -42,6 +46,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
         <main>{children}</main>
         <footer className="app-footer">
+          <nav className="mb-3 flex flex-wrap justify-center gap-4 text-sm">
+            <Link href="/about" className="text-slate-600 underline hover:text-slate-800">SpeedSpeak について</Link>
+            <Link href="/cefr" className="text-slate-600 underline hover:text-slate-800">CEFR レベル</Link>
+            <Link href="/privacy" className="text-slate-600 underline hover:text-slate-800">プライバシーポリシー</Link>
+            <Link href="/terms" className="text-slate-600 underline hover:text-slate-800">利用規約</Link>
+          </nav>
           <small>© {currentYear} Jun Nammoku. All rights reserved.</small>
         </footer>
       </body>
