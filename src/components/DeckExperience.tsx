@@ -334,6 +334,13 @@ export function DeckExperience() {
             </button>
             <button
               type="button"
+              className="underline decoration-slate-300 hover:text-slate-700"
+              onClick={handleBackHome}
+            >
+              トップへ戻る
+            </button>
+            <button
+              type="button"
               className="rounded-full border border-amber-200 bg-amber-50 px-4 py-2 text-xs font-semibold text-amber-700 transition hover:bg-amber-100 disabled:opacity-50"
               onClick={handleSentenceFavoriteToggle}
               disabled={!currentCard}
