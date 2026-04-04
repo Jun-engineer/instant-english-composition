@@ -1,9 +1,11 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import { CEFR_LEVEL_SUMMARIES } from '@/lib/cefr';
 
-export const metadata = {
-  title: 'CEFR レベルの目安 | SpeedSpeak',
-  description: 'CEFR 各レベルの習得目安と SpeedSpeak でのトレーニングの活かし方をまとめました。'
+export const metadata: Metadata = {
+  title: 'CEFR レベルの目安',
+  description: 'CEFR 各レベル（A1〜C2）の習得目安と SpeedSpeak でのトレーニングの活かし方をまとめました。',
+  alternates: { canonical: 'https://speedspeak.jp/cefr' },
 };
 
 export default function CEFRPage() {

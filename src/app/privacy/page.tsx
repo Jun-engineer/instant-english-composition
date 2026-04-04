@@ -1,8 +1,10 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 
-export const metadata = {
-  title: 'プライバシーポリシー | SpeedSpeak',
-  description: 'SpeedSpeak のプライバシーポリシーについてご説明します。'
+export const metadata: Metadata = {
+  title: 'プライバシーポリシー',
+  description: 'SpeedSpeak のプライバシーポリシーについてご説明します。',
+  alternates: { canonical: 'https://speedspeak.jp/privacy' },
 };
 
 export default function PrivacyPage() {

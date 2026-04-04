@@ -1,15 +1,31 @@
-# 瞬間英作文トレーニング Web アプリ
+# SpeedSpeak — 瞬間英作文トレーニング
 
-CEFR レベルとトピックで練習カードを切り替えながら瞬間英作文をトレーニングする学習アプリです。ホワイト基調のモバイルファースト UI に刷新し、Swipe 操作で軽快にカード学習が進むようにしました。Next.js をフロントエンドに、Azure Functions + Cosmos DB をバックエンドに採用しています。将来的には Azure OpenAI との連携も検討しています。
+> **https://speedspeak.jp**
+
+日本語の文を見て瞬時に英語に変換する「瞬間英作文」メソッドに基づいた Web トレーニングアプリです。  
+CEFR A1〜C2 の **2,200 問以上**を収録し、26 カテゴリのトピックから自由に選んで学習できます。
+
+### 主な機能
+
+- スワイプ操作で正解 / 復習を振り分けるカード学習 UI
+- CEFR レベル × トピックで自由にフィルタリング
+- 辞書機能（JMdict 21 万語）— カード内の単語をタップして意味を確認
+- お気に入り例文の保存
+- セッション結果のサマリー表示
+- モバイルファースト・PWA 対応
 
 ## アーキテクチャ概要
 
-- **フロントエンド**: Next.js 14 (App Router) + Tailwind CSS。静的エクスポートして Azure Static Web Apps にホスト。
-- **状態管理 / データ取得**: Zustand によるローカル学習履歴の永続化、SWR による API フェッチ。
-- **バックエンド**: Azure Functions (Node.js 20)。カード取得 (`GetCards`) とレビュー記録 (`MarkCard`) を提供。
-- **データストア**: Azure Cosmos DB Serverless。学習カードとレビュー履歴を保存。
-- **インフラ**: Bicep で Static Web App、Function App、Cosmos DB、Storage、Key Vault を一括デプロイ。
-- **CI/CD**: GitHub Actions でビルド・静的エクスポート・Functions パッケージを Static Web App にアップロード。
+| レイヤー | 技術 |
+|---|---|
+| **フロントエンド** | Next.js 14 (App Router) + Tailwind CSS — 静的エクスポート → Azure Static Web Apps |
+| **状態管理** | Zustand (ローカル学習履歴の永続化) |
+| **バックエンド** | Azure Functions (Node.js 20) — `GetCards`, `MarkCard`, `LookupVocabulary` |
+| **データストア** | Azure Cosmos DB Serverless (cards + review history) |
+| **辞書データ** | JMdict XML → JSON pipeline (`scripts/prepare-jmdict.mjs`) |
+| **カード生成** | Azure OpenAI GPT-4o-mini (`scripts/generate-cards.mjs`) |
+| **インフラ** | Bicep (Static Web App, Function App, Cosmos DB, Key Vault) |
+| **CI/CD** | GitHub Actions → Azure Static Web Apps deploy |
 
 ## アーキテクチャ構成図
 
@@ -33,12 +49,15 @@ graph TD
 ```
 .
 ├── src/
-│   ├── app/               # Next.js App Router ページとグローバルスタイル
-│   ├── components/        # DeckExperience, FlashCard, DeckFilters など UI コンポーネント
-│   ├── lib/               # 型定義・定数・API ヘルパー
-│   └── state/             # Zustand ストア
-├── api/                   # Azure Functions (GetCards, MarkCard)
+│   ├── app/               # Next.js App Router ページ (/, /about, /cefr, /privacy, /terms)
+│   ├── components/        # DeckExperience, FlashCard, DeckFilters, VocabularyTooltip など
+│   ├── lib/               # 型定義・定数・API ヘルパー・CEFR 定義
+│   └── state/             # Zustand ストア (deck, favorites)
+├── api/                   # Azure Functions (GetCards, MarkCard, LookupVocabulary)
+│   └── shared/            # Cosmos DB client, customCards.json (2,200+ cards)
+├── scripts/               # カード生成・アップロード・品質監査・JMdict パイプライン
 ├── infra/                 # Bicep テンプレート
+├── public/                # robots.txt, sitemap.xml, PWA icons, ads.txt
 ├── .github/workflows/     # GitHub Actions 定義
 └── staticwebapp.config.json
 ```
@@ -52,26 +71,39 @@ npm install
 npm install --prefix api
 ```
 
-### 2. 開発サーバーの起動
+### 2. ローカル開発
+
+開発時は 2 つのプロセスを起動します。Next.js dev サーバーが `/api/*` を Azure Functions (port 7071) へ自動プロキシします。
 
 ```bash
-# フロントエンド (http://localhost:3000)
-npm run dev
+# ターミナル 1: Azure Functions
+cd api && func start
 
-# Azure Functions (http://localhost:7071)
-cd api
-func start
+# ターミナル 2: Next.js dev server (port 3000)
+npm run dev
 ```
 
-`local.settings.json` に Cosmos DB のエンドポイント・キーを設定すると、本番と同じデータソースを利用できます。未設定の場合はサンプルカードが返ります。
+`api/local.settings.json` に Cosmos DB のエンドポイント・キーを設定すると本番データを利用できます。未設定の場合は `customCards.json` のフォールバックカードが返ります。
 
-### 3. 静的エクスポート
+### 3. 本番ビルド（静的エクスポート）
 
 ```bash
 npm run build:static
 ```
 
-`out/` に生成されたファイルを Static Web Apps へアップロードします。
+`out/` に生成されたファイルが Azure Static Web Apps へデプロイされます。
+
+### 4. カード生成（オプション）
+
+Azure OpenAI を使って新しいカードを生成できます。`.env` に認証情報を設定してください。
+
+```bash
+# 例: A2 レベルの food タグで 20 枚生成
+npm run generate:cards -- --level A2 --tags food --count 20
+
+# ローカル JSON に追記
+npm run upload:cards -- --local
+```
 
 ## Azure へのデプロイ
 
@@ -91,4 +123,4 @@ npm run build:static
 
 ## ライセンス
 
-© 2025 Jun Nammoku. All rights reserved.
+© 2026 Jun Nammoku. All rights reserved.

@@ -1,9 +1,36 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import { DeckExperience } from '@/components/DeckExperience';
+
+export const metadata: Metadata = {
+  title: 'SpeedSpeak | 瞬間英作文トレーニング',
+  alternates: { canonical: 'https://speedspeak.jp' },
+};
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebApplication',
+  name: 'SpeedSpeak',
+  url: 'https://speedspeak.jp',
+  applicationCategory: 'EducationalApplication',
+  operatingSystem: 'All',
+  inLanguage: ['ja', 'en'],
+  description:
+    '瞬間英作文メソッドで英語の反応速度を鍛えるトレーニングアプリ。CEFR A1〜C2対応、2,000問以上収録。',
+  offers: {
+    '@type': 'Offer',
+    price: '0',
+    priceCurrency: 'JPY',
+  },
+};
 
 export default function HomePage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <DeckExperience />
 
       {/* Static content for SEO / AdSense — rendered below the interactive area */}

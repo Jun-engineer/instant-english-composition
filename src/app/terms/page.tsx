@@ -1,8 +1,10 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 
-export const metadata = {
-  title: '利用規約 | SpeedSpeak',
-  description: 'SpeedSpeak の利用規約をご確認ください。'
+export const metadata: Metadata = {
+  title: '利用規約',
+  description: 'SpeedSpeak の利用規約をご確認ください。',
+  alternates: { canonical: 'https://speedspeak.jp/terms' },
 };
 
 export default function TermsPage() {

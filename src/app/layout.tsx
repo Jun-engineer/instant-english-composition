@@ -9,14 +9,33 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://speedspeak.jp'),
-  title: 'SpeedSpeak | 瞬間英作文トレーニング',
-  description: 'SpeedSpeakで瞬時に英語フレーズを組み立てて、反応速度と表現力を鍛えましょう。',
+  title: {
+    default: 'SpeedSpeak | 瞬間英作文トレーニング',
+    template: '%s | SpeedSpeak',
+  },
+  description: 'SpeedSpeakで瞬時に英語フレーズを組み立てて、反応速度と表現力を鍛えましょう。CEFR対応の2,000問以上で初心者から上級者まで。',
   icons: {
     icon: '/icon.png',
     apple: '/apple-icon.png',
     shortcut: '/icon.png'
   },
   manifest: '/manifest.webmanifest',
+  openGraph: {
+    type: 'website',
+    locale: 'ja_JP',
+    siteName: 'SpeedSpeak',
+    title: 'SpeedSpeak | 瞬間英作文トレーニング',
+    description: '瞬間英作文メソッドで英語の反応速度を鍛えるトレーニングアプリ。CEFR A1〜C2対応、2,000問以上収録。',
+    url: 'https://speedspeak.jp',
+  },
+  twitter: {
+    card: 'summary',
+    title: 'SpeedSpeak | 瞬間英作文トレーニング',
+    description: '瞬間英作文メソッドで英語の反応速度を鍛えるトレーニングアプリ。',
+  },
+  alternates: {
+    canonical: 'https://speedspeak.jp',
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

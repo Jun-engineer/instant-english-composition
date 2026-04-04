@@ -1,8 +1,10 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 
-export const metadata = {
-  title: 'SpeedSpeak について | SpeedSpeak',
-  description: 'SpeedSpeak は瞬間英作文メソッドに基づいた英語トレーニングアプリです。コンセプトや使い方をご紹介します。'
+export const metadata: Metadata = {
+  title: 'SpeedSpeak について',
+  description: 'SpeedSpeak は瞬間英作文メソッドに基づいた英語トレーニングアプリです。コンセプトや使い方をご紹介します。',
+  alternates: { canonical: 'https://speedspeak.jp/about' },
 };
 
 export default function AboutPage() {
