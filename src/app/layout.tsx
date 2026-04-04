@@ -36,6 +36,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://speedspeak.jp',
   },
+  verification: {
+    google: 'mpPz7TCgmd9mqTr7Tvy5__my_UvJIwx92pvK3C2DfjM',
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
