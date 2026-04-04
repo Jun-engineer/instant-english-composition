@@ -27,11 +27,13 @@ export const metadata: Metadata = {
     title: 'SpeedSpeak | 瞬間英作文トレーニング',
     description: '瞬間英作文メソッドで英語の反応速度を鍛えるトレーニングアプリ。CEFR A1〜C2対応、2,000問以上収録。',
     url: 'https://speedspeak.jp',
+    images: [{ url: '/og-image.png', width: 1200, height: 630, alt: 'SpeedSpeak — Instant English Composition Training' }],
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: 'SpeedSpeak | 瞬間英作文トレーニング',
     description: '瞬間英作文メソッドで英語の反応速度を鍛えるトレーニングアプリ。',
+    images: ['/og-image.png'],
   },
   alternates: {
     canonical: 'https://speedspeak.jp',
