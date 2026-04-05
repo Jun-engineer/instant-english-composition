@@ -29,6 +29,7 @@
 
 # local tooling
 .azure/
+api/local.settings.json
 
 # generated datasets
 api/shared/data/jmdict.min.json

@@ -13,6 +13,7 @@ export interface DeckCard {
 
 export interface VocabularyDefinition {
   definition: string;
+  definitionJa?: string;
   example?: string;
   translation?: string;
 }
@@ -33,6 +34,13 @@ export interface VocabularyEntry {
   audioUrl?: string;
   meanings: VocabularyMeaning[];
   usageExamples?: VocabularyUsageExample[];
+
+  /** AI-generated related words */
+  relatedWords?: string[];
+  /** AI-generated grammar/usage notes in Japanese */
+  notes?: string;
+  /** Source of the vocabulary data */
+  source?: 'ai' | 'dictionary';
 }
 
 export interface VocabularyFavorite extends VocabularyEntry {

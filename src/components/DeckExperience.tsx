@@ -416,7 +416,7 @@ export function DeckExperience() {
       ) : null}
 
       {selectedWord ? (
-        <VocabularyModal word={selectedWord} onClose={() => setSelectedWord(null)} />
+        <VocabularyModal word={selectedWord} sentence={currentCard?.answer} onClose={() => setSelectedWord(null)} />
       ) : null}
 
       {showFavorites ? <FavoritesPanel onClose={() => setShowFavorites(false)} /> : null}

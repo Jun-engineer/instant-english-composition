@@ -7,10 +7,11 @@ import type { VocabularyEntry } from '@/lib/types';
 
 interface VocabularyModalProps {
   word: string;
+  sentence?: string;
   onClose: () => void;
 }
 
-export function VocabularyModal({ word, onClose }: VocabularyModalProps) {
+export function VocabularyModal({ word, sentence, onClose }: VocabularyModalProps) {
   const favorites = useDeckStore((state) => state.vocabularyFavorites);
   const addFavorite = useDeckStore((state) => state.addFavorite);
   const removeFavorite = useDeckStore((state) => state.removeFavorite);
@@ -30,7 +31,7 @@ export function VocabularyModal({ word, onClose }: VocabularyModalProps) {
     setLoading(true);
     setError(null);
     setEntry(null);
-    fetchVocabularyEntry(word)
+    fetchVocabularyEntry(word, sentence)
       .then((result) => {
         if (!cancelled) {
           setEntry(result);
@@ -49,7 +50,7 @@ export function VocabularyModal({ word, onClose }: VocabularyModalProps) {
     return () => {
       cancelled = true;
     };
-  }, [word]);
+  }, [word, sentence]);
 
   const handleFavoriteToggle = useCallback(() => {
     if (isFavorite) {
@@ -125,10 +126,36 @@ export function VocabularyModal({ word, onClose }: VocabularyModalProps) {
           {error ? <p className="text-center text-sm text-rose-600">{error}</p> : null}
 
           {!loading && !error && entry ? (
-            <div className="space-y-4">
+            <div className="mt-4 space-y-4">
+              {entry.meanings[0]?.definitions[0]?.translation ? (
+                <section className="rounded-2xl border border-amber-200 bg-amber-50/60 p-4 text-left">
+                  <p className="text-xs font-semibold uppercase tracking-wide text-amber-600">意味</p>
+                  <p className="mt-2 text-base font-medium text-slate-800">{entry.meanings[0].definitions[0].translation}</p>
+                </section>
+              ) : null}
+              {entry.meanings.map((meaning, meaningIndex) => (
+                <section key={`${meaning.partOfSpeech}-${meaningIndex}`} className="rounded-2xl border border-slate-200 bg-slate-50/60 p-4 text-left">
+                  <p className="text-sm font-semibold uppercase tracking-wide text-slate-500">
+                    {meaning.partOfSpeech}
+                  </p>
+                  <ul className="mt-2 space-y-3 text-sm text-slate-700">
+                    {meaning.definitions.map((definition, definitionIndex) => (
+                      <li key={definitionIndex}>
+                        <p className="font-medium text-slate-800">{definition.definition}</p>
+                        {definition.definitionJa ? (
+                          <p className="mt-1 text-xs text-slate-500">{definition.definitionJa}</p>
+                        ) : null}
+                        {definition.example ? (
+                          <p className="mt-1 text-xs italic text-slate-500">例: {definition.example}</p>
+                        ) : null}
+                      </li>
+                    ))}
+                  </ul>
+                </section>
+              ))}
               {entry.usageExamples?.length ? (
                 <section className="rounded-2xl border border-blue-100 bg-blue-50/60 p-4 text-left">
-                  <p className="text-xs font-semibold uppercase tracking-wide text-blue-600">Usage Examples</p>
+                  <p className="text-xs font-semibold uppercase tracking-wide text-blue-600">例文</p>
                   <ul className="mt-2 space-y-2 text-sm text-slate-700">
                     {entry.usageExamples.map((example, index) => (
                       <li key={`usage-${index}`} className="space-y-1">
@@ -141,26 +168,24 @@ export function VocabularyModal({ word, onClose }: VocabularyModalProps) {
                   </ul>
                 </section>
               ) : null}
-              {entry.meanings.map((meaning, meaningIndex) => (
-                <section key={`${meaning.partOfSpeech}-${meaningIndex}`} className="rounded-2xl border border-slate-200 bg-slate-50/60 p-4 text-left">
-                  <p className="text-sm font-semibold uppercase tracking-wide text-slate-500">
-                    {meaning.partOfSpeech}
-                  </p>
-                  <ul className="mt-2 space-y-3 text-sm text-slate-700">
-                    {meaning.definitions.map((definition, definitionIndex) => (
-                      <li key={definitionIndex}>
-                        <p className="font-medium text-slate-800">{definition.definition}</p>
-                        {definition.translation ? (
-                          <p className="mt-1 text-xs text-slate-500">英: {definition.translation}</p>
-                        ) : null}
-                        {definition.example ? (
-                          <p className="mt-1 text-xs italic text-slate-500">例: {definition.example}</p>
-                        ) : null}
-                      </li>
-                    ))}
-                  </ul>
+              {entry.notes ? (
+                <section className="rounded-2xl border border-emerald-100 bg-emerald-50/60 p-4 text-left">
+                  <p className="text-xs font-semibold uppercase tracking-wide text-emerald-600">ポイント</p>
+                  <p className="mt-2 text-sm text-slate-700">{entry.notes}</p>
                 </section>
-              ))}
+              ) : null}
+              {entry.relatedWords?.length ? (
+                <section className="rounded-2xl border border-violet-100 bg-violet-50/60 p-4 text-left">
+                  <p className="text-xs font-semibold uppercase tracking-wide text-violet-600">関連語</p>
+                  <div className="mt-2 flex flex-wrap gap-2">
+                    {entry.relatedWords.map((rw) => (
+                      <span key={rw} className="rounded-full bg-violet-100 px-3 py-1 text-xs font-medium text-violet-700">
+                        {rw}
+                      </span>
+                    ))}
+                  </div>
+                </section>
+              ) : null}
             </div>
           ) : null}
         </div>

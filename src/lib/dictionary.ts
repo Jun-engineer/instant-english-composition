@@ -27,32 +27,91 @@ function extractAudio(payload: any): string | undefined {
   return match?.audio?.trim();
 }
 
-const PART_OF_SPEECH_RULES: Array<{ test: (value: string) => boolean; label: string }> = [
-  { test: (value) => /particle/i.test(value), label: '助詞' },
-  { test: (value) => /pronoun/i.test(value), label: '代名詞' },
-  { test: (value) => /conjunction/i.test(value), label: '接続詞' },
-  { test: (value) => /interjection/i.test(value), label: '感動詞' },
-  { test: (value) => /adverb/i.test(value), label: '副詞' },
-  { test: (value) => /adjective/i.test(value), label: '形容詞' },
-  { test: (value) => /verb.*ichidan/i.test(value), label: '一段動詞' },
-  { test: (value) => /verb.*godan/i.test(value), label: '五段動詞' },
-  { test: (value) => /verb/i.test(value), label: '動詞' },
-  { test: (value) => /noun.*proper/i.test(value), label: '固有名詞' },
-  { test: (value) => /noun/i.test(value), label: '名詞' },
-  { test: (value) => /expressions? \(phrases/i.test(value), label: '慣用句' },
-  { test: (value) => /auxiliary/i.test(value), label: '助動詞' },
-  { test: (value) => /suffix/i.test(value), label: '接尾辞' },
-  { test: (value) => /prefix/i.test(value), label: '接頭辞' }
-];
+const PART_OF_SPEECH_MAP: Record<string, string> = {
+  noun: '名詞',
+  verb: '動詞',
+  adjective: '形容詞',
+  adverb: '副詞',
+  pronoun: '代名詞',
+  preposition: '前置詞',
+  conjunction: '接続詞',
+  interjection: '感動詞',
+  article: '冠詞',
+  determiner: '限定詞'
+};
 
-function translatePartOfSpeech(value: string): string {
-  const normalized = value.trim();
-  const match = PART_OF_SPEECH_RULES.find((rule) => rule.test(normalized));
-  if (!match) {
-    return normalized || '品詞未分類';
-  }
-  return `${match.label} / ${normalized}`;
+function translatePartOfSpeech(en: string, ja?: string): string {
+  if (ja) return `${ja} / ${en}`;
+  const mapped = PART_OF_SPEECH_MAP[en.toLowerCase()];
+  return mapped ? `${mapped} / ${en}` : en;
 }
+
+/* ── AI Lookup (primary) ──────────────────────────────────────────── */
+
+interface AIResult {
+  word: string;
+  partOfSpeech: string;
+  partOfSpeechJa: string;
+  wordTranslation: string;
+  definition: string;
+  definitionJa: string;
+  usageExamples: Array<{ english: string; japanese?: string }>;
+  relatedWords: string[];
+  notes: string | null;
+}
+
+async function fetchAILookup(word: string, sentence: string): Promise<AIResult | null> {
+  try {
+    const params = new URLSearchParams({ word });
+    if (sentence) params.set('sentence', sentence);
+    const response = await fetch(`${API_ENDPOINTS.lookupVocabularyAI}?${params}`, {
+      cache: 'no-store'
+    });
+    if (!response.ok) return null;
+    const payload = await response.json();
+    if (!payload?.available || !payload?.result) return null;
+    return payload.result as AIResult;
+  } catch (error) {
+    console.warn('AI vocabulary lookup failed', error);
+    return null;
+  }
+}
+
+function buildEntryFromAI(
+  ai: AIResult,
+  phonetic?: string,
+  audioUrl?: string
+): VocabularyEntry {
+  const meanings: VocabularyMeaning[] = [
+    {
+      partOfSpeech: translatePartOfSpeech(ai.partOfSpeech, ai.partOfSpeechJa),
+      definitions: [
+        {
+          definition: ai.definition,
+          definitionJa: ai.definitionJa,
+          translation: ai.wordTranslation
+        }
+      ]
+    }
+  ];
+
+  const usageExamples: VocabularyUsageExample[] = (ai.usageExamples ?? [])
+    .filter((ex) => ex.english)
+    .map((ex) => ({ english: ex.english, japanese: ex.japanese }));
+
+  return {
+    word: ai.word || '',
+    phonetic,
+    audioUrl,
+    meanings,
+    usageExamples: usageExamples.length ? usageExamples : undefined,
+    relatedWords: ai.relatedWords?.length ? ai.relatedWords : undefined,
+    notes: ai.notes || undefined,
+    source: 'ai'
+  };
+}
+
+/* ── Free Dictionary API (phonetics + fallback) ───────────────────── */
 
 function mapDefinitions(rawDefinitions: any[]): VocabularyDefinition[] {
   return rawDefinitions
@@ -76,147 +135,56 @@ function mapMeanings(rawMeanings: any[]): VocabularyMeaning[] {
     .slice(0, 4);
 }
 
-function escapeRegExp(value: string) {
-  return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-}
-
-function collectExamples(rawMeanings: any[], lookupWords: string[]): VocabularyUsageExample[] {
-  const examples = new Map<string, VocabularyUsageExample>();
-  const normalizedTargets = Array.from(
-    new Set(
-      lookupWords
-        .map((word) => (typeof word === 'string' ? word.trim().toLowerCase() : ''))
-        .filter(Boolean)
-    )
-  );
-  const patterns = normalizedTargets.map((word) => new RegExp(`\\b${escapeRegExp(word)}\\b`, 'i'));
-  rawMeanings.forEach((meaning) => {
-    const definitions = Array.isArray(meaning?.definitions)
-      ? (meaning.definitions as Array<{ example?: string }>)
-      : [];
-    definitions.forEach((definition) => {
-      if (typeof definition?.example === 'string' && definition.example.trim().length) {
-        const english = definition.example.trim();
-        if (patterns.length && !patterns.some((pattern) => pattern.test(english))) {
-          return;
-        }
-        if (!examples.has(english)) {
-          examples.set(english, { english });
-        }
-      }
-    });
-  });
-  return Array.from(examples.values()).slice(0, 5);
-}
-
-async function fetchJapaneseMeanings(word: string) {
+async function fetchFreeDictionary(word: string) {
   try {
-    const response = await fetch(`${API_ENDPOINTS.lookupVocabulary}?word=${encodeURIComponent(word)}`, {
-      cache: 'no-store'
-    });
-    if (!response.ok) {
-      return [];
-    }
+    const response = await fetch(`${DICTIONARY_API_BASE}${encodeURIComponent(word)}`);
+    if (!response.ok) return null;
     const payload = await response.json();
-    if (!Array.isArray(payload?.matches)) {
-      return [];
-    }
-    return payload.matches as Array<{
-      entryId: string;
-      headword: string;
-      reading: string | null;
-      glosses: string[];
-      partsOfSpeech: string[];
-    }>;
-  } catch (error) {
-    console.warn('Failed to fetch JMdict meanings', error);
-    return [];
+    if (!Array.isArray(payload) || !payload.length) return null;
+    return payload[0];
+  } catch {
+    return null;
   }
 }
 
-function formatJapaneseHeadword(match: { headword?: string; reading?: string | null }): string {
-  const headword = match.headword?.trim() ?? '';
-  const reading = match.reading?.trim() ?? '';
-  if (headword && reading && headword !== reading) {
-    return `${headword}（${reading}）`;
-  }
-  return headword || reading || '—';
-}
+/* ── Main entry point ─────────────────────────────────────────────── */
 
-function buildMeaningsFromJMDict(matches: Array<{
-  glosses: string[];
-  partsOfSpeech: string[];
-  headword?: string;
-  reading?: string | null;
-}>): VocabularyMeaning[] {
-  return matches.map((match) => ({
-    partOfSpeech: match.partsOfSpeech?.length
-      ? match.partsOfSpeech.map(translatePartOfSpeech).join('、')
-      : '品詞未分類',
-    definitions: [
-      {
-        definition: formatJapaneseHeadword(match),
-        translation: (match.glosses ?? []).slice(0, 5).join(' / ') || undefined
-      }
-    ]
-  }));
-}
-
-export async function fetchVocabularyEntry(word: string): Promise<VocabularyEntry> {
+export async function fetchVocabularyEntry(
+  word: string,
+  sentence?: string
+): Promise<VocabularyEntry> {
   const normalized = normalizeWord(word);
   if (!normalized) {
     throw new Error('Word is required');
   }
 
-  let entries: any[] = [];
-  let englishError: Error | null = null;
-  try {
-    const response = await fetch(`${DICTIONARY_API_BASE}${encodeURIComponent(normalized)}`);
-    if (response.ok) {
-      const payload = await response.json();
-      if (Array.isArray(payload) && payload.length) {
-        entries = payload as any[];
-      } else {
-        englishError = new Error('No definition available');
-      }
-    } else if (response.status !== 404) {
-      englishError = new Error(`Failed to load definition (${response.status})`);
-    } else {
-      englishError = new Error('No definition available');
-    }
-  } catch (error) {
-    englishError = error instanceof Error ? error : new Error('Failed to load definition');
+  // Fetch AI lookup and Free Dictionary in parallel
+  const [aiResult, freeDictPayload] = await Promise.all([
+    fetchAILookup(normalized, sentence ?? ''),
+    fetchFreeDictionary(normalized)
+  ]);
+
+  const phonetic = extractPhonetic(freeDictPayload);
+  const audioUrl = extractAudio(freeDictPayload);
+
+  // Primary: AI-powered lookup
+  if (aiResult) {
+    return buildEntryFromAI(aiResult, phonetic, audioUrl);
   }
 
-  if (englishError && !entries.length) {
-    console.warn(`Dictionary API fallback for "${normalized}": ${englishError.message}`);
+  // Fallback: Free Dictionary API meanings
+  const rawMeanings = Array.isArray(freeDictPayload?.meanings) ? freeDictPayload.meanings : [];
+  const fallbackMeanings = mapMeanings(rawMeanings);
+
+  if (!fallbackMeanings.length) {
+    throw new Error('定義を取得できませんでした。');
   }
-
-  const primary = entries.length ? entries[0] : null;
-  const rawMeanings = Array.isArray(primary?.meanings) ? primary.meanings : [];
-  const resolvedWord = typeof primary?.word === 'string' && primary.word.trim().length ? primary.word.trim() : normalized;
-
-  let japaneseMatches = await fetchJapaneseMeanings(normalized);
-  const normalizedResolved = normalizeWord(resolvedWord);
-  if (!japaneseMatches.length && normalizedResolved !== normalized) {
-    japaneseMatches = await fetchJapaneseMeanings(normalizedResolved);
-  }
-
-  const combinedMeanings = japaneseMatches.length
-    ? buildMeaningsFromJMDict(japaneseMatches)
-    : mapMeanings(rawMeanings);
-
-  if (!combinedMeanings.length) {
-    throw englishError ?? new Error('No definition available');
-  }
-
-  const usageExamples = collectExamples(rawMeanings, [normalized, normalizedResolved]);
 
   return {
-    word: resolvedWord,
-    phonetic: extractPhonetic(primary),
-    audioUrl: extractAudio(primary),
-    meanings: combinedMeanings,
-    usageExamples: usageExamples.length ? usageExamples : undefined
+    word: freeDictPayload?.word?.trim() || normalized,
+    phonetic,
+    audioUrl,
+    meanings: fallbackMeanings,
+    source: 'dictionary'
   };
 }
