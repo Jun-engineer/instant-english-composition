@@ -1,0 +1,200 @@
+[
+  {
+    "id": "ai-a1-mnjqiwh6-000",
+    "prompt": "私は青いシャツを着ています。",
+    "answer": "I am wearing a blue shirt.",
+    "cefrLevel": "A1",
+    "tags": [
+      "clothes",
+      "daily-life"
+    ],
+    "hint": "wearing / blue / shirt"
+  },
+  {
+    "id": "ai-a1-mnjqiwh6-001",
+    "prompt": "彼は赤い靴を持っています。",
+    "answer": "He has red shoes.",
+    "cefrLevel": "A1",
+    "tags": [
+      "clothes",
+      "daily-life"
+    ],
+    "hint": "has / red / shoes"
+  },
+  {
+    "id": "ai-a1-mnjqiwh6-002",
+    "prompt": "彼女は白いドレスを着ています。",
+    "answer": "She is wearing a white dress.",
+    "cefrLevel": "A1",
+    "tags": [
+      "clothes",
+      "daily-life"
+    ],
+    "hint": "wearing / white / dress"
+  },
+  {
+    "id": "ai-a1-mnjqiwh6-003",
+    "prompt": "私は帽子をかぶっています。",
+    "answer": "I am wearing a hat.",
+    "cefrLevel": "A1",
+    "tags": [
+      "clothes",
+      "daily-life"
+    ],
+    "hint": "wearing / hat"
+  },
+  {
+    "id": "ai-a1-mnjqiwh6-004",
+    "prompt": "彼はジーンズを履いています。",
+    "answer": "He is wearing jeans.",
+    "cefrLevel": "A1",
+    "tags": [
+      "clothes",
+      "daily-life"
+    ],
+    "hint": "wearing / jeans"
+  },
+  {
+    "id": "ai-a1-mnjqiwh6-005",
+    "prompt": "彼女はサンダルを履いています。",
+    "answer": "She is wearing sandals.",
+    "cefrLevel": "A1",
+    "tags": [
+      "clothes",
+      "daily-life"
+    ],
+    "hint": "wearing / sandals"
+  },
+  {
+    "id": "ai-a1-mnjqiwh6-006",
+    "prompt": "私はシャツを洗っています。",
+    "answer": "I am washing my shirt.",
+    "cefrLevel": "A1",
+    "tags": [
+      "clothes",
+      "daily-life"
+    ],
+    "hint": "washing / my / shirt"
+  },
+  {
+    "id": "ai-a1-mnjqiwh6-007",
+    "prompt": "彼は古い靴を履いています。",
+    "answer": "He is wearing old shoes.",
+    "cefrLevel": "A1",
+    "tags": [
+      "clothes",
+      "daily-life"
+    ],
+    "hint": "wearing / old / shoes"
+  },
+  {
+    "id": "ai-a1-mnjqiwh6-008",
+    "prompt": "彼女は新しいコートを持っています。",
+    "answer": "She has a new coat.",
+    "cefrLevel": "A1",
+    "tags": [
+      "clothes",
+      "daily-life"
+    ],
+    "hint": "has / new / coat"
+  },
+  {
+    "id": "ai-a1-mnjqiwh6-009",
+    "prompt": "私は青い靴下を持っています。",
+    "answer": "I have blue socks.",
+    "cefrLevel": "A1",
+    "tags": [
+      "clothes",
+      "daily-life"
+    ],
+    "hint": "have / blue / socks"
+  },
+  {
+    "id": "ai-a1-mnjqiwh6-010",
+    "prompt": "今日はジャケットを着ています。",
+    "answer": "I am wearing a jacket today.",
+    "cefrLevel": "A1",
+    "tags": [
+      "clothes",
+      "daily-life"
+    ],
+    "hint": "wearing / jacket / today"
+  },
+  {
+    "id": "ai-a1-mnjqiwh6-011",
+    "prompt": "彼は白いシャツを着ていますか？",
+    "answer": "Is he wearing a white shirt?",
+    "cefrLevel": "A1",
+    "tags": [
+      "clothes",
+      "daily-life"
+    ],
+    "hint": "wearing / white / shirt"
+  },
+  {
+    "id": "ai-a1-mnjqiwh6-012",
+    "prompt": "私はいつもパンツを履きます。",
+    "answer": "I always wear pants.",
+    "cefrLevel": "A1",
+    "tags": [
+      "clothes",
+      "daily-life"
+    ],
+    "hint": "always / wear / pants"
+  },
+  {
+    "id": "ai-a1-mnjqiwh6-013",
+    "prompt": "彼女はお気に入りの服を着ています。",
+    "answer": "She is wearing her favorite clothes.",
+    "cefrLevel": "A1",
+    "tags": [
+      "clothes",
+      "daily-life"
+    ],
+    "hint": "wearing / favorite / clothes"
+  },
+  {
+    "id": "ai-a1-mnjqiwh6-014",
+    "prompt": "私は毎日同じ靴を履きます。",
+    "answer": "I wear the same shoes every day.",
+    "cefrLevel": "A1",
+    "tags": [
+      "clothes",
+      "daily-life"
+    ],
+    "hint": "wear / same / shoes"
+  },
+  {
+    "id": "ai-a1-mnjqiwh6-015",
+    "prompt": "彼は青いスカーフを持っています。",
+    "answer": "He has a blue scarf.",
+    "cefrLevel": "A1",
+    "tags": [
+      "clothes",
+      "daily-life"
+    ],
+    "hint": "has / blue / scarf"
+  },
+  {
+    "id": "ai-a1-mnjqiwh6-016",
+    "prompt": "今日は暑いので、半袖を着ています。",
+    "answer": "It is hot today, so I am wearing short sleeves.",
+    "cefrLevel": "A1",
+    "tags": [
+      "clothes",
+      "daily-life"
+    ],
+    "hint": "hot / wearing / short sleeves"
+  },
+  {
+    "id": "ai-a1-mnjqiwh6-017",
+    "prompt": "彼女はいつも明るい色を選びます。",
+    "answer": "She always chooses bright colors.",
+    "cefrLevel": "A1",
+    "tags": [
+      "clothes",
+      "daily-life"
+    ],
+    "hint": "always / chooses / bright colors"
+  }
+]

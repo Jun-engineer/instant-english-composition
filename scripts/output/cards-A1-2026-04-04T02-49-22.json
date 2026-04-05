@@ -1,0 +1,198 @@
+[
+  {
+    "id": "ai-a1-mnjqhtnx-000",
+    "prompt": "私はサッカーが好きです。",
+    "answer": "I like soccer.",
+    "cefrLevel": "A1",
+    "tags": [
+      "sports",
+      "hobby"
+    ],
+    "hint": "like / soccer / I"
+  },
+  {
+    "id": "ai-a1-mnjqhtnx-001",
+    "prompt": "彼は映画を見ます。",
+    "answer": "He watches movies.",
+    "cefrLevel": "A1",
+    "tags": [
+      "entertainment"
+    ],
+    "hint": "watches / movies / he"
+  },
+  {
+    "id": "ai-a1-mnjqhtnx-002",
+    "prompt": "彼女は本を読みます。",
+    "answer": "She reads books.",
+    "cefrLevel": "A1",
+    "tags": [
+      "hobby"
+    ],
+    "hint": "reads / books / she"
+  },
+  {
+    "id": "ai-a1-mnjqhtnx-003",
+    "prompt": "あなたはスポーツをしますか？",
+    "answer": "Do you play sports?",
+    "cefrLevel": "A1",
+    "tags": [
+      "sports"
+    ],
+    "hint": "play / sports / do"
+  },
+  {
+    "id": "ai-a1-mnjqhtnx-004",
+    "prompt": "私は音楽が好きです。",
+    "answer": "I like music.",
+    "cefrLevel": "A1",
+    "tags": [
+      "entertainment",
+      "hobby"
+    ],
+    "hint": "like / music / I"
+  },
+  {
+    "id": "ai-a1-mnjqhtnx-005",
+    "prompt": "彼はバスケットボールをします。",
+    "answer": "He plays basketball.",
+    "cefrLevel": "A1",
+    "tags": [
+      "sports"
+    ],
+    "hint": "plays / basketball / he"
+  },
+  {
+    "id": "ai-a1-mnjqhtnx-006",
+    "prompt": "私たちはゲームをします。",
+    "answer": "We play games.",
+    "cefrLevel": "A1",
+    "tags": [
+      "entertainment"
+    ],
+    "hint": "play / games / we"
+  },
+  {
+    "id": "ai-a1-mnjqhtnx-007",
+    "prompt": "彼女はダンスが得意です。",
+    "answer": "She is good at dancing.",
+    "cefrLevel": "A1",
+    "tags": [
+      "hobby"
+    ],
+    "hint": "good / dancing / at"
+  },
+  {
+    "id": "ai-a1-mnjqhtnx-008",
+    "prompt": "私は毎日ジョギングします。",
+    "answer": "I jog every day.",
+    "cefrLevel": "A1",
+    "tags": [
+      "sports",
+      "hobby"
+    ],
+    "hint": "jog / every / day"
+  },
+  {
+    "id": "ai-a1-mnjqhtnx-009",
+    "prompt": "彼はサッカーを見ます。",
+    "answer": "He watches soccer.",
+    "cefrLevel": "A1",
+    "tags": [
+      "sports",
+      "entertainment"
+    ],
+    "hint": "watches / soccer / he"
+  },
+  {
+    "id": "ai-a1-mnjqhtnx-010",
+    "prompt": "あなたは音楽を聞きますか？",
+    "answer": "Do you listen to music?",
+    "cefrLevel": "A1",
+    "tags": [
+      "entertainment"
+    ],
+    "hint": "listen / music / do"
+  },
+  {
+    "id": "ai-a1-mnjqhtnx-011",
+    "prompt": "私たちは映画を見ます。",
+    "answer": "We watch movies.",
+    "cefrLevel": "A1",
+    "tags": [
+      "entertainment"
+    ],
+    "hint": "watch / movies / we"
+  },
+  {
+    "id": "ai-a1-mnjqhtnx-012",
+    "prompt": "彼女はサイクリングが好きです。",
+    "answer": "She likes cycling.",
+    "cefrLevel": "A1",
+    "tags": [
+      "sports",
+      "hobby"
+    ],
+    "hint": "likes / cycling / she"
+  },
+  {
+    "id": "ai-a1-mnjqhtnx-013",
+    "prompt": "私は友達と遊びます。",
+    "answer": "I play with my friends.",
+    "cefrLevel": "A1",
+    "tags": [
+      "hobby"
+    ],
+    "hint": "play / friends / with"
+  },
+  {
+    "id": "ai-a1-mnjqhtnx-014",
+    "prompt": "彼は毎朝走ります。",
+    "answer": "He runs every morning.",
+    "cefrLevel": "A1",
+    "tags": [
+      "sports"
+    ],
+    "hint": "runs / every / morning"
+  },
+  {
+    "id": "ai-a1-mnjqhtnx-015",
+    "prompt": "あなたはパーティーに行きますか？",
+    "answer": "Do you go to the party?",
+    "cefrLevel": "A1",
+    "tags": [
+      "entertainment"
+    ],
+    "hint": "go / party / to"
+  },
+  {
+    "id": "ai-a1-mnjqhtnx-016",
+    "prompt": "彼女は絵を描きます。",
+    "answer": "She draws pictures.",
+    "cefrLevel": "A1",
+    "tags": [
+      "hobby"
+    ],
+    "hint": "draws / pictures / she"
+  },
+  {
+    "id": "ai-a1-mnjqhtnx-017",
+    "prompt": "私たちは音楽を楽しみます。",
+    "answer": "We enjoy music.",
+    "cefrLevel": "A1",
+    "tags": [
+      "entertainment"
+    ],
+    "hint": "enjoy / music / we"
+  },
+  {
+    "id": "ai-a1-mnjqhtnx-018",
+    "prompt": "私はサーフィンが好きです。",
+    "answer": "I like surfing.",
+    "cefrLevel": "A1",
+    "tags": [
+      "sports",
+      "hobby"
+    ],
+    "hint": "like / surfing / I"
+  }
+]

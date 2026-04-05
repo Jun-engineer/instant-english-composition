@@ -47,6 +47,5 @@ function withApiBase(path: string) {
 export const API_ENDPOINTS = {
   getCards: withApiBase('/api/GetCards'),
   markCard: withApiBase('/api/MarkCard'),
-  lookupVocabulary: withApiBase('/api/LookupVocabulary'),
   lookupVocabularyAI: withApiBase('/api/LookupVocabularyAI')
 } as const;

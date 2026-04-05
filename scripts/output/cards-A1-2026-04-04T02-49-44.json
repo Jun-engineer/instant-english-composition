@@ -1,0 +1,202 @@
+[
+  {
+    "id": "ai-a1-mnjqiabl-000",
+    "prompt": "私は学校に行きます。",
+    "answer": "I go to school.",
+    "cefrLevel": "A1",
+    "tags": [
+      "school"
+    ],
+    "hint": "I / go / school"
+  },
+  {
+    "id": "ai-a1-mnjqiabm-001",
+    "prompt": "今日は雨です。",
+    "answer": "It is rainy today.",
+    "cefrLevel": "A1",
+    "tags": [
+      "weather"
+    ],
+    "hint": "It / is / today"
+  },
+  {
+    "id": "ai-a1-mnjqiabm-002",
+    "prompt": "彼は買い物に行きます。",
+    "answer": "He goes shopping.",
+    "cefrLevel": "A1",
+    "tags": [
+      "shopping"
+    ],
+    "hint": "He / goes / shopping"
+  },
+  {
+    "id": "ai-a1-mnjqiabm-003",
+    "prompt": "私は友達と遊びます。",
+    "answer": "I play with my friends.",
+    "cefrLevel": "A1",
+    "tags": [
+      "school"
+    ],
+    "hint": "I / play / friends"
+  },
+  {
+    "id": "ai-a1-mnjqiabm-004",
+    "prompt": "外は暑いです。",
+    "answer": "It is hot outside.",
+    "cefrLevel": "A1",
+    "tags": [
+      "weather"
+    ],
+    "hint": "It / is / outside"
+  },
+  {
+    "id": "ai-a1-mnjqiabm-005",
+    "prompt": "彼女は新しい服を買いました。",
+    "answer": "She bought new clothes.",
+    "cefrLevel": "A1",
+    "tags": [
+      "shopping"
+    ],
+    "hint": "She / bought / clothes"
+  },
+  {
+    "id": "ai-a1-mnjqiabm-006",
+    "prompt": "私たちは図書館に行きます。",
+    "answer": "We go to the library.",
+    "cefrLevel": "A1",
+    "tags": [
+      "school"
+    ],
+    "hint": "We / go / library"
+  },
+  {
+    "id": "ai-a1-mnjqiabm-007",
+    "prompt": "明日は晴れです。",
+    "answer": "It will be sunny tomorrow.",
+    "cefrLevel": "A1",
+    "tags": [
+      "weather"
+    ],
+    "hint": "It / will be / tomorrow"
+  },
+  {
+    "id": "ai-a1-mnjqiabm-008",
+    "prompt": "あなたは何を買いますか？",
+    "answer": "What do you buy?",
+    "cefrLevel": "A1",
+    "tags": [
+      "shopping"
+    ],
+    "hint": "What / do / buy"
+  },
+  {
+    "id": "ai-a1-mnjqiabm-009",
+    "prompt": "私は毎日勉強します。",
+    "answer": "I study every day.",
+    "cefrLevel": "A1",
+    "tags": [
+      "school"
+    ],
+    "hint": "I / study / day"
+  },
+  {
+    "id": "ai-a1-mnjqiabm-010",
+    "prompt": "今日は寒いです。",
+    "answer": "It is cold today.",
+    "cefrLevel": "A1",
+    "tags": [
+      "weather"
+    ],
+    "hint": "It / is / today"
+  },
+  {
+    "id": "ai-a1-mnjqiabm-011",
+    "prompt": "彼はりんごを買いました。",
+    "answer": "He bought an apple.",
+    "cefrLevel": "A1",
+    "tags": [
+      "shopping"
+    ],
+    "hint": "He / bought / apple"
+  },
+  {
+    "id": "ai-a1-mnjqiabm-012",
+    "prompt": "私は英語を話します。",
+    "answer": "I speak English.",
+    "cefrLevel": "A1",
+    "tags": [
+      "school"
+    ],
+    "hint": "I / speak / English"
+  },
+  {
+    "id": "ai-a1-mnjqiabm-013",
+    "prompt": "外は寒いです。",
+    "answer": "It is cold outside.",
+    "cefrLevel": "A1",
+    "tags": [
+      "weather"
+    ],
+    "hint": "It / is / outside"
+  },
+  {
+    "id": "ai-a1-mnjqiabm-014",
+    "prompt": "彼女は本を買います。",
+    "answer": "She buys a book.",
+    "cefrLevel": "A1",
+    "tags": [
+      "shopping"
+    ],
+    "hint": "She / buys / book"
+  },
+  {
+    "id": "ai-a1-mnjqiabm-015",
+    "prompt": "私たちはサッカーをします。",
+    "answer": "We play soccer.",
+    "cefrLevel": "A1",
+    "tags": [
+      "school"
+    ],
+    "hint": "We / play / soccer"
+  },
+  {
+    "id": "ai-a1-mnjqiabm-016",
+    "prompt": "今日は風が強いです。",
+    "answer": "It is windy today.",
+    "cefrLevel": "A1",
+    "tags": [
+      "weather"
+    ],
+    "hint": "It / is / today"
+  },
+  {
+    "id": "ai-a1-mnjqiabm-017",
+    "prompt": "あなたは何を食べますか？",
+    "answer": "What do you eat?",
+    "cefrLevel": "A1",
+    "tags": [
+      "shopping"
+    ],
+    "hint": "What / do / eat"
+  },
+  {
+    "id": "ai-a1-mnjqiabm-018",
+    "prompt": "私は毎朝走ります。",
+    "answer": "I run every morning.",
+    "cefrLevel": "A1",
+    "tags": [
+      "school"
+    ],
+    "hint": "I / run / morning"
+  },
+  {
+    "id": "ai-a1-mnjqiabm-019",
+    "prompt": "今日は雪が降っています。",
+    "answer": "It is snowing today.",
+    "cefrLevel": "A1",
+    "tags": [
+      "weather"
+    ],
+    "hint": "It / is / today"
+  }
+]

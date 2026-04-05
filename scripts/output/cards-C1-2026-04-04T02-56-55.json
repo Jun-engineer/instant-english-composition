@@ -1,0 +1,230 @@
+[
+  {
+    "id": "ai-c1-mnjqrire-000",
+    "prompt": "その研究は新たな知見を提供するかもしれない。",
+    "answer": "That research might provide new insights.",
+    "cefrLevel": "C1",
+    "tags": [
+      "science",
+      "research",
+      "academia"
+    ],
+    "hint": "research / provide / insights"
+  },
+  {
+    "id": "ai-c1-mnjqrire-001",
+    "prompt": "彼の論文は業界における革新について詳細に論じている。",
+    "answer": "His paper discusses innovations in the industry in detail.",
+    "cefrLevel": "C1",
+    "tags": [
+      "science",
+      "research",
+      "academia"
+    ],
+    "hint": "paper / innovations / discuss"
+  },
+  {
+    "id": "ai-c1-mnjqrire-002",
+    "prompt": "この実験は仮説の正当性を検証するために設計された。",
+    "answer": "This experiment was designed to validate the hypothesis.",
+    "cefrLevel": "C1",
+    "tags": [
+      "science",
+      "research",
+      "academia"
+    ],
+    "hint": "experiment / validate / hypothesis"
+  },
+  {
+    "id": "ai-c1-mnjqrire-003",
+    "prompt": "彼女は多くの国際的な学会で発表を行った。",
+    "answer": "She has presented at numerous international conferences.",
+    "cefrLevel": "C1",
+    "tags": [
+      "science",
+      "research",
+      "academia"
+    ],
+    "hint": "presented / international / conferences"
+  },
+  {
+    "id": "ai-c1-mnjqrire-004",
+    "prompt": "データ分析は、結果を解釈する上で不可欠である。",
+    "answer": "Data analysis is essential for interpreting the results.",
+    "cefrLevel": "C1",
+    "tags": [
+      "science",
+      "research",
+      "academia"
+    ],
+    "hint": "data / analysis / essential"
+  },
+  {
+    "id": "ai-c1-mnjqrire-005",
+    "prompt": "彼らは新しい理論を提唱することに成功した。",
+    "answer": "They successfully proposed a new theory.",
+    "cefrLevel": "C1",
+    "tags": [
+      "science",
+      "research",
+      "academia"
+    ],
+    "hint": "successfully / proposed / theory"
+  },
+  {
+    "id": "ai-c1-mnjqrire-006",
+    "prompt": "この研究は社会に与える影響を考慮している。",
+    "answer": "This study takes into account its impact on society.",
+    "cefrLevel": "C1",
+    "tags": [
+      "science",
+      "research",
+      "academia"
+    ],
+    "hint": "study / impact / society"
+  },
+  {
+    "id": "ai-c1-mnjqrire-007",
+    "prompt": "先行研究と比較すると、我々の結果は一貫している。",
+    "answer": "Compared to previous studies, our results are consistent.",
+    "cefrLevel": "C1",
+    "tags": [
+      "science",
+      "research",
+      "academia"
+    ],
+    "hint": "previous / studies / consistent"
+  },
+  {
+    "id": "ai-c1-mnjqrire-008",
+    "prompt": "彼の方法論は多くの学者に影響を与えた。",
+    "answer": "His methodology has influenced many scholars.",
+    "cefrLevel": "C1",
+    "tags": [
+      "science",
+      "research",
+      "academia"
+    ],
+    "hint": "methodology / influenced / scholars"
+  },
+  {
+    "id": "ai-c1-mnjqrire-009",
+    "prompt": "研究結果は、長期的な視野において重要な意味を持つ。",
+    "answer": "The research findings hold significant meaning in the long term.",
+    "cefrLevel": "C1",
+    "tags": [
+      "science",
+      "research",
+      "academia"
+    ],
+    "hint": "findings / significant / long term"
+  },
+  {
+    "id": "ai-c1-mnjqrire-010",
+    "prompt": "彼女は学際的なアプローチを採用している。",
+    "answer": "She adopts an interdisciplinary approach.",
+    "cefrLevel": "C1",
+    "tags": [
+      "science",
+      "research",
+      "academia"
+    ],
+    "hint": "adopts / interdisciplinary / approach"
+  },
+  {
+    "id": "ai-c1-mnjqrire-011",
+    "prompt": "この論文の主な貢献は新しい視点を提供することだ。",
+    "answer": "The main contribution of this paper is to provide a new perspective.",
+    "cefrLevel": "C1",
+    "tags": [
+      "science",
+      "research",
+      "academia"
+    ],
+    "hint": "contribution / new / perspective"
+  },
+  {
+    "id": "ai-c1-mnjqrire-012",
+    "prompt": "彼らはこの現象を詳細に調査することを決定した。",
+    "answer": "They decided to investigate this phenomenon in detail.",
+    "cefrLevel": "C1",
+    "tags": [
+      "science",
+      "research",
+      "academia"
+    ],
+    "hint": "decided / investigate / phenomenon"
+  },
+  {
+    "id": "ai-c1-mnjqrire-013",
+    "prompt": "次のステップは、結果を他の研究と統合することだ。",
+    "answer": "The next step is to integrate the results with other research.",
+    "cefrLevel": "C1",
+    "tags": [
+      "science",
+      "research",
+      "academia"
+    ],
+    "hint": "integrate / results / research"
+  },
+  {
+    "id": "ai-c1-mnjqrire-014",
+    "prompt": "このプロジェクトの目的は持続可能性の向上である。",
+    "answer": "The aim of this project is to enhance sustainability.",
+    "cefrLevel": "C1",
+    "tags": [
+      "science",
+      "research",
+      "academia"
+    ],
+    "hint": "aim / project / enhance"
+  },
+  {
+    "id": "ai-c1-mnjqrire-015",
+    "prompt": "彼の研究は、倫理的な問題への配慮を欠いている。",
+    "answer": "His research lacks consideration for ethical issues.",
+    "cefrLevel": "C1",
+    "tags": [
+      "science",
+      "research",
+      "academia"
+    ],
+    "hint": "lacks / consideration / ethical"
+  },
+  {
+    "id": "ai-c1-mnjqrire-016",
+    "prompt": "私たちは、結果が他の文脈にも適用できるかを調べている。",
+    "answer": "We are investigating whether the results can be applied in other contexts.",
+    "cefrLevel": "C1",
+    "tags": [
+      "science",
+      "research",
+      "academia"
+    ],
+    "hint": "investigating / results / contexts"
+  },
+  {
+    "id": "ai-c1-mnjqrire-017",
+    "prompt": "この文献レビューは、現状を反映している。",
+    "answer": "This literature review reflects the current state of research.",
+    "cefrLevel": "C1",
+    "tags": [
+      "science",
+      "research",
+      "academia"
+    ],
+    "hint": "literature / review / reflects"
+  },
+  {
+    "id": "ai-c1-mnjqrire-018",
+    "prompt": "論文の提出期限は、研究の進行に影響を及ぼす可能性がある。",
+    "answer": "The submission deadline for the paper may affect the progress of the research.",
+    "cefrLevel": "C1",
+    "tags": [
+      "science",
+      "research",
+      "academia"
+    ],
+    "hint": "submission / deadline / affect"
+  }
+]

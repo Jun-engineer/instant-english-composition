@@ -1,0 +1,211 @@
+[
+  {
+    "id": "ai-a2-mnjql2d7-000",
+    "prompt": "駅はどこですか？",
+    "answer": "Where is the station?",
+    "cefrLevel": "A2",
+    "tags": [
+      "directions",
+      "transportation"
+    ],
+    "hint": "Where / station / is"
+  },
+  {
+    "id": "ai-a2-mnjql2d7-001",
+    "prompt": "このバスは空港に行きますか？",
+    "answer": "Does this bus go to the airport?",
+    "cefrLevel": "A2",
+    "tags": [
+      "directions",
+      "transportation"
+    ],
+    "hint": "bus / go / airport"
+  },
+  {
+    "id": "ai-a2-mnjql2d7-002",
+    "prompt": "次の交差点で左に曲がってください。",
+    "answer": "Please turn left at the next intersection.",
+    "cefrLevel": "A2",
+    "tags": [
+      "directions",
+      "transportation"
+    ],
+    "hint": "turn / left / intersection"
+  },
+  {
+    "id": "ai-a2-mnjql2d7-003",
+    "prompt": "タクシーを呼ぶことができますか？",
+    "answer": "Can you call a taxi?",
+    "cefrLevel": "A2",
+    "tags": [
+      "directions",
+      "transportation"
+    ],
+    "hint": "call / taxi / can"
+  },
+  {
+    "id": "ai-a2-mnjql2d7-004",
+    "prompt": "歩いてどのくらいかかりますか？",
+    "answer": "How long does it take to walk there?",
+    "cefrLevel": "A2",
+    "tags": [
+      "directions",
+      "transportation"
+    ],
+    "hint": "how long / walk / take"
+  },
+  {
+    "id": "ai-a2-mnjql2d7-005",
+    "prompt": "電車の時間を教えてくれますか？",
+    "answer": "Can you tell me the train schedule?",
+    "cefrLevel": "A2",
+    "tags": [
+      "directions",
+      "transportation"
+    ],
+    "hint": "train / schedule / tell"
+  },
+  {
+    "id": "ai-a2-mnjql2d7-006",
+    "prompt": "この道をまっすぐ進んでください。",
+    "answer": "Please go straight along this road.",
+    "cefrLevel": "A2",
+    "tags": [
+      "directions",
+      "transportation"
+    ],
+    "hint": "go straight / road / please"
+  },
+  {
+    "id": "ai-a2-mnjql2d7-007",
+    "prompt": "私はバスで学校に行きます。",
+    "answer": "I go to school by bus.",
+    "cefrLevel": "A2",
+    "tags": [
+      "directions",
+      "transportation"
+    ],
+    "hint": "go / school / bus"
+  },
+  {
+    "id": "ai-a2-mnjql2d7-008",
+    "prompt": "最寄りの駅までの道を教えてください。",
+    "answer": "Please show me the way to the nearest station.",
+    "cefrLevel": "A2",
+    "tags": [
+      "directions",
+      "transportation"
+    ],
+    "hint": "way / nearest / station"
+  },
+  {
+    "id": "ai-a2-mnjql2d7-009",
+    "prompt": "この電車はどこに行きますか？",
+    "answer": "Where does this train go?",
+    "cefrLevel": "A2",
+    "tags": [
+      "directions",
+      "transportation"
+    ],
+    "hint": "where / train / go"
+  },
+  {
+    "id": "ai-a2-mnjql2d7-010",
+    "prompt": "次のバスは何時に来ますか？",
+    "answer": "What time does the next bus arrive?",
+    "cefrLevel": "A2",
+    "tags": [
+      "directions",
+      "transportation"
+    ],
+    "hint": "next / bus / time"
+  },
+  {
+    "id": "ai-a2-mnjql2d7-011",
+    "prompt": "自転車を借りてもいいですか？",
+    "answer": "Is it okay to rent a bicycle?",
+    "cefrLevel": "A2",
+    "tags": [
+      "directions",
+      "transportation"
+    ],
+    "hint": "rent / bicycle / okay"
+  },
+  {
+    "id": "ai-a2-mnjql2d7-012",
+    "prompt": "どのくらいの距離を歩きますか？",
+    "answer": "How far do we walk?",
+    "cefrLevel": "A2",
+    "tags": [
+      "directions",
+      "transportation"
+    ],
+    "hint": "how far / walk / do"
+  },
+  {
+    "id": "ai-a2-mnjql2d7-013",
+    "prompt": "そのバス停はここから近いですか？",
+    "answer": "Is that bus stop near here?",
+    "cefrLevel": "A2",
+    "tags": [
+      "directions",
+      "transportation"
+    ],
+    "hint": "bus stop / near / here"
+  },
+  {
+    "id": "ai-a2-mnjql2d7-014",
+    "prompt": "自分の車で行くつもりです。",
+    "answer": "I plan to go by my own car.",
+    "cefrLevel": "A2",
+    "tags": [
+      "directions",
+      "transportation"
+    ],
+    "hint": "plan / go / car"
+  },
+  {
+    "id": "ai-a2-mnjql2d7-015",
+    "prompt": "道を渡るときは気をつけてください。",
+    "answer": "Please be careful when crossing the street.",
+    "cefrLevel": "A2",
+    "tags": [
+      "directions",
+      "transportation"
+    ],
+    "hint": "careful / crossing / street"
+  },
+  {
+    "id": "ai-a2-mnjql2d7-016",
+    "prompt": "空港行きのチケットを一枚ください。",
+    "answer": "Please give me one ticket to the airport.",
+    "cefrLevel": "A2",
+    "tags": [
+      "directions",
+      "transportation"
+    ],
+    "hint": "ticket / airport / give"
+  },
+  {
+    "id": "ai-a2-mnjql2d7-017",
+    "prompt": "近くに便利な交通手段はありますか？",
+    "answer": "Is there convenient transportation nearby?",
+    "cefrLevel": "A2",
+    "tags": [
+      "directions",
+      "transportation"
+    ],
+    "hint": "convenient / transportation / nearby"
+  },
+  {
+    "id": "ai-a2-mnjql2d7-018",
+    "prompt": "バスの運賃はいくらですか？",
+    "answer": "How much is the bus fare?",
+    "cefrLevel": "A2",
+    "tags": [
+      "directions",
+      "transportation"
+    ],
+    "hint": "bus / fare / how much"
+  }
+]

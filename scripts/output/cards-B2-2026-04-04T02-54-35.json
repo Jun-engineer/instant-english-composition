@@ -1,0 +1,230 @@
+[
+  {
+    "id": "ai-b2-mnjqoj7r-000",
+    "prompt": "政府は新しい環境政策を導入する必要があります。",
+    "answer": "The government needs to implement new environmental policies.",
+    "cefrLevel": "B2",
+    "tags": [
+      "politics",
+      "policy",
+      "society"
+    ],
+    "hint": "government / implement / policies"
+  },
+  {
+    "id": "ai-b2-mnjqoj7r-001",
+    "prompt": "もし経済が成長すれば、失業率が下がるでしょう。",
+    "answer": "If the economy grows, the unemployment rate will likely decrease.",
+    "cefrLevel": "B2",
+    "tags": [
+      "politics",
+      "economy",
+      "society"
+    ],
+    "hint": "economy / grow / unemployment"
+  },
+  {
+    "id": "ai-b2-mnjqoj7r-002",
+    "prompt": "市民は自分たちの権利を守るために声を上げなければなりません。",
+    "answer": "Citizens must raise their voices to protect their rights.",
+    "cefrLevel": "B2",
+    "tags": [
+      "society",
+      "rights",
+      "activism"
+    ],
+    "hint": "citizens / protect / rights"
+  },
+  {
+    "id": "ai-b2-mnjqoj7r-003",
+    "prompt": "この法律は、社会の全ての人に公平をもたらすことを目的としています。",
+    "answer": "This law aims to bring fairness to everyone in society.",
+    "cefrLevel": "B2",
+    "tags": [
+      "law",
+      "society",
+      "fairness"
+    ],
+    "hint": "law / fairness / society"
+  },
+  {
+    "id": "ai-b2-mnjqoj7r-004",
+    "prompt": "政府の政策が国民の生活にどのように影響するかが重要です。",
+    "answer": "It is important to understand how government policies affect citizens' lives.",
+    "cefrLevel": "B2",
+    "tags": [
+      "politics",
+      "policy",
+      "impact"
+    ],
+    "hint": "government / policies / impact"
+  },
+  {
+    "id": "ai-b2-mnjqoj7r-005",
+    "prompt": "教育は、社会の発展に大きく寄与すると言われています。",
+    "answer": "Education is said to greatly contribute to the development of society.",
+    "cefrLevel": "B2",
+    "tags": [
+      "education",
+      "society",
+      "development"
+    ],
+    "hint": "education / contribute / society"
+  },
+  {
+    "id": "ai-b2-mnjqoj7r-006",
+    "prompt": "次回の選挙では、若者の投票率が重要なテーマになるでしょう。",
+    "answer": "The youth's voting rate will be an important topic in the next election.",
+    "cefrLevel": "B2",
+    "tags": [
+      "election",
+      "youth",
+      "politics"
+    ],
+    "hint": "election / voting / youth"
+  },
+  {
+    "id": "ai-b2-mnjqoj7r-007",
+    "prompt": "政府が貧困問題に対して具体的な対策を講じる必要があります。",
+    "answer": "The government needs to take concrete measures against poverty issues.",
+    "cefrLevel": "B2",
+    "tags": [
+      "government",
+      "poverty",
+      "measures"
+    ],
+    "hint": "government / measures / poverty"
+  },
+  {
+    "id": "ai-b2-mnjqoj7r-008",
+    "prompt": "市民による参加型政策が、より良い結果をもたらすことができます。",
+    "answer": "Participatory policies by citizens can lead to better outcomes.",
+    "cefrLevel": "B2",
+    "tags": [
+      "policy",
+      "citizens",
+      "participation"
+    ],
+    "hint": "participation / policies / outcomes"
+  },
+  {
+    "id": "ai-b2-mnjqoj7r-009",
+    "prompt": "国際的な問題に対して協力が必要だと多くの人が考えています。",
+    "answer": "Many people believe cooperation is necessary for international issues.",
+    "cefrLevel": "B2",
+    "tags": [
+      "international",
+      "cooperation",
+      "issues"
+    ],
+    "hint": "cooperation / international / issues"
+  },
+  {
+    "id": "ai-b2-mnjqoj7r-010",
+    "prompt": "社会における不平等を解消するための取り組みが求められています。",
+    "answer": "Efforts to eliminate inequality in society are being called for.",
+    "cefrLevel": "B2",
+    "tags": [
+      "inequality",
+      "society",
+      "efforts"
+    ],
+    "hint": "inequality / eliminate / society"
+  },
+  {
+    "id": "ai-b2-mnjqoj7r-011",
+    "prompt": "環境保護政策を支持する市民が増えています。",
+    "answer": "The number of citizens supporting environmental protection policies is increasing.",
+    "cefrLevel": "B2",
+    "tags": [
+      "environment",
+      "protection",
+      "support"
+    ],
+    "hint": "citizens / support / policies"
+  },
+  {
+    "id": "ai-b2-mnjqoj7r-012",
+    "prompt": "公共交通機関の改善は、環境にも優しい選択です。",
+    "answer": "Improving public transportation is also an environmentally friendly choice.",
+    "cefrLevel": "B2",
+    "tags": [
+      "transportation",
+      "environment",
+      "improvement"
+    ],
+    "hint": "public transport / improvement / environment"
+  },
+  {
+    "id": "ai-b2-mnjqoj7r-013",
+    "prompt": "デジタル化が進む中で、政策も変わる必要があります。",
+    "answer": "As digitalization progresses, policies need to change accordingly.",
+    "cefrLevel": "B2",
+    "tags": [
+      "digitalization",
+      "policy",
+      "change"
+    ],
+    "hint": "digitalization / policies / change"
+  },
+  {
+    "id": "ai-b2-mnjqoj7r-014",
+    "prompt": "多様性を尊重する社会の重要性が高まっています。",
+    "answer": "The importance of a society that respects diversity is increasing.",
+    "cefrLevel": "B2",
+    "tags": [
+      "diversity",
+      "society",
+      "importance"
+    ],
+    "hint": "diversity / respect / importance"
+  },
+  {
+    "id": "ai-b2-mnjqoj7r-015",
+    "prompt": "倫理的なビジネス慣行が求められる時代になりました。",
+    "answer": "We have entered an era where ethical business practices are required.",
+    "cefrLevel": "B2",
+    "tags": [
+      "business",
+      "ethics",
+      "practices"
+    ],
+    "hint": "ethical / business / practices"
+  },
+  {
+    "id": "ai-b2-mnjqoj7r-016",
+    "prompt": "この政策は、特に低所得層に良い影響を与えるでしょう。",
+    "answer": "This policy will have a positive impact, especially on low-income groups.",
+    "cefrLevel": "B2",
+    "tags": [
+      "policy",
+      "impact",
+      "income"
+    ],
+    "hint": "policy / positive / income"
+  },
+  {
+    "id": "ai-b2-mnjqoj7r-017",
+    "prompt": "市民参加型のプロジェクトが地域社会の発展を促します。",
+    "answer": "Citizen-participatory projects promote the development of local communities.",
+    "cefrLevel": "B2",
+    "tags": [
+      "community",
+      "participation",
+      "development"
+    ],
+    "hint": "citizen / projects / development"
+  },
+  {
+    "id": "ai-b2-mnjqoj7r-018",
+    "prompt": "国際的な協力を通じて、持続可能な開発が可能になります。",
+    "answer": "Sustainable development becomes possible through international cooperation.",
+    "cefrLevel": "B2",
+    "tags": [
+      "sustainable",
+      "development",
+      "cooperation"
+    ],
+    "hint": "sustainable / development / cooperation"
+  }
+]

@@ -65,7 +65,7 @@ export default function AboutPage() {
               <li>
                 <strong>辞書機能</strong> —
                 カード内の英単語をタップすると、意味・品詞・発音を即座に確認できます。
-                JMdict（和英辞典データ）を活用した日本語訳にも対応しています。
+                AI を活用した文脈に合った日本語訳にも対応しています。
               </li>
               <li>
                 <strong>お気に入り</strong> —
@@ -103,8 +103,8 @@ export default function AboutPage() {
             <h2 className="text-xl font-bold">技術について</h2>
             <p className="text-sm leading-relaxed text-slate-600">
               SpeedSpeak は Next.js で構築された Web アプリケーションです。
-              辞書データには JMdict（Electronic Dictionary Research and Development Group 提供）を利用しており、
-              高精度な和英変換を実現しています。学習データはブラウザのローカルストレージに保存されるため、
+              AI（Azure OpenAI）を活用した辞書機能により、文脈に合った単語解説を提供しています。
+              学習データはブラウザのローカルストレージに保存されるため、
               アカウント登録は不要です。
             </p>
           </div>

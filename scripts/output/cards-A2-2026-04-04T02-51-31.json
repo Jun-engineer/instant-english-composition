@@ -1,0 +1,211 @@
+[
+  {
+    "id": "ai-a2-mnjqkkp3-000",
+    "prompt": "このレストランはおいしい料理があります。",
+    "answer": "This restaurant has delicious food.",
+    "cefrLevel": "A2",
+    "tags": [
+      "restaurant",
+      "cafe"
+    ],
+    "hint": "restaurant / delicious / food"
+  },
+  {
+    "id": "ai-a2-mnjqkkp3-001",
+    "prompt": "彼女は毎週末カフェに行きます。",
+    "answer": "She goes to the cafe every weekend.",
+    "cefrLevel": "A2",
+    "tags": [
+      "restaurant",
+      "cafe"
+    ],
+    "hint": "goes / cafe / weekend"
+  },
+  {
+    "id": "ai-a2-mnjqkkp3-002",
+    "prompt": "あなたはどんな飲み物が好きですか？",
+    "answer": "What kind of drink do you like?",
+    "cefrLevel": "A2",
+    "tags": [
+      "restaurant",
+      "cafe"
+    ],
+    "hint": "kind / drink / like"
+  },
+  {
+    "id": "ai-a2-mnjqkkp3-003",
+    "prompt": "私はサラダを注文しましたが、間違ってピザが来ました。",
+    "answer": "I ordered a salad, but I got a pizza by mistake.",
+    "cefrLevel": "A2",
+    "tags": [
+      "restaurant",
+      "cafe"
+    ],
+    "hint": "ordered / salad / pizza"
+  },
+  {
+    "id": "ai-a2-mnjqkkp3-004",
+    "prompt": "このカフェはとても静かです。",
+    "answer": "This cafe is very quiet.",
+    "cefrLevel": "A2",
+    "tags": [
+      "restaurant",
+      "cafe"
+    ],
+    "hint": "cafe / very / quiet"
+  },
+  {
+    "id": "ai-a2-mnjqkkp3-005",
+    "prompt": "彼はコーヒーとデザートを頼みました。",
+    "answer": "He ordered coffee and dessert.",
+    "cefrLevel": "A2",
+    "tags": [
+      "restaurant",
+      "cafe"
+    ],
+    "hint": "ordered / coffee / dessert"
+  },
+  {
+    "id": "ai-a2-mnjqkkp3-006",
+    "prompt": "あなたは昼食に何を食べましたか？",
+    "answer": "What did you eat for lunch?",
+    "cefrLevel": "A2",
+    "tags": [
+      "restaurant",
+      "cafe"
+    ],
+    "hint": "eat / lunch / what"
+  },
+  {
+    "id": "ai-a2-mnjqkkp3-007",
+    "prompt": "このレストランのサービスはとても良いです。",
+    "answer": "The service at this restaurant is very good.",
+    "cefrLevel": "A2",
+    "tags": [
+      "restaurant",
+      "cafe"
+    ],
+    "hint": "service / restaurant / very good"
+  },
+  {
+    "id": "ai-a2-mnjqkkp3-008",
+    "prompt": "私はいつもここで朝食を食べます。",
+    "answer": "I always have breakfast here.",
+    "cefrLevel": "A2",
+    "tags": [
+      "restaurant",
+      "cafe"
+    ],
+    "hint": "always / breakfast / here"
+  },
+  {
+    "id": "ai-a2-mnjqkkp3-009",
+    "prompt": "彼女は友達と一緒にカフェに行きました。",
+    "answer": "She went to the cafe with her friends.",
+    "cefrLevel": "A2",
+    "tags": [
+      "restaurant",
+      "cafe"
+    ],
+    "hint": "went / cafe / friends"
+  },
+  {
+    "id": "ai-a2-mnjqkkp3-010",
+    "prompt": "この料理は少し辛いです。",
+    "answer": "This dish is a little spicy.",
+    "cefrLevel": "A2",
+    "tags": [
+      "restaurant",
+      "cafe"
+    ],
+    "hint": "dish / little / spicy"
+  },
+  {
+    "id": "ai-a2-mnjqkkp3-011",
+    "prompt": "メニューにはたくさんの選択肢があります。",
+    "answer": "There are many choices on the menu.",
+    "cefrLevel": "A2",
+    "tags": [
+      "restaurant",
+      "cafe"
+    ],
+    "hint": "choices / menu / many"
+  },
+  {
+    "id": "ai-a2-mnjqkkp3-012",
+    "prompt": "私たちはテーブルを予約しましたか？",
+    "answer": "Did we reserve a table?",
+    "cefrLevel": "A2",
+    "tags": [
+      "restaurant",
+      "cafe"
+    ],
+    "hint": "reserve / table / did"
+  },
+  {
+    "id": "ai-a2-mnjqkkp3-013",
+    "prompt": "彼はデザートを二つ頼みました。",
+    "answer": "He ordered two desserts.",
+    "cefrLevel": "A2",
+    "tags": [
+      "restaurant",
+      "cafe"
+    ],
+    "hint": "ordered / two / desserts"
+  },
+  {
+    "id": "ai-a2-mnjqkkp3-014",
+    "prompt": "私はこのカフェが大好きです。",
+    "answer": "I love this cafe.",
+    "cefrLevel": "A2",
+    "tags": [
+      "restaurant",
+      "cafe"
+    ],
+    "hint": "love / this / cafe"
+  },
+  {
+    "id": "ai-a2-mnjqkkp3-015",
+    "prompt": "私たちは美味しい夕食を楽しみました。",
+    "answer": "We enjoyed a delicious dinner.",
+    "cefrLevel": "A2",
+    "tags": [
+      "restaurant",
+      "cafe"
+    ],
+    "hint": "enjoyed / delicious / dinner"
+  },
+  {
+    "id": "ai-a2-mnjqkkp3-016",
+    "prompt": "彼らは毎朝コーヒーを飲みます。",
+    "answer": "They drink coffee every morning.",
+    "cefrLevel": "A2",
+    "tags": [
+      "restaurant",
+      "cafe"
+    ],
+    "hint": "drink / coffee / morning"
+  },
+  {
+    "id": "ai-a2-mnjqkkp3-017",
+    "prompt": "このレストランはとても混んでいます。",
+    "answer": "This restaurant is very crowded.",
+    "cefrLevel": "A2",
+    "tags": [
+      "restaurant",
+      "cafe"
+    ],
+    "hint": "very / crowded / restaurant"
+  },
+  {
+    "id": "ai-a2-mnjqkkp3-018",
+    "prompt": "私はアイスクリームが大好きです。",
+    "answer": "I love ice cream.",
+    "cefrLevel": "A2",
+    "tags": [
+      "restaurant",
+      "cafe"
+    ],
+    "hint": "love / ice cream / I"
+  }
+]

@@ -1,0 +1,230 @@
+[
+  {
+    "id": "ai-b1-mnjqm7td-000",
+    "prompt": "彼は毎日、最新のテクノロジーについて学んでいます。",
+    "answer": "He learns about the latest technology every day.",
+    "cefrLevel": "B1",
+    "tags": [
+      "technology",
+      "culture",
+      "social"
+    ],
+    "hint": "learn / technology / everyday"
+  },
+  {
+    "id": "ai-b1-mnjqm7td-001",
+    "prompt": "その文化は、他の国の影響を強く受けています。",
+    "answer": "That culture is strongly influenced by other countries.",
+    "cefrLevel": "B1",
+    "tags": [
+      "culture",
+      "influence",
+      "other countries"
+    ],
+    "hint": "strongly / influenced / culture"
+  },
+  {
+    "id": "ai-b1-mnjqm7td-002",
+    "prompt": "彼女は最近、ソーシャルメディアを使い始めました。",
+    "answer": "She has recently started using social media.",
+    "cefrLevel": "B1",
+    "tags": [
+      "social",
+      "media",
+      "recently"
+    ],
+    "hint": "recently / started / using"
+  },
+  {
+    "id": "ai-b1-mnjqm7td-003",
+    "prompt": "私たちはテクノロジーのおかげで、遠くの人と簡単に話せます。",
+    "answer": "Thanks to technology, we can easily talk to people far away.",
+    "cefrLevel": "B1",
+    "tags": [
+      "technology",
+      "talk",
+      "easily"
+    ],
+    "hint": "thanks to / easily / talk"
+  },
+  {
+    "id": "ai-b1-mnjqm7td-004",
+    "prompt": "文化を理解するためには、多くのことを学ぶ必要があります。",
+    "answer": "You need to learn many things to understand a culture.",
+    "cefrLevel": "B1",
+    "tags": [
+      "culture",
+      "understand",
+      "learn"
+    ],
+    "hint": "understand / many / learn"
+  },
+  {
+    "id": "ai-b1-mnjqm7td-005",
+    "prompt": "彼らは新しいアプリを使って、友だちとつながっています。",
+    "answer": "They connect with their friends using a new app.",
+    "cefrLevel": "B1",
+    "tags": [
+      "social",
+      "connect",
+      "app"
+    ],
+    "hint": "connect / friends / app"
+  },
+  {
+    "id": "ai-b1-mnjqm7td-006",
+    "prompt": "テクノロジーの進歩は、私たちの生活を便利にします。",
+    "answer": "Advancements in technology make our lives more convenient.",
+    "cefrLevel": "B1",
+    "tags": [
+      "technology",
+      "advancements",
+      "convenient"
+    ],
+    "hint": "advancements / convenient / lives"
+  },
+  {
+    "id": "ai-b1-mnjqm7td-007",
+    "prompt": "文化イベントに参加することは、新しい友達を作る良い方法です。",
+    "answer": "Joining cultural events is a good way to make new friends.",
+    "cefrLevel": "B1",
+    "tags": [
+      "culture",
+      "events",
+      "friends"
+    ],
+    "hint": "joining / events / friends"
+  },
+  {
+    "id": "ai-b1-mnjqm7td-008",
+    "prompt": "最近、オンラインでの学びが人気になっています。",
+    "answer": "Recently, online learning has become popular.",
+    "cefrLevel": "B1",
+    "tags": [
+      "technology",
+      "online",
+      "learning"
+    ],
+    "hint": "online / learning / popular"
+  },
+  {
+    "id": "ai-b1-mnjqm7td-009",
+    "prompt": "私たちは、異なる文化を尊重しなければなりません。",
+    "answer": "We must respect different cultures.",
+    "cefrLevel": "B1",
+    "tags": [
+      "culture",
+      "respect",
+      "different"
+    ],
+    "hint": "respect / cultures / different"
+  },
+  {
+    "id": "ai-b1-mnjqm7td-010",
+    "prompt": "彼がそのアプリを使ったら、すぐに結果が得られました。",
+    "answer": "He got results quickly after using that app.",
+    "cefrLevel": "B1",
+    "tags": [
+      "app",
+      "results",
+      "quickly"
+    ],
+    "hint": "results / quickly / using"
+  },
+  {
+    "id": "ai-b1-mnjqm7td-011",
+    "prompt": "テクノロジーは、私たちのコミュニケーションを変えています。",
+    "answer": "Technology is changing the way we communicate.",
+    "cefrLevel": "B1",
+    "tags": [
+      "technology",
+      "communicate",
+      "change"
+    ],
+    "hint": "changing / communicate / way"
+  },
+  {
+    "id": "ai-b1-mnjqm7td-012",
+    "prompt": "彼女は異文化交流プログラムに参加しました。",
+    "answer": "She participated in a cultural exchange program.",
+    "cefrLevel": "B1",
+    "tags": [
+      "culture",
+      "exchange",
+      "program"
+    ],
+    "hint": "participated / cultural / exchange"
+  },
+  {
+    "id": "ai-b1-mnjqm7td-013",
+    "prompt": "そのソーシャルメディアは、特に若者に人気です。",
+    "answer": "That social media is especially popular among young people.",
+    "cefrLevel": "B1",
+    "tags": [
+      "social",
+      "media",
+      "popular"
+    ],
+    "hint": "especially / popular / young"
+  },
+  {
+    "id": "ai-b1-mnjqm7td-014",
+    "prompt": "テクノロジーが進化するにつれて、私たちの生活は変わります。",
+    "answer": "As technology evolves, our lives will change.",
+    "cefrLevel": "B1",
+    "tags": [
+      "technology",
+      "evolves",
+      "change"
+    ],
+    "hint": "evolves / lives / change"
+  },
+  {
+    "id": "ai-b1-mnjqm7td-015",
+    "prompt": "文化について話し合うことは、理解を深める助けになります。",
+    "answer": "Discussing culture helps deepen our understanding.",
+    "cefrLevel": "B1",
+    "tags": [
+      "culture",
+      "discuss",
+      "understanding"
+    ],
+    "hint": "discussing / helps / deepen"
+  },
+  {
+    "id": "ai-b1-mnjqm7td-016",
+    "prompt": "新しい技術が、私たちの仕事に影響を与えています。",
+    "answer": "New technologies are impacting our work.",
+    "cefrLevel": "B1",
+    "tags": [
+      "technology",
+      "impact",
+      "work"
+    ],
+    "hint": "impacting / work / technologies"
+  },
+  {
+    "id": "ai-b1-mnjqm7td-017",
+    "prompt": "彼は文化を学ぶために、海外に行くことを計画しています。",
+    "answer": "He is planning to go abroad to learn about cultures.",
+    "cefrLevel": "B1",
+    "tags": [
+      "culture",
+      "learn",
+      "abroad"
+    ],
+    "hint": "planning / go / learn"
+  },
+  {
+    "id": "ai-b1-mnjqm7td-018",
+    "prompt": "ソーシャルメディアは、友達とつながるのに便利です。",
+    "answer": "Social media is convenient for connecting with friends.",
+    "cefrLevel": "B1",
+    "tags": [
+      "social",
+      "media",
+      "connect"
+    ],
+    "hint": "convenient / connecting / friends"
+  }
+]

@@ -1,0 +1,211 @@
+[
+  {
+    "id": "ai-b1-mnjqmc7s-000",
+    "prompt": "彼女は私に助けを求めた。",
+    "answer": "She asked me for help.",
+    "cefrLevel": "B1",
+    "tags": [
+      "relationships",
+      "communication"
+    ],
+    "hint": "asked / me / help"
+  },
+  {
+    "id": "ai-b1-mnjqmc7s-001",
+    "prompt": "友達と一緒に映画を見に行くつもりです。",
+    "answer": "I plan to go to the movies with my friends.",
+    "cefrLevel": "B1",
+    "tags": [
+      "relationships",
+      "communication"
+    ],
+    "hint": "plan / movies / friends"
+  },
+  {
+    "id": "ai-b1-mnjqmc7s-002",
+    "prompt": "彼は私にアドバイスをくれました。",
+    "answer": "He gave me some advice.",
+    "cefrLevel": "B1",
+    "tags": [
+      "relationships",
+      "communication"
+    ],
+    "hint": "gave / advice / me"
+  },
+  {
+    "id": "ai-b1-mnjqmc7s-003",
+    "prompt": "彼女は私たちに旅行の話をしました。",
+    "answer": "She told us about her trip.",
+    "cefrLevel": "B1",
+    "tags": [
+      "relationships",
+      "communication"
+    ],
+    "hint": "told / us / trip"
+  },
+  {
+    "id": "ai-b1-mnjqmc7s-004",
+    "prompt": "私たちは問題を一緒に解決することができます。",
+    "answer": "We can solve the problem together.",
+    "cefrLevel": "B1",
+    "tags": [
+      "relationships",
+      "communication"
+    ],
+    "hint": "solve / problem / together"
+  },
+  {
+    "id": "ai-b1-mnjqmc7s-005",
+    "prompt": "彼らは私に会うことを楽しみにしています。",
+    "answer": "They are looking forward to meeting me.",
+    "cefrLevel": "B1",
+    "tags": [
+      "relationships",
+      "communication"
+    ],
+    "hint": "looking forward / meeting / me"
+  },
+  {
+    "id": "ai-b1-mnjqmc7s-006",
+    "prompt": "私の兄はいつも私をサポートしてくれます。",
+    "answer": "My brother always supports me.",
+    "cefrLevel": "B1",
+    "tags": [
+      "relationships",
+      "communication"
+    ],
+    "hint": "supports / brother / always"
+  },
+  {
+    "id": "ai-b1-mnjqmc7s-007",
+    "prompt": "彼女は私に自分の趣味について話しました。",
+    "answer": "She talked to me about her hobbies.",
+    "cefrLevel": "B1",
+    "tags": [
+      "relationships",
+      "communication"
+    ],
+    "hint": "talked / hobbies / me"
+  },
+  {
+    "id": "ai-b1-mnjqmc7s-008",
+    "prompt": "友達と連絡を取り続けることは大切です。",
+    "answer": "It's important to stay in touch with friends.",
+    "cefrLevel": "B1",
+    "tags": [
+      "relationships",
+      "communication"
+    ],
+    "hint": "important / stay in touch / friends"
+  },
+  {
+    "id": "ai-b1-mnjqmc7s-009",
+    "prompt": "彼は私に秘密を打ち明けました。",
+    "answer": "He confided in me about a secret.",
+    "cefrLevel": "B1",
+    "tags": [
+      "relationships",
+      "communication"
+    ],
+    "hint": "confided / secret / me"
+  },
+  {
+    "id": "ai-b1-mnjqmc7s-010",
+    "prompt": "私たちは時々意見が合わないことがあります。",
+    "answer": "Sometimes we don't agree on certain opinions.",
+    "cefrLevel": "B1",
+    "tags": [
+      "relationships",
+      "communication"
+    ],
+    "hint": "don't agree / sometimes / opinions"
+  },
+  {
+    "id": "ai-b1-mnjqmc7s-011",
+    "prompt": "彼女はよく私に励ましの言葉をかけます。",
+    "answer": "She often gives me words of encouragement.",
+    "cefrLevel": "B1",
+    "tags": [
+      "relationships",
+      "communication"
+    ],
+    "hint": "gives / encouragement / often"
+  },
+  {
+    "id": "ai-b1-mnjqmc7s-012",
+    "prompt": "私たちはお互いにサポートし合っています。",
+    "answer": "We support each other.",
+    "cefrLevel": "B1",
+    "tags": [
+      "relationships",
+      "communication"
+    ],
+    "hint": "support / each other"
+  },
+  {
+    "id": "ai-b1-mnjqmc7s-013",
+    "prompt": "彼は私にとって特別な友達です。",
+    "answer": "He is a special friend to me.",
+    "cefrLevel": "B1",
+    "tags": [
+      "relationships",
+      "communication"
+    ],
+    "hint": "special / friend / me"
+  },
+  {
+    "id": "ai-b1-mnjqmc7s-014",
+    "prompt": "彼女は時間があるときに電話をくれます。",
+    "answer": "She calls me when she has time.",
+    "cefrLevel": "B1",
+    "tags": [
+      "relationships",
+      "communication"
+    ],
+    "hint": "calls / time / when"
+  },
+  {
+    "id": "ai-b1-mnjqmc7s-015",
+    "prompt": "私たちは一緒に遊ぶことが好きです。",
+    "answer": "We like to hang out together.",
+    "cefrLevel": "B1",
+    "tags": [
+      "relationships",
+      "communication"
+    ],
+    "hint": "like / hang out / together"
+  },
+  {
+    "id": "ai-b1-mnjqmc7s-016",
+    "prompt": "彼女は私に正直でいることの重要性を教えてくれました。",
+    "answer": "She taught me the importance of being honest.",
+    "cefrLevel": "B1",
+    "tags": [
+      "relationships",
+      "communication"
+    ],
+    "hint": "taught / importance / honest"
+  },
+  {
+    "id": "ai-b1-mnjqmc7s-017",
+    "prompt": "彼らは私に意見を共有するように言いました。",
+    "answer": "They told me to share my opinions.",
+    "cefrLevel": "B1",
+    "tags": [
+      "relationships",
+      "communication"
+    ],
+    "hint": "told / share / opinions"
+  },
+  {
+    "id": "ai-b1-mnjqmc7s-018",
+    "prompt": "私の友達は私に手紙を書いてくれました。",
+    "answer": "My friend wrote me a letter.",
+    "cefrLevel": "B1",
+    "tags": [
+      "relationships",
+      "communication"
+    ],
+    "hint": "wrote / letter / friend"
+  }
+]

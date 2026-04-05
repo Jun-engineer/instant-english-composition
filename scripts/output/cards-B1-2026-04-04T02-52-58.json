@@ -1,0 +1,230 @@
+[
+  {
+    "id": "ai-b1-mnjqmg7x-000",
+    "prompt": "このシャツはどこで買えますか？",
+    "answer": "Where can I buy this shirt?",
+    "cefrLevel": "B1",
+    "tags": [
+      "shopping",
+      "money",
+      "planning"
+    ],
+    "hint": "where / buy / shirt"
+  },
+  {
+    "id": "ai-b1-mnjqmg7x-001",
+    "prompt": "あの靴は高いと思いますか？",
+    "answer": "Do you think those shoes are expensive?",
+    "cefrLevel": "B1",
+    "tags": [
+      "shopping",
+      "money",
+      "planning"
+    ],
+    "hint": "think / shoes / expensive"
+  },
+  {
+    "id": "ai-b1-mnjqmg7x-002",
+    "prompt": "今月の予算はどれくらいですか？",
+    "answer": "How much is your budget for this month?",
+    "cefrLevel": "B1",
+    "tags": [
+      "shopping",
+      "money",
+      "planning"
+    ],
+    "hint": "budget / this month / how much"
+  },
+  {
+    "id": "ai-b1-mnjqmg7x-003",
+    "prompt": "彼女は特別なセールについて知っています。",
+    "answer": "She knows about the special sale.",
+    "cefrLevel": "B1",
+    "tags": [
+      "shopping",
+      "money",
+      "planning"
+    ],
+    "hint": "knows / special / sale"
+  },
+  {
+    "id": "ai-b1-mnjqmg7x-004",
+    "prompt": "来週、買い物に行く予定です。",
+    "answer": "I plan to go shopping next week.",
+    "cefrLevel": "B1",
+    "tags": [
+      "shopping",
+      "money",
+      "planning"
+    ],
+    "hint": "plan / go / shopping"
+  },
+  {
+    "id": "ai-b1-mnjqmg7x-005",
+    "prompt": "この商品は返品できますか？",
+    "answer": "Can I return this product?",
+    "cefrLevel": "B1",
+    "tags": [
+      "shopping",
+      "money",
+      "planning"
+    ],
+    "hint": "return / product / can"
+  },
+  {
+    "id": "ai-b1-mnjqmg7x-006",
+    "prompt": "あなたはどのブランドが好きですか？",
+    "answer": "Which brand do you like the most?",
+    "cefrLevel": "B1",
+    "tags": [
+      "shopping",
+      "money",
+      "planning"
+    ],
+    "hint": "like / brand / which"
+  },
+  {
+    "id": "ai-b1-mnjqmg7x-007",
+    "prompt": "支払い方法は何ですか？",
+    "answer": "What payment methods do you accept?",
+    "cefrLevel": "B1",
+    "tags": [
+      "shopping",
+      "money",
+      "planning"
+    ],
+    "hint": "payment / methods / what"
+  },
+  {
+    "id": "ai-b1-mnjqmg7x-008",
+    "prompt": "その店はクレジットカードを受け付けていますか？",
+    "answer": "Does that store accept credit cards?",
+    "cefrLevel": "B1",
+    "tags": [
+      "shopping",
+      "money",
+      "planning"
+    ],
+    "hint": "store / accept / credit card"
+  },
+  {
+    "id": "ai-b1-mnjqmg7x-009",
+    "prompt": "私は安いものを探しています。",
+    "answer": "I am looking for something cheap.",
+    "cefrLevel": "B1",
+    "tags": [
+      "shopping",
+      "money",
+      "planning"
+    ],
+    "hint": "looking / something / cheap"
+  },
+  {
+    "id": "ai-b1-mnjqmg7x-010",
+    "prompt": "このジャケットはどんな素材ですか？",
+    "answer": "What material is this jacket made of?",
+    "cefrLevel": "B1",
+    "tags": [
+      "shopping",
+      "money",
+      "planning"
+    ],
+    "hint": "material / jacket / what"
+  },
+  {
+    "id": "ai-b1-mnjqmg7x-011",
+    "prompt": "セールはいつまでですか？",
+    "answer": "When does the sale end?",
+    "cefrLevel": "B1",
+    "tags": [
+      "shopping",
+      "money",
+      "planning"
+    ],
+    "hint": "sale / when / end"
+  },
+  {
+    "id": "ai-b1-mnjqmg7x-012",
+    "prompt": "友達と一緒に買い物に行くつもりです。",
+    "answer": "I intend to go shopping with my friend.",
+    "cefrLevel": "B1",
+    "tags": [
+      "shopping",
+      "money",
+      "planning"
+    ],
+    "hint": "intend / go / friend"
+  },
+  {
+    "id": "ai-b1-mnjqmg7x-013",
+    "prompt": "そのバッグはどれくらいの値段ですか？",
+    "answer": "How much does that bag cost?",
+    "cefrLevel": "B1",
+    "tags": [
+      "shopping",
+      "money",
+      "planning"
+    ],
+    "hint": "how much / bag / cost"
+  },
+  {
+    "id": "ai-b1-mnjqmg7x-014",
+    "prompt": "この商品は他の店でも買えますか？",
+    "answer": "Can I find this product in other stores?",
+    "cefrLevel": "B1",
+    "tags": [
+      "shopping",
+      "money",
+      "planning"
+    ],
+    "hint": "find / product / other stores"
+  },
+  {
+    "id": "ai-b1-mnjqmg7x-015",
+    "prompt": "彼は毎月新しい服を買っています。",
+    "answer": "He buys new clothes every month.",
+    "cefrLevel": "B1",
+    "tags": [
+      "shopping",
+      "money",
+      "planning"
+    ],
+    "hint": "buys / new / clothes"
+  },
+  {
+    "id": "ai-b1-mnjqmg7x-016",
+    "prompt": "どのようにその割引を受けますか？",
+    "answer": "How can I get that discount?",
+    "cefrLevel": "B1",
+    "tags": [
+      "shopping",
+      "money",
+      "planning"
+    ],
+    "hint": "get / discount / how"
+  },
+  {
+    "id": "ai-b1-mnjqmg7x-017",
+    "prompt": "もし予算があれば、買います。",
+    "answer": "I will buy it if I have the budget.",
+    "cefrLevel": "B1",
+    "tags": [
+      "shopping",
+      "money",
+      "planning"
+    ],
+    "hint": "buy / if / budget"
+  },
+  {
+    "id": "ai-b1-mnjqmg7x-018",
+    "prompt": "今月中に買い物を終わらせたいです。",
+    "answer": "I want to finish my shopping by the end of this month.",
+    "cefrLevel": "B1",
+    "tags": [
+      "shopping",
+      "money",
+      "planning"
+    ],
+    "hint": "finish / shopping / month"
+  }
+]

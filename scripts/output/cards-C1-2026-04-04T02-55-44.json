@@ -1,0 +1,218 @@
+[
+  {
+    "id": "ai-c1-mnjqq08n-000",
+    "prompt": "テクノロジーの進化は文化にどのように影響を与えていますか？",
+    "answer": "How does the evolution of technology affect culture?",
+    "cefrLevel": "C1",
+    "tags": [
+      "technology",
+      "culture",
+      "media"
+    ],
+    "hint": "evolution / affect / culture"
+  },
+  {
+    "id": "ai-c1-mnjqq08n-001",
+    "prompt": "メディアは時に偏見を助長することがありますが、その影響をどう抑えることができるでしょうか？",
+    "answer": "Media can sometimes promote bias; how can we mitigate its impact?",
+    "cefrLevel": "C1",
+    "tags": [
+      "media",
+      "bias",
+      "mitigate"
+    ],
+    "hint": "promote / mitigate / bias"
+  },
+  {
+    "id": "ai-c1-mnjqq08n-002",
+    "prompt": "新技術が普及すると、伝統的な文化が脅かされることがあります。",
+    "answer": "The proliferation of new technologies can threaten traditional cultures.",
+    "cefrLevel": "C1",
+    "tags": [
+      "technology",
+      "traditional",
+      "threaten"
+    ],
+    "hint": "proliferation / threaten / cultures"
+  },
+  {
+    "id": "ai-c1-mnjqq08n-003",
+    "prompt": "文化的表現は、デジタルメディアによってどのように変化しましたか？",
+    "answer": "How has cultural expression changed due to digital media?",
+    "cefrLevel": "C1",
+    "tags": [
+      "cultural",
+      "expression",
+      "digital"
+    ],
+    "hint": "changed / digital / media"
+  },
+  {
+    "id": "ai-c1-mnjqq08n-004",
+    "prompt": "テクノロジーの普及は、私たちのコミュニケーション方法を根本的に変えました。",
+    "answer": "The widespread use of technology has fundamentally changed the way we communicate.",
+    "cefrLevel": "C1",
+    "tags": [
+      "technology",
+      "communication",
+      "widespread"
+    ],
+    "hint": "widespread / fundamentally / communicate"
+  },
+  {
+    "id": "ai-c1-mnjqq08n-005",
+    "prompt": "ソーシャルメディアの影響は、特に若者の文化において顕著です。",
+    "answer": "The impact of social media is particularly pronounced in youth culture.",
+    "cefrLevel": "C1",
+    "tags": [
+      "social media",
+      "impact",
+      "youth"
+    ],
+    "hint": "pronounced / impact / culture"
+  },
+  {
+    "id": "ai-c1-mnjqq08n-006",
+    "prompt": "私たちがメディアを通じて情報を受け取る方法は、常に変化しています。",
+    "answer": "The way we receive information through media is constantly evolving.",
+    "cefrLevel": "C1",
+    "tags": [
+      "media",
+      "receive",
+      "evolving"
+    ],
+    "hint": "receive / information / evolving"
+  },
+  {
+    "id": "ai-c1-mnjqq08n-007",
+    "prompt": "テクノロジーが文化に与える影響についてのディスカッションは必要です。",
+    "answer": "Discussions about the impact of technology on culture are necessary.",
+    "cefrLevel": "C1",
+    "tags": [
+      "technology",
+      "impact",
+      "discussions"
+    ],
+    "hint": "discussions / necessary / impact"
+  },
+  {
+    "id": "ai-c1-mnjqq08n-008",
+    "prompt": "メディアリテラシーの重要性がますます高まっています。",
+    "answer": "The importance of media literacy is increasingly recognized.",
+    "cefrLevel": "C1",
+    "tags": [
+      "media literacy",
+      "importance",
+      "recognized"
+    ],
+    "hint": "importance / increasingly / recognized"
+  },
+  {
+    "id": "ai-c1-mnjqq08n-009",
+    "prompt": "デジタル化が進む中で、古い文化は適応を余儀なくされています。",
+    "answer": "As digitalization progresses, older cultures are forced to adapt.",
+    "cefrLevel": "C1",
+    "tags": [
+      "digitalization",
+      "adapt",
+      "cultures"
+    ],
+    "hint": "progresses / forced / adapt"
+  },
+  {
+    "id": "ai-c1-mnjqq08n-010",
+    "prompt": "テクノロジーの発展がもたらす倫理的課題に対処する必要があります。",
+    "answer": "We need to address the ethical challenges posed by technological advancements.",
+    "cefrLevel": "C1",
+    "tags": [
+      "ethical",
+      "challenges",
+      "advancements"
+    ],
+    "hint": "address / challenges / ethical"
+  },
+  {
+    "id": "ai-c1-mnjqq08n-011",
+    "prompt": "異なる文化的背景を持つ人々とのコミュニケーションは、しばしば誤解を生みます。",
+    "answer": "Communication with people from different cultural backgrounds often leads to misunderstandings.",
+    "cefrLevel": "C1",
+    "tags": [
+      "communication",
+      "understandings",
+      "cultural"
+    ],
+    "hint": "leads / misunderstandings / cultural"
+  },
+  {
+    "id": "ai-c1-mnjqq08n-012",
+    "prompt": "テクノロジーが社会的相互作用に及ぼす影響について、もっと考えるべきです。",
+    "answer": "We should think more about the impact of technology on social interaction.",
+    "cefrLevel": "C1",
+    "tags": [
+      "impact",
+      "technology",
+      "interaction"
+    ],
+    "hint": "think / more / impact"
+  },
+  {
+    "id": "ai-c1-mnjqq08n-013",
+    "prompt": "メディアが文化をどのように形成しているかを探ることは重要です。",
+    "answer": "It is important to explore how media shapes culture.",
+    "cefrLevel": "C1",
+    "tags": [
+      "media",
+      "shapes",
+      "culture"
+    ],
+    "hint": "explore / shapes / culture"
+  },
+  {
+    "id": "ai-c1-mnjqq08n-014",
+    "prompt": "新しい技術を受け入れることで、私たちの文化はどのように豊かになるでしょうか？",
+    "answer": "How might our culture become enriched by embracing new technologies?",
+    "cefrLevel": "C1",
+    "tags": [
+      "embracing",
+      "enriched",
+      "technologies"
+    ],
+    "hint": "embracing / enriched / culture"
+  },
+  {
+    "id": "ai-c1-mnjqq08n-015",
+    "prompt": "文化とテクノロジーの相互作用を理解することは、多くの課題を伴います。",
+    "answer": "Understanding the interaction between culture and technology presents many challenges.",
+    "cefrLevel": "C1",
+    "tags": [
+      "interaction",
+      "challenges",
+      "understanding"
+    ],
+    "hint": "presents / challenges / interaction"
+  },
+  {
+    "id": "ai-c1-mnjqq08n-016",
+    "prompt": "メディアが社会に及ぼす影響を分析することは、研究者にとって重要です。",
+    "answer": "Analyzing the influence of media on society is crucial for researchers.",
+    "cefrLevel": "C1",
+    "tags": [
+      "influence",
+      "analyzing",
+      "researchers"
+    ],
+    "hint": "influence / crucial / analyzing"
+  },
+  {
+    "id": "ai-c1-mnjqq08n-017",
+    "prompt": "テクノロジーの影響を受けた文化の変化は、時に予期せぬ結果をもたらします。",
+    "answer": "Cultural changes influenced by technology can sometimes yield unexpected results.",
+    "cefrLevel": "C1",
+    "tags": [
+      "unexpected",
+      "changes",
+      "influenced"
+    ],
+    "hint": "yield / unexpected / changes"
+  }
+]

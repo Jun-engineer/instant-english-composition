@@ -7,17 +7,13 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prebuild": "npm run prepare:jmdict",
     "build:static": "next build",
-    "prebuild:static": "npm run prepare:jmdict",
     "typecheck": "tsc --noEmit",
-    "prepare:jmdict": "node ./scripts/prepare-jmdict.mjs",
     "generate:cards": "node ./scripts/generate-cards.mjs",
     "upload:cards": "node ./scripts/upload-cards.mjs"
   },
   "dependencies": {
     "classnames": "2.5.1",
-    "fast-xml-parser": "^4.3.6",
     "next": "14.2.33",
     "react": "18.2.0",
     "react-dom": "18.2.0",

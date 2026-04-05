@@ -1,0 +1,218 @@
+[
+  {
+    "id": "ai-c2-mnjqua86-000",
+    "prompt": "この絵画は、主に光と影の対比によってその美しさを引き立てています。",
+    "answer": "This painting showcases its beauty primarily through the contrast of light and shadow.",
+    "cefrLevel": "C2",
+    "tags": [
+      "art",
+      "aesthetics",
+      "criticism"
+    ],
+    "hint": "contrast / beauty / light"
+  },
+  {
+    "id": "ai-c2-mnjqua86-001",
+    "prompt": "彼の作品は、感情の複雑さを巧みに表現しており、見る者に深い印象を与えます。",
+    "answer": "His works adeptly express the complexity of emotions, leaving a profound impression on viewers.",
+    "cefrLevel": "C2",
+    "tags": [
+      "art",
+      "emotions",
+      "impression"
+    ],
+    "hint": "complexity / express / profound"
+  },
+  {
+    "id": "ai-c2-mnjqua86-002",
+    "prompt": "現代美術における批評は、単なる評価を超えて、文化的文脈を考慮する必要があります。",
+    "answer": "Criticism in contemporary art must go beyond mere evaluation to consider cultural contexts.",
+    "cefrLevel": "C2",
+    "tags": [
+      "criticism",
+      "contemporary",
+      "cultural"
+    ],
+    "hint": "criticism / contemporary / context"
+  },
+  {
+    "id": "ai-c2-mnjqua86-003",
+    "prompt": "この彫刻は、不規則な形状にもかかわらず、驚くほど調和のとれた印象を与えます。",
+    "answer": "Despite its irregular shapes, this sculpture provides an astonishingly harmonious impression.",
+    "cefrLevel": "C2",
+    "tags": [
+      "sculpture",
+      "harmony",
+      "impression"
+    ],
+    "hint": "irregular / harmony / astonishingly"
+  },
+  {
+    "id": "ai-c2-mnjqua86-004",
+    "prompt": "批評家たちは、その作品が社会問題にどのように触れているかを鋭く分析しました。",
+    "answer": "Critics keenly analyzed how the work addresses social issues.",
+    "cefrLevel": "C2",
+    "tags": [
+      "critics",
+      "analysis",
+      "social issues"
+    ],
+    "hint": "address / analyze / issues"
+  },
+  {
+    "id": "ai-c2-mnjqua86-005",
+    "prompt": "彼女のアートは、観る人を挑発し、再考を促す力を持っています。",
+    "answer": "Her art possesses the power to provoke viewers and inspire them to reconsider their perspectives.",
+    "cefrLevel": "C2",
+    "tags": [
+      "art",
+      "provoke",
+      "perspectives"
+    ],
+    "hint": "provoke / inspire / reconsider"
+  },
+  {
+    "id": "ai-c2-mnjqua87-006",
+    "prompt": "この展覧会は、観客に美術の新たな意味を体験させることを目的としています。",
+    "answer": "The exhibition aims to provide the audience with a new experience of the meaning of art.",
+    "cefrLevel": "C2",
+    "tags": [
+      "exhibition",
+      "experience",
+      "meaning"
+    ],
+    "hint": "aims / audience / experience"
+  },
+  {
+    "id": "ai-c2-mnjqua87-007",
+    "prompt": "彼の批評は、伝統的な美の基準を覆すものであり、挑戦的な視点を提供します。",
+    "answer": "His critique overturns traditional standards of beauty and offers a challenging perspective.",
+    "cefrLevel": "C2",
+    "tags": [
+      "critique",
+      "traditional",
+      "perspective"
+    ],
+    "hint": "overturn / standards / challenging"
+  },
+  {
+    "id": "ai-c2-mnjqua87-008",
+    "prompt": "この作品は、観客に対して美しさの概念を再定義する試みとして評価されています。",
+    "answer": "This work is regarded as an attempt to redefine the concept of beauty for the audience.",
+    "cefrLevel": "C2",
+    "tags": [
+      "work",
+      "redefine",
+      "concept"
+    ],
+    "hint": "regarded / attempt / concept"
+  },
+  {
+    "id": "ai-c2-mnjqua87-009",
+    "prompt": "アーティストは、社会の不平等を描くことで、観察者に強いメッセージを送っています。",
+    "answer": "The artist conveys a strong message to observers by depicting social inequalities.",
+    "cefrLevel": "C2",
+    "tags": [
+      "artist",
+      "message",
+      "inequalities"
+    ],
+    "hint": "convey / depicting / strong"
+  },
+  {
+    "id": "ai-c2-mnjqua87-010",
+    "prompt": "彼女の作品は、視覚的な美しさだけでなく、深い哲学的なメッセージをも含んでいます。",
+    "answer": "Her works encompass not only visual beauty but also profound philosophical messages.",
+    "cefrLevel": "C2",
+    "tags": [
+      "works",
+      "philosophical",
+      "encompass"
+    ],
+    "hint": "encompass / beauty / messages"
+  },
+  {
+    "id": "ai-c2-mnjqua87-011",
+    "prompt": "アートの批評において、主観と客観のバランスを取ることが求められます。",
+    "answer": "In art criticism, achieving a balance between subjectivity and objectivity is essential.",
+    "cefrLevel": "C2",
+    "tags": [
+      "criticism",
+      "balance",
+      "subjectivity"
+    ],
+    "hint": "achieving / balance / essential"
+  },
+  {
+    "id": "ai-c2-mnjqua87-012",
+    "prompt": "この作品は、見る者に独自の解釈を促す余地を残しています。",
+    "answer": "This piece leaves room for viewers to encourage their own interpretations.",
+    "cefrLevel": "C2",
+    "tags": [
+      "piece",
+      "interpretations",
+      "viewers"
+    ],
+    "hint": "leaves / room / interpretations"
+  },
+  {
+    "id": "ai-c2-mnjqua87-013",
+    "prompt": "彼の展覧会は、観客に対する参加を促す体験として革新的です。",
+    "answer": "His exhibition is innovative as an experience that encourages audience participation.",
+    "cefrLevel": "C2",
+    "tags": [
+      "exhibition",
+      "innovative",
+      "participation"
+    ],
+    "hint": "innovative / experience / encourage"
+  },
+  {
+    "id": "ai-c2-mnjqua87-014",
+    "prompt": "この映画は、芸術と現実の境界を曖昧にすることで、観客に新たな視点を提供します。",
+    "answer": "This film blurs the boundaries between art and reality, offering viewers a new perspective.",
+    "cefrLevel": "C2",
+    "tags": [
+      "film",
+      "boundaries",
+      "perspective"
+    ],
+    "hint": "blurs / boundaries / perspective"
+  },
+  {
+    "id": "ai-c2-mnjqua87-015",
+    "prompt": "この詩は、言葉の選び方によって感情の深さを表現しています。",
+    "answer": "This poem expresses the depth of emotions through its choice of words.",
+    "cefrLevel": "C2",
+    "tags": [
+      "poem",
+      "express",
+      "emotions"
+    ],
+    "hint": "express / depth / choice"
+  },
+  {
+    "id": "ai-c2-mnjqua87-016",
+    "prompt": "彼の批評は、特定のアート作品に対する新たな理解を促すものです。",
+    "answer": "His critique fosters a new understanding of specific artworks.",
+    "cefrLevel": "C2",
+    "tags": [
+      "critique",
+      "understanding",
+      "artworks"
+    ],
+    "hint": "fosters / understanding / specific"
+  },
+  {
+    "id": "ai-c2-mnjqua87-017",
+    "prompt": "この芸術家のスタイルは、過去の影響を受けた新たな表現方法として注目されています。",
+    "answer": "The artist's style is noted as a new expression influenced by past traditions.",
+    "cefrLevel": "C2",
+    "tags": [
+      "artist",
+      "style",
+      "influenced"
+    ],
+    "hint": "noted / expression / influenced"
+  }
+]

@@ -1,0 +1,208 @@
+[
+  {
+    "id": "ai-a2-mnjqjtia-000",
+    "prompt": "彼はサッカーが好きです。",
+    "answer": "He likes soccer.",
+    "cefrLevel": "A2",
+    "tags": [
+      "sports",
+      "hobby"
+    ],
+    "hint": "likes / soccer / he"
+  },
+  {
+    "id": "ai-a2-mnjqjtia-001",
+    "prompt": "私たちは毎週末映画を見ます。",
+    "answer": "We watch movies every weekend.",
+    "cefrLevel": "A2",
+    "tags": [
+      "entertainment"
+    ],
+    "hint": "watch / movies / weekend"
+  },
+  {
+    "id": "ai-a2-mnjqjtia-002",
+    "prompt": "彼女はテニスをよくします。",
+    "answer": "She often plays tennis.",
+    "cefrLevel": "A2",
+    "tags": [
+      "sports",
+      "hobby"
+    ],
+    "hint": "often / plays / tennis"
+  },
+  {
+    "id": "ai-a2-mnjqjtia-003",
+    "prompt": "あなたはどのスポーツが好きですか？",
+    "answer": "Which sport do you like?",
+    "cefrLevel": "A2",
+    "tags": [
+      "sports"
+    ],
+    "hint": "which / sport / like"
+  },
+  {
+    "id": "ai-a2-mnjqjtia-004",
+    "prompt": "私の趣味は絵を描くことです。",
+    "answer": "My hobby is painting.",
+    "cefrLevel": "A2",
+    "tags": [
+      "hobby"
+    ],
+    "hint": "hobby / is / painting"
+  },
+  {
+    "id": "ai-a2-mnjqjtia-005",
+    "prompt": "彼は毎日ジョギングをします。",
+    "answer": "He jogs every day.",
+    "cefrLevel": "A2",
+    "tags": [
+      "sports",
+      "hobby"
+    ],
+    "hint": "jogs / every day / he"
+  },
+  {
+    "id": "ai-a2-mnjqjtia-006",
+    "prompt": "私たちは友達とボウリングに行きました。",
+    "answer": "We went bowling with friends.",
+    "cefrLevel": "A2",
+    "tags": [
+      "sports",
+      "entertainment"
+    ],
+    "hint": "went / bowling / friends"
+  },
+  {
+    "id": "ai-a2-mnjqjtia-007",
+    "prompt": "彼女は歌うのが得意です。",
+    "answer": "She is good at singing.",
+    "cefrLevel": "A2",
+    "tags": [
+      "entertainment",
+      "hobby"
+    ],
+    "hint": "good at / singing / she"
+  },
+  {
+    "id": "ai-a2-mnjqjtia-008",
+    "prompt": "あなたはサッカーを見ますか？",
+    "answer": "Do you watch soccer?",
+    "cefrLevel": "A2",
+    "tags": [
+      "sports"
+    ],
+    "hint": "do / watch / soccer"
+  },
+  {
+    "id": "ai-a2-mnjqjtia-009",
+    "prompt": "私は毎日本を読みます。",
+    "answer": "I read books every day.",
+    "cefrLevel": "A2",
+    "tags": [
+      "hobby"
+    ],
+    "hint": "read / books / every day"
+  },
+  {
+    "id": "ai-a2-mnjqjtia-010",
+    "prompt": "彼は毎週バスケットボールをします。",
+    "answer": "He plays basketball every week.",
+    "cefrLevel": "A2",
+    "tags": [
+      "sports"
+    ],
+    "hint": "plays / basketball / every week"
+  },
+  {
+    "id": "ai-a2-mnjqjtia-011",
+    "prompt": "彼女は映画が好きですか？",
+    "answer": "Does she like movies?",
+    "cefrLevel": "A2",
+    "tags": [
+      "entertainment"
+    ],
+    "hint": "does / like / movies"
+  },
+  {
+    "id": "ai-a2-mnjqjtia-012",
+    "prompt": "私の友達は料理が得意です。",
+    "answer": "My friend is good at cooking.",
+    "cefrLevel": "A2",
+    "tags": [
+      "hobby"
+    ],
+    "hint": "good at / cooking / friend"
+  },
+  {
+    "id": "ai-a2-mnjqjtia-013",
+    "prompt": "私たちは海で泳ぎました。",
+    "answer": "We swam in the sea.",
+    "cefrLevel": "A2",
+    "tags": [
+      "sports",
+      "hobby"
+    ],
+    "hint": "swam / in / sea"
+  },
+  {
+    "id": "ai-a2-mnjqjtia-014",
+    "prompt": "彼は毎週末ギターを弾きます。",
+    "answer": "He plays guitar every weekend.",
+    "cefrLevel": "A2",
+    "tags": [
+      "hobby"
+    ],
+    "hint": "plays / guitar / weekend"
+  },
+  {
+    "id": "ai-a2-mnjqjtia-015",
+    "prompt": "あなたはどの映画が一番好きですか？",
+    "answer": "What is your favorite movie?",
+    "cefrLevel": "A2",
+    "tags": [
+      "entertainment"
+    ],
+    "hint": "favorite / movie / what"
+  },
+  {
+    "id": "ai-a2-mnjqjtia-016",
+    "prompt": "彼女はバレーボールが好きです。",
+    "answer": "She likes volleyball.",
+    "cefrLevel": "A2",
+    "tags": [
+      "sports"
+    ],
+    "hint": "likes / volleyball / she"
+  },
+  {
+    "id": "ai-a2-mnjqjtia-017",
+    "prompt": "あなたは音楽を聴くのが好きですか？",
+    "answer": "Do you like listening to music?",
+    "cefrLevel": "A2",
+    "tags": [
+      "entertainment"
+    ],
+    "hint": "like / listening / music"
+  },
+  {
+    "id": "ai-a2-mnjqjtia-018",
+    "prompt": "私たちはサッカーの試合を見に行きます。",
+    "answer": "We are going to watch a soccer game.",
+    "cefrLevel": "A2",
+    "tags": [
+      "sports"
+    ],
+    "hint": "going / watch / game"
+  },
+  {
+    "id": "ai-a2-mnjqjtia-019",
+    "prompt": "彼女は週に一度ピアノを練習します。",
+    "answer": "She practices piano once a week.",
+    "cefrLevel": "A2",
+    "tags": [
+      "hobby"
+    ],
+    "hint": "practices / piano / once"
+  }
+]

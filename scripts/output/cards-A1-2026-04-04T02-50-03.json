@@ -1,0 +1,202 @@
+[
+  {
+    "id": "ai-a1-mnjqioq8-000",
+    "prompt": "私は元気です。",
+    "answer": "I am fine.",
+    "cefrLevel": "A1",
+    "tags": [
+      "health"
+    ],
+    "hint": "I / am / fine"
+  },
+  {
+    "id": "ai-a1-mnjqioq8-001",
+    "prompt": "これは私の家です。",
+    "answer": "This is my house.",
+    "cefrLevel": "A1",
+    "tags": [
+      "home"
+    ],
+    "hint": "This / is / house"
+  },
+  {
+    "id": "ai-a1-mnjqioq8-002",
+    "prompt": "彼は幸せです。",
+    "answer": "He is happy.",
+    "cefrLevel": "A1",
+    "tags": [
+      "emotion"
+    ],
+    "hint": "He / is / happy"
+  },
+  {
+    "id": "ai-a1-mnjqioq8-003",
+    "prompt": "あなたは疲れていますか？",
+    "answer": "Are you tired?",
+    "cefrLevel": "A1",
+    "tags": [
+      "health"
+    ],
+    "hint": "Are / you / tired"
+  },
+  {
+    "id": "ai-a1-mnjqioq8-004",
+    "prompt": "私は家にいます。",
+    "answer": "I am at home.",
+    "cefrLevel": "A1",
+    "tags": [
+      "home"
+    ],
+    "hint": "I / am / home"
+  },
+  {
+    "id": "ai-a1-mnjqioq8-005",
+    "prompt": "彼女は悲しいです。",
+    "answer": "She is sad.",
+    "cefrLevel": "A1",
+    "tags": [
+      "emotion"
+    ],
+    "hint": "She / is / sad"
+  },
+  {
+    "id": "ai-a1-mnjqioq8-006",
+    "prompt": "あなたは元気ですか？",
+    "answer": "Are you well?",
+    "cefrLevel": "A1",
+    "tags": [
+      "health"
+    ],
+    "hint": "Are / you / well"
+  },
+  {
+    "id": "ai-a1-mnjqioq8-007",
+    "prompt": "私の部屋はきれいです。",
+    "answer": "My room is clean.",
+    "cefrLevel": "A1",
+    "tags": [
+      "home"
+    ],
+    "hint": "My / room / clean"
+  },
+  {
+    "id": "ai-a1-mnjqioq8-008",
+    "prompt": "私は疲れています。",
+    "answer": "I am tired.",
+    "cefrLevel": "A1",
+    "tags": [
+      "health"
+    ],
+    "hint": "I / am / tired"
+  },
+  {
+    "id": "ai-a1-mnjqioq8-009",
+    "prompt": "彼らは楽しそうです。",
+    "answer": "They look happy.",
+    "cefrLevel": "A1",
+    "tags": [
+      "emotion"
+    ],
+    "hint": "They / look / happy"
+  },
+  {
+    "id": "ai-a1-mnjqioq8-010",
+    "prompt": "彼は家にいません。",
+    "answer": "He is not at home.",
+    "cefrLevel": "A1",
+    "tags": [
+      "home"
+    ],
+    "hint": "He / is not / home"
+  },
+  {
+    "id": "ai-a1-mnjqioq8-011",
+    "prompt": "私たちは健康です。",
+    "answer": "We are healthy.",
+    "cefrLevel": "A1",
+    "tags": [
+      "health"
+    ],
+    "hint": "We / are / healthy"
+  },
+  {
+    "id": "ai-a1-mnjqioq8-012",
+    "prompt": "あなたは幸せですか？",
+    "answer": "Are you happy?",
+    "cefrLevel": "A1",
+    "tags": [
+      "emotion"
+    ],
+    "hint": "Are / you / happy"
+  },
+  {
+    "id": "ai-a1-mnjqioq8-013",
+    "prompt": "私は朝ごはんを食べます。",
+    "answer": "I eat breakfast.",
+    "cefrLevel": "A1",
+    "tags": [
+      "health"
+    ],
+    "hint": "I / eat / breakfast"
+  },
+  {
+    "id": "ai-a1-mnjqioq8-014",
+    "prompt": "私の家は大きいです。",
+    "answer": "My house is big.",
+    "cefrLevel": "A1",
+    "tags": [
+      "home"
+    ],
+    "hint": "My / house / big"
+  },
+  {
+    "id": "ai-a1-mnjqioq8-015",
+    "prompt": "彼女は笑っています。",
+    "answer": "She is laughing.",
+    "cefrLevel": "A1",
+    "tags": [
+      "emotion"
+    ],
+    "hint": "She / is / laughing"
+  },
+  {
+    "id": "ai-a1-mnjqioq8-016",
+    "prompt": "私たちはここにいます。",
+    "answer": "We are here.",
+    "cefrLevel": "A1",
+    "tags": [
+      "home"
+    ],
+    "hint": "We / are / here"
+  },
+  {
+    "id": "ai-a1-mnjqioq8-017",
+    "prompt": "あなたの名前は何ですか？",
+    "answer": "What is your name?",
+    "cefrLevel": "A1",
+    "tags": [
+      "emotion"
+    ],
+    "hint": "What / is / name"
+  },
+  {
+    "id": "ai-a1-mnjqioq8-018",
+    "prompt": "私は毎日運動します。",
+    "answer": "I exercise every day.",
+    "cefrLevel": "A1",
+    "tags": [
+      "health"
+    ],
+    "hint": "I / exercise / day"
+  },
+  {
+    "id": "ai-a1-mnjqioq8-019",
+    "prompt": "彼は怒っています。",
+    "answer": "He is angry.",
+    "cefrLevel": "A1",
+    "tags": [
+      "emotion"
+    ],
+    "hint": "He / is / angry"
+  }
+]

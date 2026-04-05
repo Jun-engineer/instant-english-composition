@@ -1,0 +1,211 @@
+[
+  {
+    "id": "ai-c1-mnjqppxb-000",
+    "prompt": "経済の変化が教育制度にどのような影響を与えるかを考えるべきです。",
+    "answer": "We should consider how changes in the economy affect the education system.",
+    "cefrLevel": "C1",
+    "tags": [
+      "economy",
+      "education"
+    ],
+    "hint": "consider / changes / economy"
+  },
+  {
+    "id": "ai-c1-mnjqppxb-001",
+    "prompt": "環境問題に対する意識が高まっていることは明らかです。",
+    "answer": "It is evident that awareness of environmental issues is on the rise.",
+    "cefrLevel": "C1",
+    "tags": [
+      "environment",
+      "awareness"
+    ],
+    "hint": "evident / awareness / issues"
+  },
+  {
+    "id": "ai-c1-mnjqppxb-002",
+    "prompt": "教育の質は国の経済成長に深く関係しています。",
+    "answer": "The quality of education is deeply intertwined with a nation's economic growth.",
+    "cefrLevel": "C1",
+    "tags": [
+      "education",
+      "economy"
+    ],
+    "hint": "quality / intertwined / economic"
+  },
+  {
+    "id": "ai-c1-mnjqppxb-003",
+    "prompt": "持続可能な経済システムを構築することが私たちの責任です。",
+    "answer": "It is our responsibility to build a sustainable economic system.",
+    "cefrLevel": "C1",
+    "tags": [
+      "economy",
+      "sustainability"
+    ],
+    "hint": "responsibility / sustainable / system"
+  },
+  {
+    "id": "ai-c1-mnjqppxb-004",
+    "prompt": "環境保護のための教育は不可欠な要素です。",
+    "answer": "Education for environmental protection is an essential component.",
+    "cefrLevel": "C1",
+    "tags": [
+      "environment",
+      "education"
+    ],
+    "hint": "environmental / protection / essential"
+  },
+  {
+    "id": "ai-c1-mnjqppxb-005",
+    "prompt": "経済政策が長期的に影響を及ぼすことを理解することが重要です。",
+    "answer": "Understanding that economic policies have long-term impacts is important.",
+    "cefrLevel": "C1",
+    "tags": [
+      "economy",
+      "policy"
+    ],
+    "hint": "understanding / policies / impacts"
+  },
+  {
+    "id": "ai-c1-mnjqppxb-006",
+    "prompt": "教育の機会が平等でないことが、社会の不平等を助長しています。",
+    "answer": "The lack of equal educational opportunities exacerbates social inequalities.",
+    "cefrLevel": "C1",
+    "tags": [
+      "education",
+      "inequality"
+    ],
+    "hint": "equal / opportunities / exacerbates"
+  },
+  {
+    "id": "ai-c1-mnjqppxb-007",
+    "prompt": "気候変動への対策には国際的な協力が不可欠です。",
+    "answer": "International cooperation is essential for addressing climate change.",
+    "cefrLevel": "C1",
+    "tags": [
+      "environment",
+      "cooperation"
+    ],
+    "hint": "international / cooperation / climate"
+  },
+  {
+    "id": "ai-c1-mnjqppxb-008",
+    "prompt": "教育制度を改革することで、経済全体に良い影響を与えることができます。",
+    "answer": "Reforming the education system can positively impact the economy as a whole.",
+    "cefrLevel": "C1",
+    "tags": [
+      "education",
+      "economy"
+    ],
+    "hint": "reforming / positively / impact"
+  },
+  {
+    "id": "ai-c1-mnjqppxb-009",
+    "prompt": "持続可能な発展は経済成長と環境保護の両立を目指しています。",
+    "answer": "Sustainable development aims to reconcile economic growth with environmental protection.",
+    "cefrLevel": "C1",
+    "tags": [
+      "sustainability",
+      "economy"
+    ],
+    "hint": "sustainable / reconcile / growth"
+  },
+  {
+    "id": "ai-c1-mnjqppxb-010",
+    "prompt": "教育の質を向上させるためには、国の投資が不可欠です。",
+    "answer": "Investment by the government is critical to improve the quality of education.",
+    "cefrLevel": "C1",
+    "tags": [
+      "education",
+      "investment"
+    ],
+    "hint": "investment / improve / quality"
+  },
+  {
+    "id": "ai-c1-mnjqppxb-011",
+    "prompt": "経済危機が教育へのアクセスに与える影響は深刻です。",
+    "answer": "The impact of economic crises on access to education is severe.",
+    "cefrLevel": "C1",
+    "tags": [
+      "economy",
+      "education"
+    ],
+    "hint": "impact / access / crises"
+  },
+  {
+    "id": "ai-c1-mnjqppxb-012",
+    "prompt": "環境保護のための政策を推進することが急務です。",
+    "answer": "It is urgent to promote policies for environmental protection.",
+    "cefrLevel": "C1",
+    "tags": [
+      "environment",
+      "policy"
+    ],
+    "hint": "promote / urgent / policies"
+  },
+  {
+    "id": "ai-c1-mnjqppxb-013",
+    "prompt": "教育と経済は相互に関連し合っています。",
+    "answer": "Education and the economy are mutually interrelated.",
+    "cefrLevel": "C1",
+    "tags": [
+      "education",
+      "economy"
+    ],
+    "hint": "mutually / interrelated / economy"
+  },
+  {
+    "id": "ai-c1-mnjqppxb-014",
+    "prompt": "持続可能な開発は人々の生活を向上させるための鍵です。",
+    "answer": "Sustainable development is the key to improving people's lives.",
+    "cefrLevel": "C1",
+    "tags": [
+      "sustainability",
+      "development"
+    ],
+    "hint": "key / improving / lives"
+  },
+  {
+    "id": "ai-c1-mnjqppxb-015",
+    "prompt": "教育の質は国の国際的な競争力に影響を与えます。",
+    "answer": "The quality of education influences a country's international competitiveness.",
+    "cefrLevel": "C1",
+    "tags": [
+      "education",
+      "competitiveness"
+    ],
+    "hint": "influences / quality / competitiveness"
+  },
+  {
+    "id": "ai-c1-mnjqppxb-016",
+    "prompt": "環境問題の解決には、社会全体の意識改革が必要です。",
+    "answer": "Solving environmental issues requires a societal shift in awareness.",
+    "cefrLevel": "C1",
+    "tags": [
+      "environment",
+      "awareness"
+    ],
+    "hint": "solving / societal / awareness"
+  },
+  {
+    "id": "ai-c1-mnjqppxb-017",
+    "prompt": "教育制度が経済に与える影響は計り知れません。",
+    "answer": "The impact of the education system on the economy is immeasurable.",
+    "cefrLevel": "C1",
+    "tags": [
+      "education",
+      "economy"
+    ],
+    "hint": "impact / immeasurable / economy"
+  },
+  {
+    "id": "ai-c1-mnjqppxb-018",
+    "prompt": "気候変動は世界の経済に深刻な脅威をもたらしています。",
+    "answer": "Climate change poses a serious threat to the global economy.",
+    "cefrLevel": "C1",
+    "tags": [
+      "environment",
+      "economy"
+    ],
+    "hint": "poses / serious / threat"
+  }
+]

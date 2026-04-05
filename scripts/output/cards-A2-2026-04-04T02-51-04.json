@@ -1,0 +1,202 @@
+[
+  {
+    "id": "ai-a2-mnjqk0bw-000",
+    "prompt": "旅行は楽しかったですか？",
+    "answer": "Did you enjoy the trip?",
+    "cefrLevel": "A2",
+    "tags": [
+      "travel"
+    ],
+    "hint": "enjoy / trip / did"
+  },
+  {
+    "id": "ai-a2-mnjqk0bw-001",
+    "prompt": "昨日の天気はどうでしたか？",
+    "answer": "How was the weather yesterday?",
+    "cefrLevel": "A2",
+    "tags": [
+      "weather"
+    ],
+    "hint": "yesterday / weather / how"
+  },
+  {
+    "id": "ai-a2-mnjqk0bw-002",
+    "prompt": "その映画は面白いと思いました。",
+    "answer": "I thought the movie was interesting.",
+    "cefrLevel": "A2",
+    "tags": [
+      "emotion"
+    ],
+    "hint": "movie / interesting / thought"
+  },
+  {
+    "id": "ai-a2-mnjqk0bw-003",
+    "prompt": "君はどこに行きたいですか？",
+    "answer": "Where do you want to go?",
+    "cefrLevel": "A2",
+    "tags": [
+      "travel"
+    ],
+    "hint": "want / go / where"
+  },
+  {
+    "id": "ai-a2-mnjqk0bw-004",
+    "prompt": "今日はとても暑いですね。",
+    "answer": "It is very hot today.",
+    "cefrLevel": "A2",
+    "tags": [
+      "weather"
+    ],
+    "hint": "hot / today / very"
+  },
+  {
+    "id": "ai-a2-mnjqk0bw-005",
+    "prompt": "旅行の計画はもう立てましたか？",
+    "answer": "Have you made travel plans yet?",
+    "cefrLevel": "A2",
+    "tags": [
+      "travel"
+    ],
+    "hint": "travel / plans / made"
+  },
+  {
+    "id": "ai-a2-mnjqk0bw-006",
+    "prompt": "彼女はいつも元気そうです。",
+    "answer": "She always seems to be cheerful.",
+    "cefrLevel": "A2",
+    "tags": [
+      "emotion"
+    ],
+    "hint": "seems / cheerful / always"
+  },
+  {
+    "id": "ai-a2-mnjqk0bw-007",
+    "prompt": "明日の天気はどうなると思いますか？",
+    "answer": "What do you think the weather will be like tomorrow?",
+    "cefrLevel": "A2",
+    "tags": [
+      "weather"
+    ],
+    "hint": "think / weather / tomorrow"
+  },
+  {
+    "id": "ai-a2-mnjqk0bw-008",
+    "prompt": "私たちは山に登るつもりです。",
+    "answer": "We are going to climb a mountain.",
+    "cefrLevel": "A2",
+    "tags": [
+      "travel"
+    ],
+    "hint": "climb / mountain / going"
+  },
+  {
+    "id": "ai-a2-mnjqk0bw-009",
+    "prompt": "このレストランの料理は美味しいです。",
+    "answer": "The food at this restaurant is delicious.",
+    "cefrLevel": "A2",
+    "tags": [
+      "travel"
+    ],
+    "hint": "food / delicious / restaurant"
+  },
+  {
+    "id": "ai-a2-mnjqk0bw-010",
+    "prompt": "今日は少し寒いと感じます。",
+    "answer": "I feel a little cold today.",
+    "cefrLevel": "A2",
+    "tags": [
+      "weather"
+    ],
+    "hint": "feel / cold / today"
+  },
+  {
+    "id": "ai-a2-mnjqk0bw-011",
+    "prompt": "新しい友達ができて嬉しいです。",
+    "answer": "I am happy to have made new friends.",
+    "cefrLevel": "A2",
+    "tags": [
+      "emotion"
+    ],
+    "hint": "happy / friends / made"
+  },
+  {
+    "id": "ai-a2-mnjqk0bw-012",
+    "prompt": "次の休暇はどこに行きますか？",
+    "answer": "Where will you go for your next holiday?",
+    "cefrLevel": "A2",
+    "tags": [
+      "travel"
+    ],
+    "hint": "next / holiday / go"
+  },
+  {
+    "id": "ai-a2-mnjqk0bw-013",
+    "prompt": "雨が降りそうですね。",
+    "answer": "It looks like it will rain.",
+    "cefrLevel": "A2",
+    "tags": [
+      "weather"
+    ],
+    "hint": "looks / rain / will"
+  },
+  {
+    "id": "ai-a2-mnjqk0bw-014",
+    "prompt": "彼は幸せそうに見えます。",
+    "answer": "He looks happy.",
+    "cefrLevel": "A2",
+    "tags": [
+      "emotion"
+    ],
+    "hint": "looks / happy / he"
+  },
+  {
+    "id": "ai-a2-mnjqk0bw-015",
+    "prompt": "旅行の準備はできていますか？",
+    "answer": "Are you ready for the trip?",
+    "cefrLevel": "A2",
+    "tags": [
+      "travel"
+    ],
+    "hint": "ready / trip / are"
+  },
+  {
+    "id": "ai-a2-mnjqk0bw-016",
+    "prompt": "外は風が強いです。",
+    "answer": "It is windy outside.",
+    "cefrLevel": "A2",
+    "tags": [
+      "weather"
+    ],
+    "hint": "windy / outside / is"
+  },
+  {
+    "id": "ai-a2-mnjqk0bw-017",
+    "prompt": "彼女はいつも楽しいことをしています。",
+    "answer": "She always does fun things.",
+    "cefrLevel": "A2",
+    "tags": [
+      "emotion"
+    ],
+    "hint": "does / fun / always"
+  },
+  {
+    "id": "ai-a2-mnjqk0bw-018",
+    "prompt": "旅行中に何をするつもりですか？",
+    "answer": "What do you plan to do during your trip?",
+    "cefrLevel": "A2",
+    "tags": [
+      "travel"
+    ],
+    "hint": "plan / do / trip"
+  },
+  {
+    "id": "ai-a2-mnjqk0bw-019",
+    "prompt": "今週末は晴れるといいですね。",
+    "answer": "I hope it will be sunny this weekend.",
+    "cefrLevel": "A2",
+    "tags": [
+      "weather"
+    ],
+    "hint": "hope / sunny / weekend"
+  }
+]

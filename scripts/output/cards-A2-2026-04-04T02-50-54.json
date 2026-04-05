@@ -1,0 +1,212 @@
+[
+  {
+    "id": "ai-a2-mnjqjsfz-000",
+    "prompt": "私は毎朝学校に行きます。",
+    "answer": "I go to school every morning.",
+    "cefrLevel": "A2",
+    "tags": [
+      "school"
+    ],
+    "hint": "go / to school / every morning"
+  },
+  {
+    "id": "ai-a2-mnjqjsfz-001",
+    "prompt": "彼は昨日本を買いました。",
+    "answer": "He bought a book yesterday.",
+    "cefrLevel": "A2",
+    "tags": [
+      "shopping"
+    ],
+    "hint": "bought / a book / yesterday"
+  },
+  {
+    "id": "ai-a2-mnjqjsfz-002",
+    "prompt": "私たちはサラダを作りました。",
+    "answer": "We made a salad.",
+    "cefrLevel": "A2",
+    "tags": [
+      "health"
+    ],
+    "hint": "made / a salad / health"
+  },
+  {
+    "id": "ai-a2-mnjqjsfz-003",
+    "prompt": "彼女は毎週末に勉強します。",
+    "answer": "She studies every weekend.",
+    "cefrLevel": "A2",
+    "tags": [
+      "school"
+    ],
+    "hint": "studies / every weekend / school"
+  },
+  {
+    "id": "ai-a2-mnjqjsfz-004",
+    "prompt": "彼は新しい服を買うつもりです。",
+    "answer": "He is going to buy new clothes.",
+    "cefrLevel": "A2",
+    "tags": [
+      "shopping"
+    ],
+    "hint": "going to / buy / new clothes"
+  },
+  {
+    "id": "ai-a2-mnjqjsfz-005",
+    "prompt": "私たちは健康に気をつけています。",
+    "answer": "We take care of our health.",
+    "cefrLevel": "A2",
+    "tags": [
+      "health"
+    ],
+    "hint": "take care / our health / health"
+  },
+  {
+    "id": "ai-a2-mnjqjsfz-006",
+    "prompt": "あなたはどの教科が好きですか？",
+    "answer": "Which subject do you like?",
+    "cefrLevel": "A2",
+    "tags": [
+      "school"
+    ],
+    "hint": "which / subject / like"
+  },
+  {
+    "id": "ai-a2-mnjqjsfz-007",
+    "prompt": "私の友達は安い店で買い物をします。",
+    "answer": "My friend shops at a cheap store.",
+    "cefrLevel": "A2",
+    "tags": [
+      "shopping"
+    ],
+    "hint": "shops / cheap / store"
+  },
+  {
+    "id": "ai-a2-mnjqjsfz-008",
+    "prompt": "彼女は毎日運動しています。",
+    "answer": "She exercises every day.",
+    "cefrLevel": "A2",
+    "tags": [
+      "health"
+    ],
+    "hint": "exercises / every day / health"
+  },
+  {
+    "id": "ai-a2-mnjqjsfz-009",
+    "prompt": "私たちは試験のために勉強しています。",
+    "answer": "We are studying for the exam.",
+    "cefrLevel": "A2",
+    "tags": [
+      "school"
+    ],
+    "hint": "studying / for the exam / school"
+  },
+  {
+    "id": "ai-a2-mnjqjsfz-010",
+    "prompt": "昨日、彼はお菓子を買いましたか？",
+    "answer": "Did he buy snacks yesterday?",
+    "cefrLevel": "A2",
+    "tags": [
+      "shopping"
+    ],
+    "hint": "buy / snacks / yesterday"
+  },
+  {
+    "id": "ai-a2-mnjqjsfz-011",
+    "prompt": "私の家族は健康的な食事をしています。",
+    "answer": "My family eats a healthy diet.",
+    "cefrLevel": "A2",
+    "tags": [
+      "health"
+    ],
+    "hint": "eats / healthy / diet"
+  },
+  {
+    "id": "ai-a2-mnjqjsfz-012",
+    "prompt": "あなたはどの先生が好きですか？",
+    "answer": "Which teacher do you like?",
+    "cefrLevel": "A2",
+    "tags": [
+      "school"
+    ],
+    "hint": "which / teacher / like"
+  },
+  {
+    "id": "ai-a2-mnjqjsfz-013",
+    "prompt": "彼女は毎週買い物に行きます。",
+    "answer": "She goes shopping every week.",
+    "cefrLevel": "A2",
+    "tags": [
+      "shopping"
+    ],
+    "hint": "goes / shopping / every week"
+  },
+  {
+    "id": "ai-a2-mnjqjsfz-014",
+    "prompt": "私は毎日水をたくさん飲みます。",
+    "answer": "I drink a lot of water every day.",
+    "cefrLevel": "A2",
+    "tags": [
+      "health"
+    ],
+    "hint": "drink / a lot / water"
+  },
+  {
+    "id": "ai-a2-mnjqjsfz-015",
+    "prompt": "彼は英語を勉強しています。",
+    "answer": "He is studying English.",
+    "cefrLevel": "A2",
+    "tags": [
+      "school"
+    ],
+    "hint": "studying / English / school"
+  },
+  {
+    "id": "ai-a2-mnjqjsfz-016",
+    "prompt": "私たちはセールで服を買いました。",
+    "answer": "We bought clothes on sale.",
+    "cefrLevel": "A2",
+    "tags": [
+      "shopping"
+    ],
+    "hint": "bought / clothes / on sale"
+  },
+  {
+    "id": "ai-a2-mnjqjsfz-017",
+    "prompt": "彼女は毎朝ジョギングをしています。",
+    "answer": "She jogs every morning.",
+    "cefrLevel": "A2",
+    "tags": [
+      "health"
+    ],
+    "hint": "jogs / every morning / health"
+  },
+  {
+    "id": "ai-a2-mnjqjsfz-018",
+    "prompt": "あなたは学校に何時に行きますか？",
+    "answer": "What time do you go to school?",
+    "cefrLevel": "A2",
+    "tags": [
+      "school"
+    ],
+    "hint": "what time / go / to school"
+  },
+  {
+    "id": "ai-a2-mnjqjsfz-019",
+    "prompt": "彼は新しいゲームを欲しがっています。",
+    "answer": "He wants a new game.",
+    "cefrLevel": "A2",
+    "tags": [
+      "shopping"
+    ],
+    "hint": "wants / new / game"
+  },
+  {
+    "id": "ai-a2-mnjqjsfz-020",
+    "prompt": "私たちは毎晩早く寝ます。",
+    "answer": "We go to bed early every night.",
+    "cefrLevel": "A2",
+    "tags": [
+      "health"
+    ],
+    "hint": "go to bed / early / every night"
+  }
+]

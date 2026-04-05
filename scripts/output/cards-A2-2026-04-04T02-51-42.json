@@ -1,0 +1,211 @@
+[
+  {
+    "id": "ai-a2-mnjqktag-000",
+    "prompt": "駅はどこですか？",
+    "answer": "Where is the station?",
+    "cefrLevel": "A2",
+    "tags": [
+      "directions",
+      "transportation"
+    ],
+    "hint": "where / station / is"
+  },
+  {
+    "id": "ai-a2-mnjqktag-001",
+    "prompt": "バス停はこの道をまっすぐ行ったところです。",
+    "answer": "The bus stop is straight ahead on this road.",
+    "cefrLevel": "A2",
+    "tags": [
+      "directions",
+      "transportation"
+    ],
+    "hint": "bus stop / straight ahead / road"
+  },
+  {
+    "id": "ai-a2-mnjqktag-002",
+    "prompt": "私は地下鉄で学校に行きます。",
+    "answer": "I go to school by subway.",
+    "cefrLevel": "A2",
+    "tags": [
+      "transportation",
+      "school"
+    ],
+    "hint": "go / school / by subway"
+  },
+  {
+    "id": "ai-a2-mnjqktag-003",
+    "prompt": "この道を左に曲がってください。",
+    "answer": "Please turn left on this road.",
+    "cefrLevel": "A2",
+    "tags": [
+      "directions",
+      "transportation"
+    ],
+    "hint": "turn / left / road"
+  },
+  {
+    "id": "ai-a2-mnjqktag-004",
+    "prompt": "タクシーを呼ぶことができますか？",
+    "answer": "Can you call a taxi?",
+    "cefrLevel": "A2",
+    "tags": [
+      "directions",
+      "transportation"
+    ],
+    "hint": "can / call / taxi"
+  },
+  {
+    "id": "ai-a2-mnjqktag-005",
+    "prompt": "次の信号を右に曲がります。",
+    "answer": "I will turn right at the next traffic light.",
+    "cefrLevel": "A2",
+    "tags": [
+      "directions",
+      "transportation"
+    ],
+    "hint": "turn / right / traffic light"
+  },
+  {
+    "id": "ai-a2-mnjqktag-006",
+    "prompt": "私は電車で仕事に行きます。",
+    "answer": "I take the train to work.",
+    "cefrLevel": "A2",
+    "tags": [
+      "transportation",
+      "work"
+    ],
+    "hint": "take / train / work"
+  },
+  {
+    "id": "ai-a2-mnjqktag-007",
+    "prompt": "空港はここから遠いですか？",
+    "answer": "Is the airport far from here?",
+    "cefrLevel": "A2",
+    "tags": [
+      "directions",
+      "transportation"
+    ],
+    "hint": "airport / far / here"
+  },
+  {
+    "id": "ai-a2-mnjqktag-008",
+    "prompt": "このバスは駅に行きますか？",
+    "answer": "Does this bus go to the station?",
+    "cefrLevel": "A2",
+    "tags": [
+      "directions",
+      "transportation"
+    ],
+    "hint": "bus / go / station"
+  },
+  {
+    "id": "ai-a2-mnjqktag-009",
+    "prompt": "自転車を借りることができますか？",
+    "answer": "Can I rent a bicycle?",
+    "cefrLevel": "A2",
+    "tags": [
+      "transportation",
+      "rental"
+    ],
+    "hint": "can / rent / bicycle"
+  },
+  {
+    "id": "ai-a2-mnjqktag-010",
+    "prompt": "この道をまっすぐ行ってください。",
+    "answer": "Please go straight on this road.",
+    "cefrLevel": "A2",
+    "tags": [
+      "directions",
+      "transportation"
+    ],
+    "hint": "go / straight / road"
+  },
+  {
+    "id": "ai-a2-mnjqktag-011",
+    "prompt": "駅までどのくらいかかりますか？",
+    "answer": "How long does it take to the station?",
+    "cefrLevel": "A2",
+    "tags": [
+      "directions",
+      "time"
+    ],
+    "hint": "how long / take / station"
+  },
+  {
+    "id": "ai-a2-mnjqktag-012",
+    "prompt": "この列車はどこに行きますか？",
+    "answer": "Where is this train going?",
+    "cefrLevel": "A2",
+    "tags": [
+      "transportation",
+      "train"
+    ],
+    "hint": "where / train / going"
+  },
+  {
+    "id": "ai-a2-mnjqktag-013",
+    "prompt": "私は徒歩で行きます。",
+    "answer": "I will go on foot.",
+    "cefrLevel": "A2",
+    "tags": [
+      "directions",
+      "transportation"
+    ],
+    "hint": "go / on foot / I will"
+  },
+  {
+    "id": "ai-a2-mnjqktag-014",
+    "prompt": "近くに駐車場はありますか？",
+    "answer": "Is there a parking lot nearby?",
+    "cefrLevel": "A2",
+    "tags": [
+      "directions",
+      "transportation"
+    ],
+    "hint": "parking lot / nearby / is"
+  },
+  {
+    "id": "ai-a2-mnjqktag-015",
+    "prompt": "次のバスは何時に来ますか？",
+    "answer": "What time does the next bus arrive?",
+    "cefrLevel": "A2",
+    "tags": [
+      "transportation",
+      "bus"
+    ],
+    "hint": "what time / next bus / arrive"
+  },
+  {
+    "id": "ai-a2-mnjqktag-016",
+    "prompt": "私は毎日車で通勤します。",
+    "answer": "I commute by car every day.",
+    "cefrLevel": "A2",
+    "tags": [
+      "transportation",
+      "commute"
+    ],
+    "hint": "commute / by car / every day"
+  },
+  {
+    "id": "ai-a2-mnjqktag-017",
+    "prompt": "道を渡る前に左右を確認してください。",
+    "answer": "Please check both ways before crossing the street.",
+    "cefrLevel": "A2",
+    "tags": [
+      "directions",
+      "safety"
+    ],
+    "hint": "check / both ways / crossing"
+  },
+  {
+    "id": "ai-a2-mnjqktag-018",
+    "prompt": "このオレンジのバスに乗ってください。",
+    "answer": "Please take this orange bus.",
+    "cefrLevel": "A2",
+    "tags": [
+      "transportation",
+      "bus"
+    ],
+    "hint": "take / orange / bus"
+  }
+]

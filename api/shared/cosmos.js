@@ -22,3 +22,19 @@ export function getCosmosContainer() {
 
   return cachedClient.database(databaseId).container(containerId);
 }
+
+export function getVocabCacheContainer() {
+  const endpoint = getEnv('COSMOS_ENDPOINT');
+  const key = getEnv('COSMOS_KEY');
+  const databaseId = getEnv('COSMOS_DATABASE');
+
+  if (!endpoint || !key || !databaseId) {
+    return null;
+  }
+
+  if (!cachedClient) {
+    cachedClient = new CosmosClient({ endpoint, key });
+  }
+
+  return cachedClient.database(databaseId).container('vocabulary-cache');
+}

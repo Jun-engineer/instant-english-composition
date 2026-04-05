@@ -1,0 +1,211 @@
+[
+  {
+    "id": "ai-a1-mnjqinc3-000",
+    "prompt": "私は赤いシャツを着ています。",
+    "answer": "I am wearing a red shirt.",
+    "cefrLevel": "A1",
+    "tags": [
+      "clothes",
+      "daily-life"
+    ],
+    "hint": "wearing / red / shirt"
+  },
+  {
+    "id": "ai-a1-mnjqinc3-001",
+    "prompt": "彼女は青いドレスが好きです。",
+    "answer": "She likes a blue dress.",
+    "cefrLevel": "A1",
+    "tags": [
+      "clothes",
+      "daily-life"
+    ],
+    "hint": "likes / blue / dress"
+  },
+  {
+    "id": "ai-a1-mnjqinc3-002",
+    "prompt": "彼はいつもジーンズを履きます。",
+    "answer": "He always wears jeans.",
+    "cefrLevel": "A1",
+    "tags": [
+      "clothes",
+      "daily-life"
+    ],
+    "hint": "always / wears / jeans"
+  },
+  {
+    "id": "ai-a1-mnjqinc3-003",
+    "prompt": "今日は寒いのでコートを着ています。",
+    "answer": "I am wearing a coat because it is cold today.",
+    "cefrLevel": "A1",
+    "tags": [
+      "clothes",
+      "daily-life"
+    ],
+    "hint": "wearing / coat / cold"
+  },
+  {
+    "id": "ai-a1-mnjqinc3-004",
+    "prompt": "私は靴を買います。",
+    "answer": "I will buy shoes.",
+    "cefrLevel": "A1",
+    "tags": [
+      "clothes",
+      "daily-life"
+    ],
+    "hint": "buy / shoes / will"
+  },
+  {
+    "id": "ai-a1-mnjqinc3-005",
+    "prompt": "あなたはどんな服を着ていますか？",
+    "answer": "What clothes are you wearing?",
+    "cefrLevel": "A1",
+    "tags": [
+      "clothes",
+      "daily-life"
+    ],
+    "hint": "what / clothes / wearing"
+  },
+  {
+    "id": "ai-a1-mnjqinc3-006",
+    "prompt": "彼女は毎日スカートを履きます。",
+    "answer": "She wears a skirt every day.",
+    "cefrLevel": "A1",
+    "tags": [
+      "clothes",
+      "daily-life"
+    ],
+    "hint": "wears / skirt / every day"
+  },
+  {
+    "id": "ai-a1-mnjqinc3-007",
+    "prompt": "このシャツはとても安いです。",
+    "answer": "This shirt is very cheap.",
+    "cefrLevel": "A1",
+    "tags": [
+      "clothes",
+      "daily-life"
+    ],
+    "hint": "this / shirt / cheap"
+  },
+  {
+    "id": "ai-a1-mnjqinc3-008",
+    "prompt": "彼は新しい靴を持っています。",
+    "answer": "He has new shoes.",
+    "cefrLevel": "A1",
+    "tags": [
+      "clothes",
+      "daily-life"
+    ],
+    "hint": "has / new / shoes"
+  },
+  {
+    "id": "ai-a1-mnjqinc3-009",
+    "prompt": "私のジャケットは黒いです。",
+    "answer": "My jacket is black.",
+    "cefrLevel": "A1",
+    "tags": [
+      "clothes",
+      "daily-life"
+    ],
+    "hint": "jacket / is / black"
+  },
+  {
+    "id": "ai-a1-mnjqinc3-010",
+    "prompt": "今日は何を着ますか？",
+    "answer": "What will you wear today?",
+    "cefrLevel": "A1",
+    "tags": [
+      "clothes",
+      "daily-life"
+    ],
+    "hint": "what / wear / today"
+  },
+  {
+    "id": "ai-a1-mnjqinc3-011",
+    "prompt": "彼女は帽子をかぶっています。",
+    "answer": "She is wearing a hat.",
+    "cefrLevel": "A1",
+    "tags": [
+      "clothes",
+      "daily-life"
+    ],
+    "hint": "wearing / hat / she"
+  },
+  {
+    "id": "ai-a1-mnjqinc3-012",
+    "prompt": "私は白い靴を買いました。",
+    "answer": "I bought white shoes.",
+    "cefrLevel": "A1",
+    "tags": [
+      "clothes",
+      "daily-life"
+    ],
+    "hint": "bought / white / shoes"
+  },
+  {
+    "id": "ai-a1-mnjqinc3-013",
+    "prompt": "彼はいつもスニーカーを履いています。",
+    "answer": "He always wears sneakers.",
+    "cefrLevel": "A1",
+    "tags": [
+      "clothes",
+      "daily-life"
+    ],
+    "hint": "always / wears / sneakers"
+  },
+  {
+    "id": "ai-a1-mnjqinc3-014",
+    "prompt": "私の服は新しいです。",
+    "answer": "My clothes are new.",
+    "cefrLevel": "A1",
+    "tags": [
+      "clothes",
+      "daily-life"
+    ],
+    "hint": "clothes / are / new"
+  },
+  {
+    "id": "ai-a1-mnjqinc3-015",
+    "prompt": "彼女はピンクのセーターを持っています。",
+    "answer": "She has a pink sweater.",
+    "cefrLevel": "A1",
+    "tags": [
+      "clothes",
+      "daily-life"
+    ],
+    "hint": "has / pink / sweater"
+  },
+  {
+    "id": "ai-a1-mnjqinc3-016",
+    "prompt": "今日はスカートを着ています。",
+    "answer": "I am wearing a skirt today.",
+    "cefrLevel": "A1",
+    "tags": [
+      "clothes",
+      "daily-life"
+    ],
+    "hint": "wearing / skirt / today"
+  },
+  {
+    "id": "ai-a1-mnjqinc3-017",
+    "prompt": "彼は青いTシャツを持っています。",
+    "answer": "He has a blue T-shirt.",
+    "cefrLevel": "A1",
+    "tags": [
+      "clothes",
+      "daily-life"
+    ],
+    "hint": "has / blue / T-shirt"
+  },
+  {
+    "id": "ai-a1-mnjqinc3-018",
+    "prompt": "私はいつも長いズボンを履きます。",
+    "answer": "I always wear long pants.",
+    "cefrLevel": "A1",
+    "tags": [
+      "clothes",
+      "daily-life"
+    ],
+    "hint": "always / wear / pants"
+  }
+]

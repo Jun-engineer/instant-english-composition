@@ -1,0 +1,218 @@
+[
+  {
+    "id": "ai-b1-mnjqn0ey-000",
+    "prompt": "最近のニュースはどのようにあなたに影響を与えていますか？",
+    "answer": "How has the recent news affected you?",
+    "cefrLevel": "B1",
+    "tags": [
+      "news",
+      "media",
+      "opinion"
+    ],
+    "hint": "recent / news / affected"
+  },
+  {
+    "id": "ai-b1-mnjqn0ey-001",
+    "prompt": "彼の意見に賛成する人が多いと思いますか？",
+    "answer": "Do you think many people agree with his opinion?",
+    "cefrLevel": "B1",
+    "tags": [
+      "opinion",
+      "agree",
+      "people"
+    ],
+    "hint": "agree / opinion / many"
+  },
+  {
+    "id": "ai-b1-mnjqn0ey-002",
+    "prompt": "メディアは時々偏った情報を提供することがあります。",
+    "answer": "The media sometimes provides biased information.",
+    "cefrLevel": "B1",
+    "tags": [
+      "media",
+      "biased",
+      "information"
+    ],
+    "hint": "media / biased / provides"
+  },
+  {
+    "id": "ai-b1-mnjqn0ey-003",
+    "prompt": "ニュースを読むことは、世の中の出来事を理解するのに重要です。",
+    "answer": "Reading the news is important to understand world events.",
+    "cefrLevel": "B1",
+    "tags": [
+      "news",
+      "understand",
+      "important"
+    ],
+    "hint": "reading / important / understand"
+  },
+  {
+    "id": "ai-b1-mnjqn0ey-004",
+    "prompt": "あなたはどのメディアが最も信頼できると思いますか？",
+    "answer": "Which media do you think is the most reliable?",
+    "cefrLevel": "B1",
+    "tags": [
+      "media",
+      "reliable",
+      "think"
+    ],
+    "hint": "reliable / media / think"
+  },
+  {
+    "id": "ai-b1-mnjqn0ey-005",
+    "prompt": "このニュースは私たちにとって非常に重要です。",
+    "answer": "This news is very important for us.",
+    "cefrLevel": "B1",
+    "tags": [
+      "news",
+      "important",
+      "us"
+    ],
+    "hint": "important / news / very"
+  },
+  {
+    "id": "ai-b1-mnjqn0ey-006",
+    "prompt": "多くの人がこの問題について異なる意見を持っています。",
+    "answer": "Many people have different opinions about this issue.",
+    "cefrLevel": "B1",
+    "tags": [
+      "opinions",
+      "different",
+      "issue"
+    ],
+    "hint": "different / opinions / many"
+  },
+  {
+    "id": "ai-b1-mnjqn0ey-007",
+    "prompt": "最近の報道は、私たちの信念に挑戦しています。",
+    "answer": "Recent reports challenge our beliefs.",
+    "cefrLevel": "B1",
+    "tags": [
+      "reports",
+      "challenge",
+      "beliefs"
+    ],
+    "hint": "reports / challenge / beliefs"
+  },
+  {
+    "id": "ai-b1-mnjqn0ey-008",
+    "prompt": "あなたはこの問題に関する記事を読んだことがありますか？",
+    "answer": "Have you ever read an article about this issue?",
+    "cefrLevel": "B1",
+    "tags": [
+      "article",
+      "read",
+      "issue"
+    ],
+    "hint": "read / article / issue"
+  },
+  {
+    "id": "ai-b1-mnjqn0ey-009",
+    "prompt": "ニュース番組を見ていると、時間を忘れることがあります。",
+    "answer": "Sometimes I lose track of time while watching news programs.",
+    "cefrLevel": "B1",
+    "tags": [
+      "news",
+      "programs",
+      "time"
+    ],
+    "hint": "lose track / time / watching"
+  },
+  {
+    "id": "ai-b1-mnjqn0ey-010",
+    "prompt": "私たちは報道がどのように私たちに影響を与えるかを考えるべきです。",
+    "answer": "We should think about how the news affects us.",
+    "cefrLevel": "B1",
+    "tags": [
+      "news",
+      "affects",
+      "think"
+    ],
+    "hint": "how / affects / news"
+  },
+  {
+    "id": "ai-b1-mnjqn0ey-011",
+    "prompt": "あなたは自分の意見を持っているべきです。",
+    "answer": "You should have your own opinion.",
+    "cefrLevel": "B1",
+    "tags": [
+      "opinion",
+      "have",
+      "should"
+    ],
+    "hint": "own / opinion / should"
+  },
+  {
+    "id": "ai-b1-mnjqn0ey-012",
+    "prompt": "どのニュースソースが最も正確だと思いますか？",
+    "answer": "Which news source do you think is the most accurate?",
+    "cefrLevel": "B1",
+    "tags": [
+      "news",
+      "source",
+      "accurate"
+    ],
+    "hint": "accurate / source / think"
+  },
+  {
+    "id": "ai-b1-mnjqn0ey-013",
+    "prompt": "私たちは他人の意見を尊重する必要があります。",
+    "answer": "We need to respect other people's opinions.",
+    "cefrLevel": "B1",
+    "tags": [
+      "respect",
+      "opinions",
+      "people"
+    ],
+    "hint": "need / respect / opinions"
+  },
+  {
+    "id": "ai-b1-mnjqn0ey-014",
+    "prompt": "このトピックについてもっと知りたいです。",
+    "answer": "I want to know more about this topic.",
+    "cefrLevel": "B1",
+    "tags": [
+      "know",
+      "topic",
+      "more"
+    ],
+    "hint": "want / know / topic"
+  },
+  {
+    "id": "ai-b1-mnjqn0ey-015",
+    "prompt": "メディアは時に誤った情報を広めることがあります。",
+    "answer": "The media can sometimes spread false information.",
+    "cefrLevel": "B1",
+    "tags": [
+      "media",
+      "false",
+      "information"
+    ],
+    "hint": "spread / false / information"
+  },
+  {
+    "id": "ai-b1-mnjqn0ey-016",
+    "prompt": "ニュースが私たちの日常生活にどのように影響を与えるかを考えています。",
+    "answer": "I am thinking about how the news impacts our daily lives.",
+    "cefrLevel": "B1",
+    "tags": [
+      "news",
+      "impact",
+      "daily"
+    ],
+    "hint": "impact / daily / thinking"
+  },
+  {
+    "id": "ai-b1-mnjqn0ey-017",
+    "prompt": "あなたはニュースをどれくらいの頻度でチェックしますか？",
+    "answer": "How often do you check the news?",
+    "cefrLevel": "B1",
+    "tags": [
+      "check",
+      "news",
+      "often"
+    ],
+    "hint": "how often / check / news"
+  }
+]

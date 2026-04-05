@@ -1,0 +1,202 @@
+[
+  {
+    "id": "ai-a1-mnjqh816-000",
+    "prompt": "今日は学校に行きます。",
+    "answer": "I go to school today.",
+    "cefrLevel": "A1",
+    "tags": [
+      "school"
+    ],
+    "hint": "go / school / today"
+  },
+  {
+    "id": "ai-a1-mnjqh816-001",
+    "prompt": "天気は晴れです。",
+    "answer": "The weather is sunny.",
+    "cefrLevel": "A1",
+    "tags": [
+      "weather"
+    ],
+    "hint": "weather / is / sunny"
+  },
+  {
+    "id": "ai-a1-mnjqh816-002",
+    "prompt": "彼女は買い物が好きです。",
+    "answer": "She likes shopping.",
+    "cefrLevel": "A1",
+    "tags": [
+      "shopping"
+    ],
+    "hint": "likes / shopping / she"
+  },
+  {
+    "id": "ai-a1-mnjqh816-003",
+    "prompt": "私は毎日本を読みます。",
+    "answer": "I read a book every day.",
+    "cefrLevel": "A1",
+    "tags": [
+      "school"
+    ],
+    "hint": "read / book / every day"
+  },
+  {
+    "id": "ai-a1-mnjqh816-004",
+    "prompt": "外はとても寒いです。",
+    "answer": "It is very cold outside.",
+    "cefrLevel": "A1",
+    "tags": [
+      "weather"
+    ],
+    "hint": "is / cold / outside"
+  },
+  {
+    "id": "ai-a1-mnjqh816-005",
+    "prompt": "彼は公園で遊びます。",
+    "answer": "He plays in the park.",
+    "cefrLevel": "A1",
+    "tags": [
+      "school"
+    ],
+    "hint": "plays / park / he"
+  },
+  {
+    "id": "ai-a1-mnjqh816-006",
+    "prompt": "雨が降っています。",
+    "answer": "It is raining.",
+    "cefrLevel": "A1",
+    "tags": [
+      "weather"
+    ],
+    "hint": "is / raining / it"
+  },
+  {
+    "id": "ai-a1-mnjqh816-007",
+    "prompt": "私はりんごを買います。",
+    "answer": "I buy an apple.",
+    "cefrLevel": "A1",
+    "tags": [
+      "shopping"
+    ],
+    "hint": "buy / apple / I"
+  },
+  {
+    "id": "ai-a1-mnjqh816-008",
+    "prompt": "今日は風が強いです。",
+    "answer": "It is very windy today.",
+    "cefrLevel": "A1",
+    "tags": [
+      "weather"
+    ],
+    "hint": "is / windy / today"
+  },
+  {
+    "id": "ai-a1-mnjqh816-009",
+    "prompt": "彼女は毎朝走ります。",
+    "answer": "She runs every morning.",
+    "cefrLevel": "A1",
+    "tags": [
+      "school"
+    ],
+    "hint": "runs / every / morning"
+  },
+  {
+    "id": "ai-a1-mnjqh816-010",
+    "prompt": "カフェでコーヒーを飲みます。",
+    "answer": "I drink coffee at the cafe.",
+    "cefrLevel": "A1",
+    "tags": [
+      "shopping"
+    ],
+    "hint": "drink / coffee / cafe"
+  },
+  {
+    "id": "ai-a1-mnjqh816-011",
+    "prompt": "今日はとても暑いです。",
+    "answer": "It is very hot today.",
+    "cefrLevel": "A1",
+    "tags": [
+      "weather"
+    ],
+    "hint": "is / hot / today"
+  },
+  {
+    "id": "ai-a1-mnjqh816-012",
+    "prompt": "彼は英語を教えます。",
+    "answer": "He teaches English.",
+    "cefrLevel": "A1",
+    "tags": [
+      "school"
+    ],
+    "hint": "teaches / English / he"
+  },
+  {
+    "id": "ai-a1-mnjqh816-013",
+    "prompt": "私は新しい靴を買いました。",
+    "answer": "I bought new shoes.",
+    "cefrLevel": "A1",
+    "tags": [
+      "shopping"
+    ],
+    "hint": "bought / shoes / new"
+  },
+  {
+    "id": "ai-a1-mnjqh816-014",
+    "prompt": "今日は宿題があります。",
+    "answer": "I have homework today.",
+    "cefrLevel": "A1",
+    "tags": [
+      "school"
+    ],
+    "hint": "have / homework / today"
+  },
+  {
+    "id": "ai-a1-mnjqh816-015",
+    "prompt": "外は暑いです。",
+    "answer": "It is hot outside.",
+    "cefrLevel": "A1",
+    "tags": [
+      "weather"
+    ],
+    "hint": "is / hot / outside"
+  },
+  {
+    "id": "ai-a1-mnjqh816-016",
+    "prompt": "彼女は服を買います。",
+    "answer": "She buys clothes.",
+    "cefrLevel": "A1",
+    "tags": [
+      "shopping"
+    ],
+    "hint": "buys / clothes / she"
+  },
+  {
+    "id": "ai-a1-mnjqh816-017",
+    "prompt": "私は音楽が好きです。",
+    "answer": "I like music.",
+    "cefrLevel": "A1",
+    "tags": [
+      "school"
+    ],
+    "hint": "like / music / I"
+  },
+  {
+    "id": "ai-a1-mnjqh816-018",
+    "prompt": "今日は曇りです。",
+    "answer": "It is cloudy today.",
+    "cefrLevel": "A1",
+    "tags": [
+      "weather"
+    ],
+    "hint": "is / cloudy / today"
+  },
+  {
+    "id": "ai-a1-mnjqh816-019",
+    "prompt": "彼はゲームをします。",
+    "answer": "He plays games.",
+    "cefrLevel": "A1",
+    "tags": [
+      "school"
+    ],
+    "hint": "plays / games / he"
+  }
+]

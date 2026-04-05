@@ -1,0 +1,209 @@
+[
+  {
+    "id": "ai-b1-mnjqlf8y-000",
+    "prompt": "家族と一緒に食事をとることは大切です。",
+    "answer": "It is important to have meals with the family.",
+    "cefrLevel": "B1",
+    "tags": [
+      "food",
+      "family",
+      "health"
+    ],
+    "hint": "important / meals / family"
+  },
+  {
+    "id": "ai-b1-mnjqlf8y-001",
+    "prompt": "健康のために、毎日運動をしています。",
+    "answer": "I exercise every day for my health.",
+    "cefrLevel": "B1",
+    "tags": [
+      "food",
+      "family",
+      "health"
+    ],
+    "hint": "exercise / every day / health"
+  },
+  {
+    "id": "ai-b1-mnjqlf8y-002",
+    "prompt": "彼は野菜を食べることが好きではありません。",
+    "answer": "He does not like to eat vegetables.",
+    "cefrLevel": "B1",
+    "tags": [
+      "food",
+      "health"
+    ],
+    "hint": "like / eat / vegetables"
+  },
+  {
+    "id": "ai-b1-mnjqlf8y-003",
+    "prompt": "もしあなたが健康でいたいのなら、バランスの取れた食事を取るべきです。",
+    "answer": "You should have a balanced diet if you want to stay healthy.",
+    "cefrLevel": "B1",
+    "tags": [
+      "food",
+      "health"
+    ],
+    "hint": "balanced diet / healthy / want"
+  },
+  {
+    "id": "ai-b1-mnjqlf8y-004",
+    "prompt": "彼女の料理はとてもおいしいと家族全員が言っています。",
+    "answer": "Everyone in the family says her cooking is very delicious.",
+    "cefrLevel": "B1",
+    "tags": [
+      "food",
+      "family"
+    ],
+    "hint": "everyone / cooking / delicious"
+  },
+  {
+    "id": "ai-b1-mnjqlf8y-005",
+    "prompt": "毎日果物を食べることは健康に良いです。",
+    "answer": "Eating fruit every day is good for your health.",
+    "cefrLevel": "B1",
+    "tags": [
+      "food",
+      "health"
+    ],
+    "hint": "eating / good / health"
+  },
+  {
+    "id": "ai-b1-mnjqlf8y-006",
+    "prompt": "彼らは家族と一緒に旅行するのが好きです。",
+    "answer": "They like to travel with their family.",
+    "cefrLevel": "B1",
+    "tags": [
+      "family"
+    ],
+    "hint": "like / travel / family"
+  },
+  {
+    "id": "ai-b1-mnjqlf8y-007",
+    "prompt": "昨夜、家族でピザを食べました。",
+    "answer": "We had pizza with the family last night.",
+    "cefrLevel": "B1",
+    "tags": [
+      "food",
+      "family"
+    ],
+    "hint": "had / pizza / last night"
+  },
+  {
+    "id": "ai-b1-mnjqlf8y-008",
+    "prompt": "健康診断は年に一度受けたほうがいいです。",
+    "answer": "You should have a health check-up once a year.",
+    "cefrLevel": "B1",
+    "tags": [
+      "health"
+    ],
+    "hint": "health check-up / once a year / should"
+  },
+  {
+    "id": "ai-b1-mnjqlf8y-009",
+    "prompt": "私は毎晩、家族と一緒にテレビを見ます。",
+    "answer": "I watch TV with my family every evening.",
+    "cefrLevel": "B1",
+    "tags": [
+      "family"
+    ],
+    "hint": "watch / TV / family"
+  },
+  {
+    "id": "ai-b1-mnjqlf8y-010",
+    "prompt": "健康のために、炭水化物を控えています。",
+    "answer": "I limit carbohydrates for my health.",
+    "cefrLevel": "B1",
+    "tags": [
+      "food",
+      "health"
+    ],
+    "hint": "limit / carbohydrates / health"
+  },
+  {
+    "id": "ai-b1-mnjqlf8y-011",
+    "prompt": "もし家族にアレルギーのある人がいたら、注意が必要です。",
+    "answer": "You need to be careful if someone in your family has allergies.",
+    "cefrLevel": "B1",
+    "tags": [
+      "family",
+      "health"
+    ],
+    "hint": "careful / allergies / family"
+  },
+  {
+    "id": "ai-b1-mnjqlf8y-012",
+    "prompt": "彼女は毎晩、健康的な夕食を準備します。",
+    "answer": "She prepares a healthy dinner every night.",
+    "cefrLevel": "B1",
+    "tags": [
+      "food",
+      "health"
+    ],
+    "hint": "prepares / healthy / dinner"
+  },
+  {
+    "id": "ai-b1-mnjqlf8y-013",
+    "prompt": "私の家族は、外食が好きではありません。",
+    "answer": "My family does not like to eat out.",
+    "cefrLevel": "B1",
+    "tags": [
+      "food",
+      "family"
+    ],
+    "hint": "not like / eat out / family"
+  },
+  {
+    "id": "ai-b1-mnjqlf8y-014",
+    "prompt": "健康的な食事は、体に良い影響を与えます。",
+    "answer": "A healthy diet has a positive effect on the body.",
+    "cefrLevel": "B1",
+    "tags": [
+      "food",
+      "health"
+    ],
+    "hint": "healthy diet / positive / effect"
+  },
+  {
+    "id": "ai-b1-mnjqlf8y-015",
+    "prompt": "子供たちは甘いお菓子を食べるのが好きです。",
+    "answer": "Children like to eat sweet snacks.",
+    "cefrLevel": "B1",
+    "tags": [
+      "food"
+    ],
+    "hint": "children / like / snacks"
+  },
+  {
+    "id": "ai-b1-mnjqlf8y-016",
+    "prompt": "家族と一緒に料理をするのは楽しいです。",
+    "answer": "Cooking with the family is fun.",
+    "cefrLevel": "B1",
+    "tags": [
+      "food",
+      "family"
+    ],
+    "hint": "cooking / family / fun"
+  },
+  {
+    "id": "ai-b1-mnjqlf8y-017",
+    "prompt": "彼は毎朝、新鮮なジュースを飲みます。",
+    "answer": "He drinks fresh juice every morning.",
+    "cefrLevel": "B1",
+    "tags": [
+      "food",
+      "health"
+    ],
+    "hint": "drinks / fresh juice / morning"
+  },
+  {
+    "id": "ai-b1-mnjqlf8y-018",
+    "prompt": "私たちは週末に健康的な食事を作る予定です。",
+    "answer": "We plan to make healthy meals on the weekend.",
+    "cefrLevel": "B1",
+    "tags": [
+      "food",
+      "health"
+    ],
+    "hint": "plan / make / healthy meals"
+  }
+]

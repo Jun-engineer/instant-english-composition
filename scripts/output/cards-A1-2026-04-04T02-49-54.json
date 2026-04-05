@@ -1,0 +1,204 @@
+[
+  {
+    "id": "ai-a1-mnjqihtu-000",
+    "prompt": "私は友達と旅行に行きます。",
+    "answer": "I go on a trip with my friend.",
+    "cefrLevel": "A1",
+    "tags": [
+      "travel",
+      "friends"
+    ],
+    "hint": "go / trip / friend"
+  },
+  {
+    "id": "ai-a1-mnjqihtu-001",
+    "prompt": "彼は動物が好きです。",
+    "answer": "He likes animals.",
+    "cefrLevel": "A1",
+    "tags": [
+      "animals"
+    ],
+    "hint": "likes / animals"
+  },
+  {
+    "id": "ai-a1-mnjqihtu-002",
+    "prompt": "私たちは海に行きます。",
+    "answer": "We go to the sea.",
+    "cefrLevel": "A1",
+    "tags": [
+      "travel"
+    ],
+    "hint": "go / sea"
+  },
+  {
+    "id": "ai-a1-mnjqihtu-003",
+    "prompt": "彼女は犬を飼っています。",
+    "answer": "She has a dog.",
+    "cefrLevel": "A1",
+    "tags": [
+      "animals"
+    ],
+    "hint": "has / dog"
+  },
+  {
+    "id": "ai-a1-mnjqihtu-004",
+    "prompt": "私は毎日ジョギングをします。",
+    "answer": "I jog every day.",
+    "cefrLevel": "A1",
+    "tags": [
+      "friends"
+    ],
+    "hint": "jog / every day"
+  },
+  {
+    "id": "ai-a1-mnjqihtu-005",
+    "prompt": "その猫はかわいいです。",
+    "answer": "That cat is cute.",
+    "cefrLevel": "A1",
+    "tags": [
+      "animals"
+    ],
+    "hint": "cat / cute"
+  },
+  {
+    "id": "ai-a1-mnjqihtu-006",
+    "prompt": "私の友達はサッカーが好きです。",
+    "answer": "My friend likes soccer.",
+    "cefrLevel": "A1",
+    "tags": [
+      "friends"
+    ],
+    "hint": "friend / likes / soccer"
+  },
+  {
+    "id": "ai-a1-mnjqihtu-007",
+    "prompt": "彼は毎朝バスに乗ります。",
+    "answer": "He takes the bus every morning.",
+    "cefrLevel": "A1",
+    "tags": [
+      "travel"
+    ],
+    "hint": "takes / bus / morning"
+  },
+  {
+    "id": "ai-a1-mnjqihtu-008",
+    "prompt": "私たちは動物園に行きます。",
+    "answer": "We go to the zoo.",
+    "cefrLevel": "A1",
+    "tags": [
+      "travel",
+      "animals"
+    ],
+    "hint": "go / zoo"
+  },
+  {
+    "id": "ai-a1-mnjqihtu-009",
+    "prompt": "彼女は猫が好きです。",
+    "answer": "She likes cats.",
+    "cefrLevel": "A1",
+    "tags": [
+      "animals"
+    ],
+    "hint": "likes / cats"
+  },
+  {
+    "id": "ai-a1-mnjqihtu-010",
+    "prompt": "私は旅行が好きです。",
+    "answer": "I like to travel.",
+    "cefrLevel": "A1",
+    "tags": [
+      "travel"
+    ],
+    "hint": "like / travel"
+  },
+  {
+    "id": "ai-a1-mnjqihtu-011",
+    "prompt": "彼は毎週友達に会います。",
+    "answer": "He meets his friend every week.",
+    "cefrLevel": "A1",
+    "tags": [
+      "friends"
+    ],
+    "hint": "meets / friend / week"
+  },
+  {
+    "id": "ai-a1-mnjqihtu-012",
+    "prompt": "私の犬は大きいです。",
+    "answer": "My dog is big.",
+    "cefrLevel": "A1",
+    "tags": [
+      "animals"
+    ],
+    "hint": "dog / big"
+  },
+  {
+    "id": "ai-a1-mnjqihtu-013",
+    "prompt": "私たちは午後にビーチに行きます。",
+    "answer": "We go to the beach in the afternoon.",
+    "cefrLevel": "A1",
+    "tags": [
+      "travel"
+    ],
+    "hint": "go / beach / afternoon"
+  },
+  {
+    "id": "ai-a1-mnjqihtu-014",
+    "prompt": "彼女は友達と遊びます。",
+    "answer": "She plays with her friend.",
+    "cefrLevel": "A1",
+    "tags": [
+      "friends"
+    ],
+    "hint": "plays / with / friend"
+  },
+  {
+    "id": "ai-a1-mnjqihtu-015",
+    "prompt": "その鳥は色がきれいです。",
+    "answer": "That bird is pretty.",
+    "cefrLevel": "A1",
+    "tags": [
+      "animals"
+    ],
+    "hint": "bird / pretty"
+  },
+  {
+    "id": "ai-a1-mnjqihtu-016",
+    "prompt": "私は毎日犬を散歩させます。",
+    "answer": "I walk my dog every day.",
+    "cefrLevel": "A1",
+    "tags": [
+      "animals"
+    ],
+    "hint": "walk / dog / every day"
+  },
+  {
+    "id": "ai-a1-mnjqihtu-017",
+    "prompt": "彼は海で泳ぎます。",
+    "answer": "He swims in the sea.",
+    "cefrLevel": "A1",
+    "tags": [
+      "travel"
+    ],
+    "hint": "swims / sea"
+  },
+  {
+    "id": "ai-a1-mnjqihtu-018",
+    "prompt": "私たちは友達の家に行きます。",
+    "answer": "We go to our friend's house.",
+    "cefrLevel": "A1",
+    "tags": [
+      "friends"
+    ],
+    "hint": "go / friend's / house"
+  },
+  {
+    "id": "ai-a1-mnjqihtu-019",
+    "prompt": "彼女は魚が好きです。",
+    "answer": "She likes fish.",
+    "cefrLevel": "A1",
+    "tags": [
+      "animals"
+    ],
+    "hint": "likes / fish"
+  }
+]

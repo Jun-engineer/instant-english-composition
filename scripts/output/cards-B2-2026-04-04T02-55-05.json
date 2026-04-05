@@ -1,0 +1,230 @@
+[
+  {
+    "id": "ai-b2-mnjqp638-000",
+    "prompt": "この仕事の応募理由を説明できますか？",
+    "answer": "Could you explain your reasons for applying for this job?",
+    "cefrLevel": "B2",
+    "tags": [
+      "career",
+      "interview",
+      "negotiation"
+    ],
+    "hint": "explain / reasons / applying"
+  },
+  {
+    "id": "ai-b2-mnjqp638-001",
+    "prompt": "私たちのチームでどのように貢献できますか？",
+    "answer": "How can you contribute to our team?",
+    "cefrLevel": "B2",
+    "tags": [
+      "career",
+      "interview",
+      "contribution"
+    ],
+    "hint": "contribute / team / how"
+  },
+  {
+    "id": "ai-b2-mnjqp638-002",
+    "prompt": "あなたの強みは何だと思いますか？",
+    "answer": "What do you think your strengths are?",
+    "cefrLevel": "B2",
+    "tags": [
+      "career",
+      "interview",
+      "strengths"
+    ],
+    "hint": "strengths / think / what"
+  },
+  {
+    "id": "ai-b2-mnjqp638-003",
+    "prompt": "この業界での経験を教えてください。",
+    "answer": "Please tell us about your experience in this industry.",
+    "cefrLevel": "B2",
+    "tags": [
+      "career",
+      "interview",
+      "experience"
+    ],
+    "hint": "experience / industry / tell"
+  },
+  {
+    "id": "ai-b2-mnjqp638-004",
+    "prompt": "前の職場での役割について話してください。",
+    "answer": "Can you talk about your role in your previous workplace?",
+    "cefrLevel": "B2",
+    "tags": [
+      "career",
+      "interview",
+      "role"
+    ],
+    "hint": "role / previous / workplace"
+  },
+  {
+    "id": "ai-b2-mnjqp638-005",
+    "prompt": "どのようなスキルを新しい職場で活かせますか？",
+    "answer": "What skills can you utilize in your new workplace?",
+    "cefrLevel": "B2",
+    "tags": [
+      "career",
+      "interview",
+      "skills"
+    ],
+    "hint": "skills / utilize / new workplace"
+  },
+  {
+    "id": "ai-b2-mnjqp638-006",
+    "prompt": "成功するためには、何が最も大切だと思いますか？",
+    "answer": "What do you think is the most important factor for success?",
+    "cefrLevel": "B2",
+    "tags": [
+      "career",
+      "interview",
+      "success"
+    ],
+    "hint": "important / factor / success"
+  },
+  {
+    "id": "ai-b2-mnjqp638-007",
+    "prompt": "給料交渉の際に、どのようにアプローチしますか？",
+    "answer": "How would you approach salary negotiations?",
+    "cefrLevel": "B2",
+    "tags": [
+      "career",
+      "negotiation",
+      "salary"
+    ],
+    "hint": "approach / salary / negotiations"
+  },
+  {
+    "id": "ai-b2-mnjqp638-008",
+    "prompt": "なぜこの会社で働きたいと思ったのですか？",
+    "answer": "Why do you want to work for this company?",
+    "cefrLevel": "B2",
+    "tags": [
+      "career",
+      "interview",
+      "company"
+    ],
+    "hint": "want / work / company"
+  },
+  {
+    "id": "ai-b2-mnjqp638-009",
+    "prompt": "チームでの協力がなぜ重要だと思いますか？",
+    "answer": "Why do you think teamwork is important?",
+    "cefrLevel": "B2",
+    "tags": [
+      "career",
+      "interview",
+      "teamwork"
+    ],
+    "hint": "teamwork / think / important"
+  },
+  {
+    "id": "ai-b2-mnjqp638-010",
+    "prompt": "新しい挑戦に対するあなたの考えは？",
+    "answer": "What are your thoughts on facing new challenges?",
+    "cefrLevel": "B2",
+    "tags": [
+      "career",
+      "interview",
+      "challenges"
+    ],
+    "hint": "thoughts / facing / challenges"
+  },
+  {
+    "id": "ai-b2-mnjqp638-011",
+    "prompt": "どのようにしてストレスを管理しますか？",
+    "answer": "How do you manage stress in your work environment?",
+    "cefrLevel": "B2",
+    "tags": [
+      "career",
+      "interview",
+      "stress"
+    ],
+    "hint": "manage / stress / work environment"
+  },
+  {
+    "id": "ai-b2-mnjqp638-012",
+    "prompt": "成功したプロジェクトについて教えてください。",
+    "answer": "Tell us about a project you successfully completed.",
+    "cefrLevel": "B2",
+    "tags": [
+      "career",
+      "interview",
+      "project"
+    ],
+    "hint": "project / successfully / completed"
+  },
+  {
+    "id": "ai-b2-mnjqp638-013",
+    "prompt": "上司とのコミュニケーションはどのようにしていますか？",
+    "answer": "How do you communicate with your supervisor?",
+    "cefrLevel": "B2",
+    "tags": [
+      "career",
+      "interview",
+      "communication"
+    ],
+    "hint": "communicate / supervisor / how"
+  },
+  {
+    "id": "ai-b2-mnjqp638-014",
+    "prompt": "キャリアの目標は何ですか？",
+    "answer": "What are your career goals?",
+    "cefrLevel": "B2",
+    "tags": [
+      "career",
+      "interview",
+      "goals"
+    ],
+    "hint": "career / goals / what"
+  },
+  {
+    "id": "ai-b2-mnjqp638-015",
+    "prompt": "職場でのフィードバックをどのように受け取りますか？",
+    "answer": "How do you receive feedback in the workplace?",
+    "cefrLevel": "B2",
+    "tags": [
+      "career",
+      "interview",
+      "feedback"
+    ],
+    "hint": "receive / feedback / workplace"
+  },
+  {
+    "id": "ai-b2-mnjqp638-016",
+    "prompt": "効果的なリーダーシップとは何だと思いますか？",
+    "answer": "What do you think defines effective leadership?",
+    "cefrLevel": "B2",
+    "tags": [
+      "career",
+      "interview",
+      "leadership"
+    ],
+    "hint": "effective / leadership / think"
+  },
+  {
+    "id": "ai-b2-mnjqp638-017",
+    "prompt": "複数のタスクをどのように管理しますか？",
+    "answer": "How do you manage multiple tasks at the same time?",
+    "cefrLevel": "B2",
+    "tags": [
+      "career",
+      "interview",
+      "management"
+    ],
+    "hint": "manage / multiple / tasks"
+  },
+  {
+    "id": "ai-b2-mnjqp638-018",
+    "prompt": "顧客との関係をどのように築いていますか？",
+    "answer": "How do you build relationships with clients?",
+    "cefrLevel": "B2",
+    "tags": [
+      "career",
+      "interview",
+      "clients"
+    ],
+    "hint": "build / relationships / clients"
+  }
+]

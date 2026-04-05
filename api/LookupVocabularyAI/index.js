@@ -1,4 +1,5 @@
 import { badRequest, jsonResponse, serverError } from '../shared/http.js';
+import { getVocabCacheContainer } from '../shared/cosmos.js';
 
 const SYSTEM_PROMPT = `You are a vocabulary assistant for Japanese learners of English.
 Given an English word and the sentence it appears in, provide a clear, helpful vocabulary explanation.
@@ -29,7 +30,7 @@ Rules:
 
 export default async function (context, req) {
   try {
-    const word = (req.query?.word ?? '').trim();
+    const word = (req.query?.word ?? '').trim().toLowerCase();
     const sentence = (req.query?.sentence ?? '').trim();
 
     if (!word) {
@@ -37,6 +38,29 @@ export default async function (context, req) {
       return;
     }
 
+    // ── Check cache ──────────────────────────────────────────────
+    const cacheContainer = getVocabCacheContainer();
+    if (cacheContainer) {
+      try {
+        const { resource } = await cacheContainer.item(word, word).read();
+        if (resource?.result) {
+          jsonResponse(context, 200, {
+            word,
+            result: resource.result,
+            available: true,
+            source: 'cache'
+          });
+          return;
+        }
+      } catch (e) {
+        // Cosmos SDK uses e.code as a number for HTTP status codes
+        if (e.code !== 404) context.log.warn('Cache read error', e.code, e.message);
+      }
+    } else {
+      context.log.warn('Vocab cache container unavailable — check COSMOS_* env vars');
+    }
+
+    // ── Call Azure OpenAI ────────────────────────────────────────
     const endpoint = process.env.AZURE_OPENAI_ENDPOINT;
     const apiKey = process.env.AZURE_OPENAI_API_KEY;
     const deployment = process.env.AZURE_OPENAI_DEPLOYMENT || 'iec-gpt-4o-mini';
@@ -85,6 +109,20 @@ export default async function (context, req) {
     }
 
     const parsed = JSON.parse(content);
+
+    // ── Write to cache ───────────────────────────────────────────
+    if (cacheContainer) {
+      try {
+        await cacheContainer.items.upsert({
+          id: word,
+          word,
+          result: parsed,
+          createdAt: new Date().toISOString()
+        });
+      } catch (e) {
+        context.log.warn('Cache write error', e.message);
+      }
+    }
 
     jsonResponse(context, 200, {
       word,

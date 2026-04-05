@@ -1,0 +1,230 @@
+[
+  {
+    "id": "ai-c2-mnjqtlzy-000",
+    "prompt": "国際的な合意が必ずしもすべての国にとって有利であるとは限らない。",
+    "answer": "International agreements do not necessarily benefit all countries involved.",
+    "cefrLevel": "C2",
+    "tags": [
+      "geopolitics",
+      "diplomacy",
+      "history"
+    ],
+    "hint": "international / agreements / benefit"
+  },
+  {
+    "id": "ai-c2-mnjqtlzy-001",
+    "prompt": "歴史的な対立が現在の外交関係に影響を及ぼすことがよくある。",
+    "answer": "Historical conflicts often have a significant impact on current diplomatic relations.",
+    "cefrLevel": "C2",
+    "tags": [
+      "geopolitics",
+      "diplomacy",
+      "history"
+    ],
+    "hint": "historical / conflicts / impact"
+  },
+  {
+    "id": "ai-c2-mnjqtlzy-002",
+    "prompt": "ある国が他国の内政に干渉することは、時に不安定な結果を招く。",
+    "answer": "Interfering in another country's domestic affairs can sometimes lead to unstable outcomes.",
+    "cefrLevel": "C2",
+    "tags": [
+      "geopolitics",
+      "diplomacy",
+      "history"
+    ],
+    "hint": "interfering / domestic / affairs"
+  },
+  {
+    "id": "ai-c2-mnjqtlzy-003",
+    "prompt": "現在の地政学的な状況を理解することは重要だ。",
+    "answer": "Understanding the current geopolitical landscape is of paramount importance.",
+    "cefrLevel": "C2",
+    "tags": [
+      "geopolitics",
+      "diplomacy",
+      "history"
+    ],
+    "hint": "understanding / geopolitical / landscape"
+  },
+  {
+    "id": "ai-c2-mnjqtlzy-004",
+    "prompt": "外交交渉の成功は、しばしば妥協の精神に依存する。",
+    "answer": "The success of diplomatic negotiations often depends on a spirit of compromise.",
+    "cefrLevel": "C2",
+    "tags": [
+      "geopolitics",
+      "diplomacy",
+      "history"
+    ],
+    "hint": "success / diplomatic / negotiations"
+  },
+  {
+    "id": "ai-c2-mnjqtlzy-005",
+    "prompt": "国際関係の変化は、経済的な要因にも影響されることがある。",
+    "answer": "Changes in international relations can sometimes be influenced by economic factors.",
+    "cefrLevel": "C2",
+    "tags": [
+      "geopolitics",
+      "diplomacy",
+      "history"
+    ],
+    "hint": "changes / international / relations"
+  },
+  {
+    "id": "ai-c2-mnjqtlzy-006",
+    "prompt": "歴史的な教訓を学ぶことで、未来に備えることができる。",
+    "answer": "Learning from historical lessons enables us to prepare for the future.",
+    "cefrLevel": "C2",
+    "tags": [
+      "geopolitics",
+      "diplomacy",
+      "history"
+    ],
+    "hint": "learning / historical / lessons"
+  },
+  {
+    "id": "ai-c2-mnjqtlzy-007",
+    "prompt": "大国の競争は、時に国際的な緊張を引き起こす。",
+    "answer": "Great power rivalries can occasionally provoke international tensions.",
+    "cefrLevel": "C2",
+    "tags": [
+      "geopolitics",
+      "diplomacy",
+      "history"
+    ],
+    "hint": "great / power / rivalries"
+  },
+  {
+    "id": "ai-c2-mnjqtlzy-008",
+    "prompt": "地政学的な要因は、国家間の同盟関係に影響を与えることがある。",
+    "answer": "Geopolitical factors can influence alliances between nations.",
+    "cefrLevel": "C2",
+    "tags": [
+      "geopolitics",
+      "diplomacy",
+      "history"
+    ],
+    "hint": "geopolitical / factors / alliances"
+  },
+  {
+    "id": "ai-c2-mnjqtlzy-009",
+    "prompt": "歴史的な背景を考慮することは、問題解決の鍵となる。",
+    "answer": "Considering historical contexts is key to resolving issues effectively.",
+    "cefrLevel": "C2",
+    "tags": [
+      "geopolitics",
+      "diplomacy",
+      "history"
+    ],
+    "hint": "considering / historical / contexts"
+  },
+  {
+    "id": "ai-c2-mnjqtlzy-010",
+    "prompt": "対話を通じて、誤解を解消することができる場合がある。",
+    "answer": "Through dialogue, it is sometimes possible to resolve misunderstandings.",
+    "cefrLevel": "C2",
+    "tags": [
+      "geopolitics",
+      "diplomacy",
+      "history"
+    ],
+    "hint": "dialogue / resolve / misunderstandings"
+  },
+  {
+    "id": "ai-c2-mnjqtlzy-011",
+    "prompt": "特定の地域における資源争奪が、外交政策に影響を与えることがある。",
+    "answer": "Resource competition in specific regions can influence diplomatic policies.",
+    "cefrLevel": "C2",
+    "tags": [
+      "geopolitics",
+      "diplomacy",
+      "history"
+    ],
+    "hint": "resource / competition / influence"
+  },
+  {
+    "id": "ai-c2-mnjqtlzy-012",
+    "prompt": "国家間の協力がなければ、持続可能な平和は達成できない。",
+    "answer": "Without cooperation among nations, sustainable peace cannot be achieved.",
+    "cefrLevel": "C2",
+    "tags": [
+      "geopolitics",
+      "diplomacy",
+      "history"
+    ],
+    "hint": "cooperation / nations / sustainable"
+  },
+  {
+    "id": "ai-c2-mnjqtlzy-013",
+    "prompt": "国際社会における信頼の構築は、時間と努力が必要だ。",
+    "answer": "Building trust in the international community requires time and effort.",
+    "cefrLevel": "C2",
+    "tags": [
+      "geopolitics",
+      "diplomacy",
+      "history"
+    ],
+    "hint": "building / trust / international"
+  },
+  {
+    "id": "ai-c2-mnjqtlzy-014",
+    "prompt": "歴史的な事件が現在の政策形成に影響を与えることが多い。",
+    "answer": "Historical events frequently exert influence on current policy-making processes.",
+    "cefrLevel": "C2",
+    "tags": [
+      "geopolitics",
+      "diplomacy",
+      "history"
+    ],
+    "hint": "historical / events / influence"
+  },
+  {
+    "id": "ai-c2-mnjqtlzy-015",
+    "prompt": "外交的な解決策を見つけることは、時に非常に困難だ。",
+    "answer": "Finding diplomatic solutions can, at times, be exceedingly challenging.",
+    "cefrLevel": "C2",
+    "tags": [
+      "geopolitics",
+      "diplomacy",
+      "history"
+    ],
+    "hint": "finding / diplomatic / solutions"
+  },
+  {
+    "id": "ai-c2-mnjqtlzy-016",
+    "prompt": "歴史を学ぶことは、国家のアイデンティティを形成する一助となる。",
+    "answer": "Studying history contributes to shaping a nation's identity.",
+    "cefrLevel": "C2",
+    "tags": [
+      "geopolitics",
+      "diplomacy",
+      "history"
+    ],
+    "hint": "studying / history / identity"
+  },
+  {
+    "id": "ai-c2-mnjqtlzy-017",
+    "prompt": "国際的な課題に対処するために、協力が不可欠である。",
+    "answer": "Collaboration is essential for addressing international challenges effectively.",
+    "cefrLevel": "C2",
+    "tags": [
+      "geopolitics",
+      "diplomacy",
+      "history"
+    ],
+    "hint": "collaboration / addressing / challenges"
+  },
+  {
+    "id": "ai-c2-mnjqtlzy-018",
+    "prompt": "複雑な国際情勢を理解するためには、広範な知識が必要だ。",
+    "answer": "A comprehensive understanding of complex international situations necessitates extensive knowledge.",
+    "cefrLevel": "C2",
+    "tags": [
+      "geopolitics",
+      "diplomacy",
+      "history"
+    ],
+    "hint": "comprehensive / understanding / complex"
+  }
+]

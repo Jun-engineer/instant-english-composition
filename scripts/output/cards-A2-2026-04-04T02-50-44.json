@@ -1,0 +1,200 @@
+[
+  {
+    "id": "ai-a2-mnjqjl1z-000",
+    "prompt": "私は毎週日曜日に家族と一緒に夕食を食べます。",
+    "answer": "I have dinner with my family every Sunday.",
+    "cefrLevel": "A2",
+    "tags": [
+      "food",
+      "family"
+    ],
+    "hint": "have / dinner / family"
+  },
+  {
+    "id": "ai-a2-mnjqjl1z-001",
+    "prompt": "友達と一緒に映画を見たことがありますか？",
+    "answer": "Have you ever watched a movie with your friends?",
+    "cefrLevel": "A2",
+    "tags": [
+      "friends",
+      "movie"
+    ],
+    "hint": "watch / movie / friends"
+  },
+  {
+    "id": "ai-a2-mnjqjl1z-002",
+    "prompt": "私はとても辛い食べ物が好きではありません。",
+    "answer": "I don’t like very spicy food.",
+    "cefrLevel": "A2",
+    "tags": [
+      "food",
+      "likes"
+    ],
+    "hint": "like / spicy / food"
+  },
+  {
+    "id": "ai-a2-mnjqjl1z-003",
+    "prompt": "私の母は毎朝おいしい朝食を作ります。",
+    "answer": "My mother makes a delicious breakfast every morning.",
+    "cefrLevel": "A2",
+    "tags": [
+      "food",
+      "family"
+    ],
+    "hint": "makes / breakfast / mother"
+  },
+  {
+    "id": "ai-a2-mnjqjl1z-004",
+    "prompt": "彼はいつも友達にお菓子をあげます。",
+    "answer": "He always gives sweets to his friends.",
+    "cefrLevel": "A2",
+    "tags": [
+      "friends",
+      "food"
+    ],
+    "hint": "gives / sweets / friends"
+  },
+  {
+    "id": "ai-a2-mnjqjl1z-005",
+    "prompt": "私たちは毎年家族旅行に行きます。",
+    "answer": "We go on a family trip every year.",
+    "cefrLevel": "A2",
+    "tags": [
+      "family",
+      "travel"
+    ],
+    "hint": "go / trip / family"
+  },
+  {
+    "id": "ai-a2-mnjqjl1z-006",
+    "prompt": "友達とピザを注文しました。",
+    "answer": "I ordered pizza with my friends.",
+    "cefrLevel": "A2",
+    "tags": [
+      "friends",
+      "food"
+    ],
+    "hint": "ordered / pizza / friends"
+  },
+  {
+    "id": "ai-a2-mnjqjl1z-007",
+    "prompt": "私はフルーツが入ったサラダが好きです。",
+    "answer": "I like salads with fruits in them.",
+    "cefrLevel": "A2",
+    "tags": [
+      "food",
+      "likes"
+    ],
+    "hint": "like / salad / fruits"
+  },
+  {
+    "id": "ai-a2-mnjqjl1z-008",
+    "prompt": "彼女は家族と一緒に料理をするのが好きです。",
+    "answer": "She likes cooking with her family.",
+    "cefrLevel": "A2",
+    "tags": [
+      "family",
+      "cooking"
+    ],
+    "hint": "likes / cooking / family"
+  },
+  {
+    "id": "ai-a2-mnjqjl1z-009",
+    "prompt": "私たちは友達と公園でピクニックをしました。",
+    "answer": "We had a picnic with friends in the park.",
+    "cefrLevel": "A2",
+    "tags": [
+      "friends",
+      "food"
+    ],
+    "hint": "had / picnic / friends"
+  },
+  {
+    "id": "ai-a2-mnjqjl1z-010",
+    "prompt": "彼は毎日お弁当を持って学校に行きます。",
+    "answer": "He takes a lunchbox to school every day.",
+    "cefrLevel": "A2",
+    "tags": [
+      "food",
+      "school"
+    ],
+    "hint": "takes / lunchbox / school"
+  },
+  {
+    "id": "ai-a2-mnjqjl1z-011",
+    "prompt": "私のおばあちゃんは伝統的な料理を作ります。",
+    "answer": "My grandmother makes traditional dishes.",
+    "cefrLevel": "A2",
+    "tags": [
+      "food",
+      "family"
+    ],
+    "hint": "makes / dishes / grandmother"
+  },
+  {
+    "id": "ai-a2-mnjqjl1z-012",
+    "prompt": "友達と一緒に新しいレストランに行きたいです。",
+    "answer": "I want to go to a new restaurant with my friends.",
+    "cefrLevel": "A2",
+    "tags": [
+      "friends",
+      "food"
+    ],
+    "hint": "want / go / restaurant"
+  },
+  {
+    "id": "ai-a2-mnjqjl1z-013",
+    "prompt": "私は毎晩果物を食べるようにしています。",
+    "answer": "I try to eat fruit every evening.",
+    "cefrLevel": "A2",
+    "tags": [
+      "food",
+      "habits"
+    ],
+    "hint": "try / eat / fruit"
+  },
+  {
+    "id": "ai-a2-mnjqjl1z-014",
+    "prompt": "彼女はチョコレートケーキが大好きです。",
+    "answer": "She loves chocolate cake very much.",
+    "cefrLevel": "A2",
+    "tags": [
+      "food",
+      "likes"
+    ],
+    "hint": "loves / chocolate / cake"
+  },
+  {
+    "id": "ai-a2-mnjqjl1z-015",
+    "prompt": "私たちは家族でバーベキューを楽しみました。",
+    "answer": "We enjoyed a barbecue with our family.",
+    "cefrLevel": "A2",
+    "tags": [
+      "family",
+      "food"
+    ],
+    "hint": "enjoyed / barbecue / family"
+  },
+  {
+    "id": "ai-a2-mnjqjl1z-016",
+    "prompt": "彼は友達の誕生日パーティーに行きました。",
+    "answer": "He went to his friend's birthday party.",
+    "cefrLevel": "A2",
+    "tags": [
+      "friends",
+      "party"
+    ],
+    "hint": "went / birthday / party"
+  },
+  {
+    "id": "ai-a2-mnjqjl1z-017",
+    "prompt": "私の兄はピザを作るのが得意です。",
+    "answer": "My brother is good at making pizza.",
+    "cefrLevel": "A2",
+    "tags": [
+      "food",
+      "family"
+    ],
+    "hint": "good / making / pizza"
+  }
+]

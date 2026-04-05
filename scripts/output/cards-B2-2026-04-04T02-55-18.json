@@ -1,0 +1,206 @@
+[
+  {
+    "id": "ai-b2-mnjqpg0s-000",
+    "prompt": "彼はサッカーをするために毎日練習しています。",
+    "answer": "He practices every day in order to play soccer.",
+    "cefrLevel": "B2",
+    "tags": [
+      "sports",
+      "entertainment"
+    ],
+    "hint": "practices / every day / play"
+  },
+  {
+    "id": "ai-b2-mnjqpg0s-001",
+    "prompt": "その映画は多くの人に感動を与えました。",
+    "answer": "The movie inspired many people.",
+    "cefrLevel": "B2",
+    "tags": [
+      "entertainment"
+    ],
+    "hint": "inspired / many / people"
+  },
+  {
+    "id": "ai-b2-mnjqpg0s-002",
+    "prompt": "彼女はそのアート作品に非常に感銘を受けました。",
+    "answer": "She was deeply impressed by the artwork.",
+    "cefrLevel": "B2",
+    "tags": [
+      "arts"
+    ],
+    "hint": "deeply / impressed / artwork"
+  },
+  {
+    "id": "ai-b2-mnjqpg0s-003",
+    "prompt": "試合に勝つためには、チームワークが不可欠です。",
+    "answer": "Teamwork is essential for winning the game.",
+    "cefrLevel": "B2",
+    "tags": [
+      "sports"
+    ],
+    "hint": "teamwork / essential / winning"
+  },
+  {
+    "id": "ai-b2-mnjqpg0s-004",
+    "prompt": "彼は新しい映画の監督を務めています。",
+    "answer": "He is directing a new movie.",
+    "cefrLevel": "B2",
+    "tags": [
+      "entertainment"
+    ],
+    "hint": "directing / new / movie"
+  },
+  {
+    "id": "ai-b2-mnjqpg0s-005",
+    "prompt": "この展覧会は来週まで続きます。",
+    "answer": "This exhibition will last until next week.",
+    "cefrLevel": "B2",
+    "tags": [
+      "arts"
+    ],
+    "hint": "exhibition / last / next week"
+  },
+  {
+    "id": "ai-b2-mnjqpg0s-006",
+    "prompt": "彼はその瞬間に、すべてを思い出しました。",
+    "answer": "He recalled everything at that moment.",
+    "cefrLevel": "B2",
+    "tags": [
+      "entertainment"
+    ],
+    "hint": "recalled / everything / moment"
+  },
+  {
+    "id": "ai-b2-mnjqpg0s-007",
+    "prompt": "そのスポーツイベントは大成功を収めました。",
+    "answer": "The sports event was a huge success.",
+    "cefrLevel": "B2",
+    "tags": [
+      "sports"
+    ],
+    "hint": "huge / success / event"
+  },
+  {
+    "id": "ai-b2-mnjqpg0s-008",
+    "prompt": "彼女はオペラを観ることが大好きです。",
+    "answer": "She loves watching opera.",
+    "cefrLevel": "B2",
+    "tags": [
+      "arts",
+      "entertainment"
+    ],
+    "hint": "loves / watching / opera"
+  },
+  {
+    "id": "ai-b2-mnjqpg0s-009",
+    "prompt": "彼の演技は心を打つものでした。",
+    "answer": "His performance was touching.",
+    "cefrLevel": "B2",
+    "tags": [
+      "arts"
+    ],
+    "hint": "performance / touching"
+  },
+  {
+    "id": "ai-b2-mnjqpg0s-010",
+    "prompt": "私たちは次の試合に備えて練習しています。",
+    "answer": "We are training for the next match.",
+    "cefrLevel": "B2",
+    "tags": [
+      "sports"
+    ],
+    "hint": "training / next / match"
+  },
+  {
+    "id": "ai-b2-mnjqpg0s-011",
+    "prompt": "その映画は批評家から高い評価を受けました。",
+    "answer": "The movie received high praise from critics.",
+    "cefrLevel": "B2",
+    "tags": [
+      "entertainment"
+    ],
+    "hint": "received / high / praise"
+  },
+  {
+    "id": "ai-b2-mnjqpg0s-012",
+    "prompt": "この絵は彼の才能を示しています。",
+    "answer": "This painting demonstrates his talent.",
+    "cefrLevel": "B2",
+    "tags": [
+      "arts"
+    ],
+    "hint": "demonstrates / painting / talent"
+  },
+  {
+    "id": "ai-b2-mnjqpg0s-013",
+    "prompt": "彼女はスポーツに情熱を持っています。",
+    "answer": "She has a passion for sports.",
+    "cefrLevel": "B2",
+    "tags": [
+      "sports"
+    ],
+    "hint": "passion / for / sports"
+  },
+  {
+    "id": "ai-b2-mnjqpg0s-014",
+    "prompt": "観客は彼の演技に熱狂しました。",
+    "answer": "The audience was thrilled by his performance.",
+    "cefrLevel": "B2",
+    "tags": [
+      "arts",
+      "entertainment"
+    ],
+    "hint": "thrilled / audience / performance"
+  },
+  {
+    "id": "ai-b2-mnjqpg0s-015",
+    "prompt": "私たちはこの映画を見ることを楽しみにしています。",
+    "answer": "We are looking forward to watching this movie.",
+    "cefrLevel": "B2",
+    "tags": [
+      "entertainment"
+    ],
+    "hint": "looking forward / watching / movie"
+  },
+  {
+    "id": "ai-b2-mnjqpg0s-016",
+    "prompt": "その試合は非常に競争が激しかったです。",
+    "answer": "The match was highly competitive.",
+    "cefrLevel": "B2",
+    "tags": [
+      "sports"
+    ],
+    "hint": "highly / competitive / match"
+  },
+  {
+    "id": "ai-b2-mnjqpg0s-017",
+    "prompt": "彼女の作品は多くの人に影響を与えています。",
+    "answer": "Her work influences many people.",
+    "cefrLevel": "B2",
+    "tags": [
+      "arts"
+    ],
+    "hint": "influences / many / people"
+  },
+  {
+    "id": "ai-b2-mnjqpg0s-018",
+    "prompt": "このスポーツはとても人気があります。",
+    "answer": "This sport is very popular.",
+    "cefrLevel": "B2",
+    "tags": [
+      "sports"
+    ],
+    "hint": "popular / sport"
+  },
+  {
+    "id": "ai-b2-mnjqpg0s-019",
+    "prompt": "彼はそのオペラの声楽家として知られています。",
+    "answer": "He is known as a vocalist in that opera.",
+    "cefrLevel": "B2",
+    "tags": [
+      "arts",
+      "entertainment"
+    ],
+    "hint": "known / as / vocalist"
+  }
+]

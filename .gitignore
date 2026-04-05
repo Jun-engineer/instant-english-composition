@@ -31,10 +31,6 @@
 .azure/
 api/local.settings.json
 
-# generated datasets
-api/shared/data/jmdict.min.json
-scripts/output/
-
 # debug
 npm-debug.log*
 yarn-debug.log*

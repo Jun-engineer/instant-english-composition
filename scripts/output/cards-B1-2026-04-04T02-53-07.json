@@ -1,0 +1,230 @@
+[
+  {
+    "id": "ai-b1-mnjqmn81-000",
+    "prompt": "最近のニュースがとても興味深いと思います。",
+    "answer": "I think the recent news is very interesting.",
+    "cefrLevel": "B1",
+    "tags": [
+      "news",
+      "media",
+      "opinion"
+    ],
+    "hint": "think / recent / interesting"
+  },
+  {
+    "id": "ai-b1-mnjqmn81-001",
+    "prompt": "メディアは情報を伝える重要な役割を持っています。",
+    "answer": "The media plays an important role in conveying information.",
+    "cefrLevel": "B1",
+    "tags": [
+      "news",
+      "media",
+      "opinion"
+    ],
+    "hint": "media / important / role"
+  },
+  {
+    "id": "ai-b1-mnjqmn81-002",
+    "prompt": "このニュース記事は多くの人に影響を与えるでしょう。",
+    "answer": "This news article will influence many people.",
+    "cefrLevel": "B1",
+    "tags": [
+      "news",
+      "media",
+      "opinion"
+    ],
+    "hint": "influence / article / many"
+  },
+  {
+    "id": "ai-b1-mnjqmn81-003",
+    "prompt": "彼の意見は私にとって非常に重要です。",
+    "answer": "His opinion is very important to me.",
+    "cefrLevel": "B1",
+    "tags": [
+      "news",
+      "media",
+      "opinion"
+    ],
+    "hint": "opinion / important / to me"
+  },
+  {
+    "id": "ai-b1-mnjqmn81-004",
+    "prompt": "私たちはニュースを分析する必要があります。",
+    "answer": "We need to analyze the news.",
+    "cefrLevel": "B1",
+    "tags": [
+      "news",
+      "media",
+      "opinion"
+    ],
+    "hint": "analyze / need / news"
+  },
+  {
+    "id": "ai-b1-mnjqmn81-005",
+    "prompt": "最近の報道に疑問を持っている人が多いです。",
+    "answer": "Many people have doubts about the recent reporting.",
+    "cefrLevel": "B1",
+    "tags": [
+      "news",
+      "media",
+      "opinion"
+    ],
+    "hint": "doubts / recent / reporting"
+  },
+  {
+    "id": "ai-b1-mnjqmn81-006",
+    "prompt": "その意見には賛成できません。",
+    "answer": "I cannot agree with that opinion.",
+    "cefrLevel": "B1",
+    "tags": [
+      "news",
+      "media",
+      "opinion"
+    ],
+    "hint": "agree / cannot / opinion"
+  },
+  {
+    "id": "ai-b1-mnjqmn81-007",
+    "prompt": "報道は時々偏っていることがあります。",
+    "answer": "Reports can sometimes be biased.",
+    "cefrLevel": "B1",
+    "tags": [
+      "news",
+      "media",
+      "opinion"
+    ],
+    "hint": "biased / sometimes / reports"
+  },
+  {
+    "id": "ai-b1-mnjqmn81-008",
+    "prompt": "そのニュースは私たちにとって驚きでした。",
+    "answer": "That news was surprising for us.",
+    "cefrLevel": "B1",
+    "tags": [
+      "news",
+      "media",
+      "opinion"
+    ],
+    "hint": "surprising / news / us"
+  },
+  {
+    "id": "ai-b1-mnjqmn81-009",
+    "prompt": "私はその事件についてもっと知りたいです。",
+    "answer": "I want to know more about that incident.",
+    "cefrLevel": "B1",
+    "tags": [
+      "news",
+      "media",
+      "opinion"
+    ],
+    "hint": "know / more / incident"
+  },
+  {
+    "id": "ai-b1-mnjqmn81-010",
+    "prompt": "メディアは私たちの意見を形成します。",
+    "answer": "The media shapes our opinions.",
+    "cefrLevel": "B1",
+    "tags": [
+      "news",
+      "media",
+      "opinion"
+    ],
+    "hint": "shapes / media / opinions"
+  },
+  {
+    "id": "ai-b1-mnjqmn81-011",
+    "prompt": "政治に関するニュースは特に重要です。",
+    "answer": "News about politics is especially important.",
+    "cefrLevel": "B1",
+    "tags": [
+      "news",
+      "media",
+      "opinion"
+    ],
+    "hint": "politics / especially / important"
+  },
+  {
+    "id": "ai-b1-mnjqmn81-012",
+    "prompt": "ソーシャルメディアは情報を広める手段です。",
+    "answer": "Social media is a means of spreading information.",
+    "cefrLevel": "B1",
+    "tags": [
+      "news",
+      "media",
+      "opinion"
+    ],
+    "hint": "social media / means / spreading"
+  },
+  {
+    "id": "ai-b1-mnjqmn81-013",
+    "prompt": "私たちは意見を共有することが大切です。",
+    "answer": "It is important for us to share our opinions.",
+    "cefrLevel": "B1",
+    "tags": [
+      "news",
+      "media",
+      "opinion"
+    ],
+    "hint": "important / share / opinions"
+  },
+  {
+    "id": "ai-b1-mnjqmn81-014",
+    "prompt": "その報道は多くの議論を引き起こしました。",
+    "answer": "That report sparked a lot of discussions.",
+    "cefrLevel": "B1",
+    "tags": [
+      "news",
+      "media",
+      "opinion"
+    ],
+    "hint": "sparked / discussions / report"
+  },
+  {
+    "id": "ai-b1-mnjqmn81-015",
+    "prompt": "ニュースは私たちの日常生活に影響を与えます。",
+    "answer": "News affects our daily lives.",
+    "cefrLevel": "B1",
+    "tags": [
+      "news",
+      "media",
+      "opinion"
+    ],
+    "hint": "affects / daily / lives"
+  },
+  {
+    "id": "ai-b1-mnjqmn81-016",
+    "prompt": "私はそのニュースを信じることができませんでした。",
+    "answer": "I couldn't believe that news.",
+    "cefrLevel": "B1",
+    "tags": [
+      "news",
+      "media",
+      "opinion"
+    ],
+    "hint": "believe / couldn't / news"
+  },
+  {
+    "id": "ai-b1-mnjqmn81-017",
+    "prompt": "彼女はメディアの影響について話しました。",
+    "answer": "She talked about the influence of the media.",
+    "cefrLevel": "B1",
+    "tags": [
+      "news",
+      "media",
+      "opinion"
+    ],
+    "hint": "talked / influence / media"
+  },
+  {
+    "id": "ai-b1-mnjqmn81-018",
+    "prompt": "私はその問題についてのあなたの考えが知りたいです。",
+    "answer": "I want to know your thoughts on that issue.",
+    "cefrLevel": "B1",
+    "tags": [
+      "news",
+      "media",
+      "opinion"
+    ],
+    "hint": "thoughts / want / issue"
+  }
+]

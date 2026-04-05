@@ -59,7 +59,7 @@ export default function HomePage() {
             <h2 className="text-2xl font-bold">辞書機能で即座に確認</h2>
             <p className="text-sm leading-relaxed text-slate-600">
               トレーニング中に分からない単語があれば、タップするだけで意味・品詞・発音を確認できます。
-              JMdict（和英辞典データベース）を活用し、正確な日本語訳を表示します。
+              AI を活用し、文脈に合った日本語訳や解説を表示します。
             </p>
           </div>
           <div className="space-y-4">

@@ -68,8 +68,7 @@ export default function TermsPage() {
             <h2 className="text-xl font-bold">第5条（知的財産権）</h2>
             <p className="text-sm leading-relaxed text-slate-600">
               本サービスに関する知的財産権は運営者または正当な権利者に帰属します。
-              本サービスで使用している辞書データ（JMdict）は、
-              Electronic Dictionary Research and Development Group のライセンスに基づいています。
+              本サービスで使用している辞書機能は、AI（Azure OpenAI）を活用しています。
             </p>
           </div>
 

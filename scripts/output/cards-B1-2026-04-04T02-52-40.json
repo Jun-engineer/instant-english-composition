@@ -1,0 +1,230 @@
+[
+  {
+    "id": "ai-b1-mnjqm23v-000",
+    "prompt": "このセールでたくさんのものを買いたいです。",
+    "answer": "I want to buy a lot of things in this sale.",
+    "cefrLevel": "B1",
+    "tags": [
+      "shopping",
+      "money",
+      "planning"
+    ],
+    "hint": "want / buy / sale"
+  },
+  {
+    "id": "ai-b1-mnjqm23v-001",
+    "prompt": "彼女はお金を節約するために計画を立てています。",
+    "answer": "She is planning to save money.",
+    "cefrLevel": "B1",
+    "tags": [
+      "shopping",
+      "money",
+      "planning"
+    ],
+    "hint": "planning / save / money"
+  },
+  {
+    "id": "ai-b1-mnjqm23v-002",
+    "prompt": "この商品は他の店より安いと思います。",
+    "answer": "I think this product is cheaper than in other stores.",
+    "cefrLevel": "B1",
+    "tags": [
+      "shopping",
+      "money",
+      "planning"
+    ],
+    "hint": "cheaper / product / store"
+  },
+  {
+    "id": "ai-b1-mnjqm23v-003",
+    "prompt": "今月の予算を超えないように気をつけています。",
+    "answer": "I am careful not to exceed my budget this month.",
+    "cefrLevel": "B1",
+    "tags": [
+      "shopping",
+      "money",
+      "planning"
+    ],
+    "hint": "careful / exceed / budget"
+  },
+  {
+    "id": "ai-b1-mnjqm23v-004",
+    "prompt": "新しい服を買う前に、よく考えた方がいいです。",
+    "answer": "You should think carefully before buying new clothes.",
+    "cefrLevel": "B1",
+    "tags": [
+      "shopping",
+      "money",
+      "planning"
+    ],
+    "hint": "think / carefully / buy"
+  },
+  {
+    "id": "ai-b1-mnjqm23v-005",
+    "prompt": "彼は買い物リストを作るのが好きです。",
+    "answer": "He likes to make a shopping list.",
+    "cefrLevel": "B1",
+    "tags": [
+      "shopping",
+      "money",
+      "planning"
+    ],
+    "hint": "likes / make / list"
+  },
+  {
+    "id": "ai-b1-mnjqm23v-006",
+    "prompt": "来週、特売があるかもしれません。",
+    "answer": "There might be a special sale next week.",
+    "cefrLevel": "B1",
+    "tags": [
+      "shopping",
+      "money",
+      "planning"
+    ],
+    "hint": "might / special / sale"
+  },
+  {
+    "id": "ai-b1-mnjqm23v-007",
+    "prompt": "必要なものを買うために、お金を準備しておきます。",
+    "answer": "I will prepare money to buy what I need.",
+    "cefrLevel": "B1",
+    "tags": [
+      "shopping",
+      "money",
+      "planning"
+    ],
+    "hint": "prepare / money / buy"
+  },
+  {
+    "id": "ai-b1-mnjqm23v-008",
+    "prompt": "そのブランドは、品質がとても良いと評判です。",
+    "answer": "That brand is known for its very good quality.",
+    "cefrLevel": "B1",
+    "tags": [
+      "shopping",
+      "money",
+      "planning"
+    ],
+    "hint": "known / brand / quality"
+  },
+  {
+    "id": "ai-b1-mnjqm23v-009",
+    "prompt": "友達と一緒に買い物に行く予定です。",
+    "answer": "I plan to go shopping with my friends.",
+    "cefrLevel": "B1",
+    "tags": [
+      "shopping",
+      "money",
+      "planning"
+    ],
+    "hint": "plan / go / shopping"
+  },
+  {
+    "id": "ai-b1-mnjqm23v-010",
+    "prompt": "セールの時は、たくさんの人がいます。",
+    "answer": "There are many people during the sale.",
+    "cefrLevel": "B1",
+    "tags": [
+      "shopping",
+      "money",
+      "planning"
+    ],
+    "hint": "many / people / sale"
+  },
+  {
+    "id": "ai-b1-mnjqm23v-011",
+    "prompt": "新しい靴を買うことを考えています。",
+    "answer": "I am thinking about buying new shoes.",
+    "cefrLevel": "B1",
+    "tags": [
+      "shopping",
+      "money",
+      "planning"
+    ],
+    "hint": "thinking / about / buy"
+  },
+  {
+    "id": "ai-b1-mnjqm23v-012",
+    "prompt": "クレジットカードで支払いをすることができますか？",
+    "answer": "Can I pay with a credit card?",
+    "cefrLevel": "B1",
+    "tags": [
+      "shopping",
+      "money",
+      "planning"
+    ],
+    "hint": "pay / credit / card"
+  },
+  {
+    "id": "ai-b1-mnjqm23v-013",
+    "prompt": "今は節約する必要があります。",
+    "answer": "I need to save money right now.",
+    "cefrLevel": "B1",
+    "tags": [
+      "shopping",
+      "money",
+      "planning"
+    ],
+    "hint": "need / save / money"
+  },
+  {
+    "id": "ai-b1-mnjqm23v-014",
+    "prompt": "その店は安い服で有名です。",
+    "answer": "That store is famous for its cheap clothes.",
+    "cefrLevel": "B1",
+    "tags": [
+      "shopping",
+      "money",
+      "planning"
+    ],
+    "hint": "famous / store / cheap"
+  },
+  {
+    "id": "ai-b1-mnjqm23v-015",
+    "prompt": "買いたいものをリストにしておきます。",
+    "answer": "I will make a list of the things I want to buy.",
+    "cefrLevel": "B1",
+    "tags": [
+      "shopping",
+      "money",
+      "planning"
+    ],
+    "hint": "make / list / want"
+  },
+  {
+    "id": "ai-b1-mnjqm23v-016",
+    "prompt": "時間があれば、いくつかの店を見て回りたいです。",
+    "answer": "If I have time, I want to look around some stores.",
+    "cefrLevel": "B1",
+    "tags": [
+      "shopping",
+      "money",
+      "planning"
+    ],
+    "hint": "have / time / look"
+  },
+  {
+    "id": "ai-b1-mnjqm23v-017",
+    "prompt": "そのバッグは本当にお得だと思います。",
+    "answer": "I think that bag is a really good deal.",
+    "cefrLevel": "B1",
+    "tags": [
+      "shopping",
+      "money",
+      "planning"
+    ],
+    "hint": "think / good / deal"
+  },
+  {
+    "id": "ai-b1-mnjqm23v-018",
+    "prompt": "買い物が終わったら、カフェに行きたいです。",
+    "answer": "I want to go to a cafe after I finish shopping.",
+    "cefrLevel": "B1",
+    "tags": [
+      "shopping",
+      "money",
+      "planning"
+    ],
+    "hint": "want / go / finish"
+  }
+]
