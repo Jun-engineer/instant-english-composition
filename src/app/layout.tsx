@@ -1,10 +1,12 @@
 import type { Metadata, Viewport } from 'next';
 import Script from 'next/script';
 import Link from 'next/link';
+import { NativeInit } from '@/components/NativeInit';
 import './globals.css';
 
 export const viewport: Viewport = {
   themeColor: '#f59e0b',
+  viewportFit: 'cover',
 };
 
 export const metadata: Metadata = {
@@ -63,6 +65,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </Script>
       </head>
       <body>
+        <NativeInit />
         <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5434162081070782"

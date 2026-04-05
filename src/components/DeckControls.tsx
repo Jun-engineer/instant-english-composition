@@ -3,6 +3,7 @@
 import { useCallback, useEffect } from 'react';
 import classNames from 'classnames';
 import { useDeckStore } from '@/state/useDeckStore';
+import { hapticsNotificationSuccess, hapticsNotificationError } from '@/lib/haptics';
 
 interface DeckControlsProps {
   disabled?: boolean;
@@ -17,10 +18,12 @@ export function DeckControls({ disabled }: DeckControlsProps) {
   const isFlipped = useDeckStore((state) => state.isFlipped);
 
   const handleSuccess = useCallback(() => {
+    hapticsNotificationSuccess();
     markResult('success');
   }, [markResult]);
 
   const handleRetry = useCallback(() => {
+    hapticsNotificationError();
     markResult('retry');
   }, [markResult]);
 

@@ -39,6 +39,11 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
+# capacitor
+ios/App/App/public/
+ios/App/Pods/
+ios/capacitor-cordova-ios-plugins/
+
 # env files (can opt-in for committing if needed)
 .env*
 

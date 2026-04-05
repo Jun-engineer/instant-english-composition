@@ -4,6 +4,7 @@ import classNames from 'classnames';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import type { CSSProperties, PointerEvent as ReactPointerEvent, MouseEvent as ReactMouseEvent } from 'react';
 import type { DeckCard, ReviewStatus } from '@/lib/types';
+import { hapticsImpactLight, hapticsImpactMedium } from '@/lib/haptics';
 
 type SwipeDirection = 'left' | 'right';
 
@@ -93,8 +94,10 @@ export function FlashCard({ card, isFlipped, onToggle, onSwipe, interactive = tr
     const absDelta = Math.abs(delta);
 
     if (absDelta > SWIPE_THRESHOLD && onSwipe) {
+      hapticsImpactMedium();
       onSwipe(delta > 0 ? 'right' : 'left');
     } else if (absDelta < 12) {
+      hapticsImpactLight();
       onToggle();
     }
 
