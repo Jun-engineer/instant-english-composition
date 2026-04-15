@@ -41,8 +41,16 @@ yarn-error.log*
 
 # capacitor
 ios/App/App/public/
+ios/App/App/capacitor.config.json
 ios/App/Pods/
 ios/capacitor-cordova-ios-plugins/
+
+# Xcode
+ios/App/App.xcodeproj/xcuserdata/
+ios/App/App.xcodeproj/project.xcworkspace/xcuserdata/
+ios/App/App.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/
+*.xcarchive
+DerivedData/
 
 # env files (can opt-in for committing if needed)
 .env*
