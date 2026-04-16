@@ -7,7 +7,13 @@
   "extensions": {
     "http": {
       "cors": {
-        "allowedOrigins": ["http://localhost:3000"],
+        "allowedOrigins": [
+          "https://speedspeak.jp",
+          "capacitor://localhost",
+          "ionic://localhost",
+          "http://localhost",
+          "http://localhost:3000"
+        ],
         "allowedMethods": ["GET", "POST", "OPTIONS"],
         "allowedHeaders": ["*"],
         "exposedHeaders": []
