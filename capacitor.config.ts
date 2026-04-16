@@ -11,6 +11,9 @@ const config: CapacitorConfig = {
     // url: 'http://192.168.x.x:3000',
   },
   plugins: {
+    CapacitorHttp: {
+      enabled: true,
+    },
     SplashScreen: {
       launchAutoHide: true,
       launchShowDuration: 1500,
