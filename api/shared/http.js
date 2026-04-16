@@ -14,14 +14,35 @@ function getCorsOrigin(context) {
   return ALLOWED_ORIGINS[0];
 }
 
+function corsHeaders(context) {
+  return {
+    'Access-Control-Allow-Origin': getCorsOrigin(context),
+    'Access-Control-Allow-Methods': 'GET,POST,OPTIONS',
+    'Access-Control-Allow-Headers': 'Content-Type,Authorization',
+  };
+}
+
+export function handleCorsPreflightIfNeeded(context, req) {
+  if ((req.method ?? '').toUpperCase() === 'OPTIONS') {
+    context.res = {
+      status: 204,
+      headers: {
+        ...corsHeaders(context),
+        'Access-Control-Max-Age': '86400',
+      },
+      body: null,
+    };
+    return true;
+  }
+  return false;
+}
+
 export function jsonResponse(context, status, body) {
   context.res = {
     status,
     headers: {
       'Content-Type': 'application/json',
-      'Access-Control-Allow-Origin': getCorsOrigin(context),
-      'Access-Control-Allow-Methods': 'GET,POST,OPTIONS',
-      'Access-Control-Allow-Headers': 'Content-Type,Authorization'
+      ...corsHeaders(context),
     },
     body: JSON.stringify(body)
   };

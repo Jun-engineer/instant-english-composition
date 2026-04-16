@@ -1,6 +1,6 @@
 import { getCosmosContainer } from '../shared/cosmos.js';
 import { sampleCards } from '../shared/sampleCards.js';
-import { jsonResponse, serverError } from '../shared/http.js';
+import { jsonResponse, serverError, handleCorsPreflightIfNeeded } from '../shared/http.js';
 
 const DEFAULT_LIMIT = 12;
 const MAX_LIMIT = 100;
@@ -58,6 +58,7 @@ async function fetchFromCosmos(filters, limit) {
 }
 
 export default async function (context, req) {
+  if (handleCorsPreflightIfNeeded(context, req)) return;
   try {
     const levelsParam = req.query?.levels ?? '';
     const tagsParam = req.query?.tags ?? '';

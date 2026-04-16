@@ -1,4 +1,4 @@
-import { badRequest, jsonResponse, serverError } from '../shared/http.js';
+import { badRequest, jsonResponse, serverError, handleCorsPreflightIfNeeded } from '../shared/http.js';
 import { getVocabCacheContainer } from '../shared/cosmos.js';
 
 const SYSTEM_PROMPT = `You are a vocabulary assistant for Japanese learners of English.
@@ -29,6 +29,7 @@ Rules:
 - notes should be in Japanese and explain nuances, collocations, or common mistakes. Set to null if the word is straightforward.`;
 
 export default async function (context, req) {
+  if (handleCorsPreflightIfNeeded(context, req)) return;
   try {
     const word = (req.query?.word ?? '').trim().toLowerCase();
     const sentence = (req.query?.sentence ?? '').trim();

@@ -1,8 +1,9 @@
 import { v4 as uuidv4 } from 'uuid';
 import { getCosmosContainer } from '../shared/cosmos.js';
-import { jsonResponse, badRequest, serverError } from '../shared/http.js';
+import { jsonResponse, badRequest, serverError, handleCorsPreflightIfNeeded } from '../shared/http.js';
 
 export default async function (context, req) {
+  if (handleCorsPreflightIfNeeded(context, req)) return;
   try {
     const body = req.body ?? {};
     const { cardId, status } = body;
