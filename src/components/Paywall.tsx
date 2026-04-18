@@ -11,7 +11,7 @@ import {
 import { usePremiumStore } from '@/state/usePremiumStore';
 import { FREE_LIMITS } from '@/lib/premium';
 
-const APP_STORE_URL = 'https://apps.apple.com/app/speedspeak/id6744122498';
+const APP_STORE_URL = 'https://apps.apple.com/app/speedspeak/id6762238764';
 
 interface PaywallProps {
   onClose: () => void;

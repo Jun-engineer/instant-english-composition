@@ -1,0 +1,61 @@
+default_platform(:ios)
+
+platform :ios do
+  desc "Create Apple Distribution certificate"
+  lane :create_cert do
+    cert(
+      development: false,
+      force: false,
+      output_path: "./fastlane/certs",
+      team_id: "CQ45UMBK28"
+    )
+  end
+
+  desc "Build and export IPA for App Store"
+  lane :release do
+    # Create distribution certificate if needed
+    cert(
+      development: false,
+      force: false,
+      output_path: "./fastlane/certs",
+      team_id: "CQ45UMBK28"
+    )
+
+    # Get/create App Store provisioning profile
+    sigh(
+      app_identifier: "jp.speedspeak.app",
+      team_id: "CQ45UMBK28",
+      output_path: "./fastlane/profiles",
+      force: false
+    )
+
+    # Increment build number
+    increment_build_number(
+      xcodeproj: "App/App.xcodeproj"
+    )
+
+    # Build the archive
+    build_app(
+      project: "App/App.xcodeproj",
+      scheme: "App",
+      configuration: "Release",
+      output_directory: "./fastlane/output",
+      output_name: "SpeedSpeak.ipa",
+      export_method: "app-store-connect",
+      export_team_id: "CQ45UMBK28",
+      cloned_source_packages_path: "/tmp/spm-packages",
+      clean: true
+    )
+  end
+
+  desc "Upload IPA to App Store Connect"
+  lane :upload do
+    upload_to_app_store(
+      ipa: "./fastlane/output/SpeedSpeak.ipa",
+      skip_metadata: true,
+      skip_screenshots: true,
+      team_id: "CQ45UMBK28",
+      force: true
+    )
+  end
+end
