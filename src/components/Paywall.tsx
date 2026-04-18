@@ -108,7 +108,7 @@ export function Paywall({ onClose, reason }: PaywallProps) {
                 <span>
                   全CEFRレベル（A1〜C2）のカードにアクセス
                   <span className="text-xs text-slate-400 ml-1">
-                    （無料版はA1〜B1のみ）
+                    （無料版はA1〜B2のみ）
                   </span>
                 </span>
               </li>

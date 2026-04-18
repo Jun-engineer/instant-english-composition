@@ -48,7 +48,7 @@
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<true/>
 	<key>GADApplicationIdentifier</key>
-	<string>ca-app-pub-5434162081070782~REPLACE_WITH_ADMOB_APP_ID</string>
+	<string>ca-app-pub-5434162081070782~8440048243</string>
 	<key>SKAdNetworkItems</key>
 	<array>
 		<dict>

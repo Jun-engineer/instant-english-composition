@@ -132,7 +132,25 @@ export interface PackageInfo {
 }
 
 export async function getAvailablePackages(): Promise<PackageInfo[]> {
-  if (!Capacitor.isNativePlatform()) return [];
+  if (!Capacitor.isNativePlatform()) {
+    // Return mock packages for preview / screenshots
+    return [
+      {
+        identifier: 'speedspeak_premium_monthly',
+        priceString: '¥480',
+        title: '月額プラン',
+        description: '毎月自動更新',
+        period: 'monthly',
+      },
+      {
+        identifier: 'speedspeak_premium_annual',
+        priceString: '¥3,800',
+        title: '年額プラン',
+        description: '31%お得！',
+        period: 'annual',
+      },
+    ];
+  }
 
   try {
     const { Purchases } = await import('@revenuecat/purchases-capacitor');

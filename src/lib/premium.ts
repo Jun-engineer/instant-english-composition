@@ -26,14 +26,14 @@ export const ENTITLEMENT_ID = 'premium';
 
 /** RevenueCat API key — set in env or replace with actual key */
 export const REVENUECAT_API_KEY_IOS =
-  process.env.NEXT_PUBLIC_REVENUECAT_IOS_KEY ?? '';
+  process.env.NEXT_PUBLIC_REVENUECAT_IOS_KEY ?? 'test_RFMVkkXPcDJFehRtsjqbAWFIMLo';
 
-/** AdMob unit IDs — replace with real IDs before production */
+/** AdMob unit IDs */
 export const ADMOB_IDS = {
   /** Banner ad on training screen */
-  BANNER: process.env.NEXT_PUBLIC_ADMOB_BANNER_ID ?? 'ca-app-pub-3940256099942544/2934735716',
+  BANNER: process.env.NEXT_PUBLIC_ADMOB_BANNER_ID ?? 'ca-app-pub-5434162081070782/2006515142',
   /** Interstitial after training session */
-  INTERSTITIAL: process.env.NEXT_PUBLIC_ADMOB_INTERSTITIAL_ID ?? 'ca-app-pub-3940256099942544/4411468910',
+  INTERSTITIAL: process.env.NEXT_PUBLIC_ADMOB_INTERSTITIAL_ID ?? 'ca-app-pub-5434162081070782/7032657297',
 } as const;
 
 const AI_LOOKUP_STORAGE_KEY = 'iec-ai-lookup-usage';
