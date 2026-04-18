@@ -1,6 +1,7 @@
 'use client';
 
 import { useCallback, useEffect, useState } from 'react';
+import { Capacitor } from '@capacitor/core';
 import {
   getAvailablePackages,
   purchaseSubscription,
@@ -10,6 +11,8 @@ import {
 import { usePremiumStore } from '@/state/usePremiumStore';
 import { FREE_LIMITS } from '@/lib/premium';
 
+const APP_STORE_URL = 'https://apps.apple.com/app/speedspeak/id6744122498';
+
 interface PaywallProps {
   onClose: () => void;
   /** Optional reason shown at the top */
@@ -18,13 +21,15 @@ interface PaywallProps {
 
 export function Paywall({ onClose, reason }: PaywallProps) {
   const isPremium = usePremiumStore((s) => s.isPremium);
+  const isNative = Capacitor.isNativePlatform();
   const [packages, setPackages] = useState<PackageInfo[]>([]);
   const [selectedPkg, setSelectedPkg] = useState<string | null>(null);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(isNative);
   const [purchasing, setPurchasing] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
+    if (!isNative) return;
     getAvailablePackages()
       .then((pkgs) => {
         setPackages(pkgs);
@@ -34,7 +39,7 @@ export function Paywall({ onClose, reason }: PaywallProps) {
       })
       .catch(() => setError('プランの取得に失敗しました。'))
       .finally(() => setLoading(false));
-  }, []);
+  }, [isNative]);
 
   useEffect(() => {
     if (isPremium) onClose();
@@ -142,8 +147,27 @@ export function Paywall({ onClose, reason }: PaywallProps) {
             </ul>
           </div>
 
-          {/* Package selection */}
-          {loading ? (
+          {/* Package selection / Web CTA */}
+          {!isNative ? (
+            <div className="space-y-4">
+              <div className="rounded-2xl bg-blue-50 border border-blue-200 px-5 py-4 text-center space-y-2">
+                <p className="text-sm font-semibold text-blue-800">
+                  Premium はiOSアプリ限定の機能です
+                </p>
+                <p className="text-xs text-blue-600 leading-relaxed">
+                  App StoreからSpeedSpeakアプリをインストールし、アプリ内でサブスクリプションに登録してください。
+                </p>
+              </div>
+              <a
+                href={APP_STORE_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block w-full rounded-2xl bg-blue-600 px-6 py-3 text-center text-base font-semibold text-white transition hover:bg-blue-500"
+              >
+                App Store でダウンロード
+              </a>
+            </div>
+          ) : loading ? (
             <p className="text-center text-sm text-slate-500">
               プランを読み込み中…
             </p>
@@ -184,7 +208,8 @@ export function Paywall({ onClose, reason }: PaywallProps) {
             <p className="text-center text-sm text-rose-600">{error}</p>
           )}
 
-          {/* Actions */}
+          {/* Actions (native only) */}
+          {isNative && (
           <div className="space-y-3">
             <button
               type="button"
@@ -203,12 +228,15 @@ export function Paywall({ onClose, reason }: PaywallProps) {
               以前の購入を復元する
             </button>
           </div>
+          )}
 
           {/* Legal */}
+          {isNative && (
           <p className="text-center text-xs text-slate-400 leading-relaxed">
             サブスクリプションは自動更新されます。次回の請求日の24時間前までにキャンセルしない限り自動的に更新されます。
             購入確定時にApple IDアカウントに課金されます。
           </p>
+          )}
         </div>
       </div>
     </div>
