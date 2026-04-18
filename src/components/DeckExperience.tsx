@@ -6,8 +6,13 @@ import { DeckFilters } from './DeckFilters';
 import { FavoritesPanel } from './FavoritesPanel';
 import { SentenceFavoritesPanel } from './SentenceFavoritesPanel';
 import { VocabularyModal } from './VocabularyModal';
+import { BannerAd } from './BannerAd';
+import { Paywall } from './Paywall';
 import { useDeckStore } from '@/state/useDeckStore';
+import { usePremiumStore } from '@/state/usePremiumStore';
+import { showInterstitialAd } from '@/state/usePremiumStore';
 import { fetchCards } from '@/lib/api';
+import { canUseAILookup, remainingAILookups, FREE_LIMITS, getMaxFavorites } from '@/lib/premium';
 import type { DeckCard, ReviewStatus } from '@/lib/types';
 
 type Step = 'intro' | 'filters' | 'training' | 'results';
@@ -46,6 +51,9 @@ export function DeckExperience() {
   const [showFavorites, setShowFavorites] = useState(false);
   const [showSentenceFavorites, setShowSentenceFavorites] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [showPaywall, setShowPaywall] = useState(false);
+  const [paywallReason, setPaywallReason] = useState<string | undefined>();
+  const isPremium = usePremiumStore((s) => s.isPremium);
   const feedbackTimeout = useRef<ReturnType<typeof setTimeout> | null>(null);
   const menuRef = useRef<HTMLDivElement | null>(null);
 
@@ -65,6 +73,7 @@ export function DeckExperience() {
   useEffect(() => {
     if (step === 'training' && totalCards > 0 && session.total >= totalCards) {
       setStep('results');
+      showInterstitialAd();
     }
   }, [step, session.total, totalCards]);
 
@@ -194,8 +203,13 @@ export function DeckExperience() {
   }, [handleBackHome, resetSession, retryCards, setDeck]);
 
   const handleWordSelect = useCallback((word: string) => {
+    if (!canUseAILookup(isPremium)) {
+      setPaywallReason(`AI単語検索の無料枠（1日${FREE_LIMITS.AI_LOOKUPS_PER_DAY}回）を使い切りました。`);
+      setShowPaywall(true);
+      return;
+    }
     setSelectedWord(word);
-  }, []);
+  }, [isPremium]);
 
   const handleSentenceFavoriteToggle = useCallback(() => {
     if (!currentCard) {
@@ -206,8 +220,14 @@ export function DeckExperience() {
       removeSentenceFavorite(currentCard.id);
       return;
     }
+    const maxSentences = getMaxFavorites(isPremium).sentences;
+    if (!isPremium && sentenceFavorites.length >= maxSentences) {
+      setPaywallReason('お気に入り例文の上限に達しました');
+      setShowPaywall(true);
+      return;
+    }
     addSentenceFavorite(currentCard);
-  }, [addSentenceFavorite, currentCard, removeSentenceFavorite, sentenceFavorites]);
+  }, [addSentenceFavorite, currentCard, removeSentenceFavorite, sentenceFavorites, isPremium]);
 
   return (
     <div className="flex min-h-[100svh] flex-col items-center justify-center gap-8 bg-gradient-to-br from-indigo-50 via-white to-sky-50 px-4 py-12 text-slate-900 sm:py-16">
@@ -253,6 +273,25 @@ export function DeckExperience() {
               <span aria-hidden>✉️</span>
               <span>Contact</span>
             </a>
+            {!isPremium ? (
+              <button
+                type="button"
+                className="mt-1 flex w-full items-center gap-2 rounded-xl px-3 py-2 text-amber-600 font-semibold transition hover:bg-amber-50"
+                onClick={() => {
+                  setShowPaywall(true);
+                  setPaywallReason(undefined);
+                  setIsMenuOpen(false);
+                }}
+              >
+                <span aria-hidden>⭐</span>
+                <span>Premium に登録</span>
+              </button>
+            ) : (
+              <div className="mt-1 flex w-full items-center gap-2 rounded-xl px-3 py-2 text-emerald-600">
+                <span aria-hidden>✓</span>
+                <span className="text-xs font-semibold">Premium</span>
+              </div>
+            )}
           </div>
         ) : null}
       </div>
@@ -280,6 +319,10 @@ export function DeckExperience() {
           <DeckFilters
             onSubmit={handleFetchCards}
             loading={loading}
+            onShowPaywall={(reason) => {
+              setPaywallReason(reason);
+              setShowPaywall(true);
+            }}
           />
           {errorMessage ? <p className="text-sm text-rose-600">{errorMessage}</p> : null}
           <button
@@ -421,6 +464,13 @@ export function DeckExperience() {
 
       {showFavorites ? <FavoritesPanel onClose={() => setShowFavorites(false)} /> : null}
       {showSentenceFavorites ? <SentenceFavoritesPanel onClose={() => setShowSentenceFavorites(false)} /> : null}
+      {showPaywall ? (
+        <Paywall
+          onClose={() => setShowPaywall(false)}
+          reason={paywallReason}
+        />
+      ) : null}
+      <BannerAd />
     </div>
   );
 }

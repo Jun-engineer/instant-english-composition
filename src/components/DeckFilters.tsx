@@ -6,18 +6,23 @@ import type { ChangeEvent } from 'react';
 import classNames from 'classnames';
 import { CEFR_LEVELS, CARD_TAGS, COMMON_CARD_TAGS } from '@/lib/constants';
 import { useDeckStore } from '@/state/useDeckStore';
+import { usePremiumStore } from '@/state/usePremiumStore';
 import type { CEFRLevel } from '@/lib/types';
 import { CEFR_LEVEL_SUMMARIES } from '@/lib/cefr';
+import { isLevelFree, getMaxCards } from '@/lib/premium';
 
 interface DeckFiltersProps {
   onSubmit?: () => void;
   loading?: boolean;
+  onShowPaywall?: (reason?: string) => void;
 }
 
-export function DeckFilters({ onSubmit, loading = false }: DeckFiltersProps) {
+export function DeckFilters({ onSubmit, loading = false, onShowPaywall }: DeckFiltersProps) {
   const filters = useDeckStore((state) => state.filters);
   const setFilters = useDeckStore((state) => state.setFilters);
+  const isPremium = usePremiumStore((s) => s.isPremium);
   const hasLevelSelected = filters.levels.length > 0;
+  const maxCards = getMaxCards(isPremium);
   const [limitInput, setLimitInput] = useState<string>(() => (
     Number.isFinite(filters.limit) && filters.limit > 0 ? String(filters.limit) : ''
   ));
@@ -31,12 +36,16 @@ export function DeckFilters({ onSubmit, loading = false }: DeckFiltersProps) {
 
   const toggleLevel = useCallback(
     (level: CEFRLevel) => {
+      if (!isPremium && !isLevelFree(level)) {
+        onShowPaywall?.(`${level} レベルは Premium プランで利用できます。`);
+        return;
+      }
       const levels = filters.levels.includes(level)
         ? filters.levels.filter((item) => item !== level)
         : [...filters.levels, level];
       setFilters({ ...filters, levels });
     },
-    [filters, setFilters]
+    [filters, setFilters, isPremium, onShowPaywall]
   );
 
   const toggleTag = useCallback(
@@ -70,31 +79,36 @@ export function DeckFilters({ onSubmit, loading = false }: DeckFiltersProps) {
         return;
       }
 
-      const next = Math.min(Math.max(raw, 0), 100);
+      const next = Math.min(Math.max(raw, 0), maxCards);
       setLimitInput(String(next));
       setFilters({ ...filters, limit: next });
     },
-    [filters, setFilters]
+    [filters, setFilters, maxCards]
   );
 
   const levelChips = useMemo(
     () =>
-      CEFR_LEVELS.map((level) => (
-        <button
-          key={level}
-          type="button"
-          className={classNames(
-            'rounded-full border px-4 py-2 text-sm font-semibold transition',
-            filters.levels.includes(level)
-              ? 'border-blue-300 bg-blue-100 text-blue-700 shadow-sm'
-              : 'border-slate-200 text-slate-500 hover:border-blue-300 hover:text-blue-600'
-          )}
-          onClick={() => toggleLevel(level)}
-        >
-          {level}
-        </button>
-      )),
-    [filters.levels, toggleLevel]
+      CEFR_LEVELS.map((level) => {
+        const locked = !isPremium && !isLevelFree(level);
+        return (
+          <button
+            key={level}
+            type="button"
+            className={classNames(
+              'rounded-full border px-4 py-2 text-sm font-semibold transition',
+              filters.levels.includes(level)
+                ? 'border-blue-300 bg-blue-100 text-blue-700 shadow-sm'
+                : locked
+                  ? 'border-slate-200 text-slate-400'
+                  : 'border-slate-200 text-slate-500 hover:border-blue-300 hover:text-blue-600'
+            )}
+            onClick={() => toggleLevel(level)}
+          >
+            {level}{locked ? ' 🔒' : ''}
+          </button>
+        );
+      }),
+    [filters.levels, toggleLevel, isPremium]
   );
 
   const tagChipClass = useCallback(
@@ -216,13 +230,13 @@ export function DeckFilters({ onSubmit, loading = false }: DeckFiltersProps) {
         </p>
       </div>
       <div>
-        <p className="text-xs uppercase tracking-wide text-slate-500">カード枚数 (0〜100)</p>
+        <p className="text-xs uppercase tracking-wide text-slate-500">カード枚数 (0〜{maxCards})</p>
         <div className="mt-3 flex items-center gap-3">
           <input
             type="number"
             inputMode="numeric"
             min={0}
-            max={100}
+            max={maxCards}
             step={1}
             className="w-32 rounded-xl border border-slate-200 bg-white px-4 py-2 text-sm text-slate-700 shadow-sm focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-200"
             value={limitInput}

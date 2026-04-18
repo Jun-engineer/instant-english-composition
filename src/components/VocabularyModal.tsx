@@ -3,6 +3,8 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import { fetchVocabularyEntry } from '@/lib/dictionary';
 import { useDeckStore } from '@/state/useDeckStore';
+import { usePremiumStore } from '@/state/usePremiumStore';
+import { incrementAILookupCount, getMaxFavorites } from '@/lib/premium';
 import type { VocabularyEntry } from '@/lib/types';
 
 interface VocabularyModalProps {
@@ -15,6 +17,9 @@ export function VocabularyModal({ word, sentence, onClose }: VocabularyModalProp
   const favorites = useDeckStore((state) => state.vocabularyFavorites);
   const addFavorite = useDeckStore((state) => state.addFavorite);
   const removeFavorite = useDeckStore((state) => state.removeFavorite);
+  const isPremium = usePremiumStore((s) => s.isPremium);
+  const maxFavs = getMaxFavorites(isPremium).words;
+  const atFavLimit = !isPremium && favorites.length >= maxFavs;
 
   const [entry, setEntry] = useState<VocabularyEntry | null>(null);
   const [loading, setLoading] = useState(true);
@@ -35,6 +40,7 @@ export function VocabularyModal({ word, sentence, onClose }: VocabularyModalProp
       .then((result) => {
         if (!cancelled) {
           setEntry(result);
+          incrementAILookupCount();
         }
       })
       .catch((lookupError: unknown) => {
@@ -57,10 +63,11 @@ export function VocabularyModal({ word, sentence, onClose }: VocabularyModalProp
       removeFavorite(entry?.word ?? word);
       return;
     }
+    if (atFavLimit) return;
     if (entry) {
       addFavorite(entry);
     }
-  }, [addFavorite, entry, isFavorite, removeFavorite, word]);
+  }, [addFavorite, entry, isFavorite, removeFavorite, word, atFavLimit]);
 
   const canUseSpeech = typeof window !== 'undefined' && 'speechSynthesis' in window;
 
@@ -116,9 +123,13 @@ export function VocabularyModal({ word, sentence, onClose }: VocabularyModalProp
               type="button"
               className="mt-3 rounded-full border border-amber-300 bg-amber-50 px-4 py-2 text-xs font-semibold text-amber-700 transition hover:bg-amber-100 disabled:opacity-60"
               onClick={handleFavoriteToggle}
-              disabled={loading && !isFavorite}
+              disabled={(loading && !isFavorite) || (!isFavorite && atFavLimit)}
             >
-              {isFavorite ? 'お気に入りから削除' : 'お気に入りに追加'}
+              {isFavorite
+                ? 'お気に入りから削除'
+                : atFavLimit
+                  ? `上限${maxFavs}件に達しました`
+                  : 'お気に入りに追加'}
             </button>
           </header>
 
