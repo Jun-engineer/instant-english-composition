@@ -26,7 +26,7 @@ export const ENTITLEMENT_ID = 'premium';
 
 /** RevenueCat API key — set in env or replace with actual key */
 export const REVENUECAT_API_KEY_IOS =
-  process.env.NEXT_PUBLIC_REVENUECAT_IOS_KEY ?? 'test_RFMVkkXPcDJFehRtsjqbAWFIMLo';
+  process.env.NEXT_PUBLIC_REVENUECAT_IOS_KEY ?? 'appl_OCQbeCJMSgTFzIybfmzCsLvlFHz';
 
 /** AdMob unit IDs */
 export const ADMOB_IDS = {
