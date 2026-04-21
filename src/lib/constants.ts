@@ -35,10 +35,21 @@ export const COMMON_CARD_TAGS = ['daily-life', 'travel', 'food', 'work', 'school
 
 export const STORAGE_KEY = 'iec-learning-history-v1';
 
+const DEFAULT_NATIVE_API_BASE = 'https://speedspeak.jp';
+
 function withApiBase(path: string) {
   const rawBase = process.env.NEXT_PUBLIC_API_BASE_URL ?? '';
   const normalizedBase = rawBase.replace(/\/$/, '');
   if (!normalizedBase) {
+    // Capacitor uses non-http schemes (e.g. capacitor://localhost),
+    // so relative /api routes do not resolve to the production backend.
+    if (typeof window !== 'undefined') {
+      const protocol = window.location.protocol;
+      const isHttp = protocol === 'http:' || protocol === 'https:';
+      if (!isHttp) {
+        return `${DEFAULT_NATIVE_API_BASE}${path}`;
+      }
+    }
     return path;
   }
   return `${normalizedBase}${path}`;

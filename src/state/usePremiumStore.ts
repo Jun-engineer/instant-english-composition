@@ -2,6 +2,7 @@
 
 import { create } from 'zustand';
 import { Capacitor } from '@capacitor/core';
+import { ENTITLEMENT_ID } from '@/lib/premium';
 
 interface PremiumState {
   isPremium: boolean;
@@ -21,6 +22,8 @@ export const usePremiumStore = create<PremiumState>((set) => ({
   setLoading: (value) => set({ isLoading: value }),
   setInitialized: () => set({ initialized: true, isLoading: false }),
 }));
+
+const packageCache = new Map<string, any>();
 
 /**
  * Initialise RevenueCat and AdMob.
@@ -44,12 +47,12 @@ export async function initMonetization() {
 
       const { customerInfo } = await Purchases.getCustomerInfo();
       const hasEntitlement =
-        customerInfo.entitlements.active?.['premium'] !== undefined;
+        customerInfo.entitlements.active?.[ENTITLEMENT_ID] !== undefined;
       setPremium(hasEntitlement);
 
       // Listen for subscription changes
       Purchases.addCustomerInfoUpdateListener((info) => {
-        const active = info.entitlements.active?.['premium'] !== undefined;
+        const active = info.entitlements.active?.[ENTITLEMENT_ID] !== undefined;
         setPremium(active);
       });
     }
@@ -97,8 +100,21 @@ export async function purchaseSubscription(packageId: string): Promise<boolean> 
 
   try {
     const { Purchases } = await import('@revenuecat/purchases-capacitor');
-    const { customerInfo } = await Purchases.purchasePackage({ aPackage: { identifier: packageId } as any });
-    const active = customerInfo.entitlements.active?.['premium'] !== undefined;
+    let targetPackage = packageCache.get(packageId);
+
+    if (!targetPackage) {
+      const offerings = await Purchases.getOfferings();
+      const current = offerings.current as any;
+      const availablePackages = current?.availablePackages ?? [];
+      targetPackage = availablePackages.find((pkg: any) => pkg?.identifier === packageId);
+    }
+
+    if (!targetPackage) {
+      throw new Error(`Package not found: ${packageId}`);
+    }
+
+    const { customerInfo } = await Purchases.purchasePackage({ aPackage: targetPackage });
+    const active = customerInfo.entitlements.active?.[ENTITLEMENT_ID] !== undefined;
     usePremiumStore.getState().setPremium(active);
     return active;
   } catch (error: any) {
@@ -114,7 +130,7 @@ export async function restorePurchases(): Promise<boolean> {
   try {
     const { Purchases } = await import('@revenuecat/purchases-capacitor');
     const { customerInfo } = await Purchases.restorePurchases();
-    const active = customerInfo.entitlements.active?.['premium'] !== undefined;
+    const active = customerInfo.entitlements.active?.[ENTITLEMENT_ID] !== undefined;
     usePremiumStore.getState().setPremium(active);
     return active;
   } catch (error) {
@@ -141,8 +157,10 @@ export async function getAvailablePackages(): Promise<PackageInfo[]> {
     if (!current) return [];
 
     const packages: PackageInfo[] = [];
+    packageCache.clear();
 
     if (current.monthly) {
+      packageCache.set(current.monthly.identifier, current.monthly);
       packages.push({
         identifier: current.monthly.identifier,
         priceString: current.monthly.product.priceString,
@@ -153,6 +171,7 @@ export async function getAvailablePackages(): Promise<PackageInfo[]> {
     }
 
     if (current.annual) {
+      packageCache.set(current.annual.identifier, current.annual);
       packages.push({
         identifier: current.annual.identifier,
         priceString: current.annual.product.priceString,

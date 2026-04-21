@@ -12,6 +12,9 @@ import { usePremiumStore } from '@/state/usePremiumStore';
 import { FREE_LIMITS } from '@/lib/premium';
 
 const APP_STORE_URL = 'https://apps.apple.com/app/speedspeak/id6762238764';
+const PRIVACY_URL = 'https://speedspeak.jp/privacy';
+const TERMS_URL = 'https://speedspeak.jp/terms';
+const APPLE_EULA_URL = 'https://www.apple.com/legal/internet-services/itunes/dev/stdeula/';
 
 interface PaywallProps {
   onClose: () => void;
@@ -232,10 +235,40 @@ export function Paywall({ onClose, reason }: PaywallProps) {
 
           {/* Legal */}
           {isNative && (
-          <p className="text-center text-xs text-slate-400 leading-relaxed">
-            サブスクリプションは自動更新されます。次回の請求日の24時間前までにキャンセルしない限り自動的に更新されます。
-            購入確定時にApple IDアカウントに課金されます。
-          </p>
+          <div className="space-y-2 text-center text-xs text-slate-400 leading-relaxed">
+            <p>
+              サブスクリプションは自動更新されます。次回の請求日の24時間前までにキャンセルしない限り自動的に更新されます。
+              購入確定時にApple IDアカウントに課金されます。
+            </p>
+            <p>
+              <a
+                href={PRIVACY_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline decoration-slate-300 hover:text-slate-600"
+              >
+                プライバシーポリシー
+              </a>
+              {' ・ '}
+              <a
+                href={TERMS_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline decoration-slate-300 hover:text-slate-600"
+              >
+                利用規約
+              </a>
+              {' ・ '}
+              <a
+                href={APPLE_EULA_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline decoration-slate-300 hover:text-slate-600"
+              >
+                Apple標準EULA
+              </a>
+            </p>
+          </div>
           )}
         </div>
       </div>
