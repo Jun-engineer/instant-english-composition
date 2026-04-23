@@ -63,6 +63,18 @@ export async function initMonetization() {
   try {
     // --- AdMob ---
     const { AdMob } = await import('@capacitor-community/admob');
+
+    // Request App Tracking Transparency permission (iOS 14.5+).
+    // Without this, AdMob can only serve non-personalized ads (or none at all).
+    try {
+      const trackingInfo = await AdMob.trackingAuthorizationStatus();
+      if (trackingInfo.status === 'notDetermined') {
+        await AdMob.requestTrackingAuthorization();
+      }
+    } catch (attError) {
+      console.warn('ATT request failed:', attError);
+    }
+
     await AdMob.initialize({
       initializeForTesting: false,
     });
