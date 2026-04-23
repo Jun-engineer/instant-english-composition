@@ -63,6 +63,7 @@ export async function initMonetization() {
   try {
     // --- AdMob ---
     const { AdMob } = await import('@capacitor-community/admob');
+    const { USE_TEST_ADS } = await import('@/lib/premium');
 
     // Request App Tracking Transparency permission (iOS 14.5+).
     // Without this, AdMob can only serve non-personalized ads (or none at all).
@@ -76,7 +77,7 @@ export async function initMonetization() {
     }
 
     await AdMob.initialize({
-      initializeForTesting: false,
+      initializeForTesting: USE_TEST_ADS,
     });
   } catch (error) {
     console.warn('AdMob init failed:', error);

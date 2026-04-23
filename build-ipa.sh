@@ -14,6 +14,10 @@ EXPORT_OPTIONS="$EXPORT_DIR/ExportOptions.plist"
 SPM_CACHE="/tmp/spm-packages"
 TEAM_ID="CQ45UMBK28"
 BUNDLE_ID="jp.speedspeak.app"
+APPLE_ID="jun.nammoku@gmail.com"
+
+# Make Apple ID available to fastlane
+export FASTLANE_USER="$APPLE_ID"
 
 echo "================================================"
 echo "  SpeedSpeak iOS Build & Upload"
@@ -26,6 +30,7 @@ cd "$IOS_DIR"
 fastlane run cert \
   development:false \
   team_id:"$TEAM_ID" \
+  username:"$APPLE_ID" \
   output_path:"$EXPORT_DIR/certs" \
   generate_apple_certs:true
 
@@ -34,6 +39,7 @@ echo "[1.5/4] Fetching App Store provisioning profile..."
 fastlane run sigh \
   app_identifier:"$BUNDLE_ID" \
   team_id:"$TEAM_ID" \
+  username:"$APPLE_ID" \
   output_path:"$EXPORT_DIR/profiles"
 
 # Get the profile name
@@ -60,9 +66,8 @@ xcodebuild clean archive \
   -scheme App \
   -archivePath "$ARCHIVE_PATH" \
   -configuration Release \
+  -destination "generic/platform=iOS" \
   -clonedSourcePackagesDirPath "$SPM_CACHE" \
-  CODE_SIGN_STYLE=Automatic \
-  DEVELOPMENT_TEAM="$TEAM_ID" \
   -allowProvisioningUpdates \
   | tail -5
 
@@ -71,6 +76,11 @@ echo "  Archive: $ARCHIVE_PATH"
 # Step 3: Export IPA
 echo ""
 echo "[3/4] Exporting IPA..."
+
+# Get profile name (used for ExportOptions)
+security cms -D -i "$PROFILE_PATH" > /tmp/_sp_profile.plist 2>/dev/null
+PROFILE_NAME=$(/usr/libexec/PlistBuddy -c "Print :Name" /tmp/_sp_profile.plist 2>/dev/null || echo "SpeadSpeak App Store")
+rm -f /tmp/_sp_profile.plist
 
 # Create export options
 cat > "$EXPORT_OPTIONS" <<EOF
@@ -83,7 +93,14 @@ cat > "$EXPORT_OPTIONS" <<EOF
 	<key>teamID</key>
 	<string>${TEAM_ID}</string>
 	<key>signingStyle</key>
-	<string>automatic</string>
+	<string>manual</string>
+	<key>signingCertificate</key>
+	<string>Apple Distribution</string>
+	<key>provisioningProfiles</key>
+	<dict>
+		<key>${BUNDLE_ID}</key>
+		<string>${PROFILE_NAME}</string>
+	</dict>
 	<key>uploadBitcode</key>
 	<false/>
 	<key>uploadSymbols</key>
@@ -111,6 +128,7 @@ cd "$IOS_DIR"
 fastlane run upload_to_testflight \
   ipa:"$EXPORT_DIR/SpeedSpeak.ipa" \
   team_id:"$TEAM_ID" \
+  username:"$APPLE_ID" \
   skip_waiting_for_build_processing:true
 
 echo ""

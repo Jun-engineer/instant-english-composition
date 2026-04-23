@@ -28,12 +28,34 @@ export const ENTITLEMENT_ID = 'premium';
 export const REVENUECAT_API_KEY_IOS =
   process.env.NEXT_PUBLIC_REVENUECAT_IOS_KEY ?? 'appl_OCQbeCJMSgTFzIybfmzCsLvlFHz';
 
+/**
+ * If true, use Google's official test ad unit IDs instead of production IDs.
+ * Test ads are guaranteed to fill and are safe to click.
+ * Set NEXT_PUBLIC_USE_TEST_ADS=1 (or "true") at build time to enable.
+ */
+export const USE_TEST_ADS =
+  process.env.NEXT_PUBLIC_USE_TEST_ADS === '1' ||
+  process.env.NEXT_PUBLIC_USE_TEST_ADS === 'true';
+
+/**
+ * Google's official iOS test ad unit IDs.
+ * See: https://developers.google.com/admob/ios/test-ads
+ */
+const TEST_AD_IDS = {
+  BANNER: 'ca-app-pub-3940256099942544/2934735716',
+  INTERSTITIAL: 'ca-app-pub-3940256099942544/4411468910',
+} as const;
+
 /** AdMob unit IDs */
 export const ADMOB_IDS = {
   /** Banner ad on training screen */
-  BANNER: process.env.NEXT_PUBLIC_ADMOB_BANNER_ID ?? 'ca-app-pub-5434162081070782/2006515142',
+  BANNER: USE_TEST_ADS
+    ? TEST_AD_IDS.BANNER
+    : process.env.NEXT_PUBLIC_ADMOB_BANNER_ID ?? 'ca-app-pub-5434162081070782/2006515142',
   /** Interstitial after training session */
-  INTERSTITIAL: process.env.NEXT_PUBLIC_ADMOB_INTERSTITIAL_ID ?? 'ca-app-pub-5434162081070782/7032657297',
+  INTERSTITIAL: USE_TEST_ADS
+    ? TEST_AD_IDS.INTERSTITIAL
+    : process.env.NEXT_PUBLIC_ADMOB_INTERSTITIAL_ID ?? 'ca-app-pub-5434162081070782/7032657297',
 } as const;
 
 const AI_LOOKUP_STORAGE_KEY = 'iec-ai-lookup-usage';
